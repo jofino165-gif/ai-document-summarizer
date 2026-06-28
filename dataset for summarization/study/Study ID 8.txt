@@ -1,0 +1,93 @@
+Study ID: 8
+
+Topic:
+Cloud Computing
+
+Uploaded Notes:
+Cloud Computing is a technology that enables users to access computing resources such as servers, storage, databases, networking, software, and analytics over the internet instead of relying on local computers or physical servers. Cloud services provide on-demand access to resources, allowing individuals and organizations to scale their computing needs efficiently while reducing infrastructure costs.
+
+Cloud Computing is classified into three service models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS provides virtualized computing resources such as servers and storage. PaaS offers a platform for developing, testing, and deploying applications. SaaS delivers software applications over the internet without requiring local installation.
+
+Cloud deployment models include Public Cloud, Private Cloud, Hybrid Cloud, and Community Cloud. Public Cloud services are available to the general public, while Private Cloud infrastructure is dedicated to a single organization. Hybrid Cloud combines both public and private cloud environments, and Community Cloud is shared among organizations with similar requirements.
+
+Cloud Computing is widely used for data storage, website hosting, software development, disaster recovery, business applications, online collaboration, artificial intelligence, machine learning, and big data analytics. Major cloud providers offer secure and scalable services that support organizations of all sizes.
+
+The advantages of Cloud Computing include cost savings, scalability, flexibility, automatic software updates, high availability, and disaster recovery. However, challenges include internet dependency, security risks, privacy concerns, vendor lock-in, and service outages.
+
+Summary:
+Cloud Computing provides on-demand access to computing resources through the internet, eliminating the need for local infrastructure. It supports scalable, flexible, and cost-effective IT solutions through service models such as IaaS, PaaS, and SaaS, making it an essential technology for modern businesses and organizations.
+
+Study Notes:
+Definition:
+Cloud Computing is the delivery of computing services such as servers, storage, databases, and software over the internet.
+
+Main Concepts:
+• Cloud Services
+• Virtualization
+• On-Demand Computing
+• Scalability
+• Resource Sharing
+• Remote Access
+
+Service Models:
+• Infrastructure as a Service (IaaS)
+• Platform as a Service (PaaS)
+• Software as a Service (SaaS)
+
+Deployment Models:
+• Public Cloud
+• Private Cloud
+• Hybrid Cloud
+• Community Cloud
+
+Applications:
+• Data Storage
+• Web Hosting
+• Software Development
+• Disaster Recovery
+• Artificial Intelligence
+• Big Data Analytics
+• Online Collaboration
+
+Advantages:
+• Cost Reduction
+• Scalability
+• Flexibility
+• High Availability
+• Automatic Updates
+• Disaster Recovery
+
+Challenges:
+• Security Risks
+• Privacy Concerns
+• Internet Dependency
+• Vendor Lock-in
+• Service Downtime
+
+Conclusion:
+Cloud Computing has transformed information technology by providing flexible, scalable, and cost-effective computing resources that support digital transformation across industries.
+
+Important Keywords:
+Cloud Computing
+IaaS
+PaaS
+SaaS
+Virtualization
+Public Cloud
+Private Cloud
+Hybrid Cloud
+Scalability
+Disaster Recovery
+
+Reference Websites:
+• Microsoft Azure
+• Amazon Web Services (AWS)
+• Google Cloud
+• IBM Cloud
+• Oracle Cloud
+• Coursera
+• Microsoft Learn
+• Google Cloud Skills Boost
+
+Confidence Score:
+99.2%

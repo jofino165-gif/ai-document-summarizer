@@ -1,0 +1,30 @@
+News ID: 77
+Date: 04-06-2027
+
+Headline:
+Domestic Electric Vehicle Sales Reach Record High Following Government Incentives
+
+News Content:
+The Ministry of Transport reported that domestic electric vehicle (EV) sales increased by 28% during the last quarter, driven by government purchase incentives, improved charging infrastructure, and growing public awareness of clean transportation. Automobile manufacturers also introduced several new EV models with longer driving ranges and enhanced battery performance. Industry analysts believe the continued growth of the EV market will reduce fuel consumption and accelerate the transition toward sustainable transportation.
+
+Category:
+Automobile
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Electric Vehicles, EV Sales, Government Incentives, Charging Infrastructure, Clean Transportation, Battery Technology
+
+Prediction:
+Electric vehicle adoption is expected to continue growing, resulting in lower fuel consumption, increased demand for charging infrastructure, and greater investment in battery technology.
+
+Recommended Action:
+• Compare EV models based on driving range, charging time, and maintenance costs.
+• Check eligibility for government purchase incentives before buying an EV.
+• Install a home charging system if suitable for your needs.
+• Businesses may consider adopting EV fleets to reduce long-term operating costs.
+• Stay updated on new EV technologies and charging infrastructure developments.
+
+Confidence Score:
+98.9%

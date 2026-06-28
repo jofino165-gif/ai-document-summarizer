@@ -1,0 +1,30 @@
+News ID: 68
+Date: 17-05-2027
+
+Headline:
+National Cybersecurity Agency Warns of Increase in Online Banking Fraud Attempts
+
+News Content:
+The National Cybersecurity Agency has issued a nationwide warning after detecting a sharp increase in phishing emails, fake banking websites, and fraudulent mobile messages targeting online banking customers. Cybersecurity experts stated that attackers are attempting to steal login credentials and one-time passwords (OTPs) through deceptive websites and social engineering techniques. Banks have advised customers to remain vigilant and verify all communications before sharing personal or financial information.
+
+Category:
+Cybersecurity
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Online Banking, Phishing, Cybersecurity, Banking Fraud, Fake Websites, OTP Scam
+
+Prediction:
+Online banking fraud attempts are expected to increase over the coming weeks. Individuals who do not follow cybersecurity best practices may face a higher risk of financial fraud and account compromise.
+
+Recommended Action:
+• Never share OTPs, passwords, or banking PINs with anyone.
+• Verify website addresses before entering banking credentials.
+• Enable two-factor authentication (2FA) for banking and financial accounts.
+• Report suspicious emails, messages, or calls to your bank immediately.
+• Keep your mobile device and banking applications updated with the latest security patches.
+
+Confidence Score:
+99.1%

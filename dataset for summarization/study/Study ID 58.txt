@@ -1,0 +1,105 @@
+Study ID: 58
+
+Topic:
+Database Management System (DBMS)
+
+Uploaded Notes:
+A Database Management System (DBMS) is software that is used to create, manage, store, retrieve, and control access to databases. It provides an organized way to handle large amounts of structured data efficiently while ensuring data security, consistency, and integrity.
+
+DBMS supports operations such as data insertion, deletion, updating, querying, and reporting. It acts as an interface between the user and the database, allowing users to interact with data without needing to know complex storage details.
+
+There are different types of DBMS models, including Hierarchical DBMS, Network DBMS, Relational DBMS (RDBMS), and Object-Oriented DBMS. The most widely used model is RDBMS, which stores data in tables consisting of rows and columns.
+
+Key concepts in DBMS include tables, records, fields, schemas, primary keys, foreign keys, relationships, normalization, and indexing. Normalization is used to reduce redundancy and improve data consistency.
+
+Popular DBMS software includes MySQL, Oracle Database, Microsoft SQL Server, PostgreSQL, SQLite, and MongoDB (NoSQL DBMS).
+
+DBMS is widely used in banking systems, reservation systems, hospitals, education systems, e-commerce platforms, telecom systems, and enterprise applications where structured data management is required.
+
+The advantages of DBMS include data security, reduced redundancy, data consistency, backup and recovery, multi-user access, and efficient data management. Challenges include system complexity, high cost, performance overhead, and database design complexity.
+
+Summary:
+A DBMS is software that manages and organizes data efficiently, providing secure storage, retrieval, and manipulation of structured data in databases.
+
+Study Notes:
+Definition:
+A DBMS is a system that allows users to create, manage, and control databases.
+
+Main Concepts:
+• Tables
+• Records
+• Fields
+• Schema
+• Primary Key
+• Foreign Key
+• Relationships
+
+Types of DBMS:
+• Hierarchical DBMS
+• Network DBMS
+• Relational DBMS (RDBMS)
+• Object-Oriented DBMS
+
+DBMS Operations:
+• Insert
+• Update
+• Delete
+• Query
+• Backup
+• Recovery
+
+Popular DBMS:
+• MySQL
+• Oracle
+• SQL Server
+• PostgreSQL
+• SQLite
+• MongoDB
+
+Applications:
+• Banking Systems
+• Hospital Management
+• E-commerce
+• Education Systems
+• Reservation Systems
+
+Advantages:
+• Data Security
+• Reduced Redundancy
+• Data Consistency
+• Backup & Recovery
+• Multi-user Access
+
+Challenges:
+• System Complexity
+• High Cost
+• Performance Overhead
+• Design Complexity
+
+Conclusion:
+DBMS is essential for efficient data storage and management in modern applications, ensuring structured, secure, and reliable data handling.
+
+Important Keywords:
+DBMS
+RDBMS
+Table
+Primary Key
+Foreign Key
+Normalization
+MySQL
+Oracle
+PostgreSQL
+SQL
+
+Reference Websites:
+• Oracle Documentation
+• MySQL Documentation
+• PostgreSQL Docs
+• Microsoft Learn
+• GeeksforGeeks
+• W3Schools SQL
+• Coursera
+• IBM Data Management
+
+Confidence Score:
+99.7%

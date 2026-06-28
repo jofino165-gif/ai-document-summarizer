@@ -1,0 +1,103 @@
+Study ID: 81
+
+Topic:
+Computer Architecture
+
+Uploaded Notes:
+Computer Architecture refers to the design and organization of a computer system’s hardware components and how they interact to execute instructions. It defines the structure, behavior, and functionality of a computer system.
+
+Computer architecture mainly focuses on CPU design, memory organization, instruction sets, and input/output systems. It determines how efficiently a computer performs tasks and processes data.
+
+The key components of a computer system include the Central Processing Unit (CPU), Memory (RAM, ROM, cache), Input/Output devices, and system buses. The CPU consists of the Arithmetic Logic Unit (ALU), Control Unit (CU), and registers.
+
+Instruction Set Architecture (ISA) defines the set of instructions that a processor can execute. Common ISA types include CISC (Complex Instruction Set Computer) and RISC (Reduced Instruction Set Computer).
+
+Memory hierarchy is an important concept in computer architecture and includes registers, cache memory, main memory (RAM), and secondary storage. It is designed to optimize speed and cost efficiency.
+
+Pipelining is a technique used to improve CPU performance by overlapping instruction execution stages. Other performance improvement techniques include parallel processing and caching.
+
+Computer architecture is widely used in system design, operating systems, embedded systems, mobile devices, servers, and high-performance computing systems.
+
+The advantages include improved performance, efficient resource utilization, and scalability. Challenges include complexity in design, power consumption, heat generation, and cost constraints.
+
+Summary:
+Computer Architecture defines the structure and behavior of computer systems, focusing on CPU design, memory organization, and system performance optimization.
+
+Study Notes:
+Definition:
+Computer Architecture is the design and organization of computer hardware systems.
+
+Main Concepts:
+• CPU Structure
+• Memory Hierarchy
+• Instruction Set Architecture
+• Input/Output Systems
+• System Buses
+• Pipelining
+
+CPU Components:
+• ALU (Arithmetic Logic Unit)
+• CU (Control Unit)
+• Registers
+
+ISA Types:
+• CISC
+• RISC
+
+Memory Hierarchy:
+• Registers
+• Cache Memory
+• RAM
+• Secondary Storage
+
+Performance Techniques:
+• Pipelining
+• Parallel Processing
+• Caching
+
+Applications:
+• Operating Systems
+• Embedded Systems
+• Mobile Devices
+• Servers
+• High-Performance Computing
+
+Advantages:
+• High Performance
+• Efficient Processing
+• Better Resource Utilization
+• Scalability
+
+Challenges:
+• Design Complexity
+• Power Consumption
+• Heat Management
+• Cost Constraints
+
+Conclusion:
+Computer Architecture is essential for designing efficient and high-performance computing systems by optimizing hardware structure and instruction processing.
+
+Important Keywords:
+Computer Architecture
+CPU
+ALU
+Control Unit
+Registers
+ISA
+RISC
+CISC
+Pipelining
+Memory Hierarchy
+
+Reference Websites:
+• MIT Computer Architecture
+• GeeksforGeeks
+• Coursera
+• NPTEL Computer Architecture
+• Tutorialspoint
+• IBM Developer
+• Intel Architecture Docs
+• Computer Organization by Morris Mano
+
+Confidence Score:
+99.8%

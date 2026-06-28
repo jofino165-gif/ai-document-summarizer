@@ -1,0 +1,14 @@
+Patient Name: Victoria Bennett
+Age: 47
+Gender: Female
+Report Date: 19-12-2026
+
+The patient visited the gastroenterology department with complaints of persistent right upper abdominal pain, fever, nausea, vomiting, yellow discoloration of the eyes, dark urine, and chills over the past three days. She has a known history of gallstones diagnosed two years ago and has experienced several episodes of biliary colic in recent months.
+
+Vital signs recorded during examination showed a blood pressure of **122/76 mmHg**, heart rate of **108 bpm**, temperature of **101.3°F**, respiratory rate of **20 breaths per minute**, and oxygen saturation of **97%**.
+
+Laboratory investigations revealed a hemoglobin level of **12.6 g/dL**, white blood cell count of **16,800 cells/µL**, platelet count of **304,000 cells/µL**, total bilirubin of **4.6 mg/dL**, direct bilirubin of **3.8 mg/dL**, alkaline phosphatase (ALP) of **462 U/L**, gamma-glutamyl transferase (GGT) of **286 U/L**, ALT (SGPT) of **176 U/L**, AST (SGOT) of **154 U/L**, serum creatinine of **1.0 mg/dL**, blood urea of **20 mg/dL**, fasting blood glucose of **102 mg/dL**, and HbA1c of **5.7%**.
+
+Abdominal ultrasound demonstrated multiple gallstones with dilation of the common bile duct. Magnetic Resonance Cholangiopancreatography (MRCP) revealed a **common bile duct stone** causing biliary obstruction. Blood cultures grew **Escherichia coli**, confirming bacterial infection of the biliary tract.
+
+The physician concluded that the patient has **Acute Ascending Cholangitis** secondary to **Choledocholithiasis** (common bile duct stone). Fever, jaundice, right upper abdominal pain, elevated cholestatic liver enzymes, imaging findings, and positive blood cultures confirm the diagnosis. Kidney function remains preserved. The patient was advised to receive urgent intravenous antibiotics, undergo **Endoscopic Retrograde Cholangiopancreatography (ERCP)** for biliary decompression and stone removal, followed by elective laparoscopic cholecystectomy after recovery. Regular follow-up with the gastroenterology and surgical teams was recommended to prevent recurrent biliary complications.

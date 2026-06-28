@@ -1,0 +1,14 @@
+Patient Name: Richard Coleman
+Age: 58
+Gender: Male
+Report Date: 15-11-2026
+
+The patient visited the gastroenterology department with complaints of persistent upper abdominal discomfort, early satiety, nausea, black-colored stools, fatigue, and an unintended weight loss of 8 kg over the past four months. He reported a long-standing history of chronic gastritis and **Helicobacter pylori** infection that was not completely treated. There was no family history of gastric cancer.
+
+Vital signs recorded during examination showed a blood pressure of **124/80 mmHg**, heart rate of **88 bpm**, temperature of **98.6°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **10.8 g/dL**, white blood cell count of **7,500 cells/µL**, platelet count of **312,000 cells/µL**, serum creatinine of **1.0 mg/dL**, blood urea of **22 mg/dL**, fasting blood glucose of **98 mg/dL**, HbA1c of **5.5%**, and liver function tests within normal reference ranges.
+
+Upper gastrointestinal endoscopy demonstrated an **ulcerated mass in the gastric antrum**. Endoscopic biopsy confirmed **Gastric Adenocarcinoma**. Contrast-enhanced CT scan of the abdomen revealed thickening of the distal stomach wall with involvement of regional lymph nodes but no evidence of distant metastasis. Testing for **Helicobacter pylori** remained positive.
+
+The physician concluded that the patient has **Stage III Gastric Adenocarcinoma**, likely associated with chronic **Helicobacter pylori** infection. Endoscopic findings, biopsy results, and imaging confirm the diagnosis. Iron deficiency anemia is likely related to chronic gastrointestinal blood loss. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a multidisciplinary gastrointestinal oncology team to discuss perioperative chemotherapy and surgical resection, receive treatment for **Helicobacter pylori**, maintain adequate nutritional support, attend regular oncology follow-up visits, and undergo periodic imaging to evaluate treatment response and monitor for disease recurrence.

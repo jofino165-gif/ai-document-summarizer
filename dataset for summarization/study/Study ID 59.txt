@@ -1,0 +1,107 @@
+Study ID: 59
+
+Topic:
+SQL (Structured Query Language)
+
+Uploaded Notes:
+SQL (Structured Query Language) is a standard programming language used to manage, manipulate, and retrieve data from relational databases. It is used to communicate with Database Management Systems (DBMS) such as MySQL, Oracle, PostgreSQL, and SQL Server.
+
+SQL is divided into different categories of commands: DDL (Data Definition Language), DML (Data Manipulation Language), DCL (Data Control Language), and TCL (Transaction Control Language). DDL includes commands like CREATE, ALTER, DROP. DML includes SELECT, INSERT, UPDATE, DELETE. DCL includes GRANT and REVOKE. TCL includes COMMIT, ROLLBACK, and SAVEPOINT.
+
+SQL operates on tables consisting of rows and columns. It allows users to perform queries to fetch specific data using the SELECT statement along with clauses such as WHERE, ORDER BY, GROUP BY, HAVING, and JOIN operations.
+
+Joins in SQL include INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, and CROSS JOIN. These are used to combine data from multiple tables based on related columns.
+
+SQL also supports constraints such as PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, and DEFAULT, which ensure data integrity and consistency in relational databases.
+
+SQL is widely used in banking systems, e-commerce platforms, healthcare systems, data analytics, enterprise applications, and reporting systems.
+
+The advantages of SQL include easy data retrieval, powerful querying capabilities, standardization, scalability, and integration with many applications. Challenges include handling unstructured data, performance issues with large datasets, and complex query optimization.
+
+Summary:
+SQL is a language used to interact with relational databases, enabling users to store, retrieve, and manage structured data efficiently using queries and commands.
+
+Study Notes:
+Definition:
+SQL is a language used to manage and manipulate relational databases.
+
+Main Concepts:
+• Tables
+• Queries
+• Joins
+• Indexes
+• Constraints
+• Transactions
+
+SQL Commands:
+• SELECT
+• INSERT
+• UPDATE
+• DELETE
+• CREATE
+• ALTER
+• DROP
+
+Joins:
+• INNER JOIN
+• LEFT JOIN
+• RIGHT JOIN
+• FULL OUTER JOIN
+• CROSS JOIN
+
+Constraints:
+• PRIMARY KEY
+• FOREIGN KEY
+• UNIQUE
+• NOT NULL
+• CHECK
+• DEFAULT
+
+Applications:
+• Banking Systems
+• E-commerce
+• Healthcare
+• Data Analytics
+• Reporting Systems
+
+Advantages:
+• Easy Data Access
+• Standard Language
+• Powerful Queries
+• Data Integrity
+• Scalability
+
+Challenges:
+• Performance Issues
+• Large Dataset Handling
+• Complex Queries
+• Unstructured Data Limitations
+
+Conclusion:
+SQL is a powerful and standardized language for managing relational databases, enabling efficient data storage, retrieval, and manipulation.
+
+Important Keywords:
+SQL
+SELECT
+JOIN
+DDL
+DML
+TCL
+Constraints
+Primary Key
+Foreign Key
+Query
+Database
+
+Reference Websites:
+• W3Schools SQL
+• MySQL Documentation
+• PostgreSQL Documentation
+• Microsoft Learn SQL
+• Oracle SQL Docs
+• GeeksforGeeks
+• Coursera
+• IBM Data Management
+
+Confidence Score:
+99.7%

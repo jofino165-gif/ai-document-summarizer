@@ -1,0 +1,30 @@
+News ID: 20
+Date: 10-02-2027
+
+Headline:
+Hospitals Report Sharp Increase in Dengue Cases Following Continuous Rainfall
+
+News Content:
+Health authorities have reported a significant rise in dengue fever cases across several districts after weeks of continuous rainfall created favorable conditions for mosquito breeding. Hospitals have recorded an increase in patients with high fever, severe headache, muscle pain, skin rashes, and low platelet counts. Public health officials have intensified mosquito control measures and urged residents to eliminate stagnant water around homes and workplaces.
+
+Category:
+Health
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Dengue, Mosquito, Rainfall, Fever, Public Health, Disease Outbreak
+
+Prediction:
+Dengue cases are likely to continue increasing if mosquito breeding sites are not eliminated and preventive measures are not followed, placing additional pressure on healthcare services.
+
+Recommended Action:
+• Remove stagnant water from containers, flower pots, and water tanks.
+• Use mosquito repellents, mosquito nets, and protective clothing.
+• Keep surroundings clean to prevent mosquito breeding.
+• Seek immediate medical attention if symptoms such as high fever or severe body pain develop.
+• Follow public health advisories and participate in community mosquito-control programs.
+
+Confidence Score:
+98.9%

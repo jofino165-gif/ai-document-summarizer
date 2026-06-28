@@ -1,0 +1,85 @@
+Study ID: 2
+
+Topic:
+Machine Learning
+
+Uploaded Notes:
+Machine Learning (ML) is a branch of Artificial Intelligence that enables computers to learn from data without being explicitly programmed. Instead of following fixed instructions, ML algorithms identify patterns within data and use those patterns to make predictions or decisions. The performance of a machine learning model improves as it is exposed to more data.
+
+Machine Learning is broadly classified into three types: Supervised Learning, Unsupervised Learning, and Reinforcement Learning. Supervised Learning uses labeled datasets to train models for tasks such as classification and regression. Unsupervised Learning analyzes unlabeled data to discover hidden patterns through clustering and association techniques. Reinforcement Learning enables an agent to learn by interacting with an environment and receiving rewards or penalties based on its actions.
+
+Common Machine Learning algorithms include Linear Regression, Logistic Regression, Decision Tree, Random Forest, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Naïve Bayes, and Neural Networks. These algorithms are applied in various domains depending on the problem being solved.
+
+Machine Learning has applications in healthcare for disease prediction, banking for fraud detection, e-commerce for recommendation systems, agriculture for crop monitoring, cybersecurity for threat detection, and transportation for traffic prediction and autonomous vehicles.
+
+The advantages of Machine Learning include improved decision-making, automation of repetitive tasks, high prediction accuracy, and the ability to analyze large datasets efficiently. However, challenges include the need for large amounts of quality data, computational resources, model bias, and data privacy concerns.
+
+Summary:
+Machine Learning is a branch of Artificial Intelligence that enables systems to learn from data and improve performance without explicit programming. It includes supervised, unsupervised, and reinforcement learning techniques. ML is widely used in healthcare, finance, agriculture, e-commerce, and cybersecurity to solve real-world problems through prediction and data analysis.
+
+Study Notes:
+Definition:
+Machine Learning is a subset of Artificial Intelligence that allows computers to learn from data and make predictions without explicit programming.
+
+Types:
+• Supervised Learning
+• Unsupervised Learning
+• Reinforcement Learning
+
+Common Algorithms:
+• Linear Regression
+• Logistic Regression
+• Decision Tree
+• Random Forest
+• Support Vector Machine (SVM)
+• K-Nearest Neighbors (KNN)
+• Naïve Bayes
+• Neural Networks
+
+Applications:
+• Healthcare
+• Banking
+• E-commerce
+• Agriculture
+• Cybersecurity
+• Transportation
+
+Advantages:
+• Automation
+• High Prediction Accuracy
+• Faster Decision Making
+• Efficient Data Analysis
+
+Challenges:
+• Data Quality
+• Model Bias
+• High Computational Cost
+• Privacy Issues
+
+Conclusion:
+Machine Learning is one of the most important technologies in Artificial Intelligence, helping organizations make accurate predictions and automate intelligent decision-making across various industries.
+
+Important Keywords:
+Machine Learning
+Supervised Learning
+Unsupervised Learning
+Reinforcement Learning
+Decision Tree
+Random Forest
+Support Vector Machine
+Neural Network
+Prediction
+Data Mining
+
+Reference Websites:
+• OpenAI
+• Google AI
+• Microsoft Learn
+• IBM AI
+• Coursera
+• Kaggle
+• TensorFlow
+• Scikit-learn Documentation
+
+Confidence Score:
+99.2%

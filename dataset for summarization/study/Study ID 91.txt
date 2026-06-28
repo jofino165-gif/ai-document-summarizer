@@ -1,0 +1,98 @@
+Study ID: 91
+
+Topic:
+Software Engineering
+
+Uploaded Notes:
+Software Engineering is the systematic application of engineering principles to the design, development, testing, deployment, and maintenance of software systems. It ensures that software is reliable, efficient, scalable, and maintainable.
+
+Software engineering focuses on structured development processes, methodologies, and best practices to manage software complexity and deliver high-quality products.
+
+The Software Development Life Cycle (SDLC) includes phases such as requirement analysis, system design, implementation (coding), testing, deployment, and maintenance. Each phase ensures proper planning and execution of software projects.
+
+Common software development models include Waterfall Model, Agile Model, Spiral Model, V-Model, Incremental Model, and DevOps-based development. Agile is widely used due to its flexibility and iterative approach.
+
+Key principles of software engineering include modularity, abstraction, encapsulation, reusability, and maintainability. These principles help in building scalable and efficient systems.
+
+Software engineering also involves project management, version control, requirement engineering, software design patterns, and quality assurance.
+
+It is widely used in web development, mobile applications, enterprise systems, cloud computing, and embedded systems.
+
+The advantages of software engineering include improved software quality, better project management, reduced development risks, and structured development. Challenges include changing requirements, time constraints, and complexity management.
+
+Summary:
+Software Engineering is the disciplined approach to designing, developing, and maintaining software systems using engineering principles and structured methodologies.
+
+Study Notes:
+Definition:
+Software Engineering is the application of engineering principles to software development.
+
+Main Concepts:
+• SDLC
+• Requirement Analysis
+• System Design
+• Implementation
+• Testing
+• Maintenance
+
+Development Models:
+• Waterfall Model
+• Agile Model
+• Spiral Model
+• V-Model
+• Incremental Model
+• DevOps
+
+Principles:
+• Modularity
+• Abstraction
+• Encapsulation
+• Reusability
+• Maintainability
+
+Applications:
+• Web Applications
+• Mobile Apps
+• Enterprise Systems
+• Cloud Systems
+• Embedded Systems
+
+Advantages:
+• High Quality Software
+• Better Project Management
+• Reduced Risks
+• Structured Development
+
+Challenges:
+• Changing Requirements
+• Time Constraints
+• Complexity
+• Maintenance Issues
+
+Conclusion:
+Software Engineering ensures systematic and high-quality software development using structured processes and engineering principles.
+
+Important Keywords:
+Software Engineering
+SDLC
+Agile
+Waterfall
+Spiral Model
+V-Model
+Encapsulation
+Modularity
+Requirement Analysis
+Design Patterns
+
+Reference Websites:
+• IEEE Software Engineering Standards
+• Coursera Software Engineering
+• GeeksforGeeks
+• Microsoft Learn
+• IBM Engineering Lifecycle
+• Tutorialspoint
+• Software Engineering by Pressman
+• NPTEL SE Course
+
+Confidence Score:
+99.8%

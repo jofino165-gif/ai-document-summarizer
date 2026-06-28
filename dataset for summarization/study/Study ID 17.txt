@@ -1,0 +1,94 @@
+Study ID: 17
+
+Topic:
+Computer Networks
+
+Uploaded Notes:
+Computer Networks refer to the interconnection of two or more computers and other digital devices that communicate and share resources through communication channels. Networks enable users to exchange data, access shared hardware and software, and communicate efficiently over short and long distances. Computer networking forms the foundation of modern internet communication and digital services.
+
+A computer network consists of devices such as computers, servers, routers, switches, hubs, access points, and communication media. Data is transmitted through wired media such as Ethernet cables and fiber optics or wireless technologies such as Wi-Fi and Bluetooth. Network communication follows standardized protocols including TCP/IP, HTTP, HTTPS, FTP, SMTP, and DNS to ensure reliable data transmission.
+
+Computer networks are classified into several types based on geographical coverage, including Local Area Network (LAN), Metropolitan Area Network (MAN), Wide Area Network (WAN), Personal Area Network (PAN), and Campus Area Network (CAN). Each type serves different communication requirements.
+
+Networking devices such as routers direct data between networks, switches connect devices within a network, and firewalls protect networks from unauthorized access. Modern networks also support cloud computing, Internet of Things (IoT), video conferencing, online education, and digital banking.
+
+The advantages of computer networks include resource sharing, fast communication, centralized data management, remote access, scalability, and reduced operational costs. Challenges include network security threats, hardware failures, bandwidth limitations, network congestion, and maintenance complexity.
+
+Summary:
+Computer Networks connect multiple devices to enable communication, resource sharing, and data exchange using networking hardware and communication protocols. Networks support internet services, cloud computing, online collaboration, and digital communication across homes, businesses, and educational institutions.
+
+Study Notes:
+Definition:
+A Computer Network is a collection of interconnected devices that communicate and share resources through communication channels.
+
+Main Concepts:
+• Network Communication
+• Data Transmission
+• Communication Protocols
+• Resource Sharing
+• Network Topology
+• Client-Server Architecture
+
+Types of Networks:
+• LAN (Local Area Network)
+• MAN (Metropolitan Area Network)
+• WAN (Wide Area Network)
+• PAN (Personal Area Network)
+• CAN (Campus Area Network)
+
+Networking Devices:
+• Router
+• Switch
+• Hub
+• Modem
+• Access Point
+• Firewall
+
+Applications:
+• Internet Communication
+• Cloud Computing
+• Online Banking
+• Video Conferencing
+• E-Learning
+• Business Communication
+
+Advantages:
+• Fast Data Sharing
+• Resource Sharing
+• Remote Access
+• Scalability
+• Centralized Management
+
+Challenges:
+• Security Threats
+• Network Congestion
+• Hardware Failures
+• Bandwidth Limitations
+
+Conclusion:
+Computer Networks play a vital role in modern communication by enabling secure, reliable, and efficient data exchange across individuals, organizations, and global internet services.
+
+Important Keywords:
+Computer Network
+LAN
+MAN
+WAN
+Router
+Switch
+TCP/IP
+Firewall
+Network Protocol
+Data Communication
+
+Reference Websites:
+• Cisco Networking Academy
+• Microsoft Learn
+• IBM SkillsBuild
+• Oracle Learning
+• Coursera
+• CompTIA
+• W3Schools
+• Cisco Documentation
+
+Confidence Score:
+99.3%

@@ -1,0 +1,14 @@
+Patient Name: Robert King
+Age: 70
+Gender: Male
+Report Date: 14-09-2026
+
+The patient visited the pulmonology department with complaints of progressive shortness of breath, chronic productive cough, wheezing, chest tightness, and reduced exercise tolerance over the past three years. He also reported frequent respiratory infections during the previous year. The patient has a smoking history of 45 pack-years and continued smoking until six months ago. There is no history of tuberculosis or occupational exposure to hazardous dust.
+
+Vital signs recorded during examination showed a blood pressure of **134/82 mmHg**, heart rate of **90 bpm**, temperature of **98.6°F**, respiratory rate of **22 breaths per minute**, and oxygen saturation of **91%** on room air.
+
+Laboratory investigations revealed a hemoglobin level of **15.2 g/dL**, white blood cell count of **8,600 cells/µL**, platelet count of **296,000 cells/µL**, serum creatinine of **1.0 mg/dL**, blood urea of **20 mg/dL**, fasting blood glucose of **102 mg/dL**, and HbA1c of **5.8%**. Liver function tests were within normal reference ranges.
+
+Pulmonary Function Tests (PFTs) demonstrated an FEV1/FVC ratio of **58%** with a post-bronchodilator FEV1 of **48% predicted**, indicating persistent airflow limitation. Chest CT scan revealed emphysematous changes predominantly involving both upper lobes without evidence of lung malignancy. Arterial blood gas analysis showed mild hypoxemia with a PaO₂ of **65 mmHg**.
+
+The physician concluded that the patient has **Moderate to Severe Chronic Obstructive Pulmonary Disease (COPD)** with emphysema. Long-term cigarette smoking, persistent airflow obstruction, reduced oxygen levels, and characteristic CT findings strongly support the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to completely avoid smoking, use prescribed bronchodilator inhalers regularly, participate in pulmonary rehabilitation, receive annual influenza and recommended pneumococcal vaccinations, perform breathing exercises, attend regular pulmonology follow-up visits, and seek immediate medical attention if breathing difficulties worsen or symptoms of infection develop.

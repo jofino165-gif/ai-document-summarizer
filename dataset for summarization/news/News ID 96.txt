@@ -1,0 +1,30 @@
+News ID: 96
+Date: 12-07-2027
+
+Headline:
+Government Expands AI-Powered Flood Early Warning System to Protect Vulnerable Communities
+
+News Content:
+The National Disaster Management Authority has expanded its Artificial Intelligence (AI)-based flood early warning system to cover additional flood-prone districts. The upgraded system combines satellite imagery, river water level sensors, rainfall forecasts, and real-time data analytics to predict potential flooding and issue early alerts. Disaster management experts believe the enhanced monitoring system will improve evacuation planning, reduce property damage, and help protect lives during severe weather events.
+
+Category:
+Disaster Management
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Artificial Intelligence, Flood Warning, Disaster Management, Satellite Monitoring, Weather Forecast, Emergency Alerts
+
+Prediction:
+The expanded AI-powered flood warning system is expected to improve the accuracy of flood predictions, provide earlier alerts, reduce disaster-related losses, and strengthen emergency response in vulnerable communities.
+
+Recommended Action:
+• Residents in flood-prone areas should subscribe to official emergency alert services.
+• Prepare an emergency kit and evacuation plan before the monsoon season.
+• Follow evacuation instructions issued by local authorities during flood warnings.
+• Communities should participate in disaster preparedness training programs.
+• Stay updated through official weather and disaster management advisories.
+
+Confidence Score:
+99.2%

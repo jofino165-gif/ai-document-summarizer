@@ -1,0 +1,111 @@
+Study ID: 94
+
+Topic:
+Web Development
+
+Uploaded Notes:
+Web Development is the process of creating, building, and maintaining websites and web applications that run on the internet or intranet. It involves both frontend (client-side) and backend (server-side) development.
+
+Frontend development focuses on the user interface and user experience. It uses technologies such as HTML, CSS, and JavaScript, along with frameworks like React, Angular, and Vue.js to build interactive web pages.
+
+Backend development handles server-side logic, database operations, authentication, and application functionality. Common backend technologies include Node.js, Python (Django/Flask), PHP, Java (Spring Boot), and .NET.
+
+Web applications communicate using HTTP/HTTPS protocols and often use APIs (REST or GraphQL) to exchange data between frontend and backend.
+
+Databases such as MySQL, PostgreSQL, MongoDB, and SQL Server are used to store and manage application data.
+
+Key concepts in web development include responsive design, DOM manipulation, client-server architecture, cookies, sessions, authentication, and deployment.
+
+Web development is widely used in e-commerce, social media platforms, blogs, enterprise systems, online banking, and educational platforms.
+
+The advantages of web development include global accessibility, cross-platform compatibility, scalability, and ease of updates. Challenges include security risks, browser compatibility issues, performance optimization, and maintenance complexity.
+
+Summary:
+Web Development is the creation of websites and web applications using frontend and backend technologies to deliver interactive online services.
+
+Study Notes:
+Definition:
+Web Development is the process of building websites and web applications for the internet.
+
+Main Concepts:
+• Frontend Development
+• Backend Development
+• Client-Server Model
+• APIs
+• Databases
+• Responsive Design
+
+Frontend Technologies:
+• HTML
+• CSS
+• JavaScript
+• React
+• Angular
+• Vue.js
+
+Backend Technologies:
+• Node.js
+• Django
+• Flask
+• PHP
+• Spring Boot
+• .NET
+
+Databases:
+• MySQL
+• PostgreSQL
+• MongoDB
+• SQL Server
+
+Protocols:
+• HTTP
+• HTTPS
+• REST API
+• GraphQL
+
+Applications:
+• E-commerce Websites
+• Social Media Platforms
+• Blogs
+• Enterprise Systems
+• Online Banking
+
+Advantages:
+• Global Access
+• Scalability
+• Cross-Platform Support
+• Easy Updates
+
+Challenges:
+• Security Issues
+• Performance Optimization
+• Browser Compatibility
+• Maintenance Complexity
+
+Conclusion:
+Web Development enables the creation of interactive, scalable, and accessible online applications using frontend and backend technologies.
+
+Important Keywords:
+Web Development
+Frontend
+Backend
+HTML
+CSS
+JavaScript
+React
+Node.js
+API
+Database
+
+Reference Websites:
+• MDN Web Docs
+• W3Schools
+• freeCodeCamp
+• GeeksforGeeks
+• Coursera
+• Microsoft Learn
+• Stack Overflow
+• Mozilla Developer Network
+
+Confidence Score:
+99.8%

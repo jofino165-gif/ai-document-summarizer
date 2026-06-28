@@ -1,0 +1,30 @@
+News ID: 52
+Date: 15-04-2027
+
+Headline:
+Government Announces Nationwide Reduction in Internet Data Plan Prices
+
+News Content:
+The Ministry of Communications, in collaboration with major telecommunications providers, has announced a reduction in the prices of mobile internet data plans. The decision follows increased competition among service providers and the expansion of digital infrastructure across the country. Consumers are expected to benefit from more affordable high-speed internet access, while businesses, students, and remote workers may experience lower communication expenses.
+
+Category:
+Technology
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Internet Data Plans, Telecommunications, Mobile Internet, Digital Infrastructure, Broadband, Affordable Connectivity
+
+Prediction:
+Lower internet data prices are expected to increase internet usage, improve access to online education and digital services, and accelerate digital transformation across households and businesses.
+
+Recommended Action:
+• Compare updated data plans from different service providers.
+• Upgrade to a plan that best matches your internet usage needs.
+• Take advantage of affordable internet for online learning, remote work, and digital business activities.
+• Secure your online accounts with strong passwords and two-factor authentication.
+• Stay informed about future telecommunications offers and service improvements.
+
+Confidence Score:
+98.7%

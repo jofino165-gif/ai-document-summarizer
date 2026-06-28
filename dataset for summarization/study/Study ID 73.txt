@@ -1,0 +1,97 @@
+Study ID: 73
+
+Topic:
+Microservices Architecture
+
+Uploaded Notes:
+Microservices Architecture is a software development approach where an application is built as a collection of small, independent, loosely coupled services. Each service performs a specific business function and communicates with other services through APIs, usually REST or messaging systems.
+
+In microservices architecture, each service can be developed, deployed, and scaled independently. This improves flexibility, scalability, and maintainability compared to monolithic architectures where the entire application is built as a single unit.
+
+Key characteristics of microservices include independent deployment, decentralized data management, lightweight communication, fault isolation, and technology diversity. Each microservice can use different programming languages, databases, and frameworks.
+
+Communication between microservices is typically done using REST APIs, gRPC, message brokers like Kafka or RabbitMQ, and event-driven architecture. API Gateway is often used to manage requests and route them to appropriate services.
+
+Important components include service discovery, load balancing, configuration management, containerization (Docker), and orchestration tools like Kubernetes.
+
+Microservices are widely used in cloud-native applications, e-commerce platforms, streaming services, banking systems, and large-scale enterprise applications.
+
+The advantages of microservices include scalability, faster development, independent deployment, better fault isolation, and flexibility. Challenges include complexity in management, network latency, data consistency issues, debugging difficulty, and deployment overhead.
+
+Summary:
+Microservices Architecture is a software design approach where applications are built as independent services that communicate over APIs, improving scalability, flexibility, and maintainability.
+
+Study Notes:
+Definition:
+Microservices Architecture is an approach where applications are built as small, independent services.
+
+Main Concepts:
+• Independent Services
+• API Communication
+• Service Decomposition
+• Decentralized Data
+• Fault Isolation
+• Scalability
+
+Communication:
+• REST APIs
+• gRPC
+• Message Brokers (Kafka, RabbitMQ)
+• Event-Driven Systems
+
+Tools & Technologies:
+• Docker
+• Kubernetes
+• API Gateway
+• Spring Boot
+• Node.js
+• Kafka
+
+Applications:
+• E-commerce Systems
+• Streaming Platforms
+• Banking Applications
+• Cloud-Native Apps
+• Enterprise Systems
+
+Advantages:
+• Scalability
+• Independent Deployment
+• Flexibility
+• Fault Isolation
+• Faster Development
+
+Challenges:
+• System Complexity
+• Network Latency
+• Data Consistency
+• Debugging Difficulty
+• Deployment Overhead
+
+Conclusion:
+Microservices Architecture improves software scalability and flexibility by breaking applications into independent, manageable services.
+
+Important Keywords:
+Microservices
+API Gateway
+Docker
+Kubernetes
+REST API
+gRPC
+Service Discovery
+Load Balancing
+Event-Driven
+Decentralized Data
+
+Reference Websites:
+• Martin Fowler Microservices
+• Microsoft Learn
+• AWS Microservices Guide
+• Spring Boot Documentation
+• Kubernetes Docs
+• Coursera
+• GeeksforGeeks
+• IBM Cloud Architecture
+
+Confidence Score:
+99.8%

@@ -1,0 +1,98 @@
+Study ID: 57
+
+Topic:
+Cybersecurity
+
+Uploaded Notes:
+Cybersecurity is the practice of protecting computer systems, networks, devices, and data from unauthorized access, attacks, damage, or theft. It involves implementing technologies, processes, and controls designed to safeguard information confidentiality, integrity, and availability (CIA Triad).
+
+The CIA Triad is the foundation of cybersecurity: Confidentiality ensures data is accessible only to authorized users, Integrity ensures data is accurate and unaltered, and Availability ensures systems and data are accessible when needed.
+
+Common cybersecurity threats include malware (viruses, worms, trojans, ransomware), phishing attacks, denial-of-service (DoS and DDoS), man-in-the-middle attacks, SQL injection, brute force attacks, and social engineering techniques.
+
+Cybersecurity is implemented through various layers such as network security, application security, endpoint security, cloud security, and identity and access management (IAM). Firewalls, antivirus software, encryption, intrusion detection systems (IDS), and intrusion prevention systems (IPS) are widely used security tools.
+
+Security practices include strong password policies, multi-factor authentication (MFA), regular software updates, secure coding practices, encryption of sensitive data, access control mechanisms, and continuous monitoring.
+
+Cybersecurity is essential in industries such as banking, healthcare, government, defense, education, e-commerce, cloud computing, and enterprise IT systems. It protects sensitive data, financial transactions, intellectual property, and personal information.
+
+The advantages of cybersecurity include data protection, risk reduction, compliance with regulations, business continuity, and increased trust. Challenges include evolving threats, high implementation costs, skill shortages, and user awareness issues.
+
+Summary:
+Cybersecurity focuses on protecting digital systems and data from cyber threats using technologies, processes, and security practices to ensure confidentiality, integrity, and availability of information.
+
+Study Notes:
+Definition:
+Cybersecurity is the protection of systems, networks, and data from digital attacks and unauthorized access.
+
+Main Concepts:
+• CIA Triad
+• Threats and Vulnerabilities
+• Encryption
+• Authentication
+• Authorization
+• Network Security
+
+Common Threats:
+• Malware
+• Phishing
+• Ransomware
+• DDoS Attacks
+• SQL Injection
+• Social Engineering
+
+Security Tools:
+• Firewalls
+• Antivirus Software
+• IDS/IPS
+• Encryption Tools
+• SIEM Systems
+
+Applications:
+• Banking
+• Healthcare
+• Government
+• E-commerce
+• Cloud Systems
+• Enterprise IT
+
+Advantages:
+• Data Protection
+• Risk Reduction
+• Compliance
+• Business Continuity
+• User Trust
+
+Challenges:
+• Evolving Cyber Threats
+• High Costs
+• Skill Shortage
+• User Awareness
+
+Conclusion:
+Cybersecurity is essential for protecting digital infrastructure and sensitive information in an increasingly connected and data-driven world.
+
+Important Keywords:
+Cybersecurity
+CIA Triad
+Encryption
+Firewall
+Phishing
+Malware
+Authentication
+Authorization
+IDS
+DDoS
+
+Reference Websites:
+• NIST Cybersecurity Framework
+• OWASP
+• Cisco Security Docs
+• Microsoft Security
+• IBM Security
+• Coursera
+• EC-Council
+• GeeksforGeeks
+
+Confidence Score:
+99.7%

@@ -1,0 +1,14 @@
+Patient Name: Kevin Thomas
+Age: 40
+Gender: Male
+Report Date: 22-09-2026
+
+The patient visited the hepatology department with complaints of yellow discoloration of the eyes and skin, dark-colored urine, fatigue, loss of appetite, nausea, right upper abdominal pain, and low-grade fever for the past ten days. He reported consuming food from an unhygienic roadside vendor approximately one month before symptom onset. The patient denied alcohol use and had no previous history of chronic liver disease.
+
+Vital signs recorded during examination showed a blood pressure of **120/76 mmHg**, heart rate of **88 bpm**, temperature of **99.4°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.8 g/dL**, white blood cell count of **7,300 cells/µL**, platelet count of **276,000 cells/µL**, total bilirubin of **6.2 mg/dL**, direct bilirubin of **4.1 mg/dL**, ALT (SGPT) of **982 U/L**, AST (SGOT) of **865 U/L**, alkaline phosphatase (ALP) of **182 U/L**, serum albumin of **3.9 g/dL**, serum creatinine of **0.9 mg/dL**, and blood urea of **18 mg/dL**.
+
+Serological testing demonstrated positive **Hepatitis A Virus (HAV) IgM antibodies**, while Hepatitis B surface antigen (HBsAg) and Hepatitis C antibody tests were negative. Abdominal ultrasound showed mild hepatomegaly without evidence of liver cirrhosis or biliary obstruction. Fasting blood glucose and HbA1c were within normal reference ranges.
+
+The physician concluded that the patient has **Acute Hepatitis A Infection**. Markedly elevated liver enzymes, hyperbilirubinemia, positive HAV IgM antibodies, and compatible clinical symptoms confirm the diagnosis. Kidney function and blood glucose levels remain normal, and there is no evidence of chronic liver disease. The patient was advised to maintain adequate hydration, consume a balanced diet, avoid alcohol and unnecessary medications that may affect the liver, get sufficient rest, attend regular follow-up visits for liver function monitoring, and practice good hygiene to prevent transmission of the infection.

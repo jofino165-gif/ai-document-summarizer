@@ -1,0 +1,14 @@
+Patient Name: Andrew Scott
+Age: 54
+Gender: Male
+Report Date: 20-07-2026
+
+The patient visited the neurology department with complaints of persistent tremors in both hands, slowed body movements, muscle stiffness, difficulty maintaining balance, and reduced facial expression for the past eight months. His family members also reported that his handwriting had become noticeably smaller and that his walking had become slower with short, shuffling steps. The patient denied any history of stroke or recent head injury.
+
+Vital signs recorded during examination showed a blood pressure of 126/80 mmHg, heart rate of 74 bpm, temperature of 98.3°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 14.0 g/dL, white blood cell count of 6,900 cells/µL, platelet count of 271,000 cells/µL, fasting blood glucose of 94 mg/dL, HbA1c of 5.4%, serum creatinine of 0.9 mg/dL, blood urea of 17 mg/dL, ALT (SGPT) of 26 U/L, and AST (SGOT) of 24 U/L, all within normal reference ranges.
+
+Magnetic Resonance Imaging (MRI) of the brain showed no evidence of acute stroke, hemorrhage, or brain tumor. Neurological examination demonstrated resting tremor, cogwheel rigidity, bradykinesia, and mild postural instability. The patient's symptoms improved following a supervised levodopa responsiveness assessment, supporting the clinical diagnosis.
+
+The physician concluded that the patient has early-stage Parkinson's disease. Clinical findings of resting tremor, muscle rigidity, bradykinesia, impaired balance, and positive response to dopaminergic therapy are consistent with this diagnosis. Laboratory investigations, kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to begin prescribed antiparkinsonian medication, participate in regular physiotherapy and balance training, perform daily physical exercise, maintain a nutritious diet, attend routine neurological follow-up appointments, and monitor disease progression to preserve mobility and quality of life.

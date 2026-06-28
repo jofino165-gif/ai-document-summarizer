@@ -1,0 +1,30 @@
+News ID: 80
+Date: 10-06-2027
+
+Headline:
+Global Steel Prices Increase Due to Rising Demand from Infrastructure Projects
+
+News Content:
+The International Metals Association reported a significant increase in global steel prices following strong demand from large-scale infrastructure and construction projects. Manufacturers stated that higher raw material costs and increased production demand have contributed to the price rise. Construction companies expect the increase to affect the cost of residential buildings, commercial projects, bridges, and industrial infrastructure over the coming months.
+
+Category:
+Infrastructure
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Steel Prices, Infrastructure, Construction, Manufacturing, Raw Materials, Global Market
+
+Prediction:
+Steel prices are expected to remain high in the short term due to sustained demand, leading to increased construction costs and possible delays in infrastructure and real estate projects.
+
+Recommended Action:
+• Construction companies should plan material purchases early to manage costs.
+• Builders should review project budgets and procurement strategies.
+• Homebuyers should monitor property prices and project timelines.
+• Manufacturers should optimize material usage to reduce waste.
+• Stay informed about global commodity market trends affecting steel prices.
+
+Confidence Score:
+98.8%

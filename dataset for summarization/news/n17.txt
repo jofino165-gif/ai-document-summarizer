@@ -1,0 +1,30 @@
+News ID: 17
+Date: 04-02-2027
+
+Headline:
+Government Launches Nationwide Solar Energy Incentive Program for Households
+
+News Content:
+The Ministry of Energy has introduced a new incentive program to encourage households to install rooftop solar panels. Under the scheme, eligible homeowners can receive financial subsidies and low-interest loans to reduce installation costs. Officials stated that the initiative aims to increase renewable energy production, reduce dependence on fossil fuels, lower electricity bills, and support long-term environmental sustainability.
+
+Category:
+Energy
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Solar Energy, Renewable Energy, Rooftop Solar, Government Subsidy, Electricity, Sustainability
+
+Prediction:
+The adoption of rooftop solar systems is expected to increase significantly, helping households reduce long-term electricity expenses while contributing to cleaner energy production.
+
+Recommended Action:
+• Check eligibility for the government solar subsidy program.
+• Compare installation costs and certified solar providers before purchasing.
+• Calculate long-term savings on electricity bills.
+• Consider installing energy-efficient appliances to maximize benefits.
+• Stay informed about future renewable energy incentives and policy updates.
+
+Confidence Score:
+98.6%

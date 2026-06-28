@@ -302,8 +302,7 @@ const SummaryResult = ({ text }) => {
 };
 
 // ─── Backend API (Flask) ──────────────────────────────────────────────────────
-const BASE_URL = "http://16.170.15.143:5000";
-
+const BASE_URL = "http://13.53.194.61:5000";
 const summarizeText = async (text) => {
   try {
     const res = await fetch(`${BASE_URL}/api/summarize`, {
@@ -316,8 +315,7 @@ const summarizeText = async (text) => {
   } catch (err) {
     console.error("API Error:", err);
     return "Error connecting to backend";
-  }
-};
+  }};
 
 const askQuestion = async (question) => {
   try {

@@ -1,0 +1,14 @@
+Patient Name: Rebecca Adams
+Age: 33
+Gender: Female
+Report Date: 30-07-2026
+
+The patient visited the nephrology department with complaints of burning sensation during urination, increased urinary frequency, lower abdominal discomfort, fever, chills, and right-sided flank pain for the past four days. She reported a history of recurrent urinary tract infections over the past two years but denied any history of kidney stones or diabetes. She also mentioned reduced water intake due to a busy work schedule.
+
+Vital signs recorded during examination showed a blood pressure of 118/76 mmHg, heart rate of 98 bpm, temperature of 101.2°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 12.9 g/dL, white blood cell count of 14,800 cells/µL with neutrophilia, platelet count of 284,000 cells/µL, serum creatinine of 0.9 mg/dL, blood urea of 18 mg/dL, fasting blood glucose of 92 mg/dL, and HbA1c of 5.3%.
+
+Urinalysis demonstrated significant pyuria, positive nitrites, positive leukocyte esterase, numerous bacteria, and microscopic hematuria. Urine culture grew Escherichia coli sensitive to commonly prescribed antibiotics. Renal ultrasound showed mild swelling of the right kidney without evidence of urinary obstruction or kidney stones.
+
+The physician concluded that the patient has Acute Pyelonephritis, a bacterial kidney infection most likely caused by ascending Escherichia coli infection. Elevated white blood cell count, fever, positive urine culture, and ultrasound findings support the diagnosis. Kidney function remains preserved, and there is no evidence of chronic kidney disease or diabetes. The patient was advised to complete the prescribed antibiotic therapy, increase fluid intake, maintain proper personal hygiene, monitor body temperature, seek immediate medical attention if symptoms worsen, and attend follow-up urine analysis after completion of treatment to confirm resolution of the infection.

@@ -1,0 +1,14 @@
+Patient Name: Thomas Scott
+Age: 65
+Gender: Male
+Report Date: 08-10-2026
+
+The patient visited the cardiology department with complaints of progressive shortness of breath during exertion, episodes of dizziness, chest discomfort, increasing fatigue, and two recent episodes of fainting over the past three months. He has a medical history of hypertension and hyperlipidemia but no previous cardiac surgery. Family members reported that his exercise tolerance had significantly declined.
+
+Vital signs recorded during examination showed a blood pressure of **142/86 mmHg**, heart rate of **54 bpm**, temperature of **98.5°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **97%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.6 g/dL**, white blood cell count of **7,100 cells/µL**, platelet count of **278,000 cells/µL**, fasting blood glucose of **102 mg/dL**, HbA1c of **5.8%**, serum creatinine of **1.0 mg/dL**, blood urea of **19 mg/dL**, and lipid profile showing mildly elevated LDL cholesterol at **148 mg/dL**. Liver function tests were within normal reference ranges.
+
+Electrocardiogram (ECG) demonstrated left ventricular hypertrophy with sinus bradycardia. Transthoracic echocardiography revealed **severe calcific aortic stenosis** with an aortic valve area of **0.8 cm²**, mean transvalvular gradient of **48 mmHg**, and preserved left ventricular ejection fraction of **58%**. Chest X-ray showed mild enlargement of the cardiac silhouette without pulmonary edema.
+
+The physician concluded that the patient has **Severe Aortic Stenosis**, resulting in significant obstruction of blood flow from the left ventricle. Syncope, exertional dyspnea, chest discomfort, and echocardiographic findings confirm the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to undergo evaluation for **aortic valve replacement** (surgical or transcatheter as appropriate), avoid strenuous physical activity until treated, continue prescribed cardiovascular medications, attend regular cardiology follow-up visits, and seek immediate medical attention if chest pain, fainting, or worsening shortness of breath occurs.

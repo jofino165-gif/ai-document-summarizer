@@ -1,0 +1,94 @@
+Study ID: 77
+
+Topic:
+Blockchain Technology
+
+Uploaded Notes:
+Blockchain Technology is a distributed digital ledger system that records transactions in a secure, transparent, and tamper-proof manner. It stores data in blocks that are linked together in a chronological chain, making it extremely difficult to alter or hack past records.
+
+Each block in a blockchain contains data, a timestamp, a cryptographic hash, and the hash of the previous block. This structure ensures data integrity and immutability. Blockchain operates on a decentralized network where multiple nodes validate and store copies of the ledger.
+
+Key features of blockchain include decentralization, transparency, immutability, security, and consensus mechanisms. Consensus algorithms such as Proof of Work (PoW), Proof of Stake (PoS), and Delegated Proof of Stake (DPoS) are used to validate transactions.
+
+Blockchain types include public blockchain, private blockchain, consortium blockchain, and hybrid blockchain. Public blockchains are open to everyone, while private blockchains are restricted to authorized participants.
+
+Smart contracts are self-executing programs stored on the blockchain that automatically execute when predefined conditions are met. They are widely used in automation and decentralized applications (DApps).
+
+Blockchain is widely used in cryptocurrencies (Bitcoin, Ethereum), supply chain management, healthcare, banking, voting systems, identity verification, and smart contracts.
+
+The advantages of blockchain include high security, transparency, reduced fraud, decentralization, and improved traceability. Challenges include scalability issues, high energy consumption, regulatory uncertainty, and slow transaction speeds.
+
+Summary:
+Blockchain is a decentralized digital ledger technology that securely records transactions in immutable blocks linked together in a chain.
+
+Study Notes:
+Definition:
+Blockchain is a distributed ledger technology that records data securely across multiple nodes.
+
+Main Concepts:
+• Blocks
+• Cryptographic Hashing
+• Decentralization
+• Consensus Mechanisms
+• Immutability
+• Smart Contracts
+
+Consensus Algorithms:
+• Proof of Work (PoW)
+• Proof of Stake (PoS)
+• Delegated PoS
+
+Types of Blockchain:
+• Public Blockchain
+• Private Blockchain
+• Consortium Blockchain
+• Hybrid Blockchain
+
+Applications:
+• Cryptocurrencies
+• Supply Chain
+• Healthcare
+• Banking
+• Voting Systems
+• Smart Contracts
+
+Advantages:
+• High Security
+• Transparency
+• Fraud Prevention
+• Traceability
+• Decentralization
+
+Challenges:
+• Scalability Issues
+• Energy Consumption
+• Regulation Problems
+• Slow Transactions
+
+Conclusion:
+Blockchain technology provides a secure, decentralized way of recording transactions, enabling trust and transparency in digital systems.
+
+Important Keywords:
+Blockchain
+Distributed Ledger
+Hash
+Consensus
+Bitcoin
+Ethereum
+Smart Contracts
+PoW
+PoS
+Decentralization
+
+Reference Websites:
+• Ethereum.org
+• Bitcoin.org
+• IBM Blockchain
+• Microsoft Blockchain Docs
+• Coursera
+• GeeksforGeeks
+• Investopedia Blockchain
+• Hyperledger Foundation
+
+Confidence Score:
+99.8%

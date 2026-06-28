@@ -1,0 +1,91 @@
+Study ID: 67
+
+Topic:
+Data Preprocessing
+
+Uploaded Notes:
+Data Preprocessing is the process of cleaning, transforming, and organizing raw data into a format suitable for analysis and machine learning. It is one of the most important steps in the data science and machine learning pipeline because real-world data is often incomplete, inconsistent, and noisy.
+
+The main steps in data preprocessing include data collection, data cleaning, data integration, data transformation, and data reduction. Data cleaning involves handling missing values, removing duplicates, correcting errors, and treating outliers. Data transformation includes normalization, standardization, encoding categorical variables, and feature scaling.
+
+Missing values can be handled using techniques such as deletion, mean/median/mode imputation, or predictive imputation. Outliers can be detected using statistical methods like Z-score and IQR (Interquartile Range).
+
+Data encoding techniques include label encoding and one-hot encoding, which convert categorical data into numerical form. Feature scaling methods such as Min-Max scaling and Standardization ensure that features are on a similar scale for better model performance.
+
+Data reduction techniques include dimensionality reduction (PCA), feature selection, and sampling methods to reduce dataset size while preserving important information.
+
+Data preprocessing is widely used in machine learning, data mining, artificial intelligence, and big data analytics applications such as healthcare, finance, marketing, and recommendation systems.
+
+The advantages of data preprocessing include improved model accuracy, better data quality, reduced noise, and faster processing. Challenges include handling large datasets, choosing correct methods, and avoiding information loss.
+
+Summary:
+Data Preprocessing prepares raw data for analysis by cleaning, transforming, and organizing it to improve the quality and performance of machine learning models.
+
+Study Notes:
+Definition:
+Data Preprocessing is the process of converting raw data into clean and usable format for analysis.
+
+Main Concepts:
+• Data Cleaning
+• Data Transformation
+• Data Integration
+• Data Reduction
+• Feature Scaling
+• Encoding
+
+Techniques:
+• Handling Missing Values
+• Outlier Detection (Z-score, IQR)
+• Normalization
+• Standardization
+• One-Hot Encoding
+• Label Encoding
+• PCA
+
+Applications:
+• Machine Learning
+• Data Mining
+• Healthcare Analytics
+• Financial Modeling
+• Recommendation Systems
+
+Advantages:
+• Improved Data Quality
+• Better Model Accuracy
+• Reduced Noise
+• Faster Processing
+• Efficient Feature Representation
+
+Challenges:
+• Data Complexity
+• Large Dataset Handling
+• Risk of Data Loss
+• Method Selection
+
+Conclusion:
+Data Preprocessing is a critical step in data science that ensures raw data is converted into a clean and structured format suitable for accurate analysis and modeling.
+
+Important Keywords:
+Data Preprocessing
+Data Cleaning
+Normalization
+Standardization
+One-Hot Encoding
+Missing Values
+Outliers
+PCA
+Feature Scaling
+Data Transformation
+
+Reference Websites:
+• Scikit-learn Documentation
+• Kaggle Learn
+• Microsoft Learn
+• IBM Data Science
+• Coursera
+• GeeksforGeeks
+• DataCamp
+• W3Schools
+
+Confidence Score:
+99.7%

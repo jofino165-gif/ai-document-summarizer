@@ -1,0 +1,86 @@
+Study ID: 6
+
+Topic:
+Data Science
+
+Uploaded Notes:
+Data Science is an interdisciplinary field that combines statistics, mathematics, computer science, and Artificial Intelligence to extract meaningful insights from structured and unstructured data. It involves collecting, cleaning, analyzing, visualizing, and interpreting data to support decision-making and solve real-world problems.
+
+The Data Science lifecycle includes data collection, data preprocessing, exploratory data analysis (EDA), feature engineering, model building, model evaluation, deployment, and monitoring. Data scientists use programming languages such as Python and R along with tools like Jupyter Notebook, SQL, and visualization libraries to analyze data effectively.
+
+Data Science incorporates Machine Learning algorithms for prediction and classification tasks. Common techniques include regression, classification, clustering, association rule mining, and anomaly detection. Data visualization tools such as Matplotlib, Power BI, and Tableau help present insights in an understandable format.
+
+Applications of Data Science include healthcare for disease prediction, finance for fraud detection, e-commerce for recommendation systems, marketing for customer analysis, manufacturing for predictive maintenance, transportation for traffic analysis, and education for student performance analysis.
+
+The advantages of Data Science include better decision-making, improved business intelligence, predictive analytics, automation, and enhanced operational efficiency. Challenges include poor data quality, privacy concerns, high computational requirements, and the need for skilled professionals.
+
+Summary:
+Data Science is the process of collecting, analyzing, and interpreting data to generate meaningful insights and support intelligent decision-making. It combines statistics, programming, and Machine Learning to solve problems across healthcare, finance, education, business, and many other industries.
+
+Study Notes:
+Definition:
+Data Science is an interdisciplinary field that uses statistical methods, programming, and Artificial Intelligence to extract useful information from data.
+
+Main Concepts:
+• Data Collection
+• Data Preprocessing
+• Exploratory Data Analysis (EDA)
+• Feature Engineering
+• Model Building
+• Data Visualization
+
+Techniques:
+• Regression
+• Classification
+• Clustering
+• Association Rule Mining
+• Anomaly Detection
+
+Applications:
+• Healthcare
+• Banking
+• E-commerce
+• Marketing
+• Manufacturing
+• Transportation
+• Education
+
+Advantages:
+• Better Decision Making
+• Predictive Analytics
+• Business Intelligence
+• Process Automation
+
+Challenges:
+• Poor Data Quality
+• Data Privacy
+• High Computational Cost
+• Requirement for Skilled Professionals
+
+Conclusion:
+Data Science enables organizations to convert raw data into valuable insights, improving efficiency, innovation, and strategic decision-making across various industries.
+
+Important Keywords:
+Data Science
+Data Analysis
+Data Preprocessing
+Exploratory Data Analysis
+Feature Engineering
+Machine Learning
+Data Visualization
+Regression
+Classification
+Clustering
+
+Reference Websites:
+• Kaggle
+• Google Colab
+• Microsoft Learn
+• IBM SkillsBuild
+• Coursera
+• edX
+• Tableau
+• Python Documentation
+
+Confidence Score:
+99.2%

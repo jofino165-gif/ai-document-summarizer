@@ -1,0 +1,14 @@
+Patient Name: Benjamin Clark
+Age: 57
+Gender: Male
+Report Date: 30-10-2026
+
+The patient visited the oncology department with complaints of persistent hoarseness of voice, difficulty swallowing, sore throat, chronic cough, pain while swallowing, and unintended weight loss of 8 kg over the past four months. He has a smoking history of 35 pack-years and consumes alcohol regularly. The patient denied any previous history of head and neck cancer.
+
+Vital signs recorded during examination showed a blood pressure of **134/84 mmHg**, heart rate of **90 bpm**, temperature of **98.6°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **97%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.8 g/dL**, white blood cell count of **7,800 cells/µL**, platelet count of **302,000 cells/µL**, serum creatinine of **1.0 mg/dL**, blood urea of **19 mg/dL**, fasting blood glucose of **98 mg/dL**, HbA1c of **5.5%**, and liver function tests within normal reference ranges.
+
+Flexible laryngoscopy demonstrated an irregular mass involving the **left vocal cord** with reduced vocal cord mobility. Contrast-enhanced CT scan of the neck revealed a **3.5 cm laryngeal mass** with enlargement of ipsilateral cervical lymph nodes. Biopsy confirmed **Squamous Cell Carcinoma of the Larynx**. CT scan of the chest showed no evidence of distant metastasis.
+
+The physician concluded that the patient has **Stage III Laryngeal Squamous Cell Carcinoma** with regional lymph node involvement. Persistent hoarseness, imaging findings, and biopsy results confirm the diagnosis. Mild anemia is likely related to chronic disease. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a multidisciplinary head and neck oncology team to discuss surgery, radiation therapy, chemotherapy, and voice rehabilitation as appropriate. Complete smoking and alcohol cessation, nutritional support, and regular oncology follow-up were strongly recommended to improve treatment outcomes and reduce the risk of recurrence.

@@ -1,0 +1,100 @@
+Study ID: 86
+
+Topic:
+Big Data Analytics
+
+Uploaded Notes:
+Big Data Analytics is the process of examining large and complex datasets (big data) to uncover hidden patterns, correlations, trends, and insights that help in decision-making. It involves advanced tools and techniques to process data that traditional systems cannot handle efficiently.
+
+Big data is characterized by the 5Vs: Volume, Velocity, Variety, Veracity, and Value. Volume refers to large amounts of data, Velocity refers to fast data generation, Variety refers to different data types, Veracity refers to data accuracy, and Value refers to useful insights derived from data.
+
+Big data processing frameworks include Hadoop and Apache Spark. Hadoop uses distributed storage (HDFS) and MapReduce for processing, while Spark provides faster in-memory computation for real-time analytics.
+
+Big data analytics techniques include descriptive analytics, diagnostic analytics, predictive analytics, and prescriptive analytics. These techniques help in understanding past data, identifying causes, forecasting future trends, and recommending actions.
+
+Big data is widely used in healthcare, finance, e-commerce, social media, transportation, and cybersecurity for fraud detection, recommendation systems, customer behavior analysis, and predictive maintenance.
+
+The advantages of big data analytics include better decision-making, real-time insights, improved efficiency, and competitive advantage. Challenges include data privacy issues, storage complexity, processing speed, and integration of diverse data sources.
+
+Summary:
+Big Data Analytics involves analyzing large and complex datasets to extract meaningful insights using advanced tools and distributed computing systems.
+
+Study Notes:
+Definition:
+Big Data Analytics is the process of analyzing large datasets to extract meaningful insights.
+
+Main Concepts:
+• 5Vs of Big Data
+• Data Processing
+• Distributed Computing
+• Real-Time Analytics
+• Data Mining
+• Data Warehousing
+
+5Vs:
+• Volume
+• Velocity
+• Variety
+• Veracity
+• Value
+
+Technologies:
+• Hadoop
+• Apache Spark
+• Hive
+• Pig
+• Kafka
+
+Analytics Types:
+• Descriptive
+• Diagnostic
+• Predictive
+• Prescriptive
+
+Applications:
+• Healthcare Analytics
+• Financial Fraud Detection
+• E-commerce Recommendations
+• Social Media Analysis
+• Cybersecurity
+
+Advantages:
+• Better Decision Making
+• Real-Time Insights
+• Scalability
+• Efficiency
+• Competitive Advantage
+
+Challenges:
+• Data Privacy
+• Storage Issues
+• Processing Speed
+• Data Integration
+
+Conclusion:
+Big Data Analytics helps organizations process large-scale data to gain insights and make data-driven decisions using advanced distributed systems.
+
+Important Keywords:
+Big Data
+Hadoop
+Spark
+5Vs
+Data Mining
+Predictive Analytics
+Data Lake
+MapReduce
+Kafka
+Real-Time Processing
+
+Reference Websites:
+• Apache Hadoop Docs
+• Apache Spark Docs
+• IBM Big Data Analytics
+• Microsoft Learn
+• Coursera
+• GeeksforGeeks
+• AWS Big Data
+• Cloudera Resources
+
+Confidence Score:
+99.8%

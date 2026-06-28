@@ -1,0 +1,14 @@
+Patient Name: Monica Reed
+Age: 51
+Gender: Female
+Report Date: 19-08-2026
+
+The patient visited the endocrinology department with complaints of excessive fatigue, frequent bone pain, muscle weakness, increased thirst, constipation, and recurrent kidney stones over the past eight months. She also reported occasional nausea and reduced appetite. There was no history of diabetes mellitus or chronic kidney disease. Family history revealed that her mother had a parathyroid disorder.
+
+Vital signs recorded during examination showed a blood pressure of 128/80 mmHg, heart rate of 82 bpm, temperature of 98.4°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 13.1 g/dL, white blood cell count of 6,800 cells/µL, platelet count of 276,000 cells/µL, serum calcium of **11.8 mg/dL**, serum phosphate of **2.3 mg/dL**, intact parathyroid hormone (PTH) level of **165 pg/mL**, and vitamin D level of **24 ng/mL**. Kidney function tests showed a creatinine level of **1.1 mg/dL** and blood urea of **21 mg/dL**, with an estimated glomerular filtration rate (eGFR) of **78 mL/min/1.73 m²**.
+
+Fasting blood glucose was **94 mg/dL** and HbA1c was **5.4%**, both within normal limits. Neck ultrasound demonstrated a well-defined lesion measuring **1.6 cm** posterior to the left thyroid lobe, consistent with a parathyroid adenoma. Dual-energy X-ray absorptiometry (DEXA) scan revealed reduced bone mineral density in the lumbar spine.
+
+The physician concluded that the patient has **Primary Hyperparathyroidism**, most likely caused by a parathyroid adenoma. Elevated serum calcium, increased parathyroid hormone levels, recurrent kidney stones, reduced bone density, and imaging findings strongly support the diagnosis. Kidney function is mildly reduced but stable, while blood glucose levels remain normal. The patient was advised to maintain adequate hydration, avoid unnecessary calcium supplements, follow specialist recommendations regarding surgical removal of the affected parathyroid gland, undergo periodic monitoring of calcium and kidney function, and attend regular endocrinology follow-up visits to prevent complications such as osteoporosis and recurrent kidney stones.

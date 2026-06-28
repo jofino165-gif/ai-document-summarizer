@@ -1,0 +1,101 @@
+Study ID: 76
+
+Topic:
+Data Warehousing
+
+Uploaded Notes:
+Data Warehousing is the process of collecting, storing, and managing large volumes of structured and historical data from multiple sources into a central repository called a data warehouse. It is designed to support business intelligence (BI), reporting, and data analysis.
+
+A data warehouse integrates data from different operational systems such as databases, applications, and external sources. The data is cleaned, transformed, and loaded using ETL (Extract, Transform, Load) processes to ensure consistency and accuracy.
+
+Key characteristics of a data warehouse include subject-oriented, integrated, time-variant, and non-volatile data. Subject-oriented means data is organized around key business areas. Time-variant means historical data is stored for analysis over time.
+
+The architecture of a data warehouse includes three layers: staging layer, data storage layer, and presentation layer. The staging layer handles ETL processes, the storage layer holds cleaned data, and the presentation layer supports reporting and analytics.
+
+Common data warehousing models include star schema, snowflake schema, and fact constellation schema. These models organize data into fact tables and dimension tables for efficient querying.
+
+Popular data warehousing tools and platforms include Amazon Redshift, Google BigQuery, Snowflake, Microsoft Azure Synapse Analytics, and Oracle Data Warehouse.
+
+Data warehousing is widely used in finance, healthcare, retail, telecommunications, and e-commerce for reporting, trend analysis, and decision-making.
+
+The advantages include improved decision-making, centralized data, faster query performance, historical analysis, and better business intelligence. Challenges include high cost, complex ETL processes, data integration issues, and maintenance complexity.
+
+Summary:
+Data Warehousing is the process of storing and managing large volumes of historical data in a centralized system to support analytics and business intelligence.
+
+Study Notes:
+Definition:
+A Data Warehouse is a centralized system used to store and analyze large volumes of structured data.
+
+Main Concepts:
+• ETL Process
+• Data Integration
+• Subject-Oriented Data
+• Time-Variant Data
+• Fact and Dimension Tables
+• Data Modeling
+
+Architecture:
+• Staging Layer
+• Data Storage Layer
+• Presentation Layer
+
+Schemas:
+• Star Schema
+• Snowflake Schema
+• Fact Constellation Schema
+
+Tools:
+• Amazon Redshift
+• Google BigQuery
+• Snowflake
+• Azure Synapse
+• Oracle Data Warehouse
+
+Applications:
+• Business Intelligence
+• Financial Analysis
+• Healthcare Analytics
+• Retail Reporting
+• Telecom Analytics
+
+Advantages:
+• Centralized Data
+• Fast Query Performance
+• Historical Data Analysis
+• Better Decision Making
+• Data Consistency
+
+Challenges:
+• High Cost
+• Complex ETL
+• Data Integration Issues
+• Maintenance Complexity
+
+Conclusion:
+Data Warehousing enables organizations to store and analyze large-scale historical data efficiently for business intelligence and decision-making.
+
+Important Keywords:
+Data Warehouse
+ETL
+Star Schema
+Snowflake Schema
+Fact Table
+Dimension Table
+BigQuery
+Redshift
+Business Intelligence
+Data Integration
+
+Reference Websites:
+• Amazon Redshift Docs
+• Google BigQuery Docs
+• Snowflake Documentation
+• Microsoft Azure Synapse Docs
+• IBM Data Warehouse
+• Coursera
+• GeeksforGeeks
+• Oracle Docs
+
+Confidence Score:
+99.8%

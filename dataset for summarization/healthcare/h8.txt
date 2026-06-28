@@ -1,0 +1,14 @@
+Patient Name: Olivia Thompson
+Age: 41
+Gender: Female
+Report Date: 02-07-2026
+
+The patient visited the neurology department with complaints of frequent headaches, dizziness, occasional blurred vision, numbness in the right arm, and difficulty maintaining balance over the past two weeks. She also reported episodes of mild confusion lasting a few minutes. The patient has a medical history of uncontrolled hypertension for six years and admits that she has not been taking her prescribed medications regularly.
+
+Vital signs recorded during examination showed a blood pressure of 182/110 mmHg, heart rate of 94 bpm, temperature of 98.6°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 13.5 g/dL, white blood cell count of 7,200 cells/µL, platelet count of 281,000 cells/µL, fasting blood glucose of 108 mg/dL, HbA1c of 5.8%, total cholesterol of 236 mg/dL, LDL cholesterol of 160 mg/dL, HDL cholesterol of 42 mg/dL, and triglycerides of 188 mg/dL.
+
+Kidney function tests showed creatinine of 1.0 mg/dL and blood urea of 18 mg/dL, both within normal limits. Liver function tests were also within the normal reference range. A CT scan of the brain showed no evidence of acute hemorrhage but revealed mild chronic small-vessel ischemic changes. Neurological examination demonstrated mild weakness in the right upper limb and slightly reduced coordination.
+
+The physician concluded that the patient has severe uncontrolled hypertension with neurological symptoms suggestive of a transient ischemic attack (TIA), indicating a high risk of future stroke. Elevated cholesterol levels further increase cardiovascular risk. Kidney and liver function remain normal. The patient was advised to begin strict blood pressure control, take prescribed medications regularly, follow a low-salt and heart-healthy diet, reduce cholesterol levels through lifestyle modification, undergo regular neurological monitoring, and seek immediate medical attention if symptoms worsen or recur.

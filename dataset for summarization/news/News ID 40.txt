@@ -1,0 +1,30 @@
+News ID: 40
+Date: 22-03-2027
+
+Headline:
+Government Launches Nationwide Tree Plantation Drive to Improve Air Quality
+
+News Content:
+The Ministry of Environment has launched a nationwide tree plantation campaign with the goal of planting 50 million saplings over the next year. The initiative aims to improve air quality, reduce carbon emissions, restore degraded forests, and promote environmental sustainability. Schools, colleges, businesses, and community organizations have been invited to participate in the campaign. Environmental experts believe the program will have long-term benefits for biodiversity and climate resilience.
+
+Category:
+Environment
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Tree Plantation, Environment, Air Quality, Carbon Emissions, Sustainability, Climate
+
+Prediction:
+The large-scale tree plantation initiative is expected to improve air quality, increase green cover, reduce carbon emissions, and provide long-term environmental benefits if the planted trees are properly maintained.
+
+Recommended Action:
+• Participate in local tree plantation programs.
+• Protect and maintain newly planted trees through regular watering and care.
+• Reduce paper and plastic waste to support environmental conservation.
+• Encourage schools, workplaces, and communities to organize plantation drives.
+• Stay informed about future environmental initiatives and volunteer opportunities.
+
+Confidence Score:
+98.9%

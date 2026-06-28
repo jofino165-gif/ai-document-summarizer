@@ -1,0 +1,30 @@
+News ID: 93
+Date: 06-07-2027
+
+Headline:
+Government Announces Subsidy for Rooftop Solar Panels to Reduce Household Electricity Costs
+
+News Content:
+The Ministry of Renewable Energy has announced a new subsidy program encouraging households to install rooftop solar panels. Eligible homeowners will receive financial assistance to reduce installation costs, while additional incentives will be provided for excess electricity supplied to the national power grid. Energy experts believe the initiative will increase renewable energy adoption, reduce electricity bills, and lower dependence on conventional energy sources.
+
+Category:
+Energy
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Rooftop Solar, Solar Subsidy, Renewable Energy, Electricity Bills, Clean Energy, Government Scheme
+
+Prediction:
+The rooftop solar subsidy program is expected to increase residential solar installations, helping households reduce long-term electricity expenses while supporting clean energy generation and reducing carbon emissions.
+
+Recommended Action:
+• Check your eligibility for the rooftop solar subsidy program.
+• Compare certified solar panel installers before making a purchase.
+• Estimate long-term electricity savings and installation costs.
+• Maintain solar panels regularly for maximum efficiency.
+• Stay informed about government renewable energy incentives and application deadlines.
+
+Confidence Score:
+99.0%

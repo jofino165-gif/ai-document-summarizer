@@ -1,0 +1,96 @@
+Study ID: 90
+
+Topic:
+Database Management Systems (DBMS)
+
+Uploaded Notes:
+A Database Management System (DBMS) is software that is used to store, manage, organize, and retrieve data efficiently. It provides an interface between users and databases, allowing easy access and manipulation of structured data.
+
+DBMS ensures data integrity, security, consistency, and reduced redundancy. It supports multiple users accessing data simultaneously while maintaining control over transactions.
+
+Key components of DBMS include the database engine, database schema, query processor, storage manager, and transaction manager. These components work together to store and retrieve data efficiently.
+
+Types of DBMS include hierarchical DBMS, network DBMS, relational DBMS (RDBMS), and object-oriented DBMS. Relational DBMS is the most widely used model, where data is stored in tables with rows and columns.
+
+Important DBMS concepts include tables, records, fields, primary keys, foreign keys, normalization, indexing, and SQL (Structured Query Language). SQL is used for querying and managing relational databases.
+
+Normalization is a process used to eliminate redundancy and improve data integrity by organizing data into multiple related tables. Common normal forms include 1NF, 2NF, and 3NF.
+
+DBMS is widely used in banking systems, airline reservation systems, educational institutions, e-commerce platforms, healthcare systems, and government databases.
+
+The advantages of DBMS include data security, reduced redundancy, data consistency, easy access, and backup & recovery. Challenges include system complexity, high cost, performance overhead, and maintenance requirements.
+
+Summary:
+DBMS is software that manages databases efficiently by storing, organizing, and retrieving structured data while ensuring security and consistency.
+
+Study Notes:
+Definition:
+A DBMS is software used to manage and control databases.
+
+Main Concepts:
+• Tables and Records
+• Primary Key
+• Foreign Key
+• SQL
+• Normalization
+• Indexing
+
+Types:
+• Hierarchical DBMS
+• Network DBMS
+• Relational DBMS
+• Object-Oriented DBMS
+
+Components:
+• Query Processor
+• Storage Manager
+• Transaction Manager
+• Database Engine
+
+Applications:
+• Banking Systems
+• E-commerce
+• Healthcare
+• Education Systems
+• Airline Reservations
+
+Advantages:
+• Data Security
+• Data Consistency
+• Reduced Redundancy
+• Easy Access
+• Backup & Recovery
+
+Challenges:
+• System Complexity
+• High Cost
+• Performance Overhead
+• Maintenance
+
+Conclusion:
+DBMS is essential for managing structured data efficiently, ensuring secure, consistent, and reliable data storage and retrieval.
+
+Important Keywords:
+DBMS
+RDBMS
+SQL
+Normalization
+Primary Key
+Foreign Key
+Indexing
+Transactions
+Data Integrity
+Database Schema
+
+Reference Websites:
+• Oracle DB Docs
+• MySQL Documentation
+• Microsoft SQL Server Docs
+• GeeksforGeeks DBMS
+• Coursera Database Courses
+• IBM Data Management
+• PostgreSQL Docs
+• Tutorialspoint
+
+Confidence Score:
+99.8%

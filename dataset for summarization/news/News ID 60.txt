@@ -1,0 +1,30 @@
+News ID: 60
+Date: 01-05-2027
+
+Headline:
+Nationwide Employment Growth Slows as Manufacturing Output Declines
+
+News Content:
+The Ministry of Labour reported that employment growth slowed during the last quarter following a decline in manufacturing output and reduced industrial production. Several manufacturing companies cited lower export demand, rising raw material costs, and supply chain challenges as key reasons for slowing recruitment. Economic analysts warned that if industrial activity does not recover, job creation may remain weak and consumer spending could slow in the coming months.
+
+Category:
+Economy
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Employment Growth, Manufacturing, Industrial Production, Job Market, Exports, Economy
+
+Prediction:
+Employment opportunities may grow at a slower pace if manufacturing output continues to decline. Consumer spending and overall economic growth could also weaken until industrial production improves.
+
+Recommended Action:
+• Job seekers should improve technical and professional skills to remain competitive.
+• Businesses should focus on productivity and cost optimization.
+• Individuals should plan personal finances carefully during periods of economic uncertainty.
+• Investors should monitor manufacturing and employment indicators before making investment decisions.
+• Stay informed about government initiatives supporting industrial growth and job creation.
+
+Confidence Score:
+98.8%

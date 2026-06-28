@@ -1,0 +1,96 @@
+Study ID: 36
+
+Topic:
+React.js
+
+Uploaded Notes:
+React.js is an open-source JavaScript library developed by Facebook (Meta) for building fast, interactive, and reusable user interfaces. It is primarily used for developing Single Page Applications (SPAs), where only the required components are updated without reloading the entire webpage. React follows a component-based architecture, allowing developers to create reusable UI components that improve code maintainability and scalability.
+
+React uses a Virtual DOM (Document Object Model), which compares changes efficiently before updating the real DOM. This improves application performance and provides a smoother user experience. React also supports one-way data binding, making data flow predictable and easier to debug.
+
+The core concepts of React include components, JSX (JavaScript XML), props, state, event handling, lifecycle methods, hooks, routing, and context API. Functional components with Hooks such as `useState`, `useEffect`, `useContext`, `useReducer`, and `useRef` are widely used in modern React applications.
+
+React applications are developed using tools like Node.js, npm, Vite, Create React App, and package managers. React Router is used for navigation, while Axios and Fetch API are commonly used for communicating with backend APIs.
+
+React.js is widely used in web applications, e-commerce websites, social media platforms, dashboards, learning management systems, enterprise software, and cloud-based applications.
+
+The advantages of React include reusable components, high performance through the Virtual DOM, strong community support, easy maintenance, and fast UI rendering. Challenges include learning JSX, state management in large applications, dependency management, and frequent updates in the React ecosystem.
+
+Summary:
+React.js is a JavaScript library for building fast, interactive, and reusable user interfaces using a component-based architecture. It improves web application performance with the Virtual DOM and modern development features like Hooks.
+
+Study Notes:
+Definition:
+React.js is an open-source JavaScript library used to build dynamic and interactive user interfaces.
+
+Main Concepts:
+• Components
+• JSX
+• Props
+• State
+• Hooks
+• Virtual DOM
+
+React Features:
+• Component-Based Architecture
+• One-Way Data Binding
+• Virtual DOM
+• React Router
+• Context API
+• Event Handling
+
+Common Hooks:
+• useState()
+• useEffect()
+• useContext()
+• useReducer()
+• useRef()
+
+Applications:
+• Single Page Applications
+• E-commerce Websites
+• Dashboards
+• Social Media Platforms
+• Enterprise Applications
+• Learning Management Systems
+
+Advantages:
+• Reusable Components
+• High Performance
+• Easy Maintenance
+• Fast Rendering
+• Large Community Support
+
+Challenges:
+• JSX Learning Curve
+• State Management Complexity
+• Dependency Updates
+• SEO Limitations in Some Cases
+
+Conclusion:
+React.js is one of the most popular frontend libraries, enabling developers to build scalable, high-performance, and interactive web applications using reusable components.
+
+Important Keywords:
+React.js
+JSX
+Virtual DOM
+Components
+Props
+State
+Hooks
+React Router
+Context API
+useEffect
+
+Reference Websites:
+• React Documentation
+• MDN Web Docs
+• Microsoft Learn
+• freeCodeCamp
+• W3Schools React
+• GeeksforGeeks
+• Coursera
+• Vite Documentation
+
+Confidence Score:
+99.5%

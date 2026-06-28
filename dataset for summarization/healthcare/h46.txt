@@ -1,0 +1,14 @@
+Patient Name: Melissa Young
+Age: 49
+Gender: Female
+Report Date: 16-09-2026
+
+The patient visited the nephrology department with complaints of persistent fatigue, swelling of both legs, reduced urine output, nausea, poor appetite, generalized itching, and increasing weakness over the past six months. She has a 12-year history of poorly controlled Type 2 diabetes mellitus and hypertension. The patient admitted to irregular medication use and inconsistent blood glucose monitoring.
+
+Vital signs recorded during examination showed a blood pressure of **168/98 mmHg**, heart rate of **88 bpm**, temperature of **98.5°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **9.8 g/dL**, white blood cell count of **7,400 cells/µL**, platelet count of **276,000 cells/µL**, serum creatinine of **3.8 mg/dL**, blood urea of **74 mg/dL**, estimated glomerular filtration rate (eGFR) of **18 mL/min/1.73 m²**, serum potassium of **5.8 mmol/L**, serum albumin of **3.1 g/dL**, fasting blood glucose of **228 mg/dL**, and HbA1c of **9.6%**.
+
+Urinalysis demonstrated **3+ proteinuria**, microalbuminuria, and occasional hyaline casts. Renal ultrasound revealed bilaterally shrunken kidneys with increased cortical echogenicity, consistent with chronic kidney disease. Liver function tests were within normal reference ranges.
+
+The physician concluded that the patient has **Advanced Chronic Kidney Disease (Stage 4)** caused by long-standing poorly controlled Type 2 diabetes mellitus and hypertension. Severely reduced kidney function, elevated creatinine and blood urea levels, persistent proteinuria, hyperkalemia, anemia, and ultrasound findings confirm advanced diabetic kidney disease. The patient was advised to maintain strict blood pressure and blood glucose control, follow a kidney-friendly low-sodium and low-potassium diet, avoid nephrotoxic medications, begin treatment for CKD-related anemia as prescribed, attend regular nephrology follow-up visits, and discuss future renal replacement therapy options, including dialysis and kidney transplantation, if kidney function continues to decline.

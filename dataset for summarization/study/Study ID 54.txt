@@ -1,0 +1,89 @@
+Study ID: 54
+
+Topic:
+Business Intelligence (BI)
+
+Uploaded Notes:
+Business Intelligence (BI) refers to the technologies, tools, and practices used to collect, integrate, analyze, and present business data to support better decision-making. BI transforms raw data into meaningful insights through dashboards, reports, and data visualization techniques, enabling organizations to make data-driven decisions.
+
+The BI process includes data collection from multiple sources, data cleaning, data integration, data warehousing, data analysis, and data visualization. BI systems help organizations track performance metrics, identify trends, and improve operational efficiency.
+
+Key components of Business Intelligence include data warehouses, ETL (Extract, Transform, Load) processes, OLAP (Online Analytical Processing), reporting tools, dashboards, and data visualization systems. These components work together to provide accurate and real-time business insights.
+
+Popular BI tools include Microsoft Power BI, Tableau, Qlik Sense, SAP BusinessObjects, IBM Cognos Analytics, Google Data Studio (Looker Studio), and MicroStrategy. These tools enable users to create interactive dashboards and reports without advanced programming knowledge.
+
+BI is widely used in finance, healthcare, retail, marketing, manufacturing, education, logistics, and government sectors. It supports applications such as sales analysis, customer behavior tracking, financial reporting, performance monitoring, and predictive analytics.
+
+The advantages of BI include improved decision-making, better data visibility, increased efficiency, faster reporting, and competitive advantage. Challenges include data quality issues, high implementation cost, data integration complexity, and user adoption difficulties.
+
+Summary:
+Business Intelligence is the process of analyzing business data using tools and technologies to support strategic decision-making through reports, dashboards, and visual analytics.
+
+Study Notes:
+Definition:
+Business Intelligence is the process of collecting and analyzing business data to support decision-making.
+
+Main Concepts:
+• Data Warehousing
+• ETL Process
+• OLAP
+• Reporting
+• Dashboards
+• Data Visualization
+
+BI Tools:
+• Power BI
+• Tableau
+• Qlik Sense
+• SAP BusinessObjects
+• IBM Cognos
+• Google Looker Studio
+
+Applications:
+• Sales Analysis
+• Financial Reporting
+• Customer Analytics
+• Performance Monitoring
+• Market Research
+• Supply Chain Analysis
+
+Advantages:
+• Better Decision Making
+• Real-Time Insights
+• Improved Efficiency
+• Data Visualization
+• Competitive Advantage
+
+Challenges:
+• Data Quality Issues
+• High Cost
+• Integration Complexity
+• User Adoption
+
+Conclusion:
+Business Intelligence enables organizations to convert raw data into meaningful insights using analytical tools and dashboards, improving decision-making and business performance.
+
+Important Keywords:
+Business Intelligence
+BI
+Data Warehouse
+ETL
+OLAP
+Dashboard
+Power BI
+Tableau
+Data Visualization
+Reporting
+
+Reference Websites:
+• Microsoft Power BI Documentation
+• Tableau Documentation
+• Qlik Documentation
+• IBM Cognos Docs
+• Google Looker Studio
+• Coursera
+• GeeksforGeeks
+• Microsoft Learn
+
+Confidence Score:
+99.7%

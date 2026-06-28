@@ -1,0 +1,30 @@
+News ID: 81
+Date: 12-06-2027
+
+Headline:
+Government Announces Nationwide Expansion of Electric Bus Services in Major Cities
+
+News Content:
+The Ministry of Transport has announced the deployment of more than 3,000 new electric buses across major cities as part of a national clean transportation initiative. The project aims to reduce urban air pollution, lower carbon emissions, decrease fuel consumption, and provide affordable public transportation. Transport authorities stated that the expansion will also improve daily commuting by increasing route coverage and reducing waiting times.
+
+Category:
+Transportation
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Electric Buses, Public Transportation, Clean Energy, Urban Mobility, Air Pollution, Government Initiative
+
+Prediction:
+The expansion of electric bus services is expected to improve public transportation, reduce fuel consumption and air pollution, and encourage more commuters to shift from private vehicles to public transport.
+
+Recommended Action:
+• Use electric bus services for daily travel where available.
+• Plan commuting using updated public transport routes and schedules.
+• Support environmentally friendly transportation options.
+• Local businesses can benefit from improved accessibility along new bus routes.
+• Stay informed about new electric bus services and route expansions.
+
+Confidence Score:
+98.9%

@@ -1,0 +1,30 @@
+News ID: 5
+Date: 11-01-2027
+
+Headline:
+Government Announces Reduction in Petrol and Diesel Prices Nationwide
+
+News Content:
+The government has announced a reduction in petrol and diesel prices following a decline in global crude oil prices. Petrol prices have been reduced by ₹6 per litre, while diesel prices have decreased by ₹5 per litre. Transport operators welcomed the decision, stating that lower fuel costs may help reduce transportation expenses and stabilize the prices of essential commodities. Economists believe the price reduction could ease inflation and improve consumer spending over the coming months.
+
+Category:
+Economy
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Petrol Price, Diesel Price, Fuel Cost, Inflation, Transportation, Economy
+
+Prediction:
+Lower fuel prices are expected to reduce transportation costs, ease inflation, and improve consumer purchasing power in the coming weeks.
+
+Recommended Action:
+• Take advantage of lower fuel prices by planning essential travel.
+• Monitor the prices of essential goods, which may gradually decrease.
+• Review and adjust your monthly budget based on reduced fuel expenses.
+• Businesses can optimize transportation and delivery costs.
+• Continue following fuel price updates for future changes.
+
+Confidence Score:
+98.0%

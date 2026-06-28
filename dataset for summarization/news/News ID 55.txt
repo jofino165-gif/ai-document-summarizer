@@ -1,0 +1,30 @@
+News ID: 55
+Date: 21-04-2027
+
+Headline:
+Major Banks Tighten Home Loan Approval Rules Amid Rising Financial Risks
+
+News Content:
+Several leading banks have introduced stricter eligibility criteria for new home loan applications following concerns about increasing financial risks and changing market conditions. Financial institutions stated that applicants may now require higher credit scores, larger down payments, and additional income verification before loan approval. Real estate analysts believe the revised lending policies could slow housing demand in the short term while encouraging more responsible borrowing practices.
+
+Category:
+Finance
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Home Loan, Bank Lending, Credit Score, Mortgage, Real Estate, Financial Risk
+
+Prediction:
+Home loan approvals are expected to decline in the short term as stricter lending standards reduce the number of eligible borrowers. The housing market may experience slower growth until lending conditions improve.
+
+Recommended Action:
+• Check and improve your credit score before applying for a home loan.
+• Save for a larger down payment to increase loan eligibility.
+• Compare loan requirements and interest rates across different banks.
+• Maintain stable income records and organize financial documents.
+• Monitor future banking policies for changes in lending conditions.
+
+Confidence Score:
+98.6%

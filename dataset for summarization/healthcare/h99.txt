@@ -1,0 +1,14 @@
+Patient Name: Hannah Cooper
+Age: 50
+Gender: Female
+Report Date: 31-12-2026
+
+The patient visited the oncology department with complaints of persistent abdominal bloating, pelvic pain, early satiety, frequent urination, fatigue, and an unintended weight loss of 6 kg over the past four months. She attained menopause two years ago and reported a family history of ovarian cancer in her older sister.
+
+Vital signs recorded during examination showed a blood pressure of **126/80 mmHg**, heart rate of **84 bpm**, temperature of **98.5°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.6 g/dL**, white blood cell count of **7,500 cells/µL**, platelet count of **314,000 cells/µL**, serum creatinine of **0.9 mg/dL**, blood urea of **18 mg/dL**, fasting blood glucose of **98 mg/dL**, HbA1c of **5.4%**, liver function tests within normal reference ranges, and a markedly elevated **CA-125** level of **742 U/mL**.
+
+Transvaginal ultrasound demonstrated a **7.2 cm complex cystic-solid mass** arising from the left ovary with moderate ascites. Contrast-enhanced CT scan of the abdomen and pelvis revealed omental thickening and pelvic peritoneal implants without distant organ metastasis. Exploratory surgery with biopsy confirmed **High-Grade Serous Ovarian Carcinoma**.
+
+The physician concluded that the patient has **Stage III High-Grade Serous Ovarian Carcinoma**. Clinical symptoms, elevated CA-125, imaging findings, and histopathological examination confirm the diagnosis. Mild anemia is likely related to chronic disease. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a gynecologic oncology team for **cytoreductive (debulking) surgery** followed by platinum-based chemotherapy, undergo genetic counseling and **BRCA1/BRCA2** testing, maintain adequate nutritional support, and attend regular oncology follow-up visits with periodic imaging and CA-125 monitoring to assess treatment response and detect recurrence.

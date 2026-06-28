@@ -1,0 +1,30 @@
+News ID: 7
+Date: 15-01-2027
+
+Headline:
+Vegetable Prices Decline as Improved Harvest Boosts Market Supply
+
+News Content:
+Agricultural markets across the country reported a noticeable decline in vegetable prices following a successful harvest season. Increased production of tomatoes, onions, potatoes, and leafy vegetables has improved market supply, leading to lower retail prices. Farmers expect stable production to continue over the coming weeks, while consumers are benefiting from reduced household food expenses. Economists believe that improved agricultural output may contribute to lower food inflation.
+
+Category:
+Economy
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Vegetable Prices, Agriculture, Harvest, Food Inflation, Market Supply, Consumer Spending
+
+Prediction:
+Food prices are expected to remain stable or decrease slightly if agricultural production continues at the current level, helping reduce household expenses.
+
+Recommended Action:
+• Purchase fresh vegetables while prices remain low.
+• Plan weekly grocery shopping to take advantage of lower costs.
+• Save the money reduced from food expenses for future needs.
+• Businesses such as restaurants can benefit from lower ingredient costs.
+• Continue monitoring market prices for seasonal changes.
+
+Confidence Score:
+98.3%

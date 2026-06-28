@@ -1,0 +1,30 @@
+News ID: 14
+Date: 29-01-2027
+
+Headline:
+National Currency Weakens Against US Dollar as Import Costs Rise
+
+News Content:
+The national currency declined by nearly 4% against the US dollar following increased demand for foreign currency and rising import expenses. Economists stated that the weaker currency could lead to higher prices for imported goods, including electronic devices, fuel, machinery, and certain food products. Export-oriented industries may benefit from improved international competitiveness, while businesses dependent on imports are expected to face increased operating costs.
+
+Category:
+Finance
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Currency, US Dollar, Exchange Rate, Imports, Exports, Inflation
+
+Prediction:
+Imported goods are likely to become more expensive if the currency continues to weaken, contributing to higher inflation. Export-focused industries may experience improved international demand.
+
+Recommended Action:
+• Plan purchases of imported products carefully.
+• Monitor exchange rate movements before making international transactions.
+• Businesses should review import costs and adjust financial planning.
+• Diversify investments to reduce exposure to currency fluctuations.
+• Exporters may explore additional international market opportunities.
+
+Confidence Score:
+98.1%

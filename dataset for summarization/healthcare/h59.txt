@@ -1,0 +1,14 @@
+Patient Name: Eric Johnson
+Age: 47
+Gender: Male
+Report Date: 12-10-2026
+
+The patient visited the gastroenterology department with complaints of persistent difficulty swallowing solid foods, occasional difficulty swallowing liquids, frequent heartburn, regurgitation of undigested food, chest discomfort after meals, and unintended weight loss of 6 kg over the past six months. The patient reported a long-standing history of gastroesophageal reflux disease (GERD) but admitted to inconsistent treatment.
+
+Vital signs recorded during examination showed a blood pressure of **128/82 mmHg**, heart rate of **84 bpm**, temperature of **98.4°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.6 g/dL**, white blood cell count of **7,400 cells/µL**, platelet count of **292,000 cells/µL**, serum creatinine of **0.9 mg/dL**, blood urea of **18 mg/dL**, fasting blood glucose of **98 mg/dL**, HbA1c of **5.5%**, and liver function tests within normal reference ranges.
+
+Upper gastrointestinal endoscopy demonstrated an irregular ulcerated mass in the distal esophagus causing partial luminal narrowing. Biopsy confirmed **Esophageal Adenocarcinoma** arising in a background of **Barrett's Esophagus**. Contrast-enhanced CT scan of the chest and abdomen showed localized disease with regional lymph node involvement but no evidence of distant metastasis.
+
+The physician concluded that the patient has **Stage III Esophageal Adenocarcinoma** associated with long-standing Barrett's Esophagus and chronic gastroesophageal reflux disease. Progressive dysphagia, weight loss, endoscopic findings, imaging, and biopsy results confirm the diagnosis. Mild anemia is likely related to chronic disease. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a multidisciplinary oncology and upper gastrointestinal surgery team to discuss neoadjuvant chemoradiotherapy followed by surgical resection where appropriate. Nutritional support, regular oncology follow-up, and periodic imaging were recommended to monitor treatment response and improve long-term outcomes.

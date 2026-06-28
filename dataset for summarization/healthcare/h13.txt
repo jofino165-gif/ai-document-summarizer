@@ -1,0 +1,14 @@
+Patient Name: James Wilson
+Age: 37
+Gender: Male
+Report Date: 12-07-2026
+
+The patient visited the infectious disease department with complaints of high-grade fever, chills, severe body aches, headache, pain behind the eyes, nausea, and generalized weakness for the past five days. He reported multiple mosquito bites while traveling to a tropical region one week before symptom onset. He denied cough, chest pain, or shortness of breath.
+
+Vital signs recorded during examination showed a blood pressure of 110/70 mmHg, heart rate of 104 bpm, temperature of 102.6°F, respiratory rate of 20 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 14.0 g/dL, white blood cell count of 3,400 cells/µL, platelet count of 88,000 cells/µL, hematocrit of 47%, AST (SGOT) of 72 U/L, ALT (SGPT) of 68 U/L, and C-reactive protein (CRP) of 18 mg/L. Kidney function tests showed a creatinine level of 0.9 mg/dL and blood urea of 17 mg/dL, both within normal limits.
+
+Serological testing was positive for Dengue NS1 antigen, while tests for malaria and typhoid fever were negative. Chest X-ray showed no abnormalities, and abdominal ultrasound revealed mild hepatomegaly without evidence of internal bleeding or fluid accumulation.
+
+The physician concluded that the patient has Dengue Fever with thrombocytopenia. The reduced platelet count, low white blood cell count, elevated liver enzymes, and positive NS1 antigen test support the diagnosis. There was no evidence of severe dengue or organ failure at the time of examination. The patient was advised to maintain adequate hydration, get sufficient rest, avoid non-steroidal anti-inflammatory drugs (NSAIDs), monitor platelet count regularly, seek immediate medical attention if bleeding or severe abdominal pain develops, and attend follow-up evaluations until complete recovery.

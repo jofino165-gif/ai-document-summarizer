@@ -1,0 +1,14 @@
+Patient Name: Daniel Harris
+Age: 65
+Gender: Male
+Report Date: 04-07-2026
+
+The patient visited the pulmonology department with complaints of persistent cough producing thick sputum, progressive shortness of breath, wheezing, reduced exercise tolerance, and fatigue for the past six months. He has a smoking history of approximately 40 pack-years and continues to smoke despite previous medical advice. The patient also reports frequent respiratory infections during the past year.
+
+Vital signs recorded during examination showed a blood pressure of 138/84 mmHg, heart rate of 92 bpm, temperature of 98.7°F, respiratory rate of 24 breaths per minute, and oxygen saturation of 91% on room air.
+
+Laboratory investigations revealed a hemoglobin level of 15.1 g/dL, white blood cell count of 8,900 cells/µL, platelet count of 270,000 cells/µL, fasting blood glucose of 101 mg/dL, HbA1c of 5.6%, creatinine of 1.0 mg/dL, and blood urea of 19 mg/dL. Liver function tests were within normal limits.
+
+Pulmonary Function Test (Spirometry) demonstrated an FEV1 of 54% of the predicted value with an FEV1/FVC ratio of 0.58, showing only minimal improvement after bronchodilator administration. Chest X-ray revealed hyperinflated lungs without evidence of pneumonia or pleural effusion. High-resolution CT scan showed emphysematous changes predominantly in both upper lobes.
+
+The physician concluded that the patient has Chronic Obstructive Pulmonary Disease (COPD), most likely caused by long-term cigarette smoking. Reduced oxygen saturation, airflow limitation, and imaging findings indicate moderate to severe chronic lung disease. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was strongly advised to stop smoking immediately, use prescribed bronchodilator inhalers regularly, participate in pulmonary rehabilitation, receive recommended influenza and pneumococcal vaccinations, perform breathing exercises, and attend regular follow-up visits to monitor lung function and prevent disease progression.

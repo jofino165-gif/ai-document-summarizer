@@ -1,0 +1,30 @@
+News ID: 79
+Date: 08-06-2027
+
+Headline:
+Government Launches National Skill Development Program for Unemployed Youth
+
+News Content:
+The Ministry of Skill Development has launched a nationwide program aimed at training unemployed youth in vocational and technical skills. The initiative includes courses in computer programming, electrical work, digital marketing, healthcare assistance, and manufacturing skills. Officials stated that the program is designed to improve employability, bridge the skill gap in the labor market, and support industries facing workforce shortages.
+
+Category:
+Education
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Skill Development, Unemployment, Training, Vocational Skills, Employment, Youth Program
+
+Prediction:
+The skill development program is expected to improve job opportunities for unemployed youth and help industries fill skill gaps in technical and vocational sectors.
+
+Recommended Action:
+• Enroll in skill development courses that match your career interests.
+• Complete certifications to improve employability.
+• Participate in hands-on training and internship programs.
+• Update your resume with newly acquired skills.
+• Stay informed about job placement opportunities under government programs.
+
+Confidence Score:
+98.9%

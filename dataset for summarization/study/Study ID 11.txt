@@ -1,0 +1,87 @@
+Study ID: 11
+
+Topic:
+Blockchain Technology
+
+Uploaded Notes:
+Blockchain Technology is a decentralized digital ledger system that securely records transactions across multiple computers. Unlike traditional databases controlled by a central authority, blockchain stores data in blocks that are linked together using cryptographic techniques, making records transparent, secure, and difficult to modify.
+
+Each block contains transaction data, a timestamp, and the cryptographic hash of the previous block, forming a continuous chain. Once a block is added to the blockchain and verified through a consensus mechanism, its data cannot be altered without changing all subsequent blocks. This provides high security and data integrity.
+
+Blockchain networks can be classified into Public Blockchain, Private Blockchain, Consortium Blockchain, and Hybrid Blockchain. Public blockchains allow anyone to participate, while private blockchains restrict access to authorized users. Consortium blockchains are managed by a group of organizations, and hybrid blockchains combine features of both public and private networks.
+
+Blockchain is widely used in cryptocurrency, banking, supply chain management, healthcare, digital identity, voting systems, smart contracts, insurance, and asset management. Smart contracts are self-executing programs that automatically enforce agreements when predefined conditions are met.
+
+The advantages of blockchain include decentralization, transparency, enhanced security, improved traceability, reduced fraud, and faster transactions. However, challenges include scalability issues, high energy consumption in some consensus mechanisms, regulatory uncertainty, and implementation costs.
+
+Summary:
+Blockchain Technology is a decentralized digital ledger that securely records transactions using cryptographic methods. It improves transparency, security, and data integrity while supporting applications such as cryptocurrency, smart contracts, supply chain management, healthcare, and digital identity systems.
+
+Study Notes:
+Definition:
+Blockchain Technology is a decentralized digital ledger that records and verifies transactions securely across multiple computers.
+
+Main Concepts:
+• Distributed Ledger
+• Blocks
+• Cryptographic Hash
+• Consensus Mechanism
+• Decentralization
+• Smart Contracts
+
+Types of Blockchain:
+• Public Blockchain
+• Private Blockchain
+• Consortium Blockchain
+• Hybrid Blockchain
+
+Applications:
+• Cryptocurrency
+• Banking
+• Supply Chain Management
+• Healthcare
+• Digital Identity
+• Voting Systems
+• Insurance
+
+Advantages:
+• High Security
+• Transparency
+• Data Integrity
+• Decentralization
+• Reduced Fraud
+• Improved Traceability
+
+Challenges:
+• Scalability
+• Energy Consumption
+• Regulatory Issues
+• High Implementation Cost
+
+Conclusion:
+Blockchain Technology provides a secure and transparent method for recording digital transactions, making it valuable for industries that require trust, security, and decentralized data management.
+
+Important Keywords:
+Blockchain
+Distributed Ledger
+Cryptographic Hash
+Smart Contract
+Consensus Mechanism
+Decentralization
+Cryptocurrency
+Digital Ledger
+Transparency
+Data Integrity
+
+Reference Websites:
+• Ethereum
+• Hyperledger
+• IBM Blockchain
+• Microsoft Learn
+• Coursera
+• Binance Academy
+• ConsenSys
+• Blockchain Council
+
+Confidence Score:
+99.3%

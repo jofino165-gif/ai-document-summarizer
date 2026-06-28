@@ -1,0 +1,30 @@
+News ID: 83
+Date: 16-06-2027
+
+Headline:
+National Cybersecurity Agency Launches Awareness Campaign Against AI-Powered Scams
+
+News Content:
+The National Cybersecurity Agency has launched a nationwide awareness campaign to educate citizens about rising AI-powered scams, including deepfake videos, voice cloning fraud, and automated phishing attacks. Officials stated that cybercriminals are increasingly using advanced artificial intelligence tools to impersonate individuals and deceive users into sharing personal or financial information. The campaign aims to improve digital literacy and reduce online fraud incidents.
+
+Category:
+Cybersecurity
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Cybersecurity, AI Scams, Deepfake, Phishing, Voice Cloning, Online Fraud
+
+Prediction:
+AI-powered cyber fraud attempts are expected to increase, making users more vulnerable to sophisticated scams unless strong digital safety practices are followed.
+
+Recommended Action:
+• Verify identities before sharing sensitive information online or over phone calls.
+• Be cautious of unexpected messages, videos, or voice calls requesting money or data.
+• Use multi-factor authentication for all important accounts.
+• Stay informed about common cyber fraud techniques and warning signs.
+• Report suspicious activity to cybersecurity authorities or service providers immediately.
+
+Confidence Score:
+99.1%

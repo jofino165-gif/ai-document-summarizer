@@ -1,0 +1,14 @@
+Patient Name: Sarah Williams
+Age: 28
+Gender: Female
+Report Date: 20-06-2026
+
+The patient visited the hospital for an annual health check-up and reported persistent tiredness, occasional dizziness, reduced energy levels, and difficulty concentrating over the past two months. She denied chest pain, shortness of breath, fever, or significant weight changes. Her dietary history revealed irregular meal patterns and low intake of iron-rich foods.
+
+Vital signs recorded during examination showed a blood pressure of 112/72 mmHg, heart rate of 78 bpm, temperature of 98.2°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 9.4 g/dL, red blood cell count of 3.5 million cells/µL, hematocrit of 30%, mean corpuscular volume (MCV) of 72 fL, white blood cell count of 6,800 cells/µL, and platelet count of 310,000 cells/µL.
+
+Iron studies showed a serum iron level of 28 µg/dL, ferritin level of 10 ng/mL, and total iron-binding capacity (TIBC) of 435 µg/dL. Fasting blood glucose was 89 mg/dL and HbA1c was 5.2%. Kidney function tests, including creatinine (0.8 mg/dL) and blood urea (16 mg/dL), were within normal limits. Liver function tests were also normal.
+
+The physician observed that the patient had reduced hemoglobin, low ferritin, low serum iron, and microcytic hypochromic red blood cells, findings that are consistent with iron deficiency. Blood sugar, kidney function, liver function, blood pressure, and oxygen saturation were within normal limits. The patient was advised to improve dietary iron intake, include green leafy vegetables, beans, nuts, and iron-fortified foods, and attend regular follow-up evaluations with repeat blood tests to monitor improvement.

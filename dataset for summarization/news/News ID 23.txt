@@ -1,0 +1,30 @@
+News ID: 23
+Date: 16-02-2027
+
+Headline:
+Cooking Gas Cylinder Prices Increased Due to Rising Global Energy Costs
+
+News Content:
+The national oil and gas authority has announced an increase in domestic cooking gas (LPG) cylinder prices following a rise in international energy costs and transportation expenses. The revised prices will take effect immediately across the country. Energy experts stated that the increase may affect household budgets, restaurants, and small businesses that rely heavily on LPG. Economists also warned that higher fuel costs could contribute to a slight increase in overall inflation.
+
+Category:
+Economy
+
+Sentiment:
+Negative
+
+Detected Keywords:
+LPG, Cooking Gas, Fuel Price, Household Expenses, Inflation, Energy
+
+Prediction:
+Cooking gas prices are expected to remain elevated in the coming months if global energy prices continue to rise, increasing household and commercial operating costs.
+
+Recommended Action:
+• Use cooking gas efficiently to reduce monthly consumption.
+• Plan household expenses to accommodate higher fuel costs.
+• Check for government subsidy programs if eligible.
+• Restaurants and small businesses should optimize fuel usage to manage operating expenses.
+• Monitor future energy price announcements for additional changes.
+
+Confidence Score:
+98.7%

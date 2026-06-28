@@ -1,0 +1,14 @@
+Patient Name: Susan Walker
+Age: 53
+Gender: Female
+Report Date: 15-08-2026
+
+The patient visited the pulmonology department with complaints of persistent cough, occasional coughing up of blood, unexplained weight loss of approximately 7 kg over the past three months, night sweats, intermittent fever, fatigue, and reduced appetite. She reported close contact with a family member who had been treated for pulmonary tuberculosis one year earlier. The patient has no history of smoking or chronic lung disease.
+
+Vital signs recorded during examination showed a blood pressure of 120/78 mmHg, heart rate of 96 bpm, temperature of 100.8°F, respiratory rate of 22 breaths per minute, and oxygen saturation of 95%.
+
+Laboratory investigations revealed a hemoglobin level of 11.9 g/dL, white blood cell count of 9,200 cells/µL, platelet count of 318,000 cells/µL, erythrocyte sedimentation rate (ESR) of 72 mm/hr, and C-reactive protein (CRP) of 38 mg/L. Kidney function tests demonstrated a creatinine level of 0.9 mg/dL and blood urea of 17 mg/dL, both within normal limits. Liver function tests, fasting blood glucose, and HbA1c were also within normal reference ranges.
+
+Chest X-ray revealed cavitary lesions in the upper lobe of the right lung. Sputum smear microscopy was positive for acid-fast bacilli (AFB), and nucleic acid amplification testing confirmed **Mycobacterium tuberculosis** infection. Chest CT scan demonstrated multiple areas of consolidation and cavitation without pleural effusion.
+
+The physician concluded that the patient has **Active Pulmonary Tuberculosis (TB)**. Persistent cough, weight loss, fever, night sweats, positive sputum examination, and characteristic imaging findings confirm the diagnosis. Mild anemia is likely related to chronic infection. Kidney function, liver function, and blood glucose levels remain normal. The patient was advised to begin a full course of anti-tuberculosis therapy under medical supervision, maintain proper nutrition and hydration, follow infection-control measures to prevent disease transmission, attend regular follow-up visits for sputum monitoring, and complete the entire treatment course to ensure full recovery and reduce the risk of drug resistance.

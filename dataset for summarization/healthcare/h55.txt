@@ -1,0 +1,14 @@
+Patient Name: Anthony Miller
+Age: 50
+Gender: Male
+Report Date: 04-10-2026
+
+The patient visited the hepatology department with complaints of progressive abdominal swelling, yellow discoloration of the eyes, fatigue, loss of appetite, easy bruising, swelling of both legs, and occasional confusion over the past four months. He has a history of chronic Hepatitis B infection diagnosed 15 years ago but admitted to irregular follow-up and poor medication adherence. The patient denied alcohol consumption.
+
+Vital signs recorded during examination showed a blood pressure of **110/70 mmHg**, heart rate of **96 bpm**, temperature of **98.7°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **97%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.2 g/dL**, white blood cell count of **5,800 cells/µL**, platelet count of **96,000 cells/µL**, total bilirubin of **4.8 mg/dL**, direct bilirubin of **3.1 mg/dL**, ALT (SGPT) of **118 U/L**, AST (SGOT) of **142 U/L**, serum albumin of **2.6 g/dL**, International Normalized Ratio (INR) of **1.9**, serum creatinine of **1.3 mg/dL**, and blood urea of **26 mg/dL**.
+
+Hepatitis B surface antigen (HBsAg) and Hepatitis B virus (HBV) DNA testing remained positive with a high viral load. Abdominal ultrasound demonstrated a shrunken nodular liver, moderate ascites, and splenomegaly. Upper gastrointestinal endoscopy identified **Grade II esophageal varices** without active bleeding.
+
+The physician concluded that the patient has **Decompensated Liver Cirrhosis secondary to Chronic Hepatitis B Infection**. Laboratory abnormalities, imaging findings, portal hypertension, ascites, and esophageal varices indicate advanced chronic liver disease. Mild kidney impairment is also present. The patient was advised to continue antiviral therapy under specialist supervision, follow a low-sodium diet, restrict fluid intake if recommended, take prescribed medications for portal hypertension and ascites, undergo regular liver function monitoring, receive surveillance for hepatocellular carcinoma, and discuss liver transplantation evaluation due to advanced liver disease.

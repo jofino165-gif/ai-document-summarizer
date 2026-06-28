@@ -1,0 +1,14 @@
+Patient Name: David Anderson
+Age: 61
+Gender: Male
+Report Date: 06-09-2026
+
+The patient visited the neurology department with complaints of progressive memory loss, difficulty remembering recent events, confusion, poor concentration, misplacing personal belongings, and difficulty performing familiar daily tasks over the past 18 months. Family members reported noticeable personality changes, reduced social interaction, and occasional disorientation while traveling to familiar places. The patient has a medical history of controlled hypertension but no previous history of stroke or traumatic brain injury.
+
+Vital signs recorded during examination showed a blood pressure of 130/82 mmHg, heart rate of 76 bpm, temperature of 98.4°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 13.9 g/dL, white blood cell count of 6,700 cells/µL, platelet count of 275,000 cells/µL, fasting blood glucose of 97 mg/dL, HbA1c of 5.4%, serum creatinine of 0.9 mg/dL, blood urea of 18 mg/dL, vitamin B12 of 510 pg/mL, and thyroid function tests within normal reference ranges.
+
+Magnetic Resonance Imaging (MRI) of the brain demonstrated generalized cerebral atrophy with prominent hippocampal volume loss. Mini-Mental State Examination (MMSE) score was 20 out of 30, indicating moderate cognitive impairment. There was no evidence of acute stroke, brain tumor, or intracranial hemorrhage.
+
+The physician concluded that the patient has **Alzheimer's Disease (Moderate Stage Dementia)**. Progressive cognitive decline, impaired memory, reduced MMSE score, and characteristic MRI findings support the diagnosis. Laboratory investigations excluded reversible causes such as vitamin B12 deficiency and thyroid dysfunction. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to begin cognitive-enhancing medication as prescribed, participate in memory-support and cognitive rehabilitation programs, maintain regular physical and social activities, ensure a safe home environment, attend routine neurology follow-up visits, and involve family members in long-term care planning and disease management.

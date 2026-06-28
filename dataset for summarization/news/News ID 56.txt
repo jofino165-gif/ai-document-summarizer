@@ -1,0 +1,30 @@
+News ID: 56
+Date: 23-04-2027
+
+Headline:
+Heavy Rain Damages Tomato Crops, Prices Expected to Rise in Local Markets
+
+News Content:
+The Ministry of Agriculture reported that continuous heavy rainfall over the past two weeks has damaged tomato crops in several major farming regions. Farmers experienced significant crop losses due to waterlogging and plant diseases. Wholesale traders stated that the reduced supply has already led to higher tomato prices in regional markets. Agricultural economists predict that retail prices may continue to increase until fresh harvests restore normal supply levels.
+
+Category:
+Agriculture
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Tomato Crop, Heavy Rain, Agriculture, Crop Damage, Tomato Prices, Food Supply
+
+Prediction:
+Tomato prices are expected to remain high over the next several weeks due to reduced supply. Restaurants, food businesses, and households may experience higher grocery expenses until market availability improves.
+
+Recommended Action:
+• Plan grocery purchases and avoid unnecessary food waste.
+• Consider seasonal alternatives if tomato prices increase significantly.
+• Restaurants should review menu planning and inventory management.
+• Farmers should adopt improved drainage and crop protection measures where possible.
+• Stay informed about agricultural updates and local market price trends.
+
+Confidence Score:
+98.9%

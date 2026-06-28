@@ -1,0 +1,92 @@
+Study ID: 32
+
+Topic:
+Java Programming
+
+Uploaded Notes:
+Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It is designed to be platform-independent using the principle "Write Once, Run Anywhere" (WORA), which allows Java programs to run on any system that has a Java Virtual Machine (JVM). Java is widely used for enterprise applications, Android development, web applications, cloud computing, and distributed systems.
+
+Java follows object-oriented programming (OOP) principles such as encapsulation, inheritance, polymorphism, and abstraction. A Java program consists of classes and objects, where classes define the structure and objects represent real-world entities. Java also supports exception handling, multithreading, file handling, collections, and database connectivity.
+
+The Java platform consists of the Java Development Kit (JDK), Java Runtime Environment (JRE), and Java Virtual Machine (JVM). The JDK provides tools for developing Java applications, the JRE provides the runtime environment, and the JVM executes Java bytecode.
+
+Popular Java frameworks include Spring Boot, Spring MVC, Hibernate, JavaServer Faces (JSF), and Apache Struts. These frameworks simplify enterprise application development by providing reusable components and efficient architecture.
+
+Java is widely used in banking, healthcare, education, e-commerce, enterprise software, cloud services, Android mobile applications, and financial systems due to its security, reliability, and scalability.
+
+The advantages of Java include platform independence, strong security, automatic memory management through garbage collection, object-oriented design, and extensive libraries. Challenges include higher memory consumption, slower execution compared to some compiled languages, and more verbose syntax.
+
+Summary:
+Java is a platform-independent, object-oriented programming language used for enterprise software, Android applications, cloud computing, and web development. Its portability, security, and scalability make it one of the most widely used programming languages.
+
+Study Notes:
+Definition:
+Java is a high-level, object-oriented programming language that runs on the Java Virtual Machine (JVM).
+
+Main Concepts:
+• Classes and Objects
+• Encapsulation
+• Inheritance
+• Polymorphism
+• Abstraction
+• Exception Handling
+
+Java Platform Components:
+• JDK
+• JRE
+• JVM
+
+Popular Frameworks:
+• Spring Boot
+• Spring MVC
+• Hibernate
+• JSF
+• Apache Struts
+
+Applications:
+• Enterprise Applications
+• Android Development
+• Banking Systems
+• Healthcare
+• E-commerce
+• Cloud Computing
+
+Advantages:
+• Platform Independence
+• Strong Security
+• Object-Oriented Design
+• Automatic Garbage Collection
+• Large Developer Community
+
+Challenges:
+• Higher Memory Usage
+• Slower Performance than Some Languages
+• Verbose Syntax
+
+Conclusion:
+Java is a robust and versatile programming language that supports secure, scalable, and platform-independent application development across multiple industries.
+
+Important Keywords:
+Java
+JDK
+JRE
+JVM
+Object-Oriented Programming
+Spring Boot
+Hibernate
+Garbage Collection
+Class
+Object
+
+Reference Websites:
+• Oracle Java Documentation
+• OpenJDK
+• Spring Documentation
+• Oracle Learning
+• W3Schools Java
+• GeeksforGeeks
+• Coursera
+• Programiz
+
+Confidence Score:
+99.4%

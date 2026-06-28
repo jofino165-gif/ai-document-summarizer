@@ -1,0 +1,14 @@
+Patient Name: Robert Jenkins
+Age: 71
+Gender: Male
+Report Date: 01-12-2026
+
+The patient visited the urology department with complaints of painless blood in the urine, increased urinary frequency, urgency, burning during urination, lower abdominal discomfort, and an unintended weight loss of 6 kg over the past three months. He has a smoking history of 45 pack-years and worked in the textile dye industry for over 30 years with prolonged exposure to industrial chemicals.
+
+Vital signs recorded during examination showed a blood pressure of **138/84 mmHg**, heart rate of **86 bpm**, temperature of **98.6°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **97%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.5 g/dL**, white blood cell count of **7,600 cells/µL**, platelet count of **308,000 cells/µL**, serum creatinine of **1.1 mg/dL**, blood urea of **22 mg/dL**, fasting blood glucose of **98 mg/dL**, HbA1c of **5.5%**, and liver function tests within normal reference ranges. Urinalysis confirmed **gross hematuria** without evidence of urinary tract infection.
+
+CT urography demonstrated a **4.1 cm irregular mass** arising from the lateral wall of the urinary bladder without distant metastasis. Cystoscopy with transurethral biopsy confirmed **High-Grade Urothelial Carcinoma (Transitional Cell Carcinoma)** invading the muscular layer of the bladder wall. Pelvic lymph nodes were mildly enlarged on imaging.
+
+The physician concluded that the patient has **Muscle-Invasive High-Grade Urothelial Carcinoma of the Urinary Bladder**. Persistent painless hematuria, imaging findings, cystoscopic biopsy, and significant smoking and occupational exposure history confirm the diagnosis. Mild anemia is likely associated with chronic blood loss. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a multidisciplinary urology and oncology team to discuss radical cystectomy, chemotherapy, and bladder-preserving treatment options where appropriate. Smoking cessation, nutritional support, and regular oncology follow-up were strongly recommended to improve treatment outcomes and monitor for disease progression.

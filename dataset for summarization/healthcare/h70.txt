@@ -1,0 +1,14 @@
+Patient Name: William Parker
+Age: 62
+Gender: Male
+Report Date: 03-11-2026
+
+The patient visited the cardiology department with complaints of sudden palpitations, dizziness, shortness of breath, fatigue, and intermittent chest discomfort over the past two weeks. He reported several episodes of rapid, irregular heartbeat lasting from a few minutes to several hours. The patient has a medical history of hypertension, obesity, obstructive sleep apnea, and excessive alcohol consumption on weekends.
+
+Vital signs recorded during examination showed a blood pressure of **148/92 mmHg**, heart rate of **138 bpm** with an irregularly irregular rhythm, temperature of **98.4°F**, respiratory rate of **20 breaths per minute**, and oxygen saturation of **97%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.8 g/dL**, white blood cell count of **7,200 cells/µL**, platelet count of **286,000 cells/µL**, serum creatinine of **1.0 mg/dL**, blood urea of **19 mg/dL**, fasting blood glucose of **118 mg/dL**, HbA1c of **6.1%**, total cholesterol of **236 mg/dL**, LDL cholesterol of **158 mg/dL**, HDL cholesterol of **41 mg/dL**, triglycerides of **212 mg/dL**, and thyroid function tests within normal reference ranges.
+
+Electrocardiogram (ECG) demonstrated **Atrial Fibrillation with Rapid Ventricular Response (AF with RVR)**. Transthoracic echocardiography revealed mild left atrial enlargement with a preserved left ventricular ejection fraction of **56%** and no significant valvular heart disease. Cardiac troponin levels were within normal limits, excluding acute myocardial infarction.
+
+The physician concluded that the patient has **Atrial Fibrillation with Rapid Ventricular Response**, likely associated with long-standing hypertension, obesity, and obstructive sleep apnea. The irregular heart rhythm significantly increases the risk of stroke if left untreated. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to begin rate or rhythm control therapy and anticoagulation as clinically indicated, reduce alcohol consumption, achieve better blood pressure and weight control, continue treatment for sleep apnea, attend regular cardiology follow-up visits, and seek immediate medical attention if symptoms worsen or signs of stroke develop.

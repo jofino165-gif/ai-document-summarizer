@@ -1,0 +1,14 @@
+Patient Name: Olivia Hernandez
+Age: 27
+Gender: Female
+Report Date: 23-08-2026
+
+The patient visited the hematology department with complaints of persistent fatigue, frequent nosebleeds, easy bruising, bleeding gums, and small red spots on the skin over the past three weeks. She denied any recent injury, fever, weight loss, or family history of bleeding disorders. The patient had recently recovered from a viral respiratory infection approximately one month before the onset of symptoms.
+
+Vital signs recorded during examination showed a blood pressure of 116/74 mmHg, heart rate of 82 bpm, temperature of 98.4°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 12.9 g/dL, white blood cell count of 6,700 cells/µL, and a platelet count of **24,000 cells/µL**, which is significantly below the normal reference range. Prothrombin Time (PT), Activated Partial Thromboplastin Time (aPTT), liver function tests, kidney function tests, fasting blood glucose, and HbA1c were all within normal limits.
+
+Peripheral blood smear demonstrated markedly reduced platelets with otherwise normal red and white blood cell morphology. Bone marrow aspiration showed increased megakaryocytes without evidence of leukemia or bone marrow failure. Autoimmune screening was negative.
+
+The physician concluded that the patient has **Immune Thrombocytopenia (ITP)**, an autoimmune condition characterized by isolated thrombocytopenia resulting from increased platelet destruction. Severe thrombocytopenia explains the patient's easy bruising, mucosal bleeding, and petechiae. There was no evidence of leukemia, coagulation disorders, liver disease, or kidney disease. The patient was advised to begin corticosteroid therapy as prescribed, avoid medications that increase bleeding risk, refrain from contact sports or activities with a high risk of injury, monitor platelet counts regularly, and attend routine hematology follow-up visits to evaluate treatment response and prevent serious bleeding complications.

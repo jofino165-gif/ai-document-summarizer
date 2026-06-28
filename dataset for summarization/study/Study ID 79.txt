@@ -1,0 +1,95 @@
+Study ID: 79
+
+Topic:
+Data Structures
+
+Uploaded Notes:
+Data Structures are ways of organizing, storing, and managing data efficiently so that it can be accessed and modified effectively. They are fundamental to computer science and play a key role in algorithm design and problem-solving.
+
+Data structures are classified into two main types: linear and non-linear. Linear data structures include arrays, linked lists, stacks, and queues, where elements are arranged sequentially. Non-linear data structures include trees and graphs, where elements are connected in hierarchical or network form.
+
+Common data structures include arrays, linked lists (singly, doubly, circular), stacks (LIFO), queues (FIFO), trees (binary tree, binary search tree, AVL tree, heap), and graphs (directed, undirected, weighted).
+
+Each data structure has specific operations such as insertion, deletion, traversal, searching, and sorting. The efficiency of these operations is measured using time complexity and space complexity.
+
+Data structures are widely used in operating systems, database systems, compilers, artificial intelligence, networking, and software development.
+
+The advantages of using data structures include efficient data management, faster processing, optimized memory usage, and improved algorithm performance. Challenges include choosing the right structure, complexity of implementation, and memory overhead.
+
+Summary:
+Data Structures are methods of organizing and storing data efficiently to enable fast access and manipulation in computer programs.
+
+Study Notes:
+Definition:
+Data Structures are ways of organizing and storing data for efficient processing.
+
+Main Concepts:
+• Linear Data Structures
+• Non-Linear Data Structures
+• Arrays
+• Linked Lists
+• Stacks
+• Queues
+• Trees
+• Graphs
+
+Operations:
+• Insertion
+• Deletion
+• Traversal
+• Searching
+• Sorting
+
+Types:
+• Array
+• Stack
+• Queue
+• Linked List
+• Tree
+• Graph
+
+Applications:
+• Operating Systems
+• Database Systems
+• AI & ML
+• Compilers
+• Networking
+
+Advantages:
+• Efficient Data Access
+• Better Memory Management
+• Faster Processing
+• Algorithm Optimization
+
+Challenges:
+• Complexity
+• Memory Overhead
+• Selection Difficulty
+
+Conclusion:
+Data Structures are essential for efficient programming and form the backbone of algorithm design and system performance.
+
+Important Keywords:
+Data Structures
+Array
+Linked List
+Stack
+Queue
+Tree
+Graph
+Traversal
+Algorithm
+Complexity
+
+Reference Websites:
+• GeeksforGeeks
+• HackerRank
+• LeetCode
+• Coursera
+• Microsoft Learn
+• MIT OpenCourseWare
+• Tutorialspoint
+• Programiz
+
+Confidence Score:
+99.8%

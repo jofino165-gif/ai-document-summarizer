@@ -1,0 +1,30 @@
+News ID: 11
+Date: 23-01-2027
+
+Headline:
+Rice Production Falls Due to Drought, Food Prices Expected to Increase
+
+News Content:
+The Ministry of Agriculture reported a significant decline in rice production following an extended period of drought across major farming regions. Crop yields have fallen by nearly 15% compared to last year, leading to concerns about food supply and rising market prices. Agricultural experts warned that if dry weather continues, the shortage could affect food security and increase inflation. The government is considering measures to stabilize the market and support farmers.
+
+Category:
+Economy
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Rice Production, Drought, Agriculture, Food Prices, Inflation, Crop Yield
+
+Prediction:
+Rice prices are likely to increase over the coming months due to reduced production and limited market supply, which may also contribute to higher food inflation.
+
+Recommended Action:
+• Plan your monthly grocery budget carefully.
+• Avoid unnecessary food waste and store rice properly.
+• Consider purchasing essential food items before further price increases.
+• Farmers should adopt water-efficient irrigation methods where possible.
+• Stay informed about government support schemes and food price updates.
+
+Confidence Score:
+98.2%

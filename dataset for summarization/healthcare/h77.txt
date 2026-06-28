@@ -1,0 +1,14 @@
+Patient Name: Sophia Carter
+Age: 29
+Gender: Female
+Report Date: 17-11-2026
+
+The patient visited the endocrinology department with complaints of unexplained weight gain, persistent fatigue, swelling of the face, dry skin, constipation, sensitivity to cold, slowed thinking, hair loss, and irregular menstrual cycles over the past eight months. She has a family history of autoimmune thyroid disease.
+
+Vital signs recorded during examination showed a blood pressure of **118/76 mmHg**, heart rate of **58 bpm**, temperature of **98.2°F**, respiratory rate of **16 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.9 g/dL**, white blood cell count of **6,700 cells/µL**, platelet count of **285,000 cells/µL**, serum creatinine of **0.8 mg/dL**, blood urea of **16 mg/dL**, fasting blood glucose of **90 mg/dL**, HbA1c of **5.2%**, total cholesterol of **238 mg/dL**, LDL cholesterol of **162 mg/dL**, and liver function tests within normal reference ranges.
+
+Thyroid function tests demonstrated a **Thyroid Stimulating Hormone (TSH)** level of **18.6 mIU/L** (elevated) and a **Free T4** level of **0.5 ng/dL** (reduced). Autoimmune testing revealed strongly positive **anti-thyroid peroxidase (Anti-TPO) antibodies**. Thyroid ultrasound showed a diffusely enlarged gland with heterogeneous echotexture, consistent with chronic autoimmune thyroiditis.
+
+The physician concluded that the patient has **Primary Hypothyroidism due to Hashimoto's Thyroiditis**. Clinical symptoms, elevated TSH, reduced Free T4, positive Anti-TPO antibodies, and ultrasound findings confirm the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to begin lifelong **levothyroxine replacement therapy**, undergo periodic thyroid function monitoring to adjust medication dosage, maintain regular endocrinology follow-up visits, adopt a balanced diet, and seek medical attention if symptoms worsen or new endocrine-related problems develop.

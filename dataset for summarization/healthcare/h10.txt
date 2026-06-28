@@ -1,0 +1,14 @@
+Patient Name: Sophia Miller
+Age: 39
+Gender: Female
+Report Date: 06-07-2026
+
+The patient visited the general medicine department for a routine annual health examination. She reported no major health complaints except occasional tiredness after prolonged working hours. She maintains a balanced diet, exercises five days a week, sleeps approximately seven to eight hours each night, does not smoke, and consumes alcohol only occasionally. There is no significant past medical history of diabetes, hypertension, cardiovascular disease, kidney disease, or thyroid disorders. Family medical history is unremarkable.
+
+Vital signs recorded during examination showed a blood pressure of 118/76 mmHg, heart rate of 72 bpm, temperature of 98.4°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 13.7 g/dL, white blood cell count of 6,700 cells/µL, platelet count of 285,000 cells/µL, fasting blood glucose of 92 mg/dL, postprandial blood glucose of 118 mg/dL, and HbA1c of 5.3%.
+
+The lipid profile showed total cholesterol of 176 mg/dL, LDL cholesterol of 98 mg/dL, HDL cholesterol of 62 mg/dL, and triglycerides of 108 mg/dL. Kidney function tests demonstrated a creatinine level of 0.8 mg/dL and blood urea of 15 mg/dL, both within normal limits. Liver function tests showed ALT (SGPT) of 24 U/L and AST (SGOT) of 22 U/L, which were also within normal reference ranges. Thyroid function tests revealed a TSH level of 2.4 mIU/L and Free T4 of 1.2 ng/dL, indicating normal thyroid function.
+
+The physician concluded that all clinical findings and laboratory investigations were within normal reference limits. There was no evidence of diabetes, hypertension, anemia, kidney disease, liver disease, thyroid dysfunction, or cardiovascular abnormalities. The patient was advised to continue her healthy lifestyle by maintaining a balanced diet, engaging in regular physical activity, managing stress effectively, attending annual health check-ups, and following preventive healthcare recommendations to maintain good overall health.

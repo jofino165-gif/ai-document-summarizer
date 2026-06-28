@@ -1,0 +1,30 @@
+News ID: 30
+Date: 02-03-2027
+
+Headline:
+International Crude Oil Prices Surge Following Global Supply Disruptions
+
+News Content:
+International crude oil prices increased by nearly 11% this week after unexpected supply disruptions in major oil-producing regions. Energy analysts stated that reduced exports and growing global demand have placed upward pressure on fuel markets. Economists warned that prolonged increases in crude oil prices could lead to higher petrol and diesel prices, increased transportation costs, and rising inflation. Manufacturing industries that rely heavily on fuel are also expected to experience higher operating expenses.
+
+Category:
+Energy
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Crude Oil, Global Supply, Fuel Prices, Inflation, Transportation, Energy Market
+
+Prediction:
+If global crude oil prices continue to rise, domestic fuel prices are likely to increase, leading to higher transportation costs, increased prices of essential goods, and greater inflationary pressure.
+
+Recommended Action:
+• Reduce unnecessary fuel consumption and plan travel efficiently.
+• Monitor fuel price announcements and adjust your monthly budget.
+• Businesses should review transportation and logistics expenses.
+• Consider using public transportation or carpooling to reduce fuel costs.
+• Stay informed about developments in the global energy market and government fuel policies.
+
+Confidence Score:
+98.9%

@@ -1,0 +1,30 @@
+News ID: 16
+Date: 02-02-2027
+
+Headline:
+Air Pollution Reaches Hazardous Levels in Major Cities, Health Advisory Issued
+
+News Content:
+The National Environmental Monitoring Agency reported that the Air Quality Index (AQI) exceeded hazardous levels in several major cities due to increased vehicle emissions, industrial pollution, and stagnant weather conditions. Hospitals have recorded a rise in patients with breathing difficulties, asthma attacks, and eye irritation. Health officials advised residents, especially children, older adults, and individuals with respiratory diseases, to limit outdoor activities until air quality improves.
+
+Category:
+Environment
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Air Pollution, AQI, Smog, Respiratory Disease, Environment, Public Health
+
+Prediction:
+Poor air quality is likely to continue over the next several days, increasing the risk of respiratory illnesses and reducing outdoor activity in affected regions.
+
+Recommended Action:
+• Wear a high-quality face mask (such as an N95 mask) when outdoors.
+• Avoid strenuous outdoor exercise during periods of poor air quality.
+• Keep windows closed and use air purifiers indoors if available.
+• Individuals with asthma or other respiratory conditions should carry prescribed medications.
+• Follow official AQI updates and limit outdoor exposure until pollution levels decrease.
+
+Confidence Score:
+98.8%

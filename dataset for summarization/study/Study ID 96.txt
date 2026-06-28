@@ -1,0 +1,93 @@
+Study ID: 96
+
+Topic:
+Artificial Intelligence (AI)
+
+Uploaded Notes:
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
+
+AI systems are designed to simulate human intelligence using algorithms, data, and computational models. The main goal of AI is to build machines that can think, learn, and make decisions intelligently.
+
+AI can be classified into three types: Narrow AI (Weak AI), General AI (Strong AI), and Super AI. Narrow AI is designed for specific tasks like recommendation systems and voice assistants. General AI refers to machines with human-level intelligence, while Super AI is a hypothetical concept that surpasses human intelligence.
+
+Key areas of AI include machine learning, deep learning, natural language processing, computer vision, robotics, and expert systems.
+
+AI development involves data collection, preprocessing, model training, evaluation, and deployment. Machine learning plays a major role in enabling AI systems to learn from data.
+
+AI is widely used in healthcare, finance, transportation, education, gaming, cybersecurity, and e-commerce.
+
+The advantages of AI include automation, improved efficiency, accuracy, 24/7 availability, and better decision-making. Challenges include ethical concerns, bias, high computation cost, job displacement, and lack of transparency.
+
+Summary:
+Artificial Intelligence enables machines to perform intelligent tasks such as learning, reasoning, and decision-making using data and algorithms.
+
+Study Notes:
+Definition:
+Artificial Intelligence is the simulation of human intelligence in machines.
+
+Main Concepts:
+• Machine Learning
+• Deep Learning
+• NLP
+• Computer Vision
+• Robotics
+• Expert Systems
+
+Types of AI:
+• Narrow AI
+• General AI
+• Super AI
+
+AI Lifecycle:
+• Data Collection
+• Data Preprocessing
+• Model Training
+• Evaluation
+• Deployment
+
+Applications:
+• Healthcare
+• Finance
+• Robotics
+• E-commerce
+• Cybersecurity
+
+Advantages:
+• Automation
+• High Efficiency
+• Accuracy
+• Continuous Operation
+
+Challenges:
+• Ethical Issues
+• Bias
+• High Cost
+• Job Displacement
+
+Conclusion:
+AI enables machines to simulate human intelligence and perform complex tasks across various industries.
+
+Important Keywords:
+Artificial Intelligence
+Machine Learning
+Deep Learning
+NLP
+Computer Vision
+Neural Networks
+Automation
+Robotics
+Super AI
+Data Models
+
+Reference Websites:
+• OpenAI Documentation
+• Google AI
+• IBM AI Resources
+• Microsoft AI Learn
+• Coursera AI Courses
+• GeeksforGeeks
+• DeepLearning.AI
+• Stanford AI Lab
+
+Confidence Score:
+99.9%

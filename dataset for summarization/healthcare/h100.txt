@@ -1,0 +1,14 @@
+Patient Name: Christopher Young
+Age: 63
+Gender: Male
+Report Date: 02-01-2027
+
+The patient visited the neurology department with complaints of progressive memory loss, difficulty performing familiar daily activities, confusion regarding time and place, poor concentration, misplacing personal belongings, and noticeable personality changes over the past two years. Family members reported increasing dependence on assistance for routine tasks and frequent repetition of questions. There was a family history of dementia in the patient's mother.
+
+Vital signs recorded during examination showed a blood pressure of **132/80 mmHg**, heart rate of **76 bpm**, temperature of **98.4°F**, respiratory rate of **16 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.5 g/dL**, white blood cell count of **6,900 cells/µL**, platelet count of **284,000 cells/µL**, serum creatinine of **0.9 mg/dL**, blood urea of **18 mg/dL**, fasting blood glucose of **94 mg/dL**, HbA1c of **5.4%**, vitamin B12 level of **486 pg/mL**, thyroid function tests within normal reference ranges, and liver function tests within normal limits.
+
+Magnetic Resonance Imaging (MRI) of the brain demonstrated **generalized cerebral atrophy**, most prominent in the **hippocampal and medial temporal lobe regions**, without evidence of stroke or intracranial mass. Neuropsychological assessment revealed significant impairment in memory, executive function, language, and visuospatial abilities. The patient's **Mini-Mental State Examination (MMSE)** score was **18/30**, indicating moderate cognitive impairment.
+
+The physician concluded that the patient has **Alzheimer's Disease (Moderate Stage)**. Progressive cognitive decline, characteristic MRI findings, neuropsychological assessment, and exclusion of reversible causes of dementia strongly support the diagnosis. Kidney function, liver function, thyroid function, vitamin B12 levels, and blood glucose remain within normal limits. The patient was advised to begin cognitive-enhancing medication as prescribed, participate in cognitive rehabilitation and memory-supportive activities, maintain regular physical exercise and a balanced diet, ensure a safe home environment with caregiver support, attend routine neurology follow-up visits, and undergo periodic cognitive assessments to monitor disease progression and treatment response.

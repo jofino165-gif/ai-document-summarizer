@@ -1,0 +1,34 @@
+Study ID: 1
+
+Topic:
+Artificial Intelligence
+
+Uploaded Notes:
+(Long AI notes...)
+
+Summary:
+Artificial Intelligence enables machines to perform tasks such as learning, reasoning, and decision-making. AI is widely used in healthcare, education, finance, and agriculture.
+
+Study Notes:
+• Definition
+• Types of AI
+• Applications
+• Advantages
+• Challenges
+• Future Scope
+
+Important Keywords:
+Artificial Intelligence
+Machine Learning
+Deep Learning
+Neural Networks
+Automation
+NLP
+Computer Vision
+
+Reference Websites:
+• OpenAI
+• Google AI
+• Microsoft Learn
+• IBM AI
+• Coursera

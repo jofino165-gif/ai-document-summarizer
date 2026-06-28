@@ -1,0 +1,30 @@
+News ID: 90
+Date: 30-06-2027
+
+Headline:
+Government Announces Nationwide Battery Recycling Program to Support Clean Energy Transition
+
+News Content:
+The Ministry of Environment and the Ministry of Energy have jointly launched a nationwide battery recycling initiative to improve the safe collection and recycling of used lithium-ion, lead-acid, and other rechargeable batteries. The program includes certified recycling centers, public awareness campaigns, and incentives for consumers and businesses to dispose of batteries responsibly. Environmental experts believe the initiative will reduce hazardous waste, recover valuable raw materials, and support the sustainable growth of electric vehicles and renewable energy technologies.
+
+Category:
+Environment
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Battery Recycling, Clean Energy, Lithium-Ion Batteries, Renewable Energy, Environmental Protection, Circular Economy
+
+Prediction:
+The battery recycling program is expected to increase responsible disposal of used batteries, reduce environmental pollution, recover valuable materials, and strengthen the long-term sustainability of the clean energy and electric vehicle sectors.
+
+Recommended Action:
+• Dispose of used batteries only at authorized recycling or collection centers.
+• Avoid throwing batteries into household waste bins.
+• Businesses should implement battery collection and recycling practices.
+• Consumers should participate in local recycling campaigns and awareness programs.
+• Stay informed about nearby certified battery recycling facilities and government incentives.
+
+Confidence Score:
+99.0%

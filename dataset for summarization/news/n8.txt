@@ -1,0 +1,30 @@
+News ID: 8
+Date: 17-01-2027
+
+Headline:
+Severe Heatwave Alert Issued as Temperatures Expected to Cross 44°C
+
+News Content:
+The National Meteorological Department has issued a severe heatwave warning for several regions after forecasting temperatures above **44°C** over the next five days. Health officials warned that prolonged exposure to extreme heat could increase the risk of dehydration, heat exhaustion, and heatstroke, especially among children, older adults, and outdoor workers. Authorities have advised schools, construction companies, and the public to take preventive measures during peak afternoon hours.
+
+Category:
+Weather
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Heatwave, High Temperature, Weather Alert, Dehydration, Heatstroke, Summer
+
+Prediction:
+Extreme temperatures are likely to continue for several days, increasing the risk of heat-related illnesses and higher electricity demand due to increased use of cooling systems.
+
+Recommended Action:
+• Drink plenty of water and stay hydrated throughout the day.
+• Avoid outdoor activities between 11:00 AM and 4:00 PM.
+• Wear light-colored, loose-fitting clothing and use sunscreen.
+• Stay indoors or in shaded areas whenever possible.
+• Monitor weather updates and seek immediate medical care if symptoms of heat exhaustion or heatstroke occur.
+
+Confidence Score:
+98.6%

@@ -1,0 +1,30 @@
+News ID: 24
+Date: 18-02-2027
+
+Headline:
+Internet Service Disruptions Reported After Major Undersea Cable Damage
+
+News Content:
+Telecommunication providers reported widespread internet service disruptions after damage to an international undersea fiber-optic cable affected data connectivity. Users in several regions experienced slower internet speeds, interrupted online services, and occasional network outages. Service providers stated that repair work is underway, but complete restoration may take several days. Businesses that rely on cloud services and online transactions have been advised to prepare contingency plans.
+
+Category:
+Technology
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Internet Outage, Undersea Cable, Network Disruption, Telecommunications, Broadband, Online Services
+
+Prediction:
+Internet connectivity may remain unstable until repair work is completed, potentially affecting online education, digital payments, business operations, and remote work.
+
+Recommended Action:
+• Download important files for offline access whenever possible.
+• Keep a mobile data connection available as a backup.
+• Schedule critical online meetings after confirming network stability.
+• Businesses should implement backup internet connections to minimize disruptions.
+• Follow updates from internet service providers regarding restoration progress.
+
+Confidence Score:
+98.5%

@@ -1,0 +1,14 @@
+Patient Name: Olivia Martinez
+Age: 44
+Gender: Female
+Report Date: 27-12-2026
+
+The patient visited the endocrinology department with complaints of persistent palpitations, unexplained weight loss despite increased appetite, excessive sweating, nervousness, tremors, heat intolerance, difficulty sleeping, and frequent bowel movements over the past five months. She also noticed swelling in the front of her neck and occasional eye irritation. There was a family history of autoimmune thyroid disease.
+
+Vital signs recorded during examination showed a blood pressure of **138/82 mmHg**, heart rate of **112 bpm**, temperature of **98.6°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.4 g/dL**, white blood cell count of **7,200 cells/µL**, platelet count of **296,000 cells/µL**, serum creatinine of **0.8 mg/dL**, blood urea of **16 mg/dL**, fasting blood glucose of **102 mg/dL**, HbA1c of **5.6%**, liver function tests within normal reference ranges, and mild elevation of alkaline phosphatase (**ALP**) at **152 U/L**.
+
+Thyroid function tests demonstrated a **TSH level of <0.01 mIU/L** (suppressed), **Free T4 of 3.6 ng/dL**, and **Free T3 of 9.2 pg/mL**, both markedly elevated. Testing for **thyroid-stimulating immunoglobulin (TSI)** was strongly positive. Thyroid ultrasound revealed a diffusely enlarged, highly vascular thyroid gland without discrete nodules. A radioactive iodine uptake scan demonstrated diffusely increased uptake.
+
+The physician concluded that the patient has **Graves' Disease**, an autoimmune cause of hyperthyroidism. Clinical symptoms, suppressed TSH, elevated thyroid hormones, positive TSI antibodies, and imaging findings confirm the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to begin antithyroid medication and beta-blocker therapy as prescribed, attend regular endocrinology follow-up visits with periodic thyroid function testing, avoid smoking to reduce the risk of thyroid eye disease, and discuss definitive treatment options such as radioactive iodine therapy or surgery if hyperthyroidism persists or recurs.

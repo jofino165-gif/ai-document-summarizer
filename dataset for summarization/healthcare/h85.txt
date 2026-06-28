@@ -1,0 +1,14 @@
+Patient Name: Melissa Turner
+Age: 36
+Gender: Female
+Report Date: 03-12-2026
+
+The patient visited the endocrinology department with complaints of persistent weight gain mainly around the abdomen, rounded facial appearance, easy bruising, purple stretch marks over the abdomen, muscle weakness, fatigue, irregular menstrual cycles, and elevated blood pressure over the past one year. She denied long-term corticosteroid use. There was no significant family history of endocrine disorders.
+
+Vital signs recorded during examination showed a blood pressure of **162/98 mmHg**, heart rate of **88 bpm**, temperature of **98.5°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.1 g/dL**, white blood cell count of **8,200 cells/µL**, platelet count of **302,000 cells/µL**, fasting blood glucose of **186 mg/dL**, HbA1c of **7.8%**, serum potassium of **3.1 mmol/L**, serum creatinine of **0.9 mg/dL**, blood urea of **18 mg/dL**, and liver function tests within normal reference ranges.
+
+Endocrine evaluation demonstrated **markedly elevated 24-hour urinary free cortisol**, loss of the normal diurnal cortisol rhythm, and failure of cortisol suppression during the overnight dexamethasone suppression test. Plasma ACTH levels were elevated. MRI of the pituitary gland revealed a **7 mm pituitary microadenoma**, consistent with **Cushing's Disease**.
+
+The physician concluded that the patient has **Cushing's Disease (ACTH-Secreting Pituitary Adenoma)** causing endogenous hypercortisolism. Clinical features, elevated cortisol levels, abnormal endocrine testing, and pituitary MRI findings confirm the diagnosis. Hyperglycemia, hypertension, and hypokalemia are complications of excess cortisol production. Kidney and liver function remain within normal limits. The patient was advised to consult a neurosurgical and endocrinology team for evaluation of transsphenoidal pituitary surgery, maintain strict blood pressure and blood glucose control, undergo regular hormonal monitoring, and attend long-term endocrinology follow-up to assess treatment response and prevent recurrence.

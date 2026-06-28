@@ -1,0 +1,14 @@
+Patient Name: Rebecca Green
+Age: 54
+Gender: Female
+Report Date: 16-10-2026
+
+The patient visited the endocrinology department with complaints of excessive thirst, frequent urination, blurred vision, fatigue, slow healing of minor wounds, and numbness in both feet for the past six months. She has a family history of Type 2 diabetes mellitus and reported a sedentary lifestyle with frequent consumption of sugary foods and beverages.
+
+Vital signs recorded during examination showed a blood pressure of **146/92 mmHg**, heart rate of **84 bpm**, temperature of **98.5°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.2 g/dL**, white blood cell count of **7,100 cells/µL**, platelet count of **286,000 cells/µL**, fasting blood glucose of **248 mg/dL**, postprandial blood glucose of **342 mg/dL**, HbA1c of **10.1%**, total cholesterol of **244 mg/dL**, LDL cholesterol of **164 mg/dL**, HDL cholesterol of **40 mg/dL**, triglycerides of **226 mg/dL**, serum creatinine of **1.1 mg/dL**, blood urea of **22 mg/dL**, and urine microalbumin of **96 mg/g**.
+
+Fundus examination demonstrated mild **non-proliferative diabetic retinopathy**, while nerve conduction studies showed early **diabetic peripheral neuropathy**. Kidney function remained largely preserved despite evidence of early diabetic kidney involvement.
+
+The physician concluded that the patient has **Poorly Controlled Type 2 Diabetes Mellitus** with early **diabetic nephropathy**, **diabetic neuropathy**, and **non-proliferative diabetic retinopathy**. Persistently elevated blood glucose levels, high HbA1c, microalbuminuria, retinal changes, and nerve conduction abnormalities indicate chronic diabetic complications. The patient was advised to begin intensive diabetes management, maintain a carbohydrate-controlled diet, engage in regular physical activity, monitor blood glucose daily, adhere strictly to prescribed medications, undergo annual eye and kidney evaluations, and attend regular endocrinology follow-up visits to reduce the risk of further complications.

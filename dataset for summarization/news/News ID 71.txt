@@ -1,0 +1,30 @@
+News ID: 71
+Date: 23-05-2027
+
+Headline:
+Nationwide Solar Panel Prices Drop Following Increase in Domestic Manufacturing
+
+News Content:
+The Ministry of Renewable Energy announced that domestic production of solar panels has increased significantly after the opening of several new manufacturing facilities. The improved supply has reduced production costs, leading to lower market prices for residential and commercial solar panels. Industry experts believe the price reduction will encourage wider adoption of renewable energy, reduce electricity expenses, and support the country's clean energy transition.
+
+Category:
+Energy
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Solar Panels, Renewable Energy, Domestic Manufacturing, Electricity Savings, Clean Energy, Energy Costs
+
+Prediction:
+Lower solar panel prices are expected to increase residential and commercial installations, helping consumers reduce long-term electricity costs while expanding the use of renewable energy.
+
+Recommended Action:
+• Compare solar panel brands and installation providers before purchasing.
+• Check eligibility for government renewable energy incentives and subsidies.
+• Calculate long-term electricity savings before investing.
+• Choose certified installers to ensure quality and safety.
+• Continue practicing energy conservation to maximize the benefits of solar power.
+
+Confidence Score:
+98.8%

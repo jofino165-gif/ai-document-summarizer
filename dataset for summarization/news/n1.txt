@@ -1,0 +1,30 @@
+News ID: 1
+Date: 03-01-2027
+
+Headline:
+Fuel Prices Rise by 10% Across the Country Amid Global Crude Oil Increase
+
+News Content:
+The government announced a nationwide increase in petrol and diesel prices following a sharp rise in international crude oil prices. Petrol prices have increased by ₹8 per litre, while diesel prices have risen by ₹7 per litre. Transportation companies have warned that freight charges may also increase, leading to higher prices for essential goods such as vegetables, groceries, and household products. Economic analysts predict that if fuel prices remain high, inflation may continue to rise over the coming months. Consumers are advised to monitor their monthly expenses and use fuel efficiently.
+
+Category:
+Economy
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Fuel Price, Petrol, Diesel, Inflation, Transportation, Economy
+
+Prediction:
+Fuel prices are expected to remain high in the short term, increasing transportation and household expenses.
+
+Recommended Action:
+• Reduce unnecessary travel.
+• Use public transportation or carpool whenever possible.
+• Plan monthly expenses carefully.
+• Save fuel by avoiding unnecessary vehicle usage.
+• Expect a slight increase in the prices of daily essential goods.
+
+Confidence Score:
+96.8%

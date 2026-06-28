@@ -1,0 +1,30 @@
+News ID: 9
+Date: 19-01-2027
+
+Headline:
+Central Bank Cuts Interest Rates to Boost Economic Growth
+
+News Content:
+The central bank has announced a reduction in benchmark interest rates by **0.75%** to encourage borrowing, investment, and economic growth. Commercial banks are expected to lower interest rates on home loans, education loans, and business loans over the coming weeks. Financial experts believe the move will stimulate consumer spending and support businesses, although returns on fixed deposits and savings accounts may decline.
+
+Category:
+Finance
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Interest Rates, Central Bank, Home Loans, Business Loans, Economic Growth, Investment
+
+Prediction:
+Lower interest rates are expected to increase borrowing, stimulate economic activity, and encourage investment, while reducing returns on savings and fixed deposits.
+
+Recommended Action:
+• Consider applying for home, education, or business loans if needed.
+• Review existing loans for refinancing opportunities at lower interest rates.
+• Diversify investments instead of relying only on fixed deposits.
+• Compare loan offers from different banks before making financial decisions.
+• Monitor future interest rate announcements for changes in borrowing costs.
+
+Confidence Score:
+97.8%

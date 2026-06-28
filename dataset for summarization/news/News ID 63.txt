@@ -1,0 +1,30 @@
+News ID: 63
+Date: 07-05-2027
+
+Headline:
+Major Banks Launch Special Low-Interest Education Loan Scheme for Students
+
+News Content:
+The country's leading banks have introduced a special education loan program with reduced interest rates to support students pursuing higher education in universities and professional institutions. The scheme includes flexible repayment options, extended repayment periods, and simplified application procedures. Financial experts believe the initiative will improve access to higher education by reducing the financial burden on students and their families.
+
+Category:
+Finance
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Education Loan, Low Interest, Students, Higher Education, Bank Loan, Financial Assistance
+
+Prediction:
+The new education loan scheme is expected to increase student enrollment in higher education by making educational financing more affordable. More students may pursue professional and technical courses due to easier access to funding.
+
+Recommended Action:
+• Compare education loan offers from different banks before applying.
+• Review the interest rate, repayment period, and loan conditions carefully.
+• Borrow only the amount required for educational expenses.
+• Keep academic and financial documents ready to simplify the application process.
+• Plan future repayments based on expected income after graduation.
+
+Confidence Score:
+98.8%

@@ -1,0 +1,30 @@
+News ID: 91
+Date: 02-07-2027
+
+Headline:
+Government Launches Nationwide Smart Waste Management System Using AI
+
+News Content:
+The Ministry of Urban Development has introduced an AI-powered smart waste management system across major cities. The new system uses sensors, artificial intelligence, and real-time data analytics to monitor waste bin capacity, optimize garbage collection routes, and improve recycling efficiency. Officials stated that the initiative aims to reduce operational costs, improve city cleanliness, lower fuel consumption, and support sustainable urban development.
+
+Category:
+Smart City
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Artificial Intelligence, Smart Waste Management, Recycling, Urban Development, IoT Sensors, Sustainability
+
+Prediction:
+AI-based waste management is expected to improve waste collection efficiency, reduce fuel usage, increase recycling rates, and create cleaner urban environments. More cities are likely to adopt similar smart infrastructure solutions in the future.
+
+Recommended Action:
+• Residents should separate recyclable and non-recyclable waste properly.
+• Local authorities should expand public awareness about waste segregation.
+• Businesses can adopt smart waste monitoring technologies to improve efficiency.
+• Participate in community recycling and cleanliness initiatives.
+• Stay informed about new smart city services introduced in your area.
+
+Confidence Score:
+99.1%

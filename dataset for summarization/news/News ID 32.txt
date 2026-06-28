@@ -1,0 +1,30 @@
+News ID: 32
+Date: 06-03-2027
+
+Headline:
+Sugar Production Declines Following Pest Infestation in Major Farming Regions
+
+News Content:
+The Ministry of Agriculture reported a significant decline in sugar production after widespread pest infestation affected sugarcane crops in several major farming regions. Agricultural experts estimated that sugar output could decrease by nearly 12% this season. Food manufacturers warned that reduced sugar availability may lead to higher prices for sugar, confectionery products, beverages, and processed foods. Authorities are working with farmers to control the infestation and minimize further crop losses.
+
+Category:
+Agriculture
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Sugar Production, Sugarcane, Pest Infestation, Agriculture, Food Prices, Crop Loss
+
+Prediction:
+Sugar prices are expected to increase over the coming months due to reduced production and limited supply. Food products containing sugar may also become more expensive until production recovers.
+
+Recommended Action:
+• Plan your grocery budget to account for possible price increases.
+• Purchase only the quantity of sugar needed to avoid unnecessary storage.
+• Food manufacturers should review inventory and supplier contracts.
+• Farmers should adopt recommended pest management practices to reduce crop losses.
+• Stay informed about agricultural updates and market price trends.
+
+Confidence Score:
+98.6%

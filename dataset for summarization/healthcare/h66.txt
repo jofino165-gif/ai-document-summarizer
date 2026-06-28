@@ -1,0 +1,14 @@
+Patient Name: James Walker
+Age: 72
+Gender: Male
+Report Date: 26-10-2026
+
+The patient visited the nephrology department with complaints of severe fatigue, generalized itching, swelling of both legs, decreased urine output, persistent nausea, loss of appetite, difficulty concentrating, and shortness of breath over the past several months. He has a 20-year history of poorly controlled Type 2 diabetes mellitus and hypertension. The patient previously missed multiple nephrology follow-up appointments and admitted to inconsistent medication use.
+
+Vital signs recorded during examination showed a blood pressure of **176/102 mmHg**, heart rate of **92 bpm**, temperature of **98.4°F**, respiratory rate of **20 breaths per minute**, and oxygen saturation of **95%**.
+
+Laboratory investigations revealed a hemoglobin level of **8.6 g/dL**, white blood cell count of **7,600 cells/µL**, platelet count of **268,000 cells/µL**, serum creatinine of **7.1 mg/dL**, blood urea of **118 mg/dL**, estimated glomerular filtration rate (**eGFR**) of **8 mL/min/1.73 m²**, serum potassium of **6.3 mmol/L**, serum bicarbonate of **16 mmol/L**, serum phosphate of **6.8 mg/dL**, serum calcium of **8.0 mg/dL**, fasting blood glucose of **242 mg/dL**, and HbA1c of **9.5%**.
+
+Urinalysis demonstrated **4+ proteinuria** and persistent microalbuminuria. Renal ultrasound revealed **bilaterally shrunken kidneys** with marked cortical thinning, consistent with end-stage chronic kidney disease. Chest X-ray demonstrated mild pulmonary edema related to fluid overload.
+
+The physician concluded that the patient has **End-Stage Kidney Disease (Stage 5 Chronic Kidney Disease)** secondary to long-standing poorly controlled Type 2 diabetes mellitus and hypertension. Severe reduction in kidney function, electrolyte abnormalities, metabolic acidosis, anemia, fluid overload, and imaging findings confirm advanced irreversible kidney failure. The patient was advised to begin **maintenance hemodialysis** immediately, follow a strict kidney-friendly diet with potassium and fluid restriction, maintain optimal blood pressure and blood glucose control, receive treatment for CKD-related anemia and mineral bone disease, undergo evaluation for kidney transplantation, and attend regular nephrology follow-up visits for ongoing management.

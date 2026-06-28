@@ -1,0 +1,30 @@
+News ID: 37
+Date: 16-03-2027
+
+Headline:
+Government Announces Reduction in Public Transport Fares to Encourage Commuters
+
+News Content:
+The Ministry of Transport has announced a nationwide reduction in fares for buses and metro rail services to encourage greater use of public transportation. The fare reduction follows increased government support for urban mobility and aims to reduce traffic congestion, fuel consumption, and air pollution. Transport officials expect a significant rise in daily commuters, while environmental experts believe the initiative will contribute to cleaner air and lower carbon emissions.
+
+Category:
+Transportation
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Public Transport, Bus Fare, Metro Rail, Traffic Congestion, Fuel Savings, Urban Mobility
+
+Prediction:
+Lower public transport fares are expected to increase the number of daily commuters, reduce the use of private vehicles, decrease fuel consumption, and improve urban air quality over time.
+
+Recommended Action:
+• Consider using public transportation for daily commuting.
+• Reduce unnecessary use of private vehicles to save fuel costs.
+• Plan travel using updated bus and metro schedules.
+• Employers may encourage employees to use public transport where feasible.
+• Monitor future transport policy updates and fare revisions.
+
+Confidence Score:
+98.6%

@@ -1,0 +1,94 @@
+Study ID: 30
+
+Topic:
+Structured Query Language (SQL)
+
+Uploaded Notes:
+Structured Query Language (SQL) is a standard programming language used to create, manage, manipulate, and retrieve data stored in relational database management systems (RDBMS). SQL enables users to interact with databases efficiently by performing operations such as inserting, updating, deleting, and querying data. It is widely used in database-driven applications across industries including banking, healthcare, education, e-commerce, and business management.
+
+SQL consists of several categories of commands. Data Definition Language (DDL) commands such as CREATE, ALTER, DROP, and TRUNCATE are used to define and modify database structures. Data Manipulation Language (DML) commands including INSERT, UPDATE, DELETE, and MERGE are used to manage records within tables. Data Query Language (DQL) mainly uses the SELECT statement to retrieve data. Data Control Language (DCL) commands such as GRANT and REVOKE manage user permissions, while Transaction Control Language (TCL) commands including COMMIT, ROLLBACK, and SAVEPOINT control database transactions.
+
+SQL supports important database concepts such as primary keys, foreign keys, constraints, normalization, indexing, views, stored procedures, functions, joins, and subqueries. Common SQL joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN, which combine data from multiple tables.
+
+Popular relational database systems that use SQL include MySQL, Microsoft SQL Server, Oracle Database, PostgreSQL, SQLite, and MariaDB. SQL is also used with cloud databases and enterprise database solutions.
+
+The advantages of SQL include efficient data retrieval, high performance, standardized syntax, secure data access, transaction management, and support for complex queries. Challenges include optimization of large databases, query complexity, database security, and scalability.
+
+Summary:
+Structured Query Language (SQL) is the standard language used to create, manage, and retrieve data from relational databases. It supports database design, data manipulation, transaction management, and complex querying, making it essential for modern database applications.
+
+Study Notes:
+Definition:
+SQL is a standard language used to create, manage, manipulate, and retrieve data from relational databases.
+
+Main Concepts:
+• Database
+• Table
+• Record
+• Query
+• Constraint
+• Transaction
+
+SQL Command Categories:
+• DDL (CREATE, ALTER, DROP, TRUNCATE)
+• DML (INSERT, UPDATE, DELETE)
+• DQL (SELECT)
+• DCL (GRANT, REVOKE)
+• TCL (COMMIT, ROLLBACK, SAVEPOINT)
+
+Important Concepts:
+• Primary Key
+• Foreign Key
+• Joins
+• Views
+• Indexes
+• Stored Procedures
+
+Applications:
+• Banking Systems
+• Healthcare
+• E-commerce
+• Educational Institutions
+• Business Management
+• Enterprise Applications
+
+Advantages:
+• Fast Data Retrieval
+• Standardized Language
+• High Performance
+• Secure Data Access
+• Reliable Transaction Management
+
+Challenges:
+• Query Optimization
+• Database Security
+• Large Database Management
+• Complex SQL Queries
+
+Conclusion:
+SQL is the foundation of relational database management and plays a critical role in storing, managing, and retrieving data efficiently for modern software applications.
+
+Important Keywords:
+SQL
+Structured Query Language
+DDL
+DML
+DQL
+Primary Key
+Foreign Key
+JOIN
+SELECT
+Transaction
+
+Reference Websites:
+• MySQL Documentation
+• Microsoft Learn
+• Oracle Database Documentation
+• PostgreSQL Documentation
+• W3Schools SQL
+• SQLBolt
+• GeeksforGeeks
+• Tutorialspoint
+
+Confidence Score:
+99.5%

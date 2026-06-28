@@ -1,0 +1,103 @@
+Study ID: 84
+
+Topic:
+Software Testing
+
+Uploaded Notes:
+Software Testing is the process of evaluating and verifying that a software application works as expected and meets specified requirements. It helps identify defects, errors, and gaps in functionality to ensure quality, reliability, and performance.
+
+Software testing is broadly classified into manual testing and automated testing. Manual testing is performed by humans without tools, while automated testing uses scripts and tools to execute test cases efficiently.
+
+The Software Testing Life Cycle (STLC) includes phases such as requirement analysis, test planning, test case design, test environment setup, test execution, defect reporting, and test closure.
+
+Types of testing include unit testing, integration testing, system testing, acceptance testing, regression testing, smoke testing, sanity testing, performance testing, and security testing.
+
+Testing techniques are divided into black-box testing, white-box testing, and grey-box testing. Black-box testing focuses on input-output behavior, white-box testing focuses on internal code structure, and grey-box testing combines both approaches.
+
+Popular testing tools include Selenium, JUnit, TestNG, Appium, LoadRunner, JMeter, and Postman for API testing.
+
+Software testing is widely used in web applications, mobile apps, enterprise systems, banking software, and cloud-based applications.
+
+The advantages of software testing include improved software quality, early bug detection, reduced development cost, and increased user satisfaction. Challenges include time constraints, complex test scenarios, and maintaining test coverage.
+
+Summary:
+Software Testing is the process of evaluating software to ensure it meets requirements and is free from defects.
+
+Study Notes:
+Definition:
+Software Testing is the process of verifying and validating software functionality.
+
+Main Concepts:
+• Verification and Validation
+• Test Cases
+• Defects/Bugs
+• STLC
+• Test Automation
+
+Types of Testing:
+• Unit Testing
+• Integration Testing
+• System Testing
+• Acceptance Testing
+• Regression Testing
+• Performance Testing
+
+Testing Techniques:
+• Black Box Testing
+• White Box Testing
+• Grey Box Testing
+
+Tools:
+• Selenium
+• JUnit
+• TestNG
+• JMeter
+• LoadRunner
+• Postman
+
+Applications:
+• Web Applications
+• Mobile Apps
+• Banking Systems
+• Enterprise Software
+• Cloud Systems
+
+Advantages:
+• High Software Quality
+• Early Bug Detection
+• Cost Reduction
+• Better User Experience
+
+Challenges:
+• Time Constraints
+• Complex Scenarios
+• Test Maintenance
+• Coverage Issues
+
+Conclusion:
+Software Testing ensures that applications are reliable, functional, and meet user expectations by identifying and fixing defects before deployment.
+
+Important Keywords:
+Software Testing
+STLC
+Test Case
+Bug
+Automation
+Regression Testing
+Selenium
+JUnit
+Black Box
+White Box
+
+Reference Websites:
+• ISTQB Official
+• Selenium Docs
+• JUnit Documentation
+• GeeksforGeeks
+• TutorialsPoint
+• Coursera
+• Microsoft Learn
+• Software Testing Help
+
+Confidence Score:
+99.8%

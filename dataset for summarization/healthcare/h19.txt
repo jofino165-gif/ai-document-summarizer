@@ -1,0 +1,14 @@
+Patient Name: Thomas Green
+Age: 63
+Gender: Male
+Report Date: 24-07-2026
+
+The patient visited the cardiology department with complaints of increasing shortness of breath during routine activities, swelling in both ankles, persistent fatigue, difficulty lying flat while sleeping, and occasional episodes of rapid heartbeat over the past two months. He has a medical history of long-standing hypertension and a previous myocardial infarction five years ago. The patient admitted to inconsistent use of prescribed cardiac medications and a high-sodium diet.
+
+Vital signs recorded during examination showed a blood pressure of 164/98 mmHg, heart rate of 108 bpm, temperature of 98.4°F, respiratory rate of 22 breaths per minute, and oxygen saturation of 94% on room air.
+
+Laboratory investigations revealed a hemoglobin level of 13.4 g/dL, white blood cell count of 7,800 cells/µL, platelet count of 262,000 cells/µL, Brain Natriuretic Peptide (BNP) of 865 pg/mL, serum creatinine of 1.3 mg/dL, blood urea of 28 mg/dL, fasting blood glucose of 112 mg/dL, and HbA1c of 5.9%.
+
+The lipid profile demonstrated total cholesterol of 236 mg/dL, LDL cholesterol of 162 mg/dL, HDL cholesterol of 40 mg/dL, and triglycerides of 205 mg/dL. Electrocardiogram (ECG) revealed left ventricular hypertrophy and occasional premature ventricular contractions. Echocardiography showed a left ventricular ejection fraction (LVEF) of 38%, mild left ventricular dilation, and moderate mitral regurgitation.
+
+The physician concluded that the patient has Chronic Heart Failure with reduced ejection fraction, most likely secondary to previous coronary artery disease and uncontrolled hypertension. Elevated BNP levels, reduced cardiac pumping function, lower oxygen saturation, and fluid retention indicate significant cardiac impairment. Kidney function shows mild reduction, while blood glucose remains within the prediabetic range. The patient was advised to strictly follow prescribed heart failure medications, reduce dietary sodium intake, monitor daily body weight and blood pressure, restrict excessive fluid intake as recommended, participate in supervised cardiac rehabilitation, and attend regular cardiology follow-up appointments to reduce the risk of hospitalization and further cardiac deterioration.

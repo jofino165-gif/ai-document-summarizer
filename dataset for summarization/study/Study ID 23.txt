@@ -1,0 +1,94 @@
+Study ID: 23
+
+Topic:
+Application Programming Interface (API)
+
+Uploaded Notes:
+An Application Programming Interface (API) is a set of rules, protocols, and tools that enables different software applications to communicate and exchange data with each other. APIs define how requests and responses are structured, allowing developers to integrate different systems without understanding their internal implementation. APIs are essential in modern software development because they simplify integration and improve application interoperability.
+
+APIs are classified into several types, including REST APIs, SOAP APIs, GraphQL APIs, Open APIs (Public APIs), Partner APIs, Internal APIs, and Composite APIs. REST (Representational State Transfer) APIs are the most widely used because they are lightweight, scalable, and use HTTP methods such as GET, POST, PUT, and DELETE for communication.
+
+The API communication process involves a client sending a request to a server through an endpoint. The server processes the request, interacts with databases or services if necessary, and returns a response, usually in JSON or XML format. Authentication methods such as API Keys, OAuth 2.0, JWT (JSON Web Token), and Basic Authentication help secure API access.
+
+APIs are widely used in web applications, mobile applications, payment gateways, cloud computing, social media integration, weather services, mapping applications, e-commerce platforms, banking systems, and healthcare applications.
+
+The advantages of APIs include faster software development, easy integration, code reusability, scalability, automation, and improved interoperability. Challenges include security vulnerabilities, version management, rate limiting, dependency on external services, and documentation quality.
+
+Summary:
+An Application Programming Interface (API) enables communication between different software systems through standardized requests and responses. APIs simplify software integration and are widely used in web, mobile, cloud, banking, healthcare, and e-commerce applications.
+
+Study Notes:
+Definition:
+An API is a software interface that enables different applications to communicate and exchange information.
+
+Main Concepts:
+• Client-Server Communication
+• API Endpoints
+• HTTP Requests
+• JSON
+• XML
+• Authentication
+
+Types of APIs:
+• REST API
+• SOAP API
+• GraphQL API
+• Public API
+• Private API
+• Composite API
+
+Authentication Methods:
+• API Key
+• OAuth 2.0
+• JWT
+• Basic Authentication
+
+Applications:
+• Web Applications
+• Mobile Applications
+• Payment Gateways
+• Banking Systems
+• Healthcare
+• Cloud Services
+• Social Media Integration
+
+Advantages:
+• Easy System Integration
+• Faster Development
+• Code Reusability
+• Scalability
+• Automation
+
+Challenges:
+• Security Risks
+• API Version Management
+• Rate Limiting
+• External Service Dependency
+
+Conclusion:
+APIs are fundamental components of modern software development, enabling seamless communication between applications while improving flexibility, scalability, and interoperability.
+
+Important Keywords:
+API
+REST API
+SOAP API
+GraphQL
+JSON
+HTTP
+OAuth
+JWT
+API Endpoint
+Client-Server
+
+Reference Websites:
+• Swagger
+• Postman Learning Center
+• Microsoft Learn
+• MDN Web Docs
+• REST API Tutorial
+• Google Developers
+• Coursera
+• W3Schools
+
+Confidence Score:
+99.3%

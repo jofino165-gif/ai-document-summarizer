@@ -1,0 +1,96 @@
+Study ID: 15
+
+Topic:
+Database Management System (DBMS)
+
+Uploaded Notes:
+A Database Management System (DBMS) is software that allows users to create, store, organize, retrieve, update, and manage data efficiently. It acts as an interface between users and databases, ensuring that data is stored securely and can be accessed whenever required. DBMS reduces data redundancy, maintains data consistency, and supports multiple users accessing the same database simultaneously.
+
+The main components of a DBMS include the database engine, query processor, data definition language (DDL), data manipulation language (DML), transaction manager, and data dictionary. These components work together to manage database operations efficiently.
+
+DBMS is classified into several types, including Hierarchical DBMS, Network DBMS, Relational DBMS (RDBMS), and Object-Oriented DBMS (OODBMS). Relational DBMS is the most widely used type and stores data in tables consisting of rows and columns. Popular DBMS software includes MySQL, Oracle Database, Microsoft SQL Server, PostgreSQL, MongoDB, and SQLite.
+
+DBMS supports important concepts such as normalization, primary keys, foreign keys, indexing, relationships, transactions, and SQL (Structured Query Language). SQL is used to create databases, retrieve records, update information, and manage database security.
+
+Database Management Systems are widely used in banking, healthcare, education, e-commerce, government organizations, libraries, telecommunications, and business management systems to store and process large volumes of information.
+
+The advantages of DBMS include reduced data redundancy, improved data security, efficient data sharing, backup and recovery, better data integrity, and support for concurrent access. Challenges include implementation costs, system complexity, hardware requirements, and database maintenance.
+
+Summary:
+A Database Management System (DBMS) is software used to store, organize, retrieve, and manage data efficiently. It supports secure data storage, minimizes redundancy, and enables multiple users to access information simultaneously. DBMS is widely used across industries for reliable data management.
+
+Study Notes:
+Definition:
+A Database Management System (DBMS) is software that manages databases by storing, organizing, retrieving, and updating data efficiently.
+
+Main Concepts:
+• Database
+• Table
+• Record
+• Field
+• SQL
+• Transactions
+
+Types of DBMS:
+• Hierarchical DBMS
+• Network DBMS
+• Relational DBMS (RDBMS)
+• Object-Oriented DBMS (OODBMS)
+
+Popular DBMS Software:
+• MySQL
+• Oracle Database
+• Microsoft SQL Server
+• PostgreSQL
+• MongoDB
+• SQLite
+
+Applications:
+• Banking
+• Healthcare
+• Education
+• E-commerce
+• Government
+• Library Management
+• Business Applications
+
+Advantages:
+• Reduced Data Redundancy
+• Improved Data Security
+• Better Data Integrity
+• Backup and Recovery
+• Multi-User Access
+
+Challenges:
+• High Initial Cost
+• Complex Administration
+• Hardware Requirements
+• Maintenance Overhead
+
+Conclusion:
+A Database Management System is an essential software solution for efficiently storing, managing, and securing data, supporting reliable information management across organizations.
+
+Important Keywords:
+Database Management System
+DBMS
+SQL
+RDBMS
+Normalization
+Primary Key
+Foreign Key
+Transaction
+Database
+MySQL
+
+Reference Websites:
+• Oracle Database Documentation
+• MySQL Documentation
+• Microsoft Learn
+• PostgreSQL Documentation
+• MongoDB Documentation
+• W3Schools SQL
+• Coursera
+• IBM SkillsBuild
+
+Confidence Score:
+99.3%

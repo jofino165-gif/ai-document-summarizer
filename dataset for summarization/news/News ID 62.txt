@@ -1,0 +1,30 @@
+News ID: 62
+Date: 05-05-2027
+
+Headline:
+Electricity Demand Reaches Record High During Summer, Authorities Urge Energy Conservation
+
+News Content:
+The National Power Grid Authority reported that electricity demand reached an all-time high as temperatures exceeded seasonal averages across many regions. Increased use of air conditioners, fans, and cooling equipment placed significant pressure on the power grid during peak hours. Energy officials stated that the electricity supply remains stable but advised households and businesses to reduce unnecessary power consumption to avoid strain on the system.
+
+Category:
+Energy
+
+Sentiment:
+Neutral
+
+Detected Keywords:
+Electricity Demand, Summer, Power Grid, Energy Conservation, Peak Load, Electricity Supply
+
+Prediction:
+Electricity demand is expected to remain high throughout the summer season. If consumption continues to rise, some regions may experience peak-hour supply constraints and higher electricity expenses.
+
+Recommended Action:
+• Switch off lights, fans, and appliances when not in use.
+• Set air conditioners to energy-efficient temperatures (around 24–26°C where appropriate).
+• Use energy-efficient appliances and LED lighting.
+• Avoid operating high-power appliances during peak demand hours whenever possible.
+• Monitor electricity usage regularly to help reduce monthly energy bills.
+
+Confidence Score:
+98.7%

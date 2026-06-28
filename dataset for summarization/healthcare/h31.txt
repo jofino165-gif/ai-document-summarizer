@@ -1,0 +1,14 @@
+Patient Name: Daniel Cooper
+Age: 46
+Gender: Male
+Report Date: 17-08-2026
+
+The patient visited the gastroenterology department with complaints of recurrent upper abdominal pain, burning sensation in the stomach, nausea, early fullness after meals, occasional vomiting, and black-colored stools during the past two weeks. He reported regular use of non-steroidal anti-inflammatory drugs (NSAIDs) for chronic back pain and occasional alcohol consumption. The patient denied any previous history of liver disease or gastrointestinal surgery.
+
+Vital signs recorded during examination showed a blood pressure of 118/76 mmHg, heart rate of 94 bpm, temperature of 98.4°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 10.8 g/dL, white blood cell count of 7,800 cells/µL, platelet count of 294,000 cells/µL, serum creatinine of 0.9 mg/dL, blood urea of 20 mg/dL, fasting blood glucose of 94 mg/dL, and HbA1c of 5.4%. Liver function tests were within normal reference ranges.
+
+Upper gastrointestinal endoscopy revealed a 1.5 cm gastric ulcer on the lesser curvature of the stomach with surrounding inflammation but no evidence of malignancy. Rapid urease testing and biopsy confirmed **Helicobacter pylori** infection. Stool occult blood testing was positive, indicating gastrointestinal bleeding.
+
+The physician concluded that the patient has an **H. pylori-associated Gastric Ulcer** with mild gastrointestinal blood loss leading to anemia. Long-term NSAID use may have contributed to ulcer formation. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to complete the prescribed H. pylori eradication therapy, avoid NSAIDs and alcohol, follow a stomach-friendly diet, take proton pump inhibitor medication as prescribed, undergo repeat endoscopy after treatment to confirm healing, and attend regular follow-up evaluations to prevent ulcer recurrence and complications.

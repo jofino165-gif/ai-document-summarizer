@@ -1,0 +1,30 @@
+News ID: 38
+Date: 18-03-2027
+
+Headline:
+Government Introduces Nationwide Free Digital Skills Training Program
+
+News Content:
+The Ministry of Education and Information Technology has launched a nationwide digital skills training program to improve employability and support workforce development. The initiative offers free online and classroom-based courses in programming, data analysis, cybersecurity, artificial intelligence, and cloud computing. Officials stated that the program aims to prepare students, job seekers, and working professionals for the growing demand for digital and technology-related careers.
+
+Category:
+Education
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Digital Skills, Programming, Cybersecurity, Artificial Intelligence, Cloud Computing, Employment
+
+Prediction:
+Participation in digital skills training is expected to increase, leading to improved employment opportunities and a more skilled workforce in the technology sector over the coming years.
+
+Recommended Action:
+• Enroll in courses that match your career goals and interests.
+• Complete certifications to strengthen your resume and job prospects.
+• Practice newly learned skills through projects and internships.
+• Stay updated on emerging technologies and industry requirements.
+• Use the training program to improve long-term career opportunities.
+
+Confidence Score:
+98.8%

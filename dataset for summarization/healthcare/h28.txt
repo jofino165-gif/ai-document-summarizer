@@ -1,0 +1,14 @@
+Patient Name: Laura Collins
+Age: 36
+Gender: Female
+Report Date: 11-08-2026
+
+The patient visited the rheumatology department with complaints of recurrent facial rash, joint pain involving both wrists and knees, persistent fatigue, intermittent low-grade fever, mouth ulcers, and increased sensitivity to sunlight for the past six months. She also reported occasional swelling of the fingers and hair loss. There is no previous history of chronic kidney disease, but a maternal aunt was diagnosed with an autoimmune disorder.
+
+Vital signs recorded during examination showed a blood pressure of 126/78 mmHg, heart rate of 84 bpm, temperature of 99.0°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 10.9 g/dL, white blood cell count of 3,800 cells/µL, platelet count of 185,000 cells/µL, erythrocyte sedimentation rate (ESR) of 58 mm/hr, C-reactive protein (CRP) of 24 mg/L, and serum creatinine of 1.1 mg/dL. Urinalysis demonstrated mild proteinuria and microscopic hematuria.
+
+Autoimmune testing showed a strongly positive antinuclear antibody (ANA) test, positive anti-double-stranded DNA (anti-dsDNA) antibodies, and reduced complement C3 and C4 levels. Kidney function was mildly reduced with an estimated glomerular filtration rate (eGFR) of 72 mL/min/1.73 m². Liver function tests, fasting blood glucose, and HbA1c were within normal reference ranges.
+
+The physician concluded that the patient has **Systemic Lupus Erythematosus (SLE)** with early renal involvement (lupus nephritis). Clinical symptoms, positive autoimmune markers, reduced complement levels, anemia, leukopenia, and urinary abnormalities strongly support the diagnosis. The patient was advised to begin immunosuppressive therapy as prescribed, avoid prolonged sun exposure, use sunscreen regularly, maintain adequate hydration, attend routine rheumatology and nephrology follow-up visits, and undergo periodic laboratory monitoring to assess disease activity and kidney function while preventing long-term complications.

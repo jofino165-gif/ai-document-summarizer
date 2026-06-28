@@ -1,0 +1,30 @@
+News ID: 10
+Date: 21-01-2027
+
+Headline:
+Major Cyberattack Exposes Customer Data of Leading Retail Company
+
+News Content:
+A leading retail company confirmed that it experienced a large-scale cyberattack that compromised customer information, including names, email addresses, phone numbers, and encrypted account credentials. The company stated that its cybersecurity team has contained the breach and is working with authorities to investigate the incident. Customers have been advised to remain alert for phishing emails and suspicious account activity while security measures are being strengthened.
+
+Category:
+Technology
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Cyberattack, Data Breach, Customer Data, Phishing, Cybersecurity, Online Security
+
+Prediction:
+Following the data breach, customers may experience an increase in phishing attempts, fraudulent messages, and unauthorized login attempts. Companies are also expected to strengthen cybersecurity measures.
+
+Recommended Action:
+• Change passwords for affected accounts immediately.
+• Enable two-factor authentication (2FA) wherever possible.
+• Do not click on suspicious emails, links, or attachments.
+• Monitor bank accounts and online transactions for unusual activity.
+• Keep devices and antivirus software updated with the latest security patches.
+
+Confidence Score:
+98.4%

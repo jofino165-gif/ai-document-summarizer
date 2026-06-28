@@ -1,0 +1,30 @@
+News ID: 2
+Date: 05-01-2027
+
+Headline:
+Gold Prices Drop to a Three-Month Low as Global Market Weakens
+
+News Content:
+Gold prices declined by nearly 6% this week following a stronger global currency market and reduced international demand. Jewellery retailers reported an increase in customer inquiries as buyers viewed the price drop as an opportunity to purchase gold. Financial experts stated that while short-term fluctuations are expected, gold remains a valuable long-term investment. Investors are advised to evaluate market conditions before making large purchases.
+
+Category:
+Finance
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Gold, Investment, Market, Price Drop, Jewellery, Finance
+
+Prediction:
+Gold prices may remain relatively low in the short term before gradually recovering as market demand increases.
+
+Recommended Action:
+• Consider buying gold for long-term investment.
+• Compare prices from multiple sellers before purchasing.
+• Avoid making impulsive investment decisions.
+• Monitor daily gold price trends for better buying opportunities.
+• Diversify investments instead of investing only in gold.
+
+Confidence Score:
+97.2%

@@ -1,0 +1,30 @@
+News ID: 3
+Date: 07-01-2027
+
+Headline:
+Heavy Rainfall and Strong Winds Expected Across Coastal Districts This Weekend
+
+News Content:
+The Meteorological Department has issued a weather advisory predicting heavy rainfall accompanied by strong winds in several coastal districts over the next 48 hours. Authorities warned of possible waterlogging, localized flooding, traffic disruptions, and power outages. Fishermen have been advised not to venture into the sea, while residents in low-lying areas are encouraged to remain alert. Emergency response teams have been placed on standby to handle any weather-related incidents.
+
+Category:
+Weather
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Heavy Rainfall, Strong Winds, Flooding, Weather Alert, Power Outage, Coastal Areas
+
+Prediction:
+Heavy rainfall is likely to cause localized flooding, traffic congestion, and temporary power disruptions in affected areas.
+
+Recommended Action:
+• Carry an umbrella or raincoat when traveling.
+• Avoid flood-prone roads and unnecessary travel.
+• Keep emergency supplies, flashlights, and mobile phones fully charged.
+• Follow official weather updates and emergency advisories.
+• Stay indoors during periods of intense rainfall and strong winds.
+
+Confidence Score:
+98.1%

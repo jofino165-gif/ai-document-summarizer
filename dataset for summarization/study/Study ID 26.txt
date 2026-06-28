@@ -1,0 +1,102 @@
+Study ID: 26
+
+Topic:
+DevOps
+
+Uploaded Notes:
+DevOps is a software development methodology that combines software development (Dev) and information technology operations (Ops) to improve collaboration, automate workflows, and deliver software more quickly and reliably. DevOps promotes continuous integration, continuous testing, continuous deployment, and continuous monitoring throughout the software development lifecycle.
+
+The DevOps lifecycle consists of Planning, Development, Build, Testing, Release, Deployment, Operations, and Monitoring. Each stage is supported by automation tools that reduce manual effort, improve software quality, and accelerate delivery.
+
+Key DevOps practices include Continuous Integration (CI), Continuous Delivery (CD), Infrastructure as Code (IaC), Configuration Management, Containerization, Microservices, and Continuous Monitoring. CI enables developers to frequently merge code changes into a shared repository, while CD automates software delivery to production environments.
+
+Popular DevOps tools include Git, GitHub, GitLab, Jenkins, Docker, Kubernetes, Ansible, Terraform, Maven, Nagios, Prometheus, and Grafana. These tools help automate software development, deployment, infrastructure management, and system monitoring.
+
+DevOps is widely used in cloud computing, web development, mobile application development, banking, healthcare, e-commerce, telecommunications, and enterprise software development. It enables organizations to release software updates rapidly while maintaining system stability.
+
+The advantages of DevOps include faster software delivery, improved collaboration, reduced deployment failures, automation of repetitive tasks, better scalability, and continuous improvement. Challenges include cultural changes, tool integration complexity, security concerns, and the need for skilled professionals.
+
+Summary:
+DevOps is a collaborative software development approach that integrates development and operations through automation, continuous integration, continuous delivery, and monitoring. It enables organizations to deliver reliable software faster while improving efficiency and collaboration.
+
+Study Notes:
+Definition:
+DevOps is a software development methodology that integrates development and operations to automate software delivery and improve collaboration.
+
+Main Concepts:
+• Continuous Integration (CI)
+• Continuous Delivery (CD)
+• Infrastructure as Code (IaC)
+• Automation
+• Containerization
+• Continuous Monitoring
+
+DevOps Lifecycle:
+• Planning
+• Development
+• Build
+• Testing
+• Release
+• Deployment
+• Operations
+• Monitoring
+
+Popular Tools:
+• Git
+• Jenkins
+• Docker
+• Kubernetes
+• Ansible
+• Terraform
+• Prometheus
+• Grafana
+
+Applications:
+• Cloud Computing
+• Web Development
+• Mobile Applications
+• Banking
+• Healthcare
+• E-commerce
+• Enterprise Software
+
+Advantages:
+• Faster Software Delivery
+• Improved Collaboration
+• Automation
+• High Software Quality
+• Better Scalability
+
+Challenges:
+• Cultural Change
+• Complex Tool Integration
+• Security Issues
+• Skilled Workforce Requirement
+
+Conclusion:
+DevOps enhances software development by combining automation, collaboration, and continuous delivery, enabling organizations to build, test, deploy, and maintain applications more efficiently.
+
+Important Keywords:
+DevOps
+Continuous Integration
+Continuous Delivery
+Docker
+Kubernetes
+Jenkins
+Infrastructure as Code
+Automation
+Git
+Containerization
+
+Reference Websites:
+• Docker Documentation
+• Kubernetes Documentation
+• Jenkins Documentation
+• Microsoft Learn
+• AWS DevOps
+• Atlassian DevOps
+• Coursera
+• Red Hat Developer
+
+Confidence Score:
+99.4%

@@ -1,0 +1,14 @@
+Patient Name: Brian Carter
+Age: 63
+Gender: Male
+Report Date: 14-10-2026
+
+The patient visited the pulmonology department with complaints of progressive shortness of breath, persistent dry cough, fatigue, reduced exercise tolerance, and unintended weight loss over the past eight months. He worked in the construction industry for over 30 years with prolonged exposure to asbestos-containing materials. The patient denied any smoking history but reported occasional chest discomfort during physical activity.
+
+Vital signs recorded during examination showed a blood pressure of **126/80 mmHg**, heart rate of **90 bpm**, temperature of **98.5°F**, respiratory rate of **22 breaths per minute**, and oxygen saturation of **93%** on room air.
+
+Laboratory investigations revealed a hemoglobin level of **12.8 g/dL**, white blood cell count of **7,200 cells/µL**, platelet count of **282,000 cells/µL**, serum creatinine of **1.0 mg/dL**, blood urea of **20 mg/dL**, fasting blood glucose of **96 mg/dL**, HbA1c of **5.4%**, and liver function tests within normal reference ranges.
+
+Pulmonary function testing demonstrated a **restrictive lung disease pattern** with reduced total lung capacity and diffusion capacity. High-resolution CT (HRCT) of the chest revealed **diffuse pleural thickening**, bilateral pleural plaques, and an irregular pleural-based mass involving the right lower hemithorax. CT-guided biopsy confirmed **Malignant Pleural Mesothelioma (epithelioid subtype)**. PET-CT showed local pleural involvement without evidence of distant metastatic disease.
+
+The physician concluded that the patient has **Malignant Pleural Mesothelioma**, most likely related to long-term occupational asbestos exposure. Imaging findings, restrictive lung function, occupational history, and biopsy results confirm the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a multidisciplinary thoracic oncology team to discuss surgery, chemotherapy, immunotherapy, and supportive care options. Pulmonary rehabilitation, nutritional support, regular oncology follow-up, and symptom management were recommended to improve quality of life and monitor disease progression.

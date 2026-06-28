@@ -1,0 +1,14 @@
+Patient Name: Emily Johnson
+Age: 52
+Gender: Female
+Report Date: 04-09-2026
+
+The patient visited the oncology department with complaints of a painless lump in the upper outer quadrant of the left breast, occasional nipple discharge, skin dimpling over the affected breast, and mild discomfort for the past two months. She also reported an unintentional weight loss of 4 kg during the past three months. The patient has a family history of breast cancer in her mother.
+
+Vital signs recorded during examination showed a blood pressure of 124/78 mmHg, heart rate of 84 bpm, temperature of 98.5°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of **12.5 g/dL**, white blood cell count of **7,400 cells/µL**, platelet count of **289,000 cells/µL**, serum creatinine of **0.9 mg/dL**, blood urea of **17 mg/dL**, fasting blood glucose of **94 mg/dL**, and HbA1c of **5.3%**. Liver function tests were within normal reference ranges.
+
+Mammography demonstrated a **3.1 cm irregular spiculated mass** in the left breast with suspicious axillary lymph nodes. Breast ultrasound confirmed the lesion, and ultrasound-guided core needle biopsy identified **Invasive Ductal Carcinoma (IDC)**. Immunohistochemistry showed the tumor to be **Estrogen Receptor (ER) positive**, **Progesterone Receptor (PR) positive**, and **HER2 negative**. Contrast-enhanced CT scans of the chest, abdomen, and pelvis showed no evidence of distant metastatic disease.
+
+The physician concluded that the patient has **Stage II Invasive Ductal Carcinoma of the Left Breast** with regional lymph node involvement but no distant metastasis. Imaging, biopsy findings, and receptor status support the diagnosis and will guide treatment planning. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a multidisciplinary breast cancer team to discuss surgery, hormone therapy, chemotherapy, and radiation therapy as appropriate. Regular oncology follow-up, nutritional support, psychological counseling, and periodic imaging were recommended to monitor treatment response and reduce the risk of recurrence.

@@ -1,0 +1,14 @@
+Patient Name: Jonathan Reed
+Age: 60
+Gender: Male
+Report Date: 23-11-2026
+
+The patient visited the infectious disease department with complaints of persistent fever, productive cough with foul-smelling sputum, shortness of breath, right-sided chest pain, fatigue, and unintended weight loss over the past four weeks. He has a history of poorly controlled Type 2 diabetes mellitus, chronic alcohol use, and recent hospitalization for aspiration pneumonia.
+
+Vital signs recorded during examination showed a blood pressure of **124/78 mmHg**, heart rate of **102 bpm**, temperature of **101.5°F**, respiratory rate of **22 breaths per minute**, and oxygen saturation of **93%** on room air.
+
+Laboratory investigations revealed a hemoglobin level of **11.8 g/dL**, white blood cell count of **18,600 cells/µL** with neutrophilia, platelet count of **328,000 cells/µL**, C-reactive protein (CRP) of **148 mg/L**, erythrocyte sedimentation rate (ESR) of **76 mm/hr**, fasting blood glucose of **236 mg/dL**, HbA1c of **9.3%**, serum creatinine of **1.1 mg/dL**, blood urea of **22 mg/dL**, and liver function tests within normal reference ranges.
+
+Chest X-ray revealed a thick-walled cavity with an air-fluid level in the right lower lobe. Contrast-enhanced CT scan of the chest confirmed a **6.4 cm lung abscess** with surrounding consolidation. Sputum culture grew **Klebsiella pneumoniae**, which was susceptible to appropriate intravenous antibiotics. Blood cultures were negative.
+
+The physician concluded that the patient has a **Lung Abscess caused by Klebsiella pneumoniae**, likely secondary to aspiration pneumonia in the setting of poorly controlled diabetes and chronic alcohol use. Imaging findings, microbiological results, and elevated inflammatory markers confirm the diagnosis. Kidney and liver function remain preserved. The patient was advised to receive prolonged intravenous antibiotic therapy followed by oral antibiotics as recommended, maintain good blood glucose control, undergo chest imaging to monitor resolution, participate in pulmonary rehabilitation if needed, avoid alcohol, and attend regular follow-up visits to ensure complete recovery.

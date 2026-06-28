@@ -1,0 +1,11 @@
+Study ID: 24
+
+Topic:
+Agile Software Development
+
+Uploaded Notes:
+Agile Software Development is a modern software development methodology that emphasizes flexibility, collaboration, continuous improvement, and rapid delivery of high-quality software. Unlike traditional development models, Agile divides projects into small iterations called sprints, allowing development teams to deliver functional software in shorter timeframes while adapting to changing customer requirements.
+
+The Agile methodology is based on the Agile Manifesto, which values individuals and interactions, working software, customer collaboration, and responding to change. Agile development promotes frequent communication among developers, testers, customers, and stakeholders to ensure that software meets business needs throughout the development process.
+
+Popular Agile frameworks include Scrum, Kanban, Extreme Programming (XP), Lean

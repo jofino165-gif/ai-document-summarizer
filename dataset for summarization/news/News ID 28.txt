@@ -1,0 +1,30 @@
+News ID: 28
+Date: 26-02-2027
+
+Headline:
+Global Semiconductor Shortage Expected to Increase Prices of Electronic Devices
+
+News Content:
+Technology industry experts have warned that a renewed shortage of semiconductor chips is affecting the production of smartphones, laptops, gaming consoles, and automotive electronics. Manufacturers reported delays in component supplies due to increased global demand and disruptions in the supply chain. Retailers expect limited product availability over the next few months, while consumers may face higher prices for newly launched electronic devices.
+
+Category:
+Technology
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Semiconductor, Chip Shortage, Electronics, Supply Chain, Smartphones, Laptops
+
+Prediction:
+Electronic device prices are expected to increase and product availability may remain limited until semiconductor production improves and supply chains stabilize.
+
+Recommended Action:
+• Purchase essential electronic devices before prices increase further.
+• Compare prices from multiple retailers before buying.
+• Avoid unnecessary upgrades if your current device is functioning well.
+• Businesses should plan inventory purchases early to avoid shortages.
+• Monitor technology market updates for supply chain improvements.
+
+Confidence Score:
+98.7%

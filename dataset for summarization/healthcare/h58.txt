@@ -1,0 +1,14 @@
+Patient Name: Rachel Evans
+Age: 44
+Gender: Female
+Report Date: 10-10-2026
+
+The patient visited the rheumatology department with complaints of persistent pain, stiffness, and swelling affecting the small joints of both hands, wrists, and feet for the past nine months. Morning stiffness lasted for more than one hour and gradually improved with movement. She also reported fatigue, reduced grip strength, and difficulty performing daily activities such as opening jars and writing. There is a family history of autoimmune arthritis.
+
+Vital signs recorded during examination showed a blood pressure of **124/78 mmHg**, heart rate of **82 bpm**, temperature of **98.4°F**, respiratory rate of **16 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.8 g/dL**, white blood cell count of **7,500 cells/µL**, platelet count of **338,000 cells/µL**, erythrocyte sedimentation rate (ESR) of **56 mm/hr**, C-reactive protein (CRP) of **34 mg/L**, **Rheumatoid Factor (RF)** of **142 IU/mL**, and strongly positive **Anti-Cyclic Citrullinated Peptide (Anti-CCP) antibodies**. Kidney function tests, liver function tests, fasting blood glucose, and HbA1c were within normal reference ranges.
+
+X-rays of both hands demonstrated early marginal erosions at the metacarpophalangeal joints with mild periarticular osteopenia. Musculoskeletal ultrasound confirmed active synovitis involving multiple small joints of both hands and wrists.
+
+The physician concluded that the patient has **Rheumatoid Arthritis (RA)** with active inflammatory joint disease. Symmetrical joint involvement, prolonged morning stiffness, positive rheumatoid factor, positive Anti-CCP antibodies, elevated inflammatory markers, and imaging findings strongly support the diagnosis. Kidney function, liver function, and blood glucose levels remain normal. The patient was advised to begin disease-modifying antirheumatic drug (DMARD) therapy as prescribed, perform regular physiotherapy and hand exercises, avoid smoking, maintain a healthy body weight, attend routine rheumatology follow-up visits, and undergo periodic laboratory monitoring to assess treatment response and prevent permanent joint damage.

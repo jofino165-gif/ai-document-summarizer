@@ -1,0 +1,30 @@
+News ID: 70
+Date: 21-05-2027
+
+Headline:
+Nationwide Expansion of Cold Storage Facilities Expected to Reduce Food Waste
+
+News Content:
+The Ministry of Food Processing has announced the construction of new cold storage facilities across major agricultural regions to improve the storage of fruits, vegetables, dairy products, and other perishable goods. The initiative aims to reduce post-harvest losses, improve food quality, and strengthen the agricultural supply chain. Experts believe the expanded cold storage network will help stabilize food prices, increase farmer income, and improve food availability throughout the year.
+
+Category:
+Agriculture
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Cold Storage, Food Preservation, Agriculture, Supply Chain, Food Waste, Farmer Income
+
+Prediction:
+The expansion of cold storage infrastructure is expected to reduce food wastage, improve year-round food availability, stabilize market prices, and increase farmers' income through better product preservation.
+
+Recommended Action:
+• Farmers should utilize cold storage facilities to reduce post-harvest losses.
+• Food distributors should improve inventory management using modern storage solutions.
+• Consumers should continue proper food storage practices at home to reduce waste.
+• Businesses can invest in cold chain logistics to improve product quality.
+• Stay informed about government agricultural infrastructure programs and support schemes.
+
+Confidence Score:
+98.9%

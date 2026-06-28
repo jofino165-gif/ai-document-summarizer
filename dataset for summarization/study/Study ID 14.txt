@@ -1,0 +1,95 @@
+Study ID: 14
+
+Topic:
+Information Security
+
+Uploaded Notes:
+Information Security is the practice of protecting information and information systems from unauthorized access, disclosure, modification, destruction, or disruption. It ensures that sensitive data remains confidential, accurate, and available only to authorized users. Information Security is essential for organizations to safeguard personal information, financial records, intellectual property, and business operations.
+
+The foundation of Information Security is the CIA Triad, which consists of Confidentiality, Integrity, and Availability. Confidentiality ensures that information is accessible only to authorized individuals. Integrity protects data from unauthorized modification, while Availability ensures that information and systems remain accessible whenever needed.
+
+Information Security includes several security controls such as administrative controls, technical controls, and physical controls. Common security technologies include encryption, firewalls, antivirus software, intrusion detection systems (IDS), intrusion prevention systems (IPS), virtual private networks (VPNs), access control mechanisms, and multi-factor authentication (MFA).
+
+Organizations implement Information Security through risk assessment, security policies, user authentication, access control, backup and recovery, security awareness training, and regular system monitoring. Compliance with standards such as ISO 27001 and security frameworks helps organizations maintain effective security practices.
+
+Information Security is widely applied in banking, healthcare, education, government, e-commerce, cloud computing, telecommunications, and manufacturing to protect digital assets and ensure business continuity.
+
+The advantages of Information Security include protection of sensitive information, prevention of cyber attacks, business continuity, legal compliance, customer trust, and reduced financial losses. Challenges include evolving cyber threats, insider attacks, implementation costs, and the shortage of cybersecurity professionals.
+
+Summary:
+Information Security protects digital information from unauthorized access, modification, and destruction. It is based on the CIA Triad and uses security controls, encryption, authentication, and monitoring to ensure data confidentiality, integrity, and availability across organizations.
+
+Study Notes:
+Definition:
+Information Security is the process of protecting information and information systems from unauthorized access, misuse, alteration, or destruction.
+
+Main Concepts:
+• Confidentiality
+• Integrity
+• Availability
+• Risk Management
+• Access Control
+• Security Policies
+
+Security Controls:
+• Administrative Controls
+• Technical Controls
+• Physical Controls
+
+Security Technologies:
+• Encryption
+• Firewall
+• Antivirus
+• VPN
+• IDS
+• IPS
+• Multi-Factor Authentication
+
+Applications:
+• Banking
+• Healthcare
+• Government
+• Education
+• E-commerce
+• Cloud Computing
+
+Advantages:
+• Data Protection
+• Business Continuity
+• Legal Compliance
+• Customer Trust
+• Reduced Financial Loss
+
+Challenges:
+• Cyber Threats
+• Insider Attacks
+• High Security Costs
+• Skilled Workforce Shortage
+
+Conclusion:
+Information Security is essential for protecting valuable digital assets, maintaining customer trust, and ensuring secure business operations in the modern digital environment.
+
+Important Keywords:
+Information Security
+CIA Triad
+Confidentiality
+Integrity
+Availability
+Encryption
+Access Control
+Firewall
+Risk Management
+Multi-Factor Authentication
+
+Reference Websites:
+• NIST
+• ISO
+• OWASP
+• Microsoft Security
+• IBM Security
+• Cisco Security
+• EC-Council
+• Coursera
+
+Confidence Score:
+99.3%

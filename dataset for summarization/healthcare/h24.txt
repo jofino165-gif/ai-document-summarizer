@@ -1,0 +1,14 @@
+Patient Name: Priya Nair
+Age: 29
+Gender: Female
+Report Date: 03-08-2026
+
+The patient visited the endocrinology department with complaints of increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, and excessive hunger for the past six weeks. She also reported occasional nausea and difficulty concentrating. The patient has no previous history of diabetes but stated that her mother was diagnosed with Type 1 Diabetes Mellitus. She has no history of hypertension or kidney disease.
+
+Vital signs recorded during examination showed a blood pressure of 114/72 mmHg, heart rate of 96 bpm, temperature of 98.5°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 13.6 g/dL, white blood cell count of 7,200 cells/µL, platelet count of 286,000 cells/µL. Fasting blood glucose was **284 mg/dL**, postprandial blood glucose was **356 mg/dL**, and HbA1c was **11.2%**, indicating severe hyperglycemia.
+
+Autoimmune testing showed positive Glutamic Acid Decarboxylase (GAD-65) antibodies and positive Islet Cell Antibodies (ICA). Serum C-peptide level was markedly reduced at **0.3 ng/mL**, indicating significantly decreased insulin production. Urinalysis demonstrated glucosuria and moderate ketonuria. Kidney function tests showed creatinine of **0.9 mg/dL** and blood urea of **18 mg/dL**, both within normal limits. Liver function tests were also within normal reference ranges.
+
+The physician concluded that the patient has **Type 1 Diabetes Mellitus**, confirmed by severe hyperglycemia, positive autoimmune antibodies, low C-peptide levels, and reduced endogenous insulin production. The presence of urinary ketones indicates an increased risk of diabetic ketoacidosis if treatment is delayed. Kidney and liver function remain normal. The patient was advised to begin lifelong insulin therapy immediately, monitor blood glucose frequently, maintain a carbohydrate-controlled diet, recognize symptoms of hypoglycemia and diabetic ketoacidosis, attend diabetes education sessions, and undergo regular endocrinology follow-up to prevent long-term complications.

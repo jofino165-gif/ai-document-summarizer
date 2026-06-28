@@ -1,0 +1,14 @@
+Patient Name: Laura Bennett
+Age: 35
+Gender: Female
+Report Date: 20-10-2026
+
+The patient visited the rheumatology department with complaints of recurrent facial rash that worsened after sun exposure, pain and swelling in multiple joints, persistent fatigue, low-grade fever, hair loss, and painless mouth ulcers over the past eight months. She also reported intermittent swelling of the hands and occasional chest pain while taking deep breaths. There is no significant family history of autoimmune disease.
+
+Vital signs recorded during examination showed a blood pressure of **128/82 mmHg**, heart rate of **88 bpm**, temperature of **99.0°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **10.8 g/dL**, white blood cell count of **3,900 cells/µL**, platelet count of **152,000 cells/µL**, erythrocyte sedimentation rate (ESR) of **74 mm/hr**, C-reactive protein (CRP) of **26 mg/L**, serum creatinine of **1.0 mg/dL**, blood urea of **18 mg/dL**, and urine analysis showing mild proteinuria without significant kidney impairment.
+
+Autoimmune testing demonstrated strongly positive **Antinuclear Antibody (ANA)**, positive **anti-double stranded DNA (anti-dsDNA)** antibodies, positive **anti-Smith antibodies**, and reduced complement **C3** and **C4** levels. Chest X-ray showed a small left-sided pleural effusion without evidence of infection.
+
+The physician concluded that the patient has **Systemic Lupus Erythematosus (SLE)** with multisystem involvement affecting the skin, joints, blood cells, and serosal membranes. Clinical symptoms, autoimmune antibody profile, reduced complement levels, and inflammatory markers strongly support the diagnosis. Kidney function remains preserved despite mild proteinuria. The patient was advised to begin immunosuppressive therapy and hydroxychloroquine as prescribed, avoid excessive sun exposure, use sunscreen regularly, attend routine rheumatology follow-up visits, undergo periodic kidney function and autoimmune marker monitoring, and seek medical attention promptly if new organ-related symptoms develop.

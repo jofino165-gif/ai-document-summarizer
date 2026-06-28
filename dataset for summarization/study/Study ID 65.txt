@@ -1,0 +1,91 @@
+Study ID: 65
+
+Topic:
+Machine Learning (ML)
+
+Uploaded Notes:
+Machine Learning (ML) is a branch of Artificial Intelligence that enables computers to learn from data and improve their performance over time without being explicitly programmed. It focuses on developing algorithms that can identify patterns, make predictions, and support decision-making based on historical data.
+
+Machine Learning is generally classified into three types: Supervised Learning, Unsupervised Learning, and Reinforcement Learning. Supervised Learning uses labeled data for training, Unsupervised Learning finds hidden patterns in unlabeled data, and Reinforcement Learning learns through rewards and penalties.
+
+The Machine Learning workflow includes data collection, data preprocessing, feature engineering, model selection, training, evaluation, hyperparameter tuning, and deployment. Each step is crucial for building accurate and reliable models.
+
+Common ML algorithms include Linear Regression, Logistic Regression, Decision Trees, Random Forest, Support Vector Machines (SVM), K-Nearest Neighbors (KNN), Naïve Bayes, K-Means Clustering, and Gradient Boosting methods.
+
+Machine Learning is widely used in healthcare, finance, e-commerce, marketing, cybersecurity, transportation, and social media. Applications include fraud detection, recommendation systems, image recognition, predictive analytics, and spam detection.
+
+The advantages of Machine Learning include automation, improved accuracy, scalability, real-time predictions, and better decision-making. Challenges include data quality issues, overfitting, underfitting, bias, interpretability, and high computational requirements.
+
+Summary:
+Machine Learning enables systems to learn from data and make predictions or decisions without explicit programming, using statistical and algorithmic models.
+
+Study Notes:
+Definition:
+Machine Learning is a field of AI that allows systems to learn patterns from data and improve performance.
+
+Main Concepts:
+• Supervised Learning
+• Unsupervised Learning
+• Reinforcement Learning
+• Feature Engineering
+• Model Training
+• Prediction
+
+Common Algorithms:
+• Linear Regression
+• Logistic Regression
+• Decision Tree
+• Random Forest
+• SVM
+• KNN
+• K-Means
+
+Applications:
+• Fraud Detection
+• Recommendation Systems
+• Healthcare
+• Image Recognition
+• Spam Filtering
+• Predictive Analytics
+
+Advantages:
+• Automation
+• High Accuracy
+• Scalability
+• Real-Time Predictions
+• Better Decision Making
+
+Challenges:
+• Overfitting
+• Underfitting
+• Bias
+• Data Quality Issues
+• High Computation Cost
+
+Conclusion:
+Machine Learning is a core technology of AI that enables systems to learn from data and make intelligent decisions across various real-world applications.
+
+Important Keywords:
+Machine Learning
+Supervised Learning
+Unsupervised Learning
+Reinforcement Learning
+Regression
+Classification
+Clustering
+Random Forest
+SVM
+Neural Networks
+
+Reference Websites:
+• Scikit-learn Documentation
+• TensorFlow Documentation
+• PyTorch Documentation
+• Coursera
+• Kaggle
+• Google ML Crash Course
+• Microsoft Learn
+• GeeksforGeeks
+
+Confidence Score:
+99.8%

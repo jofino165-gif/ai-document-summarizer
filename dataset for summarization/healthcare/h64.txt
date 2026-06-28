@@ -1,0 +1,14 @@
+Patient Name: Daniel Morris
+Age: 68
+Gender: Male
+Report Date: 22-10-2026
+
+The patient visited the neurology department with complaints of sudden weakness of the right arm and leg, slurred speech, facial drooping on the right side, and difficulty walking that began approximately two hours before arrival at the emergency department. He has a medical history of hypertension, atrial fibrillation, Type 2 diabetes mellitus, and hyperlipidemia. The patient admitted to irregular use of prescribed anticoagulant medication.
+
+Vital signs recorded during examination showed a blood pressure of **178/104 mmHg**, heart rate of **112 bpm** with an irregularly irregular rhythm, temperature of **98.6°F**, respiratory rate of **20 breaths per minute**, and oxygen saturation of **96%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.5 g/dL**, white blood cell count of **8,400 cells/µL**, platelet count of **286,000 cells/µL**, fasting blood glucose of **238 mg/dL**, HbA1c of **8.8%**, serum creatinine of **1.1 mg/dL**, blood urea of **22 mg/dL**, total cholesterol of **248 mg/dL**, LDL cholesterol of **168 mg/dL**, and triglycerides of **218 mg/dL**. Liver function tests were within normal reference ranges.
+
+Emergency non-contrast CT scan of the brain showed **no intracranial hemorrhage**. CT angiography demonstrated **occlusion of the left middle cerebral artery (MCA)**. MRI of the brain confirmed an **acute ischemic infarction** involving the left frontal and parietal regions. Electrocardiogram confirmed **atrial fibrillation**.
+
+The physician concluded that the patient has an **Acute Ischemic Stroke involving the Left Middle Cerebral Artery Territory**, most likely caused by a cardioembolic event related to atrial fibrillation. Imaging findings and neurological examination confirm the diagnosis. Multiple uncontrolled cardiovascular risk factors significantly increased the risk of stroke. The patient was advised to receive emergency stroke management, resume appropriate anticoagulation when medically indicated, achieve strict control of blood pressure, diabetes, and cholesterol levels, participate in neurological rehabilitation, and attend regular neurology and cardiology follow-up visits to reduce the risk of recurrent stroke.

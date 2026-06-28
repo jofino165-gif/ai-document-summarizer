@@ -1,0 +1,14 @@
+Patient Name: Michael Foster
+Age: 55
+Gender: Male
+Report Date: 11-11-2026
+
+The patient visited the pulmonology department with complaints of persistent cough lasting more than four months, coughing up blood on several occasions, chest pain, progressive shortness of breath, hoarseness of voice, and an unintended weight loss of 9 kg. He has a smoking history of **40 pack-years** and worked in a mining industry for over 25 years with prolonged exposure to dust.
+
+Vital signs recorded during examination showed a blood pressure of **136/84 mmHg**, heart rate of **92 bpm**, temperature of **98.7°F**, respiratory rate of **20 breaths per minute**, and oxygen saturation of **95%** on room air.
+
+Laboratory investigations revealed a hemoglobin level of **11.9 g/dL**, white blood cell count of **8,100 cells/µL**, platelet count of **318,000 cells/µL**, serum creatinine of **1.0 mg/dL**, blood urea of **20 mg/dL**, fasting blood glucose of **99 mg/dL**, HbA1c of **5.5%**, and liver function tests within normal reference ranges.
+
+Chest X-ray demonstrated a suspicious right upper lobe lung mass. Contrast-enhanced CT scan of the chest revealed a **5.2 cm spiculated mass** in the right upper lobe with enlarged right hilar and mediastinal lymph nodes. Bronchoscopy with biopsy confirmed **Non-Small Cell Lung Cancer (Squamous Cell Carcinoma)**. PET-CT showed regional lymph node involvement without distant metastatic disease.
+
+The physician concluded that the patient has **Stage III Non-Small Cell Lung Cancer (Squamous Cell Carcinoma)**. Imaging findings, bronchoscopic biopsy, smoking history, and clinical symptoms confirm the diagnosis. Mild anemia is likely associated with chronic disease. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a multidisciplinary thoracic oncology team to discuss combined chemotherapy, radiation therapy, immunotherapy, and surgical options where appropriate. Complete smoking cessation, pulmonary rehabilitation, nutritional support, and regular oncology follow-up were strongly recommended to optimize treatment outcomes and monitor disease progression.

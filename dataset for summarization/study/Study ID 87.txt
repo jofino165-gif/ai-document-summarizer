@@ -1,0 +1,89 @@
+Study ID: 87
+
+Topic:
+Natural Language Processing (NLP)
+
+Uploaded Notes:
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that focuses on enabling computers to understand, interpret, and generate human language in a meaningful way. It combines linguistics, computer science, and machine learning techniques.
+
+NLP allows machines to process text and speech data and perform tasks such as translation, sentiment analysis, speech recognition, text summarization, and question answering.
+
+The NLP pipeline includes steps such as text preprocessing, tokenization, stop word removal, stemming, lemmatization, feature extraction, model training, and evaluation.
+
+Key techniques in NLP include bag-of-words, TF-IDF (Term Frequency-Inverse Document Frequency), word embeddings (Word2Vec, GloVe, FastText), and transformer models like BERT and GPT.
+
+NLP is widely used in chatbots, virtual assistants, search engines, social media analysis, spam detection, machine translation, and voice-controlled systems.
+
+Common challenges in NLP include ambiguity in language, context understanding, sarcasm detection, multilingual processing, and handling unstructured data.
+
+The advantages of NLP include automation of language tasks, improved user interaction, faster information retrieval, and enhanced communication systems. Challenges include language complexity, data sparsity, and bias in training data.
+
+Summary:
+NLP enables computers to understand and process human language using AI and machine learning techniques for communication and analysis tasks.
+
+Study Notes:
+Definition:
+Natural Language Processing is a field of AI that enables machines to understand human language.
+
+Main Concepts:
+• Tokenization
+• Stemming
+• Lemmatization
+• Stop Words
+• Word Embeddings
+• Transformers
+
+Techniques:
+• Bag of Words
+• TF-IDF
+• Word2Vec
+• GloVe
+• BERT
+• GPT
+
+Applications:
+• Chatbots
+• Machine Translation
+• Sentiment Analysis
+• Speech Recognition
+• Text Summarization
+
+Advantages:
+• Automation of Text Processing
+• Better Communication
+• Faster Data Analysis
+• Improved Search Systems
+
+Challenges:
+• Language Ambiguity
+• Context Understanding
+• Sarcasm Detection
+• Multilingual Complexity
+
+Conclusion:
+NLP enables machines to process and understand human language, improving interaction between humans and computers through AI techniques.
+
+Important Keywords:
+NLP
+Tokenization
+TF-IDF
+Word Embedding
+BERT
+GPT
+Sentiment Analysis
+Machine Translation
+Stemming
+Lemmatization
+
+Reference Websites:
+• Stanford NLP
+• Hugging Face Documentation
+• NLTK Documentation
+• SpaCy Docs
+• Coursera NLP Course
+• GeeksforGeeks
+• Microsoft Learn AI
+• DeepLearning.AI
+
+Confidence Score:
+99.8%

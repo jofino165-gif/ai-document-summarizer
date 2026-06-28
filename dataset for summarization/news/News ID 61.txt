@@ -1,0 +1,30 @@
+News ID: 61
+Date: 03-05-2027
+
+Headline:
+Government Announces Reduction in Domestic LPG Prices Following Decline in Global Energy Costs
+
+News Content:
+The Ministry of Petroleum has announced a reduction of ₹75 per domestic LPG cylinder after a decline in international energy prices and improved fuel supply. The revised prices will take effect from next week across the country. Household consumers, restaurants, and small businesses are expected to benefit from lower cooking fuel expenses. Economic analysts believe the price reduction may also help ease inflation by lowering operating costs for food-related businesses.
+
+Category:
+Economy
+
+Sentiment:
+Positive
+
+Detected Keywords:
+LPG Price, Cooking Gas, Fuel Cost, Household Expenses, Energy, Inflation
+
+Prediction:
+Lower LPG prices are expected to reduce monthly household expenses and operating costs for restaurants and small businesses. The reduction may also contribute to lower food inflation if fuel prices remain stable.
+
+Recommended Action:
+• Review your monthly household budget to account for lower cooking fuel costs.
+• Restaurants and food businesses can optimize pricing and operating expenses.
+• Continue using LPG efficiently to maximize savings.
+• Monitor future fuel price announcements for additional changes.
+• Consider saving the money gained from reduced fuel expenses for future needs.
+
+Confidence Score:
+98.9%

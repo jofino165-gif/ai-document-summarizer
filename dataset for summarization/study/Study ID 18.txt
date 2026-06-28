@@ -1,0 +1,87 @@
+Study ID: 18
+
+Topic:
+Software Development Life Cycle (SDLC)
+
+Uploaded Notes:
+Software Development Life Cycle (SDLC) is a structured process used by software developers and organizations to design, develop, test, and maintain high-quality software systems. It defines a series of stages that ensure software is built efficiently, meets user requirements, and is delivered on time with minimal errors.
+
+The SDLC process typically includes several phases: Requirement Analysis, System Design, Implementation (Coding), Testing, Deployment, and Maintenance. In the Requirement Analysis phase, user needs and system requirements are gathered. System Design focuses on architecture and planning. Implementation involves writing code, while Testing ensures the software is free of defects. Deployment releases the software to users, and Maintenance involves updates and bug fixes.
+
+There are several SDLC models such as Waterfall Model, Agile Model, Spiral Model, V-Model, Iterative Model, and DevOps approach. The Waterfall Model follows a linear sequence, while Agile emphasizes flexibility and iterative development. DevOps integrates development and operations for continuous delivery and automation.
+
+SDLC is widely used in web development, mobile application development, enterprise software, banking systems, healthcare applications, and e-commerce platforms. It helps organizations deliver reliable, scalable, and maintainable software systems.
+
+The advantages of SDLC include better project planning, improved software quality, reduced development costs, clear documentation, and better risk management. Challenges include strict timelines, changing requirements, high complexity in large projects, and communication gaps between teams.
+
+Summary:
+Software Development Life Cycle (SDLC) is a systematic process used to develop software through structured phases such as planning, design, coding, testing, deployment, and maintenance. It ensures high-quality, efficient, and reliable software development.
+
+Study Notes:
+Definition:
+SDLC is a process used to design, develop, test, and maintain software systems in a structured manner.
+
+Main Phases:
+• Requirement Analysis
+• System Design
+• Implementation (Coding)
+• Testing
+• Deployment
+• Maintenance
+
+SDLC Models:
+• Waterfall Model
+• Agile Model
+• Spiral Model
+• V-Model
+• Iterative Model
+• DevOps
+
+Applications:
+• Web Development
+• Mobile Applications
+• Enterprise Software
+• Banking Systems
+• Healthcare Systems
+• E-commerce Platforms
+
+Advantages:
+• Better Project Management
+• High Software Quality
+• Reduced Development Cost
+• Clear Documentation
+• Risk Management
+
+Challenges:
+• Changing Requirements
+• Complex Large Projects
+• Time Constraints
+• Communication Gaps
+
+Conclusion:
+SDLC provides a structured framework for software development, ensuring systematic planning, efficient execution, and high-quality software delivery.
+
+Important Keywords:
+SDLC
+Software Development Life Cycle
+Waterfall Model
+Agile Model
+Testing
+Deployment
+Requirement Analysis
+DevOps
+System Design
+Maintenance
+
+Reference Websites:
+• Microsoft Learn
+• IBM Developer
+• Atlassian Agile Guide
+• Coursera
+• GeeksforGeeks
+• W3Schools
+• Oracle Learning
+• Tutorialspoint
+
+Confidence Score:
+99.3%

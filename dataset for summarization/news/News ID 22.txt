@@ -1,0 +1,30 @@
+News ID: 22
+Date: 14-02-2027
+
+Headline:
+Government Announces Reduction in Income Tax Rates for Middle-Income Earners
+
+News Content:
+The Ministry of Finance has announced revised income tax rates that provide relief for middle-income earners. According to the new policy, eligible taxpayers will benefit from lower tax deductions beginning in the next financial year. Economic experts believe the tax reduction may increase disposable income, encourage consumer spending, and support economic growth. Business organizations welcomed the announcement, stating that higher consumer spending could improve retail sales and service-sector performance.
+
+Category:
+Finance
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Income Tax, Tax Reduction, Government Policy, Disposable Income, Consumer Spending, Finance
+
+Prediction:
+Lower income tax rates are expected to increase household savings and consumer spending, providing a positive boost to the overall economy.
+
+Recommended Action:
+• Review your financial plan based on the revised tax rates.
+• Consider increasing savings or investments using the additional disposable income.
+• Update tax calculations and consult a financial advisor if needed.
+• Avoid unnecessary spending despite the increase in take-home income.
+• Stay informed about detailed tax guidelines and implementation dates.
+
+Confidence Score:
+98.4%

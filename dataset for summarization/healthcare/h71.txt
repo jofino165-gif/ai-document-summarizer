@@ -1,0 +1,14 @@
+Patient Name: Patricia Lewis
+Age: 46
+Gender: Female
+Report Date: 05-11-2026
+
+The patient visited the endocrinology department with complaints of persistent fatigue, increased thirst, frequent urination, unexplained weight loss of 8 kg over the past three months, blurred vision, and recurrent skin infections. She reported a family history of Type 2 diabetes mellitus and admitted to consuming a high-calorie diet with minimal physical activity.
+
+Vital signs recorded during examination showed a blood pressure of **142/88 mmHg**, heart rate of **86 bpm**, temperature of **98.5°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.0 g/dL**, white blood cell count of **7,400 cells/µL**, platelet count of **288,000 cells/µL**, fasting blood glucose of **286 mg/dL**, postprandial blood glucose of **382 mg/dL**, HbA1c of **11.3%**, serum creatinine of **1.1 mg/dL**, blood urea of **22 mg/dL**, urine microalbumin of **74 mg/g**, total cholesterol of **248 mg/dL**, LDL cholesterol of **170 mg/dL**, HDL cholesterol of **39 mg/dL**, and triglycerides of **238 mg/dL**.
+
+Fundus examination revealed **moderate non-proliferative diabetic retinopathy**, while urine analysis demonstrated persistent microalbuminuria without significant reduction in kidney function. Peripheral neurological examination showed reduced vibration sensation in both feet, consistent with early diabetic peripheral neuropathy.
+
+The physician concluded that the patient has **Poorly Controlled Type 2 Diabetes Mellitus** with early **diabetic nephropathy**, **diabetic neuropathy**, and **moderate non-proliferative diabetic retinopathy**. Persistently elevated blood glucose, high HbA1c, retinal changes, neuropathy, and microalbuminuria indicate chronic diabetic complications. The patient was advised to begin intensive blood glucose management, follow a diabetic meal plan, engage in regular physical activity, monitor blood glucose daily, adhere strictly to prescribed medications, undergo annual eye and kidney evaluations, and attend regular endocrinology follow-up visits to prevent progression of diabetic complications.

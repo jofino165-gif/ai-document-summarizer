@@ -1,0 +1,30 @@
+News ID: 18
+Date: 06-02-2027
+
+Headline:
+Global Wheat Prices Rise Following Reduced Harvest in Major Producing Countries
+
+News Content:
+Several of the world's largest wheat-producing countries reported lower-than-expected harvests due to prolonged drought and unfavorable weather conditions. As a result, global wheat prices have increased by nearly 12% over the past month. Food manufacturers have warned that the rising cost of wheat may lead to higher prices for bread, flour, pasta, and other wheat-based products. Economists expect the impact to continue until the next harvest season improves supply.
+
+Category:
+Economy
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Wheat Prices, Agriculture, Drought, Food Inflation, Global Market, Crop Production
+
+Prediction:
+Wheat prices are expected to remain elevated in the coming months, increasing the cost of wheat-based food products and contributing to food inflation.
+
+Recommended Action:
+• Plan grocery purchases to manage rising food costs.
+• Reduce unnecessary food waste and store grains properly.
+• Consider alternative grains or locally available substitutes where practical.
+• Food businesses should review procurement strategies and inventory planning.
+• Stay informed about market trends and government measures affecting food prices.
+
+Confidence Score:
+98.4%

@@ -1,0 +1,30 @@
+News ID: 6
+Date: 13-01-2027
+
+Headline:
+Health Department Reports Rise in Seasonal Viral Infections Across Major Cities
+
+News Content:
+The Health Department has reported a significant increase in seasonal viral infections in several major cities over the past two weeks. Hospitals have experienced a higher number of patients with fever, cough, sore throat, and body aches. Health officials stated that the rise is linked to changing weather conditions and increased public gatherings. Citizens, especially children, older adults, and individuals with weakened immune systems, have been advised to take preventive measures to reduce the spread of infection.
+
+Category:
+Health
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Viral Infection, Fever, Cough, Health Department, Seasonal Illness, Public Health
+
+Prediction:
+Seasonal viral infections are expected to increase further over the next few weeks, leading to higher outpatient visits and increased demand for healthcare services.
+
+Recommended Action:
+• Wash hands frequently with soap or use hand sanitizer.
+• Wear a mask in crowded public places if you are unwell or at higher risk.
+• Stay hydrated and maintain a balanced diet to support immunity.
+• Avoid close contact with individuals showing symptoms of illness.
+• Seek medical attention if fever or respiratory symptoms persist or worsen.
+
+Confidence Score:
+97.9%

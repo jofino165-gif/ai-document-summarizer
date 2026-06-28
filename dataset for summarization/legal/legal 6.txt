@@ -1,0 +1,21 @@
+## Legal Document 6 – Intellectual Property Licensing Agreement
+
+### Original Text
+
+An Intellectual Property Licensing Agreement is a legal contract that allows the owner of intellectual property, known as the licensor, to grant another party, known as the licensee, permission to use specific intellectual property under agreed terms and conditions. Intellectual property may include patents, trademarks, copyrights, software, trade secrets, designs, or proprietary technology. This agreement enables businesses and individuals to benefit from valuable intellectual property while ensuring that the ownership rights of the licensor remain protected.
+
+The agreement begins by identifying the licensor and the licensee, along with their legal names, addresses, and contact information. It also provides a detailed description of the intellectual property being licensed. This description may include patent numbers, trademark registrations, copyright details, software versions, technical specifications, or other identifying information. Clearly identifying the licensed property helps avoid confusion and establishes the exact rights being granted.
+
+One of the most important sections of the agreement defines the scope of the license. It explains whether the license is exclusive, non-exclusive, or sole. An exclusive license grants the licensee exclusive rights to use the intellectual property, preventing the licensor from granting similar rights to others. A non-exclusive license allows the licensor to grant licenses to multiple parties. The agreement also specifies the permitted uses of the intellectual property and any restrictions that apply.
+
+The agreement includes provisions regarding the duration of the license and the geographical area in which the intellectual property may be used. Some licenses remain valid for a fixed number of years, while others continue until terminated according to the terms of the contract. Geographic limitations ensure that the licensee only uses the intellectual property within approved regions or markets.
+
+Financial terms are another essential part of the licensing agreement. The contract specifies the licensing fee, royalty payments, payment schedules, and any minimum payment obligations. Royalties may be calculated as a percentage of sales, a fixed annual amount, or another agreed method. The agreement also explains the procedures for maintaining financial records and conducting audits to verify royalty payments.
+
+The agreement requires the licensee to protect the intellectual property from unauthorized use or infringement. The licensee must not modify, copy, distribute, or transfer the intellectual property beyond the permissions granted in the agreement. If the licensee becomes aware of infringement by a third party, the agreement may require immediate notification to the licensor so that appropriate legal action can be taken.
+
+Termination clauses specify the conditions under which either party may end the licensing agreement. Common reasons include breach of contract, failure to make royalty payments, unauthorized use of the intellectual property, or mutual agreement between the parties. Upon termination, the licensee is generally required to stop using the intellectual property and return or destroy any confidential materials received under the agreement.
+
+The agreement also includes dispute resolution procedures, governing law, and jurisdiction. If disagreements arise regarding the interpretation or performance of the agreement, the parties may first attempt negotiation or mediation before pursuing arbitration or legal action in court. These provisions help resolve disputes efficiently while minimizing legal expenses.
+
+Overall, an Intellectual Property Licensing Agreement provides a legal framework that allows intellectual property owners to commercialize their assets while protecting their ownership rights. By clearly defining licensing rights, financial obligations, confidentiality requirements, termination conditions, and dispute resolution procedures, the agreement supports innovation, encourages business collaboration, and safeguards valuable intellectual property.

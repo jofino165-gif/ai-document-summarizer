@@ -1,0 +1,14 @@
+Health Report 1
+
+Patient Name: Michael Johnson
+Age: 52
+Gender: Male
+Report Date: 18-06-2026
+
+The patient visited the hospital for a routine health examination and reported frequent thirst, increased urination, fatigue, occasional blurred vision, and headaches. Vital signs showed a blood pressure of 168/104 mmHg, heart rate of 96 bpm, temperature of 98.4°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 14.2 g/dL, white blood cell count of 7,900 cells/µL, and platelet count of 275,000 cells/µL. Fasting blood sugar was 192 mg/dL, postprandial blood sugar was 276 mg/dL, and HbA1c was 8.7%, indicating poor long-term glucose control.
+
+The lipid profile showed total cholesterol of 248 mg/dL, LDL cholesterol of 171 mg/dL, HDL cholesterol of 38 mg/dL, and triglycerides of 230 mg/dL. Kidney function tests were within normal limits with creatinine of 1.1 mg/dL and blood urea of 21 mg/dL. Liver function tests showed mildly elevated ALT (46 U/L) and AST (39 U/L).
+
+The physician noted that the patient's blood pressure and blood sugar levels were consistently elevated. The abnormal cholesterol values increase the risk of cardiovascular disease. Kidney function is normal, while mild liver enzyme elevation may indicate early fatty liver changes. The patient has obesity, performs very little physical activity, and regularly consumes processed foods and sugary beverages. The physician advised immediate lifestyle modification, regular exercise, dietary control, routine monitoring of blood glucose and blood pressure, and follow-up medical evaluation.

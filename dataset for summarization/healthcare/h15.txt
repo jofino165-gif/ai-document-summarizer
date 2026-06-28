@@ -1,0 +1,14 @@
+Patient Name: Ethan Clark
+Age: 31
+Gender: Male
+Report Date: 16-07-2026
+
+The patient visited the gastroenterology department with complaints of frequent abdominal discomfort, bloating, intermittent diarrhea, weight loss of approximately 4 kg over the past three months, and occasional fatigue. The symptoms were reported to worsen after consuming foods containing wheat, barley, or rye. The patient denied alcohol consumption and had no previous history of liver disease or inflammatory bowel disease. A family history revealed that his sister was diagnosed with celiac disease.
+
+Vital signs recorded during examination showed a blood pressure of 116/74 mmHg, heart rate of 76 bpm, temperature of 98.4°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 11.5 g/dL, white blood cell count of 6,900 cells/µL, platelet count of 295,000 cells/µL, serum iron of 38 µg/dL, ferritin of 14 ng/mL, vitamin B12 of 260 pg/mL, and folate of 5.2 ng/mL. Kidney function tests and liver function tests were within normal reference ranges. Fasting blood glucose was 90 mg/dL and HbA1c was 5.3%.
+
+Serological testing showed positive tissue transglutaminase IgA (tTG-IgA) antibodies and positive endomysial antibodies (EMA). Upper gastrointestinal endoscopy with duodenal biopsy demonstrated villous atrophy and crypt hyperplasia, findings consistent with celiac disease.
+
+The physician concluded that the patient has Celiac Disease resulting in gluten-induced intestinal inflammation and nutrient malabsorption. Mild iron deficiency anemia is also present due to impaired nutrient absorption. Kidney function, liver function, and blood glucose levels remain normal. The patient was advised to follow a strict lifelong gluten-free diet, avoid wheat, barley, and rye products, consume iron-rich and nutrient-balanced foods, attend regular follow-up evaluations with a gastroenterologist, and undergo periodic nutritional assessments to monitor recovery and prevent long-term complications.

@@ -1,0 +1,30 @@
+News ID: 15
+Date: 31-01-2027
+
+Headline:
+Nationwide Water Levels Decline After Prolonged Dry Season, Conservation Measures Urged
+
+News Content:
+The National Water Resources Department reported that reservoir and groundwater levels have fallen significantly following several months of below-average rainfall. Many regions are experiencing reduced water availability for agriculture, industries, and domestic use. Officials warned that if dry weather continues, some areas could face temporary water supply restrictions. Citizens have been encouraged to use water responsibly while authorities implement conservation measures and improve water distribution systems.
+
+Category:
+Environment
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Water Shortage, Reservoir, Groundwater, Drought, Water Conservation, Environment
+
+Prediction:
+Water availability is expected to decrease further if rainfall remains below normal, increasing the possibility of water restrictions and affecting agricultural production.
+
+Recommended Action:
+• Use water only when necessary and avoid wastage.
+• Repair leaking taps and pipelines immediately.
+• Store water safely for essential household needs.
+• Farmers should adopt efficient irrigation methods such as drip irrigation.
+• Stay updated on local water conservation advisories and supply schedules.
+
+Confidence Score:
+98.7%

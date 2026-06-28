@@ -1,0 +1,14 @@
+Patient Name: Linda Brooks
+Age: 64
+Gender: Female
+Report Date: 25-11-2026
+
+The patient visited the nephrology department with complaints of swelling around the eyes and ankles, frothy urine, fatigue, decreased urine output, and gradual weight gain over the past three months. She has a 15-year history of poorly controlled Type 2 diabetes mellitus and hypertension. The patient denied fever, burning urination, or recent infections.
+
+Vital signs recorded during examination showed a blood pressure of **164/98 mmHg**, heart rate of **86 bpm**, temperature of **98.5°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.2 g/dL**, white blood cell count of **7,200 cells/µL**, platelet count of **284,000 cells/µL**, serum creatinine of **2.6 mg/dL**, blood urea of **48 mg/dL**, estimated glomerular filtration rate (**eGFR**) of **24 mL/min/1.73 m²**, fasting blood glucose of **212 mg/dL**, HbA1c of **8.9%**, serum albumin of **2.7 g/dL**, total cholesterol of **264 mg/dL**, LDL cholesterol of **176 mg/dL**, triglycerides of **248 mg/dL**, and serum potassium of **5.4 mmol/L**.
+
+Urinalysis demonstrated **4+ proteinuria** with a urine albumin-to-creatinine ratio of **1,860 mg/g**. Renal ultrasound showed bilaterally enlarged kidneys with increased cortical echogenicity, consistent with advanced diabetic kidney disease. There was no evidence of urinary tract obstruction.
+
+The physician concluded that the patient has **Stage 4 Chronic Kidney Disease due to Diabetic Nephropathy** with nephrotic-range proteinuria. Reduced kidney function, heavy proteinuria, hypoalbuminemia, and poorly controlled diabetes strongly support the diagnosis. The patient was advised to achieve strict blood glucose and blood pressure control, follow a kidney-friendly diet with sodium and protein restriction as recommended, begin renoprotective medications under specialist supervision, monitor kidney function regularly, manage elevated cholesterol levels, and attend routine nephrology follow-up visits to slow disease progression and prepare for possible future renal replacement therapy if necessary.

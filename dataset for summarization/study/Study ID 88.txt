@@ -1,0 +1,88 @@
+Study ID: 88
+
+Topic:
+Computer Vision
+
+Uploaded Notes:
+Computer Vision is a field of Artificial Intelligence that enables computers to interpret, analyze, and understand visual information from images and videos. It aims to replicate human vision capabilities using machine learning and deep learning techniques.
+
+Computer Vision involves processing digital images to extract meaningful information such as object detection, image classification, face recognition, motion tracking, and scene understanding.
+
+The computer vision pipeline includes image acquisition, preprocessing, feature extraction, model training, object detection, and result interpretation. Preprocessing techniques include resizing, normalization, noise reduction, and image enhancement.
+
+Key techniques in computer vision include edge detection, image segmentation, convolutional neural networks (CNNs), feature matching, and optical flow. CNNs are widely used for deep learning-based image analysis.
+
+Computer Vision is widely used in facial recognition systems, autonomous vehicles, medical imaging, surveillance systems, robotics, augmented reality, and industrial automation.
+
+Common challenges in computer vision include lighting variations, occlusion, background noise, real-time processing requirements, and high computational cost.
+
+The advantages of computer vision include automation of visual tasks, improved accuracy, real-time analysis, and enhanced decision-making. Challenges include data requirements, hardware dependency, and model complexity.
+
+Summary:
+Computer Vision enables machines to interpret and understand visual data from the real world using AI and deep learning techniques.
+
+Study Notes:
+Definition:
+Computer Vision is a field of AI that enables machines to interpret images and videos.
+
+Main Concepts:
+• Image Processing
+• Feature Extraction
+• Object Detection
+• Image Classification
+• Image Segmentation
+• CNN (Convolutional Neural Networks)
+
+Techniques:
+• Edge Detection
+• Image Filtering
+• Segmentation
+• Optical Flow
+• Feature Matching
+
+Applications:
+• Facial Recognition
+• Autonomous Vehicles
+• Medical Imaging
+• Surveillance Systems
+• Robotics
+
+Advantages:
+• Automation of Visual Tasks
+• High Accuracy
+• Real-Time Processing
+• Better Decision Making
+
+Challenges:
+• Lighting Variations
+• Occlusion
+• High Computation
+• Large Dataset Requirements
+
+Conclusion:
+Computer Vision allows machines to analyze and understand visual data, enabling intelligent automation in real-world applications.
+
+Important Keywords:
+Computer Vision
+Image Processing
+CNN
+Object Detection
+Segmentation
+Feature Extraction
+Facial Recognition
+Optical Flow
+Deep Learning
+AI Vision
+
+Reference Websites:
+• OpenCV Documentation
+• TensorFlow Vision Guide
+• PyTorch Tutorials
+• Coursera Computer Vision
+• Stanford Vision Lab
+• GeeksforGeeks
+• Microsoft Learn AI
+• NVIDIA Deep Learning Resources
+
+Confidence Score:
+99.8%

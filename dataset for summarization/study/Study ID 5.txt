@@ -1,0 +1,84 @@
+Study ID: 5
+
+Topic:
+Computer Vision
+
+Uploaded Notes:
+Computer Vision is a branch of Artificial Intelligence (AI) that enables computers to interpret, analyze, and understand visual information from images and videos. It combines image processing, machine learning, and deep learning techniques to identify objects, recognize patterns, and make intelligent decisions based on visual data.
+
+The computer vision process includes image acquisition, image preprocessing, feature extraction, object detection, image classification, segmentation, and recognition. Modern computer vision systems primarily use Convolutional Neural Networks (CNNs) to automatically learn visual features from large datasets.
+
+Computer Vision is widely applied in facial recognition, autonomous vehicles, medical image analysis, surveillance systems, quality inspection in manufacturing, agriculture, robotics, augmented reality, and retail analytics. These applications improve automation, accuracy, and efficiency across various industries.
+
+The advantages of Computer Vision include high-speed image analysis, improved accuracy, automation of visual inspection, and real-time object detection. However, challenges include the need for large labeled datasets, high computational requirements, varying lighting conditions, image quality issues, and privacy concerns.
+
+Summary:
+Computer Vision is a field of Artificial Intelligence that enables computers to analyze and understand images and videos. Using deep learning models such as Convolutional Neural Networks (CNNs), computer vision is applied in healthcare, autonomous vehicles, surveillance, manufacturing, agriculture, and robotics to automate visual recognition and decision-making.
+
+Study Notes:
+Definition:
+Computer Vision is a branch of Artificial Intelligence that enables machines to understand and analyze visual information from images and videos.
+
+Main Concepts:
+• Image Processing
+• Feature Extraction
+• Object Detection
+• Image Classification
+• Image Segmentation
+• Pattern Recognition
+
+Popular Models:
+• Convolutional Neural Network (CNN)
+• YOLO (You Only Look Once)
+• R-CNN
+• Mask R-CNN
+
+Applications:
+• Facial Recognition
+• Medical Imaging
+• Autonomous Vehicles
+• Surveillance Systems
+• Manufacturing Quality Inspection
+• Agriculture
+• Robotics
+• Retail Analytics
+
+Advantages:
+• High Accuracy
+• Real-Time Image Analysis
+• Automation of Visual Tasks
+• Improved Decision Making
+
+Challenges:
+• Large Training Datasets Required
+• High Computational Cost
+• Lighting and Image Quality Variations
+• Privacy and Security Concerns
+
+Conclusion:
+Computer Vision is transforming industries by enabling machines to understand visual information accurately. Its integration with deep learning has significantly improved image recognition, object detection, and intelligent automation.
+
+Important Keywords:
+Computer Vision
+Image Processing
+Object Detection
+Image Classification
+Image Segmentation
+Convolutional Neural Network
+YOLO
+Facial Recognition
+Medical Imaging
+Pattern Recognition
+
+Reference Websites:
+• OpenCV
+• TensorFlow
+• PyTorch
+• OpenAI
+• Google AI
+• Microsoft Learn
+• Coursera
+• Kaggle
+
+Confidence Score:
+99.3%

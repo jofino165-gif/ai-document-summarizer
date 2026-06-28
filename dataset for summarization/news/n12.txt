@@ -1,0 +1,30 @@
+News ID: 12
+Date: 25-01-2027
+
+Headline:
+Electricity Tariffs Increased Nationwide Due to Rising Power Generation Costs
+
+News Content:
+The National Electricity Regulatory Authority has approved an increase in residential and commercial electricity tariffs following higher fuel costs and increased demand for power. The revised tariff will take effect from next month. Utility providers stated that the adjustment is necessary to maintain uninterrupted electricity supply and improve infrastructure. Consumer organizations expressed concern that the increase may raise household expenses and operating costs for businesses.
+
+Category:
+Economy
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Electricity Tariff, Power Supply, Energy Cost, Household Expenses, Utility Bills, Infrastructure
+
+Prediction:
+Electricity bills are expected to increase over the coming months, leading to higher household and business operating expenses. Increased energy costs may also contribute to inflation.
+
+Recommended Action:
+• Reduce unnecessary electricity usage.
+• Switch to energy-efficient appliances and LED lighting.
+• Turn off electrical devices when not in use.
+• Monitor monthly electricity consumption and plan your budget accordingly.
+• Consider renewable energy options, such as rooftop solar panels, if feasible.
+
+Confidence Score:
+98.5%

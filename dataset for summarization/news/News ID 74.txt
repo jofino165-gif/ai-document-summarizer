@@ -1,0 +1,30 @@
+News ID: 74
+Date: 29-05-2027
+
+Headline:
+Government Announces Financial Assistance for Small Farmers Affected by Drought
+
+News Content:
+The Ministry of Agriculture has announced a financial relief package for small and marginal farmers affected by prolonged drought conditions in several agricultural regions. The assistance includes direct financial support, subsidized seeds, irrigation assistance, and crop recovery programs. Agricultural experts believe the initiative will help farmers recover from crop losses, maintain agricultural production, and improve food security in drought-affected areas.
+
+Category:
+Agriculture
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Farmer Assistance, Drought Relief, Agriculture, Financial Support, Crop Recovery, Irrigation
+
+Prediction:
+The financial assistance program is expected to help drought-affected farmers recover more quickly, reduce agricultural losses, and support stable food production in the coming seasons.
+
+Recommended Action:
+• Eligible farmers should apply for the financial assistance program promptly.
+• Use subsidy benefits to invest in drought-resistant crops and efficient irrigation systems.
+• Maintain proper records for subsidy and assistance applications.
+• Participate in agricultural extension and training programs.
+• Stay informed about additional government relief measures and application deadlines.
+
+Confidence Score:
+98.9%

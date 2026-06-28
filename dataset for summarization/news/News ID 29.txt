@@ -1,0 +1,30 @@
+News ID: 29
+Date: 28-02-2027
+
+Headline:
+Government Announces New Housing Subsidy Scheme for First-Time Home Buyers
+
+News Content:
+The Ministry of Housing has launched a new subsidy program to support first-time home buyers by reducing the financial burden of purchasing residential properties. Eligible applicants can receive interest subsidies on home loans and financial assistance toward down payments. Housing experts believe the initiative will encourage more families to purchase homes, stimulate the real estate sector, and increase demand for affordable housing projects.
+
+Category:
+Real Estate
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Housing Subsidy, Home Loan, First-Time Buyers, Real Estate, Government Scheme, Affordable Housing
+
+Prediction:
+Demand for affordable housing is expected to increase as more eligible buyers take advantage of the subsidy program. Home loan applications and residential property sales may also rise in the coming months.
+
+Recommended Action:
+• Check your eligibility for the housing subsidy scheme.
+• Compare home loan interest rates from different banks.
+• Calculate your monthly repayment capacity before purchasing a home.
+• Keep all required financial documents ready for loan applications.
+• Stay updated on government guidelines, application deadlines, and subsidy benefits.
+
+Confidence Score:
+98.6%

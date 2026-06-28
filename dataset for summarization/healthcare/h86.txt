@@ -1,0 +1,14 @@
+Patient Name: Charles Robinson
+Age: 67
+Gender: Male
+Report Date: 05-12-2026
+
+The patient visited the cardiology department with complaints of severe chest pain radiating to the back, sudden onset shortness of breath, dizziness, excessive sweating, and a brief episode of loss of consciousness approximately one hour before arrival at the emergency department. He has a medical history of long-standing uncontrolled hypertension, hyperlipidemia, and a smoking history of 35 pack-years. There was no previous history of heart surgery.
+
+Vital signs recorded during examination showed a blood pressure of **198/112 mmHg** in the right arm and **176/100 mmHg** in the left arm, heart rate of **118 bpm**, temperature of **98.4°F**, respiratory rate of **24 breaths per minute**, and oxygen saturation of **94%** on room air.
+
+Laboratory investigations revealed a hemoglobin level of **13.6 g/dL**, white blood cell count of **10,200 cells/µL**, platelet count of **294,000 cells/µL**, serum creatinine of **1.2 mg/dL**, blood urea of **24 mg/dL**, fasting blood glucose of **126 mg/dL**, HbA1c of **6.2%**, and liver function tests within normal reference ranges. Cardiac troponin levels were within normal limits.
+
+Emergency CT angiography of the chest demonstrated an **acute Stanford Type A Aortic Dissection** extending from the ascending aorta into the aortic arch. Transthoracic echocardiography revealed mild **aortic valve regurgitation** without significant left ventricular dysfunction. Chest X-ray showed widening of the mediastinum.
+
+The physician concluded that the patient has an **Acute Stanford Type A Aortic Dissection**, a life-threatening cardiovascular emergency. Severe tearing chest pain, unequal blood pressures between the arms, CT angiography findings, and mediastinal widening confirm the diagnosis. Immediate surgical intervention is required to prevent fatal complications. The patient was advised to undergo emergency cardiovascular surgery, receive intensive blood pressure control with intravenous medications, remain under continuous intensive care monitoring, and attend long-term cardiology follow-up after recovery to reduce the risk of recurrence and associated complications.

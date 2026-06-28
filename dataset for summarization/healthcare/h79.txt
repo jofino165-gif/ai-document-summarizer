@@ -1,0 +1,14 @@
+Patient Name: Emily Watson
+Age: 33
+Gender: Female
+Report Date: 21-11-2026
+
+The patient visited the hematology department with complaints of persistent fatigue, frequent nosebleeds, bleeding gums, easy bruising, and prolonged menstrual bleeding over the past three months. She denied any history of liver disease, anticoagulant medication use, or recent viral illness. There was no family history of bleeding disorders.
+
+Vital signs recorded during examination showed a blood pressure of **116/74 mmHg**, heart rate of **88 bpm**, temperature of **98.4°F**, respiratory rate of **16 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **10.9 g/dL**, white blood cell count of **6,900 cells/µL**, platelet count of **18,000 cells/µL**, serum creatinine of **0.8 mg/dL**, blood urea of **16 mg/dL**, fasting blood glucose of **92 mg/dL**, HbA1c of **5.3%**, and liver function tests within normal reference ranges. Coagulation studies (PT and aPTT) were within normal limits.
+
+Peripheral blood smear demonstrated **marked thrombocytopenia** without abnormal white blood cells or schistocytes. Bone marrow aspiration revealed **normal to increased megakaryocytes**, indicating peripheral platelet destruction. Autoimmune screening was positive for platelet-associated antibodies, while testing for HIV and Hepatitis C virus was negative.
+
+The physician concluded that the patient has **Primary Immune Thrombocytopenia (ITP)**, an autoimmune disorder causing destruction of circulating platelets. Severe thrombocytopenia, normal coagulation studies, bone marrow findings, and positive autoimmune testing strongly support the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to begin corticosteroid therapy as prescribed, avoid medications that increase bleeding risk such as aspirin unless medically indicated, monitor for signs of severe bleeding, attend regular hematology follow-up visits with periodic platelet count monitoring, and discuss second-line treatment options if platelet counts fail to improve.

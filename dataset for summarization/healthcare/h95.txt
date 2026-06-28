@@ -1,0 +1,14 @@
+Patient Name: Nicole Evans
+Age: 38
+Gender: Female
+Report Date: 23-12-2026
+
+The patient visited the rheumatology department with complaints of persistent dry eyes, dry mouth, difficulty swallowing dry foods, fatigue, intermittent joint pain affecting both wrists and fingers, and recurrent swelling of the salivary glands over the past nine months. She has a history of autoimmune thyroid disease and denied any prior radiation exposure to the head or neck.
+
+Vital signs recorded during examination showed a blood pressure of **120/78 mmHg**, heart rate of **80 bpm**, temperature of **98.4°F**, respiratory rate of **16 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **11.8 g/dL**, white blood cell count of **6,600 cells/µL**, platelet count of **292,000 cells/µL**, erythrocyte sedimentation rate (ESR) of **46 mm/hr**, C-reactive protein (CRP) of **16 mg/L**, serum creatinine of **0.8 mg/dL**, blood urea of **16 mg/dL**, fasting blood glucose of **92 mg/dL**, HbA1c of **5.3%**, and liver function tests within normal reference ranges.
+
+Autoimmune testing demonstrated positive **antinuclear antibody (ANA)**, strongly positive **anti-Ro/SSA antibodies**, and positive **anti-La/SSB antibodies**. Schirmer's test confirmed markedly reduced tear production. Minor salivary gland biopsy revealed focal lymphocytic sialadenitis, confirming the diagnosis.
+
+The physician concluded that the patient has **Primary Sjögren's Syndrome**, an autoimmune disease affecting the exocrine glands. Chronic dry eyes, dry mouth, positive autoimmune antibody profile, Schirmer's test results, and salivary gland biopsy findings confirm the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to use artificial tears and saliva substitutes, maintain good oral hygiene with regular dental evaluations, begin immunomodulatory therapy if clinically indicated, attend regular rheumatology follow-up visits, and undergo periodic monitoring for systemic complications associated with autoimmune disease.

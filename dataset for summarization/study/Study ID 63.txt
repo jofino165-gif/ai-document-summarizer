@@ -1,0 +1,100 @@
+Study ID: 63
+
+Topic:
+Computer Networks
+
+Uploaded Notes:
+Computer Networks refer to a collection of interconnected computers and devices that communicate and share resources such as data, files, printers, and applications using communication protocols. Networks enable efficient data exchange and resource sharing across local and global systems.
+
+Computer networks are classified into LAN (Local Area Network), MAN (Metropolitan Area Network), WAN (Wide Area Network), PAN (Personal Area Network), and WLAN (Wireless Local Area Network). Each type differs based on coverage area and usage.
+
+The OSI (Open Systems Interconnection) model is a conceptual framework used to understand network communication. It consists of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application layers. The TCP/IP model is another widely used networking model with four layers: Network Access, Internet, Transport, and Application.
+
+Common network devices include routers, switches, hubs, modems, access points, and gateways. These devices help in routing data, managing traffic, and connecting different networks.
+
+Networking protocols define rules for communication. Important protocols include TCP, IP, HTTP, HTTPS, FTP, SMTP, DNS, DHCP, and ICMP.
+
+Computer networks are widely used in internet communication, cloud computing, online banking, social media, video streaming, e-commerce, and enterprise communication systems.
+
+The advantages of computer networks include resource sharing, fast communication, centralized data management, scalability, and cost efficiency. Challenges include security threats, network congestion, maintenance complexity, and dependency on infrastructure.
+
+Summary:
+Computer Networks enable communication and resource sharing between interconnected devices using standardized protocols and network architectures like OSI and TCP/IP.
+
+Study Notes:
+Definition:
+Computer Networks are systems of interconnected devices that communicate and share resources.
+
+Main Concepts:
+• Network Types (LAN, MAN, WAN)
+• OSI Model
+• TCP/IP Model
+• Network Devices
+• Communication Protocols
+• IP Addressing
+
+Network Devices:
+• Router
+• Switch
+• Hub
+• Modem
+• Access Point
+• Gateway
+
+Protocols:
+• TCP
+• IP
+• HTTP/HTTPS
+• FTP
+• SMTP
+• DNS
+• DHCP
+
+Applications:
+• Internet Communication
+• Cloud Services
+• Online Banking
+• Video Streaming
+• Social Media
+• E-commerce
+
+Advantages:
+• Resource Sharing
+• Fast Communication
+• Scalability
+• Centralized Management
+• Cost Efficiency
+
+Challenges:
+• Security Risks
+• Network Congestion
+• Maintenance Complexity
+• Downtime Issues
+
+Conclusion:
+Computer Networks form the backbone of modern communication systems, enabling fast, reliable, and scalable data exchange across the world.
+
+Important Keywords:
+Computer Networks
+LAN
+WAN
+OSI Model
+TCP/IP
+Router
+Switch
+IP Address
+Protocol
+DNS
+
+Reference Websites:
+• Cisco Networking Academy
+• GeeksforGeeks Networking
+• Microsoft Learn
+• Coursera
+• CompTIA Network+
+• Tutorialspoint
+• IBM Networking Basics
+• Network Engineering Stack Exchange
+
+Confidence Score:
+99.8%

@@ -1,0 +1,96 @@
+Study ID: 46
+
+Topic:
+Deep Learning
+
+Uploaded Notes:
+Deep Learning is a specialized branch of Machine Learning that uses artificial neural networks with multiple hidden layers to learn complex patterns from large volumes of data. It enables computers to automatically extract features from raw data without requiring manual feature engineering. Deep Learning has significantly advanced fields such as computer vision, natural language processing, speech recognition, robotics, and autonomous systems.
+
+Deep Learning models are built using Artificial Neural Networks (ANNs), which consist of an input layer, one or more hidden layers, and an output layer. Each neuron processes input data using weights, biases, and activation functions to generate predictions. Popular activation functions include ReLU (Rectified Linear Unit), Sigmoid, Tanh, and Softmax.
+
+Common Deep Learning architectures include Convolutional Neural Networks (CNNs) for image processing, Recurrent Neural Networks (RNNs) for sequential data, Long Short-Term Memory (LSTM) networks for time-series analysis, Generative Adversarial Networks (GANs) for image generation, Autoencoders for feature learning, and Transformer models for natural language processing.
+
+Deep Learning frameworks such as TensorFlow, PyTorch, Keras, MXNet, and JAX provide tools for developing, training, and deploying neural network models efficiently.
+
+Deep Learning applications include image recognition, facial recognition, speech recognition, language translation, autonomous vehicles, medical diagnosis, recommendation systems, fraud detection, and intelligent virtual assistants.
+
+The advantages of Deep Learning include automatic feature extraction, high prediction accuracy, scalability, and excellent performance on complex tasks. Challenges include large computational requirements, high training time, dependence on large datasets, model interpretability, and hardware costs.
+
+Summary:
+Deep Learning is an advanced Machine Learning technique that uses multi-layer neural networks to automatically learn complex data patterns. It powers modern AI applications such as image recognition, natural language processing, speech recognition, and autonomous systems.
+
+Study Notes:
+Definition:
+Deep Learning is a subset of Machine Learning that uses deep neural networks to analyze and learn from large datasets.
+
+Main Concepts:
+• Artificial Neural Networks
+• Hidden Layers
+• Activation Functions
+• Forward Propagation
+• Backpropagation
+• Model Training
+
+Deep Learning Models:
+• CNN
+• RNN
+• LSTM
+• GAN
+• Autoencoder
+• Transformer
+
+Frameworks:
+• TensorFlow
+• PyTorch
+• Keras
+• MXNet
+• JAX
+
+Applications:
+• Computer Vision
+• Speech Recognition
+• Natural Language Processing
+• Healthcare
+• Autonomous Vehicles
+• Recommendation Systems
+
+Advantages:
+• High Accuracy
+• Automatic Feature Learning
+• Scalable Models
+• Powerful Pattern Recognition
+• Reduced Manual Feature Engineering
+
+Challenges:
+• High Computational Cost
+• Long Training Time
+• Large Dataset Requirement
+• Difficult Model Interpretation
+
+Conclusion:
+Deep Learning enables intelligent systems to solve highly complex problems by learning hierarchical data representations, making it one of the most important technologies in modern Artificial Intelligence.
+
+Important Keywords:
+Deep Learning
+Artificial Neural Network
+CNN
+RNN
+LSTM
+Transformer
+TensorFlow
+PyTorch
+Backpropagation
+Activation Function
+
+Reference Websites:
+• TensorFlow Documentation
+• PyTorch Documentation
+• Keras Documentation
+• DeepLearning.AI
+• Microsoft Learn
+• Coursera
+• Kaggle
+• Papers with Code
+
+Confidence Score:
+99.6%

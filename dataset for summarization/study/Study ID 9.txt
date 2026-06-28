@@ -1,0 +1,97 @@
+Study ID: 9
+
+Topic:
+Cybersecurity
+
+Uploaded Notes:
+Cybersecurity is the practice of protecting computers, networks, software, systems, and digital information from cyber threats, unauthorized access, malware, ransomware, phishing attacks, and data breaches. As digital technologies continue to grow, cybersecurity has become essential for protecting personal, organizational, and government information.
+
+The primary objectives of cybersecurity are Confidentiality, Integrity, and Availability, commonly known as the CIA Triad. Confidentiality ensures that only authorized users can access information. Integrity protects data from unauthorized modification, while Availability ensures that systems and services remain accessible when required.
+
+Cybersecurity includes several domains such as Network Security, Application Security, Cloud Security, Information Security, Endpoint Security, Mobile Security, and Operational Security. Security professionals use technologies such as firewalls, antivirus software, intrusion detection systems (IDS), intrusion prevention systems (IPS), encryption, virtual private networks (VPNs), and multi-factor authentication (MFA) to defend against cyber attacks.
+
+Common cyber threats include malware, ransomware, phishing, social engineering, denial-of-service (DoS) attacks, SQL injection, password attacks, and zero-day vulnerabilities. Organizations implement security policies, regular software updates, employee awareness training, and risk assessments to minimize cyber risks.
+
+Cybersecurity is widely used in banking, healthcare, government, education, e-commerce, telecommunications, and cloud computing to protect sensitive information and maintain secure digital services.
+
+The advantages of cybersecurity include protection of confidential information, prevention of financial loss, improved customer trust, business continuity, and regulatory compliance. Challenges include evolving cyber threats, shortage of skilled professionals, high implementation costs, and increasing attack complexity.
+
+Summary:
+Cybersecurity protects computer systems, networks, and digital information from cyber attacks and unauthorized access. It uses security technologies, policies, and best practices to ensure confidentiality, integrity, and availability of data while defending against threats such as malware, phishing, and ransomware.
+
+Study Notes:
+Definition:
+Cybersecurity is the practice of protecting digital systems, networks, and data from cyber threats and unauthorized access.
+
+Main Concepts:
+• CIA Triad
+• Network Security
+• Application Security
+• Cloud Security
+• Information Security
+• Risk Management
+
+Security Technologies:
+• Firewall
+• Antivirus
+• Encryption
+• VPN
+• Intrusion Detection System (IDS)
+• Multi-Factor Authentication (MFA)
+
+Common Threats:
+• Malware
+• Ransomware
+• Phishing
+• Social Engineering
+• SQL Injection
+• Denial-of-Service (DoS)
+
+Applications:
+• Banking
+• Healthcare
+• Government
+• Education
+• E-commerce
+• Telecommunications
+
+Advantages:
+• Data Protection
+• Business Continuity
+• Financial Security
+• Customer Trust
+• Regulatory Compliance
+
+Challenges:
+• Advanced Cyber Attacks
+• High Security Costs
+• Skilled Workforce Shortage
+• Constantly Evolving Threats
+
+Conclusion:
+Cybersecurity is a critical component of modern information technology, ensuring the protection of digital assets, maintaining business operations, and safeguarding sensitive information against cyber threats.
+
+Important Keywords:
+Cybersecurity
+CIA Triad
+Firewall
+Encryption
+VPN
+Phishing
+Ransomware
+Malware
+Multi-Factor Authentication
+Network Security
+
+Reference Websites:
+• OWASP
+• National Institute of Standards and Technology (NIST)
+• Microsoft Security
+• IBM Security
+• Cisco Security
+• EC-Council
+• Coursera
+• Cybrary
+
+Confidence Score:
+99.3%

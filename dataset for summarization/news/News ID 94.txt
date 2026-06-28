@@ -1,0 +1,30 @@
+News ID: 94
+Date: 08-07-2027
+
+Headline:
+Government Introduces AI-Based Crop Disease Detection System for Farmers
+
+News Content:
+The Ministry of Agriculture has launched an Artificial Intelligence (AI)-powered crop disease detection system to help farmers identify plant diseases at an early stage. The platform uses drone imagery, mobile applications, and image recognition technology to analyze crop health and recommend appropriate treatments. Agricultural experts stated that early disease detection will reduce crop losses, improve productivity, and lower farming costs while supporting sustainable agricultural practices.
+
+Category:
+Agriculture
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Artificial Intelligence, Crop Disease Detection, Smart Farming, Agriculture, Drone Technology, Precision Agriculture
+
+Prediction:
+The AI-based crop disease detection system is expected to improve crop health monitoring, reduce agricultural losses, increase crop yields, and encourage the adoption of precision farming technologies.
+
+Recommended Action:
+• Farmers should use the AI platform to monitor crop health regularly.
+• Follow recommended treatments promptly when diseases are detected.
+• Combine AI monitoring with routine field inspections for better results.
+• Participate in agricultural training programs on smart farming technologies.
+• Stay updated on new government initiatives supporting digital agriculture.
+
+Confidence Score:
+99.2%

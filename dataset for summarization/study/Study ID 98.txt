@@ -1,0 +1,94 @@
+Study ID: 98
+
+Topic:
+Deep Learning
+
+Uploaded Notes:
+Deep Learning is a subfield of Machine Learning that uses artificial neural networks with multiple layers (deep neural networks) to model complex patterns in large datasets. It is inspired by the structure and functioning of the human brain.
+
+Deep Learning automatically learns features from raw data, reducing the need for manual feature engineering. It is highly effective for tasks involving images, speech, and text.
+
+The basic building block of deep learning is the artificial neural network (ANN), which consists of input layers, hidden layers, and output layers. Each layer contains neurons that process information using weights and activation functions.
+
+Common types of neural networks include feedforward neural networks, convolutional neural networks (CNN), recurrent neural networks (RNN), long short-term memory networks (LSTM), and transformers.
+
+Key concepts in deep learning include forward propagation, backpropagation, loss functions, gradient descent, activation functions (ReLU, Sigmoid, Tanh), and optimization techniques.
+
+Deep learning is widely used in computer vision, natural language processing, speech recognition, autonomous vehicles, healthcare diagnostics, and recommendation systems.
+
+The advantages of deep learning include high accuracy, automatic feature extraction, scalability, and strong performance on unstructured data. Challenges include high computational cost, need for large datasets, long training times, and lack of interpretability.
+
+Summary:
+Deep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns from large datasets.
+
+Study Notes:
+Definition:
+Deep Learning is a type of machine learning using neural networks with multiple layers.
+
+Main Concepts:
+• Neural Networks
+• Layers (Input, Hidden, Output)
+• Weights and Biases
+• Activation Functions
+• Forward & Backpropagation
+• Gradient Descent
+
+Types of Networks:
+• Feedforward Neural Network
+• CNN (Convolutional Neural Network)
+• RNN (Recurrent Neural Network)
+• LSTM
+• Transformers
+
+Techniques:
+• Feature Learning
+• Optimization
+• Loss Functions
+• Regularization
+
+Applications:
+• Image Recognition
+• Speech Recognition
+• NLP
+• Autonomous Vehicles
+• Healthcare AI
+
+Advantages:
+• High Accuracy
+• Automatic Feature Extraction
+• Works on Large Data
+• Strong Pattern Recognition
+
+Challenges:
+• High Computation Cost
+• Large Data Requirement
+• Training Time
+• Interpretability Issues
+
+Conclusion:
+Deep Learning enables machines to learn complex representations using multi-layer neural networks, powering modern AI systems.
+
+Important Keywords:
+Deep Learning
+Neural Networks
+CNN
+RNN
+LSTM
+Backpropagation
+Gradient Descent
+Activation Function
+Transformers
+AI Models
+
+Reference Websites:
+• DeepLearning.AI
+• TensorFlow Docs
+• PyTorch Documentation
+• Stanford CS231n
+• Coursera Deep Learning Course
+• GeeksforGeeks
+• MIT Deep Learning Notes
+• IBM AI Learning
+
+Confidence Score:
+99.9%

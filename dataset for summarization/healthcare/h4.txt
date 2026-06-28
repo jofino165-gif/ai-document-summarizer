@@ -1,0 +1,14 @@
+Patient Name: Emily Brown
+Age: 45
+Gender: Female
+Report Date: 24-06-2026
+
+The patient visited the endocrinology department with complaints of unexplained weight gain, persistent fatigue, dry skin, hair thinning, constipation, increased sensitivity to cold weather, and difficulty concentrating over the past four months. She has no history of diabetes or hypertension but reports that her mother was diagnosed with thyroid disease. The patient stated that her daily activities have become more difficult due to reduced energy levels.
+
+Vital signs recorded during examination showed a blood pressure of 118/76 mmHg, heart rate of 62 bpm, temperature of 98.1°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 12.8 g/dL, white blood cell count of 6,900 cells/µL, and platelet count of 282,000 cells/µL. Thyroid function tests showed Thyroid Stimulating Hormone (TSH) of 9.8 mIU/L, Free T4 of 0.6 ng/dL, and Free T3 of 2.1 pg/mL. Blood glucose levels were within normal limits with a fasting blood sugar of 92 mg/dL and HbA1c of 5.4%.
+
+Lipid profile showed total cholesterol of 228 mg/dL, LDL cholesterol of 152 mg/dL, HDL cholesterol of 46 mg/dL, and triglycerides of 176 mg/dL. Kidney function tests, including creatinine of 0.9 mg/dL and blood urea of 18 mg/dL, were normal. Liver function tests were also within the normal reference range.
+
+The physician observed that the elevated TSH level together with reduced Free T4 and Free T3 values are consistent with primary hypothyroidism. Mild elevation in cholesterol levels may be associated with reduced thyroid hormone activity. Blood pressure, kidney function, liver function, and blood glucose levels were normal. The patient was advised to begin thyroid hormone replacement therapy as prescribed, undergo periodic thyroid function monitoring, maintain a balanced diet, engage in regular physical activity, and attend follow-up evaluations to assess treatment response.

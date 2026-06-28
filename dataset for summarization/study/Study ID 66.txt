@@ -1,0 +1,99 @@
+Study ID: 66
+
+Topic:
+Data Lifecycle (Data Pipeline)
+
+Uploaded Notes:
+The Data Lifecycle, also known as the Data Pipeline, is the end-to-end process of collecting, processing, storing, analyzing, and utilizing data to generate insights and support decision-making. It ensures that raw data is transformed into meaningful information for business and technical use cases.
+
+The data lifecycle begins with data generation from sources such as sensors, applications, databases, websites, IoT devices, and user interactions. This data is then collected using data ingestion tools and moved into storage systems like data warehouses or data lakes.
+
+After collection, data undergoes preprocessing, which includes cleaning, filtering, handling missing values, removing duplicates, and transforming data into a usable format. Feature engineering may also be performed to improve data quality for analytics or machine learning.
+
+Once prepared, data is stored in structured or unstructured formats depending on the system design. It is then processed using tools like ETL (Extract, Transform, Load), ELT, Hadoop, Spark, or cloud-based data platforms.
+
+The next stage is data analysis, where statistical methods, machine learning models, and visualization tools are used to extract insights. Finally, the results are visualized using dashboards and reporting tools for decision-makers.
+
+The lifecycle also includes data governance, security, monitoring, and maintenance to ensure data quality, privacy, and compliance with regulations.
+
+Summary:
+The Data Lifecycle describes how data is collected, processed, stored, analyzed, and used to generate insights through a structured pipeline.
+
+Study Notes:
+Definition:
+The Data Lifecycle is the process of managing data from creation to final usage for decision-making.
+
+Main Concepts:
+• Data Generation
+• Data Ingestion
+• Data Storage
+• Data Processing
+• Data Analysis
+• Data Visualization
+
+Pipeline Stages:
+• Data Collection
+• Data Cleaning
+• Data Transformation
+• Data Storage
+• Data Processing
+• Data Analysis
+• Data Visualization
+
+Tools & Technologies:
+• ETL Tools
+• Apache Spark
+• Hadoop
+• SQL Databases
+• Data Lakes
+• Cloud Platforms (AWS, Azure, GCP)
+
+Applications:
+• Business Analytics
+• Machine Learning
+• Healthcare Systems
+• Financial Analysis
+• IoT Systems
+• Marketing Analytics
+
+Advantages:
+• Better Data Management
+• Improved Decision Making
+• Automation
+• Scalability
+• Real-Time Insights
+
+Challenges:
+• Data Quality Issues
+• Security Risks
+• Storage Complexity
+• Integration Problems
+• High Processing Cost
+
+Conclusion:
+The Data Lifecycle ensures structured management of data from raw collection to meaningful insights, enabling efficient analytics and decision-making.
+
+Important Keywords:
+Data Lifecycle
+Data Pipeline
+ETL
+Data Warehouse
+Data Lake
+Data Ingestion
+Data Processing
+Data Analytics
+Data Governance
+Big Data
+
+Reference Websites:
+• AWS Data Pipeline Docs
+• Microsoft Learn Data Engineering
+• Google Cloud Data Engineering
+• Apache Spark Documentation
+• Hadoop Documentation
+• Coursera
+• IBM Data Management
+• GeeksforGeeks
+
+Confidence Score:
+99.7%

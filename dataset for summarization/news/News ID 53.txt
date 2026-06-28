@@ -1,0 +1,30 @@
+News ID: 53
+Date: 17-04-2027
+
+Headline:
+Global Cocoa Prices Surge Following Poor Harvest in Major Producing Countries
+
+News Content:
+The International Agricultural Market reported a sharp increase in global cocoa prices after unfavorable weather conditions and crop diseases reduced cocoa production in several major producing countries. Chocolate manufacturers stated that rising raw material costs may increase the prices of chocolates, confectionery products, and other cocoa-based foods. Industry analysts expect supply constraints to continue until the next harvesting season.
+
+Category:
+Agriculture
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Cocoa Prices, Crop Disease, Agriculture, Chocolate Industry, Food Prices, Global Market
+
+Prediction:
+Cocoa prices are expected to remain high over the coming months, leading to increased prices for chocolate and cocoa-based products until production recovers.
+
+Recommended Action:
+• Consumers may purchase essential cocoa-based products before significant price increases.
+• Food manufacturers should review supplier contracts and inventory planning.
+• Retailers should prepare for possible changes in product pricing.
+• Farmers should adopt disease prevention measures and monitor crop health.
+• Stay informed about agricultural reports and international commodity market trends.
+
+Confidence Score:
+98.8%

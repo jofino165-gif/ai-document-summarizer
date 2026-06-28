@@ -1,0 +1,105 @@
+Study ID: 89
+
+Topic:
+Cybersecurity
+
+Uploaded Notes:
+Cybersecurity is the practice of protecting computer systems, networks, programs, and data from digital attacks, unauthorized access, damage, or theft. It ensures confidentiality, integrity, and availability of information (CIA triad).
+
+Cybersecurity involves multiple layers of protection including network security, application security, information security, and operational security. It uses technologies, processes, and controls to defend against cyber threats.
+
+Common cyber threats include malware, ransomware, phishing, spyware, denial-of-service (DoS) attacks, man-in-the-middle attacks, SQL injection, and zero-day vulnerabilities.
+
+Key security mechanisms include firewalls, antivirus software, encryption, intrusion detection systems (IDS), intrusion prevention systems (IPS), multi-factor authentication (MFA), and secure protocols like HTTPS.
+
+Cybersecurity domains include network security, cloud security, endpoint security, application security, and identity and access management (IAM).
+
+Cybersecurity is widely used in banking systems, government organizations, healthcare systems, e-commerce platforms, defense systems, and personal devices.
+
+The advantages of cybersecurity include data protection, risk reduction, regulatory compliance, system reliability, and protection against cybercrime. Challenges include evolving threats, skill shortages, high costs, and complex system environments.
+
+Summary:
+Cybersecurity focuses on protecting systems, networks, and data from cyber threats using layered defense mechanisms and security technologies.
+
+Study Notes:
+Definition:
+Cybersecurity is the protection of digital systems and data from cyber threats.
+
+Main Concepts:
+• CIA Triad (Confidentiality, Integrity, Availability)
+• Threats and Vulnerabilities
+• Encryption
+• Firewalls
+• Authentication
+• Access Control
+
+Threats:
+• Malware
+• Phishing
+• Ransomware
+• DoS/DDoS
+• SQL Injection
+• Spyware
+
+Security Tools:
+• Firewall
+• Antivirus
+• IDS/IPS
+• MFA
+• Encryption
+• VPN
+
+Domains:
+• Network Security
+• Cloud Security
+• Application Security
+• Endpoint Security
+• IAM
+
+Applications:
+• Banking Systems
+• Healthcare
+• Government Systems
+• E-commerce
+• Personal Devices
+
+Advantages:
+• Data Protection
+• Risk Reduction
+• Compliance
+• System Security
+• Cybercrime Prevention
+
+Challenges:
+• Evolving Threats
+• High Cost
+• Skill Gap
+• Complex Systems
+
+Conclusion:
+Cybersecurity is essential for protecting digital assets and ensuring safe operation of modern computer systems and networks.
+
+Important Keywords:
+Cybersecurity
+CIA Triad
+Firewall
+Encryption
+Malware
+Phishing
+IDS
+IPS
+MFA
+Network Security
+
+Reference Websites:
+• NIST Cybersecurity Framework
+• CISCO Security Docs
+• Microsoft Security Learn
+• OWASP
+• IBM Security
+• Coursera
+• GeeksforGeeks
+• Cybersecurity & Infrastructure Security Agency (CISA)
+
+Confidence Score:
+99.8%

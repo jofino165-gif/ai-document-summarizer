@@ -1,0 +1,90 @@
+Study ID: 31
+
+Topic:
+Python Programming
+
+Uploaded Notes:
+Python Programming is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It is widely used in web development, data science, artificial intelligence, machine learning, automation, software development, and scientific computing. Python’s syntax is easy to understand, making it an ideal language for beginners as well as professionals.
+
+Python supports multiple programming paradigms including procedural, object-oriented, and functional programming. It provides a large standard library that includes modules for file handling, mathematics, regular expressions, networking, and database connectivity. Python is also known for its strong community support and extensive third-party libraries.
+
+Basic Python concepts include variables, data types, operators, control structures (if-else, loops), functions, lists, tuples, dictionaries, sets, and exception handling. Advanced concepts include object-oriented programming (classes and objects), file handling, modules and packages, decorators, multithreading, and API integration.
+
+Popular Python frameworks and libraries include Django and Flask for web development, NumPy and Pandas for data analysis, Matplotlib and Seaborn for data visualization, TensorFlow and PyTorch for machine learning and deep learning, and Selenium for automation.
+
+Python is widely used in industries such as technology, finance, healthcare, education, cybersecurity, and research. It is also a key language in Artificial Intelligence and Data Science due to its powerful libraries and ease of integration.
+
+The advantages of Python include easy syntax, high readability, extensive libraries, cross-platform compatibility, strong community support, and rapid development capabilities. Challenges include slower execution speed compared to compiled languages, high memory usage, and limitations in mobile app development.
+
+Summary:
+Python is a versatile, high-level programming language used for web development, data science, artificial intelligence, automation, and software development. Its simple syntax and powerful libraries make it one of the most popular programming languages today.
+
+Study Notes:
+Definition:
+Python is a high-level, interpreted programming language used for general-purpose programming.
+
+Main Concepts:
+• Variables
+• Data Types
+• Control Structures
+• Functions
+• Object-Oriented Programming
+• Exception Handling
+
+Libraries & Frameworks:
+• Django
+• Flask
+• NumPy
+• Pandas
+• Matplotlib
+• TensorFlow
+• PyTorch
+• Selenium
+
+Applications:
+• Web Development
+• Data Science
+• Artificial Intelligence
+• Machine Learning
+• Automation
+• Cybersecurity
+
+Advantages:
+• Simple Syntax
+• High Readability
+• Extensive Libraries
+• Cross-Platform Support
+• Strong Community
+
+Challenges:
+• Slower Execution Speed
+• High Memory Usage
+• Limited Mobile Development Support
+
+Conclusion:
+Python is a powerful and flexible programming language that supports multiple domains and plays a key role in modern technologies such as AI, data science, and automation.
+
+Important Keywords:
+Python
+Variables
+Functions
+Object-Oriented Programming
+Django
+Flask
+NumPy
+Pandas
+TensorFlow
+Exception Handling
+
+Reference Websites:
+• Python Official Documentation
+• W3Schools
+• GeeksforGeeks
+• Real Python
+• Coursera
+• Microsoft Learn
+• freeCodeCamp
+• Programiz
+
+Confidence Score:
+99.5%

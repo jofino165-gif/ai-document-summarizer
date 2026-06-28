@@ -1,0 +1,107 @@
+Study ID: 51
+
+Topic:
+Exploratory Data Analysis (EDA)
+
+Uploaded Notes:
+Exploratory Data Analysis (EDA) is the process of examining, summarizing, and visualizing datasets to understand their structure, identify patterns, detect anomalies, and prepare data for machine learning or statistical analysis. EDA helps data scientists gain insights into data before building predictive models.
+
+The EDA process begins with data collection, followed by data cleaning, handling missing values, removing duplicate records, treating outliers, and correcting inconsistent data. After preprocessing, descriptive statistics and visualization techniques are used to analyze the dataset.
+
+EDA includes two major types: Univariate Analysis, which studies one variable at a time, and Multivariate Analysis, which examines relationships among multiple variables. Statistical measures such as mean, median, mode, variance, standard deviation, skewness, and kurtosis are commonly calculated to summarize data.
+
+Visualization techniques used in EDA include histograms, bar charts, line charts, scatter plots, box plots, pie charts, heatmaps, pair plots, and correlation matrices. These visualizations help identify trends, distributions, relationships, and unusual observations.
+
+Popular Python libraries for EDA include Pandas, NumPy, Matplotlib, Seaborn, Plotly, SciPy, and Sweetviz. These tools simplify data manipulation, statistical analysis, and graphical representation of data.
+
+EDA is widely used in finance, healthcare, education, business intelligence, marketing, scientific research, customer analytics, fraud detection, and machine learning projects. It improves model performance by ensuring data quality and identifying important features.
+
+The advantages of EDA include improved data understanding, better feature selection, early detection of data issues, enhanced model accuracy, and informed decision-making. Challenges include handling large datasets, high-dimensional data, missing values, noisy data, and visualization complexity.
+
+Summary:
+Exploratory Data Analysis (EDA) is the process of analyzing and visualizing datasets to understand patterns, relationships, and data quality before performing statistical analysis or machine learning.
+
+Study Notes:
+Definition:
+Exploratory Data Analysis is the process of exploring datasets using statistics and visualizations to understand their characteristics.
+
+Main Concepts:
+• Data Cleaning
+• Missing Values
+• Outlier Detection
+• Descriptive Statistics
+• Data Visualization
+• Feature Analysis
+
+Statistical Measures:
+• Mean
+• Median
+• Mode
+• Variance
+• Standard Deviation
+• Correlation
+
+Visualization Techniques:
+• Histogram
+• Scatter Plot
+• Box Plot
+• Heatmap
+• Bar Chart
+• Pair Plot
+
+Popular Libraries:
+• Pandas
+• NumPy
+• Matplotlib
+• Seaborn
+• Plotly
+• SciPy
+
+Applications:
+• Machine Learning
+• Business Analytics
+• Healthcare
+• Finance
+• Marketing
+• Scientific Research
+
+Advantages:
+• Better Data Understanding
+• Improved Data Quality
+• Feature Selection
+• Better Model Accuracy
+• Informed Decision Making
+
+Challenges:
+• Large Dataset Handling
+• Missing Data
+• High-Dimensional Data
+• Visualization Complexity
+
+Conclusion:
+EDA is a fundamental step in data analysis that helps researchers and data scientists understand datasets, detect problems, and prepare high-quality data for predictive modeling.
+
+Important Keywords:
+Exploratory Data Analysis
+EDA
+Data Cleaning
+Outlier Detection
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Correlation
+Data Visualization
+
+Reference Websites:
+• Pandas Documentation
+• NumPy Documentation
+• Matplotlib Documentation
+• Seaborn Documentation
+• Kaggle Learn
+• Microsoft Learn
+• Coursera
+• DataCamp
+
+Confidence Score:
+99.7%

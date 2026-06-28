@@ -1,0 +1,30 @@
+News ID: 72
+Date: 25-05-2027
+
+Headline:
+National Weather Agency Forecasts Above-Normal Rainfall for Upcoming Monsoon Season
+
+News Content:
+The National Weather Agency has forecast above-normal rainfall during the upcoming monsoon season across several regions of the country. Meteorologists stated that the increased rainfall is expected to improve reservoir levels, support agricultural production, and replenish groundwater resources. However, authorities also warned of the possibility of localized flooding, waterlogging, and transportation disruptions in low-lying areas during periods of heavy rainfall.
+
+Category:
+Weather
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Monsoon, Rainfall Forecast, Weather, Agriculture, Reservoirs, Flood Risk
+
+Prediction:
+Above-normal rainfall is expected to improve water availability and agricultural output. However, regions vulnerable to flooding may experience temporary disruptions if heavy rainfall persists.
+
+Recommended Action:
+• Farmers should plan crop cultivation based on seasonal rainfall forecasts.
+• Residents in flood-prone areas should prepare emergency supplies and monitor weather updates.
+• Local authorities should inspect drainage systems before the monsoon season.
+• Store important documents and electronic devices in waterproof containers if flooding is possible.
+• Follow official weather advisories and evacuation instructions when necessary.
+
+Confidence Score:
+98.9%

@@ -1,0 +1,30 @@
+News ID: 76
+Date: 02-06-2027
+
+Headline:
+Government Launches Nationwide Rainwater Harvesting Initiative to Address Water Scarcity
+
+News Content:
+The Ministry of Water Resources has introduced a nationwide rainwater harvesting initiative to improve water conservation and reduce dependence on groundwater. The program provides financial incentives and technical support for households, schools, industries, and commercial buildings to install rainwater harvesting systems. Environmental experts believe the initiative will improve groundwater recharge, increase water availability during dry seasons, and strengthen long-term water security.
+
+Category:
+Environment
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Rainwater Harvesting, Water Conservation, Groundwater, Water Resources, Sustainability, Government Initiative
+
+Prediction:
+The adoption of rainwater harvesting systems is expected to increase across residential and commercial sectors, improving groundwater levels and reducing water shortages during dry seasons.
+
+Recommended Action:
+• Install rainwater harvesting systems where feasible.
+• Maintain rooftop collection systems and storage tanks regularly.
+• Use harvested rainwater for gardening, cleaning, and other non-drinking purposes.
+• Participate in community water conservation programs.
+• Stay informed about government incentives and technical assistance for water conservation projects.
+
+Confidence Score:
+98.8%

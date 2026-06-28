@@ -1,0 +1,89 @@
+Study ID: 29
+
+Topic:
+Google Cloud Platform (GCP)
+
+Uploaded Notes:
+Google Cloud Platform (GCP) is a cloud computing service provided by Google that offers infrastructure, platform, and serverless computing solutions. It enables businesses and developers to build, deploy, and manage applications using Google’s global infrastructure, which is known for high performance, scalability, and reliability.
+
+GCP provides a wide range of services including computing power, storage, databases, machine learning, networking, and big data analytics. It supports modern application development using tools like Kubernetes, serverless computing, and container-based architectures.
+
+Major GCP services include Google Compute Engine for virtual machines, Google Cloud Storage for object storage, Google App Engine for application hosting, Google Kubernetes Engine (GKE) for container orchestration, Google Cloud Functions for serverless computing, BigQuery for data analytics, and Cloud Pub/Sub for messaging services.
+
+Google Cloud Platform is widely used in industries such as healthcare, finance, retail, gaming, education, and media. It supports AI/ML applications, big data processing, cloud-native development, and enterprise-level infrastructure solutions.
+
+The advantages of GCP include high scalability, strong security, global network infrastructure, advanced AI and machine learning tools, cost efficiency, and real-time data processing capabilities. Challenges include service complexity, pricing management, learning curve, and dependency on Google’s ecosystem.
+
+Summary:
+Google Cloud Platform is a cloud computing service that provides scalable infrastructure, storage, computing, and advanced analytics tools. It enables developers to build modern, cloud-native applications using Google’s global infrastructure.
+
+Study Notes:
+Definition:
+Google Cloud Platform (GCP) is a cloud computing platform that offers computing, storage, networking, and data services over the internet.
+
+Main Concepts:
+• Cloud Computing
+• Virtualization
+• Containers
+• Serverless Computing
+• Big Data Processing
+• Global Infrastructure
+
+Popular GCP Services:
+• Google Compute Engine
+• Google Cloud Storage
+• Google App Engine
+• Google Kubernetes Engine (GKE)
+• Google Cloud Functions
+• BigQuery
+• Cloud Pub/Sub
+
+Applications:
+• Web Applications
+• Mobile Applications
+• Artificial Intelligence
+• Machine Learning
+• Big Data Analytics
+• Gaming
+• Enterprise Systems
+
+Advantages:
+• High Performance
+• Scalability
+• Strong Security
+• Advanced AI Tools
+• Global Network
+
+Challenges:
+• Complex Pricing
+• Learning Curve
+• Service Configuration
+• Vendor Dependency
+
+Conclusion:
+Google Cloud Platform is a powerful cloud service that supports modern application development, big data analytics, and AI-driven solutions with high scalability and global infrastructure.
+
+Important Keywords:
+Google Cloud Platform
+GCP
+Compute Engine
+Cloud Storage
+App Engine
+Kubernetes Engine
+BigQuery
+Cloud Functions
+Serverless
+Cloud Computing
+
+Reference Websites:
+• Google Cloud Documentation
+• Google Cloud Skills Boost
+• Coursera
+• Qwiklabs
+• Microsoft Learn (Cloud Concepts)
+• Kaggle
+• Stack Overflow
+• Google Developers
+
+Confidence Score:
+99.4%

@@ -1,0 +1,14 @@
+Patient Name: Sophia Martinez
+Age: 38
+Gender: Female
+Report Date: 08-09-2026
+
+The patient visited the nephrology department with complaints of swelling around the eyes and ankles, frothy urine, fatigue, and mild weight gain over the past four weeks. She denied fever, painful urination, or a history of diabetes. The patient has a history of systemic lupus erythematosus (SLE) diagnosed three years ago but admitted to irregular follow-up visits and inconsistent use of prescribed medications.
+
+Vital signs recorded during examination showed a blood pressure of 152/94 mmHg, heart rate of 86 bpm, temperature of 98.5°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of **11.4 g/dL**, white blood cell count of **6,900 cells/µL**, platelet count of **262,000 cells/µL**, serum creatinine of **1.8 mg/dL**, blood urea of **36 mg/dL**, and an estimated glomerular filtration rate (eGFR) of **42 mL/min/1.73 m²**. Serum albumin was **2.8 g/dL**, and total cholesterol was **248 mg/dL**.
+
+Urinalysis demonstrated **4+ proteinuria**, microscopic hematuria, and red blood cell casts. The urine protein-to-creatinine ratio was markedly elevated. Autoimmune testing revealed positive ANA, elevated anti-dsDNA antibody levels, and reduced complement C3 and C4 levels. Kidney biopsy demonstrated diffuse proliferative glomerulonephritis consistent with **Class IV Lupus Nephritis**.
+
+The physician concluded that the patient has **Active Lupus Nephritis (Class IV)** causing significant kidney involvement due to uncontrolled systemic lupus erythematosus. Reduced kidney function, heavy proteinuria, hypoalbuminemia, and biopsy findings indicate active immune-mediated renal damage. The patient was advised to begin intensive immunosuppressive therapy, maintain strict blood pressure control, follow a kidney-protective low-sodium diet, attend regular nephrology and rheumatology follow-up visits, undergo periodic kidney function monitoring, and adhere strictly to prescribed medications to prevent progression to chronic kidney disease or kidney failure.

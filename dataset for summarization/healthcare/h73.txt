@@ -1,0 +1,14 @@
+Patient Name: Maria Gonzalez
+Age: 51
+Gender: Female
+Report Date: 09-11-2026
+
+The patient visited the gastroenterology department with complaints of severe upper abdominal pain radiating to the back, persistent nausea, repeated vomiting, abdominal bloating, and loss of appetite for the past two days. She reported a history of gallstones diagnosed one year ago and admitted to consuming fatty meals frequently. There was no history of alcohol abuse.
+
+Vital signs recorded during examination showed a blood pressure of **118/74 mmHg**, heart rate of **108 bpm**, temperature of **100.1°F**, respiratory rate of **20 breaths per minute**, and oxygen saturation of **97%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.1 g/dL**, white blood cell count of **15,600 cells/µL**, platelet count of **298,000 cells/µL**, serum amylase of **684 U/L**, serum lipase of **1,248 U/L**, ALT (SGPT) of **168 U/L**, AST (SGOT) of **142 U/L**, total bilirubin of **2.2 mg/dL**, serum creatinine of **1.0 mg/dL**, blood urea of **21 mg/dL**, fasting blood glucose of **108 mg/dL**, and HbA1c of **5.8%**.
+
+Abdominal ultrasound demonstrated multiple gallstones with mild dilation of the common bile duct. Contrast-enhanced CT scan of the abdomen showed inflammation and swelling of the pancreas without evidence of pancreatic necrosis, abscess formation, or pseudocyst.
+
+The physician concluded that the patient has **Acute Gallstone Pancreatitis**. Elevated pancreatic enzymes, imaging findings, gallstones, and characteristic abdominal pain confirm the diagnosis. Mild liver enzyme elevation is consistent with biliary obstruction. Kidney function remains preserved. The patient was advised to receive hospital-based supportive care including intravenous fluids, pain management, temporary bowel rest, and close monitoring. After recovery, **laparoscopic cholecystectomy** was recommended to prevent recurrent gallstone pancreatitis. Regular follow-up with the gastroenterology and general surgery teams was also advised.

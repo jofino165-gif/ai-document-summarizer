@@ -1,0 +1,98 @@
+Study ID: 69
+
+Topic:
+Data Visualization
+
+Uploaded Notes:
+Data Visualization is the process of representing data in graphical or visual formats such as charts, graphs, maps, and dashboards to help users understand patterns, trends, and insights easily. It transforms complex datasets into visual representations that are easier to interpret than raw numbers.
+
+Data visualization is an essential part of data analysis, business intelligence, and data science. It helps in identifying trends, outliers, correlations, and patterns that may not be visible in tabular data.
+
+Common types of data visualizations include bar charts, line charts, pie charts, histograms, scatter plots, box plots, heatmaps, area charts, and dashboards. Each visualization type is used based on the nature of the data and the insight required.
+
+Popular tools and libraries for data visualization include Matplotlib, Seaborn, Plotly, Tableau, Power BI, Google Data Studio (Looker Studio), and D3.js. These tools allow users to create interactive and static visual representations of data.
+
+Data visualization is widely used in business analytics, healthcare, finance, marketing, education, scientific research, and machine learning. It supports decision-making, reporting, and performance tracking.
+
+The advantages of data visualization include better understanding of data, faster decision-making, improved communication, pattern recognition, and simplified complex data analysis. Challenges include misleading visuals, incorrect interpretation, large dataset handling, and design complexity.
+
+Summary:
+Data Visualization is the graphical representation of data that helps in understanding patterns, trends, and insights for better decision-making.
+
+Study Notes:
+Definition:
+Data Visualization is the process of presenting data in graphical formats to make it easier to understand.
+
+Main Concepts:
+• Data Representation
+• Charts and Graphs
+• Dashboards
+• Pattern Recognition
+• Trend Analysis
+• Interactive Visualization
+
+Types of Charts:
+• Bar Chart
+• Line Chart
+• Pie Chart
+• Histogram
+• Scatter Plot
+• Heatmap
+• Box Plot
+
+Tools:
+• Matplotlib
+• Seaborn
+• Plotly
+• Tableau
+• Power BI
+• D3.js
+
+Applications:
+• Business Analytics
+• Healthcare
+• Finance
+• Marketing
+• Machine Learning
+• Scientific Research
+
+Advantages:
+• Easy Understanding
+• Faster Decision Making
+• Pattern Detection
+• Better Communication
+• Simplified Analysis
+
+Challenges:
+• Misleading Charts
+• Data Misinterpretation
+• Complex Design
+• Large Data Handling
+
+Conclusion:
+Data Visualization helps convert complex datasets into meaningful visual insights, enabling better understanding and decision-making.
+
+Important Keywords:
+Data Visualization
+Charts
+Graphs
+Dashboards
+Matplotlib
+Seaborn
+Tableau
+Power BI
+Scatter Plot
+Heatmap
+
+Reference Websites:
+• Tableau Documentation
+• Power BI Docs
+• Matplotlib Docs
+• Seaborn Docs
+• Kaggle Learn
+• Microsoft Learn
+• Coursera
+• GeeksforGeeks
+
+Confidence Score:
+99.7%

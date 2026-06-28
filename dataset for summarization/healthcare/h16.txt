@@ -1,0 +1,14 @@
+Patient Name: Rachel Evans
+Age: 46
+Gender: Female
+Report Date: 18-07-2026
+
+The patient visited the rheumatology department with complaints of persistent pain, swelling, and stiffness in both hands, wrists, and knees for the past six months. She reported that joint stiffness was most severe in the morning and usually lasted for more than one hour before gradually improving. The patient also experienced fatigue, reduced grip strength, and difficulty performing routine daily activities. There was no history of recent trauma or joint infection, but her mother had been diagnosed with rheumatoid arthritis.
+
+Vital signs recorded during examination showed a blood pressure of 122/78 mmHg, heart rate of 80 bpm, temperature of 98.4°F, respiratory rate of 16 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 11.8 g/dL, white blood cell count of 7,300 cells/µL, platelet count of 332,000 cells/µL, erythrocyte sedimentation rate (ESR) of 52 mm/hr, C-reactive protein (CRP) of 28 mg/L, rheumatoid factor (RF) of 96 IU/mL, and anti-cyclic citrullinated peptide (Anti-CCP) antibodies strongly positive. Kidney function tests, liver function tests, fasting blood glucose, and HbA1c were all within normal reference ranges.
+
+X-rays of both hands demonstrated early narrowing of joint spaces with mild periarticular bone erosion. Physical examination revealed symmetrical swelling and tenderness affecting the small joints of both hands and wrists, with reduced range of motion due to pain and inflammation.
+
+The physician concluded that the patient has Rheumatoid Arthritis, an autoimmune inflammatory joint disease. Positive rheumatoid factor, strongly positive Anti-CCP antibodies, elevated inflammatory markers, and characteristic imaging findings support the diagnosis. Mild anemia is likely associated with chronic inflammation. Kidney function, liver function, and blood glucose levels remain normal. The patient was advised to begin disease-modifying antirheumatic drug (DMARD) therapy as prescribed, participate in regular physiotherapy, perform joint-protection exercises, maintain a healthy weight, attend routine rheumatology follow-up visits, and undergo periodic laboratory monitoring to evaluate disease activity and treatment response.

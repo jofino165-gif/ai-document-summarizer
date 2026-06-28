@@ -1,0 +1,90 @@
+Study ID: 39
+
+Topic:
+MongoDB
+
+Uploaded Notes:
+MongoDB is a popular open-source, NoSQL document-oriented database designed to store, manage, and retrieve large volumes of unstructured and semi-structured data. Unlike traditional relational databases, MongoDB stores data in flexible JSON-like BSON (Binary JSON) documents, allowing developers to build scalable and high-performance applications.
+
+MongoDB organizes data into databases, collections, and documents. A database contains multiple collections, and each collection stores multiple documents. Documents consist of key-value pairs and can have different structures, making MongoDB highly flexible for evolving applications.
+
+MongoDB supports important features such as indexing, aggregation, replication, sharding, transactions, schema validation, and powerful querying capabilities. Indexes improve query performance, aggregation processes large datasets, replication ensures high availability, and sharding distributes data across multiple servers for scalability.
+
+MongoDB integrates seamlessly with programming languages such as JavaScript, Python, Java, C#, PHP, and Node.js. It is commonly used with the MERN stack (MongoDB, Express.js, React.js, Node.js) for full-stack web application development.
+
+Applications of MongoDB include e-commerce platforms, social media applications, content management systems, IoT solutions, real-time analytics, mobile applications, healthcare systems, and cloud-native applications.
+
+The advantages of MongoDB include flexible schema design, horizontal scalability, high performance, easy integration with modern applications, and support for large datasets. Challenges include higher storage requirements, complex data relationships, limited join capabilities compared to relational databases, and data consistency considerations.
+
+Summary:
+MongoDB is a NoSQL document database that stores data in flexible BSON documents. It provides scalability, high performance, and schema flexibility, making it suitable for modern web, cloud, and enterprise applications.
+
+Study Notes:
+Definition:
+MongoDB is a NoSQL document-oriented database used to store and manage structured and unstructured data.
+
+Main Concepts:
+• Database
+• Collection
+• Document
+• BSON
+• Schema
+• Query
+
+Core Features:
+• Indexing
+• Aggregation
+• Replication
+• Sharding
+• Transactions
+• Schema Validation
+
+Applications:
+• Web Applications
+• E-commerce
+• Social Media
+• IoT
+• Mobile Applications
+• Healthcare
+• Cloud Applications
+
+Advantages:
+• Flexible Schema
+• High Scalability
+• Fast Performance
+• Easy Integration
+• High Availability
+
+Challenges:
+• Limited Join Operations
+• Higher Storage Usage
+• Data Consistency
+• Complex Relationship Management
+
+Conclusion:
+MongoDB is a powerful NoSQL database that provides flexible data storage, high scalability, and excellent performance for modern web and cloud-based applications.
+
+Important Keywords:
+MongoDB
+NoSQL
+BSON
+Collection
+Document
+Aggregation
+Sharding
+Replication
+Indexing
+Schema Validation
+
+Reference Websites:
+• MongoDB Documentation
+• MongoDB University
+• Microsoft Learn
+• GeeksforGeeks
+• W3Schools
+• freeCodeCamp
+• Coursera
+• MongoDB Developer Center
+
+Confidence Score:
+99.5%

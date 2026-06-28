@@ -1,0 +1,14 @@
+Patient Name: Peter Sullivan
+Age: 66
+Gender: Male
+Report Date: 13-12-2026
+
+The patient visited the vascular surgery department with complaints of sudden severe pain in the left leg, numbness, coldness of the foot, inability to move the toes, and loss of sensation that began approximately four hours before arrival at the emergency department. He has a medical history of **atrial fibrillation**, hypertension, and hyperlipidemia. The patient admitted to poor adherence to prescribed anticoagulant medication.
+
+Vital signs recorded during examination showed a blood pressure of **154/96 mmHg**, heart rate of **116 bpm** with an irregularly irregular rhythm, temperature of **98.4°F**, respiratory rate of **20 breaths per minute**, and oxygen saturation of **97%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.5 g/dL**, white blood cell count of **11,200 cells/µL**, platelet count of **288,000 cells/µL**, serum creatinine of **1.0 mg/dL**, blood urea of **20 mg/dL**, fasting blood glucose of **112 mg/dL**, HbA1c of **5.9%**, total cholesterol of **242 mg/dL**, LDL cholesterol of **166 mg/dL**, and liver function tests within normal reference ranges.
+
+Doppler ultrasound demonstrated **absence of arterial blood flow** below the left popliteal artery. CT angiography confirmed **acute thromboembolic occlusion of the left femoral artery** without evidence of aortic aneurysm. Electrocardiogram confirmed **atrial fibrillation** as the likely source of embolism.
+
+The physician concluded that the patient has **Acute Limb Ischemia** secondary to an arterial embolism originating from atrial fibrillation. Sudden onset of pain, pulselessness, numbness, imaging findings, and cardiac rhythm abnormalities confirm the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to undergo **emergency vascular revascularization** through surgical embolectomy or catheter-directed intervention, receive immediate anticoagulation as clinically indicated, achieve long-term control of atrial fibrillation and cardiovascular risk factors, attend regular vascular surgery and cardiology follow-up visits, and seek urgent medical attention if similar symptoms recur.

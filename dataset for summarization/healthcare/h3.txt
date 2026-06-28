@@ -1,0 +1,14 @@
+Patient Name: David Anderson
+Age: 61
+Gender: Male
+Report Date: 22-06-2026
+
+The patient visited the cardiology department after experiencing chest discomfort during walking, shortness of breath on exertion, occasional palpitations, and fatigue over the past three weeks. He has a history of smoking for more than 30 years and reports a sedentary lifestyle with a diet high in saturated fats. Family history reveals that his father had coronary artery disease.
+
+Vital signs recorded during examination showed a blood pressure of 156/96 mmHg, heart rate of 102 bpm, temperature of 98.5°F, respiratory rate of 20 breaths per minute, and oxygen saturation of 97%.
+
+Laboratory investigations revealed a hemoglobin level of 13.9 g/dL, white blood cell count of 7,400 cells/µL, and platelet count of 268,000 cells/µL. Cardiac biomarkers showed Troponin-I within the normal range, indicating no evidence of an acute heart attack. Lipid profile revealed total cholesterol of 264 mg/dL, LDL cholesterol of 186 mg/dL, HDL cholesterol of 35 mg/dL, and triglycerides of 242 mg/dL.
+
+Fasting blood glucose was 118 mg/dL and HbA1c was 6.1%, indicating impaired glucose regulation. Kidney function tests showed creatinine of 1.0 mg/dL and blood urea of 20 mg/dL, both within normal limits. Liver function tests were also within the normal range.
+
+Electrocardiogram (ECG) demonstrated mild ST-segment depression suggestive of myocardial ischemia. Echocardiography revealed mild left ventricular hypertrophy with preserved ejection fraction. The physician concluded that the patient has uncontrolled hypertension, abnormal cholesterol levels, and evidence of early coronary artery disease with increased cardiovascular risk. The patient was advised to stop smoking immediately, adopt a heart-healthy diet, begin regular supervised physical activity, take prescribed medications consistently, and attend regular cardiology follow-up appointments to reduce the risk of future cardiac complications.

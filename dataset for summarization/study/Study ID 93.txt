@@ -1,0 +1,108 @@
+Study ID: 93
+
+Topic:
+Computer Networks
+
+Uploaded Notes:
+Computer Networks refer to a system of interconnected computers and devices that communicate with each other to share data, resources, and services. These networks enable communication over short or long distances using wired or wireless technologies.
+
+The main goal of computer networks is to enable resource sharing, communication, and data exchange between devices efficiently and securely.
+
+Types of computer networks include LAN (Local Area Network), MAN (Metropolitan Area Network), WAN (Wide Area Network), PAN (Personal Area Network), and VPN (Virtual Private Network). LAN is used in small areas like offices, while WAN covers large geographical regions.
+
+Network models include the OSI (Open Systems Interconnection) model and TCP/IP model. The OSI model has seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+
+Key networking devices include routers, switches, hubs, modems, access points, and gateways. These devices help in data transmission and routing across networks.
+
+Common network protocols include HTTP, HTTPS, FTP, SMTP, TCP, UDP, IP, and DNS. These protocols define rules for data communication between devices.
+
+Computer networks are widely used in internet communication, cloud computing, online banking, social media, video conferencing, and file sharing systems.
+
+The advantages of computer networks include resource sharing, fast communication, centralized data access, scalability, and cost efficiency. Challenges include security threats, network congestion, hardware failures, and maintenance complexity.
+
+Summary:
+Computer Networks connect multiple devices to enable communication and resource sharing using standardized protocols and network models.
+
+Study Notes:
+Definition:
+A Computer Network is a system of interconnected devices that communicate and share resources.
+
+Main Concepts:
+• Network Types (LAN, MAN, WAN, PAN)
+• OSI Model
+• TCP/IP Model
+• Protocols
+• Networking Devices
+• Data Transmission
+
+Layers (OSI Model):
+• Physical
+• Data Link
+• Network
+• Transport
+• Session
+• Presentation
+• Application
+
+Protocols:
+• HTTP/HTTPS
+• FTP
+• SMTP
+• TCP/UDP
+• IP
+• DNS
+
+Devices:
+• Router
+• Switch
+• Hub
+• Modem
+• Access Point
+• Gateway
+
+Applications:
+• Internet Communication
+• Cloud Computing
+• Video Conferencing
+• File Sharing
+• Online Banking
+
+Advantages:
+• Fast Communication
+• Resource Sharing
+• Scalability
+• Centralized Access
+
+Challenges:
+• Security Issues
+• Network Congestion
+• Hardware Failures
+• Maintenance Complexity
+
+Conclusion:
+Computer Networks enable communication and data sharing between devices using standardized protocols and network architectures.
+
+Important Keywords:
+Computer Network
+LAN
+WAN
+OSI Model
+TCP/IP
+Router
+Switch
+Protocol
+IP Address
+DNS
+
+Reference Websites:
+• Cisco Networking Academy
+• GeeksforGeeks Networking
+• Microsoft Learn
+• Coursera Networking Courses
+• IBM Networking Docs
+• Tutorialspoint
+• Cloudflare Learning
+• NPTEL Computer Networks
+
+Confidence Score:
+99.8%

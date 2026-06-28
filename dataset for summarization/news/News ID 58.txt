@@ -1,0 +1,30 @@
+News ID: 58
+Date: 27-04-2027
+
+Headline:
+Global Shipping Costs Rise as Port Congestion Disrupts International Trade
+
+News Content:
+International shipping companies have reported a sharp increase in freight charges due to severe congestion at several major seaports. Delays in cargo handling, a shortage of shipping containers, and increased demand for international transportation have affected global supply chains. Importers and exporters warned that prolonged disruptions may increase the prices of imported goods, electronic products, machinery, and industrial raw materials.
+
+Category:
+Business
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Shipping Costs, Port Congestion, International Trade, Supply Chain, Imports, Freight Charges
+
+Prediction:
+Shipping costs are expected to remain elevated until port operations return to normal. Import-dependent businesses may face higher operating costs, while consumers could experience increased prices for imported products.
+
+Recommended Action:
+• Businesses should plan inventory purchases well in advance.
+• Importers should diversify suppliers where possible to reduce supply chain risks.
+• Consumers may compare prices before purchasing imported goods.
+• Exporters should monitor shipping schedules and freight charges regularly.
+• Stay informed about international trade and logistics updates.
+
+Confidence Score:
+98.7%

@@ -1,0 +1,93 @@
+Study ID: 34
+
+Topic:
+C Programming
+
+Uploaded Notes:
+C Programming is a general-purpose, procedural programming language developed by Dennis Ritchie at Bell Laboratories in 1972. It is one of the most influential programming languages and serves as the foundation for many modern programming languages, including C++, Java, and C#. C is widely used for system programming, operating systems, embedded systems, device drivers, and application development because of its efficiency and close interaction with computer hardware.
+
+C programs are organized into functions, with the `main()` function serving as the entry point of program execution. The language provides fundamental concepts such as variables, constants, data types, operators, control statements, loops, arrays, functions, pointers, structures, unions, file handling, and dynamic memory allocation. These features allow programmers to develop efficient and optimized software.
+
+Pointers are one of the most powerful features of C, enabling direct memory access and efficient data manipulation. Dynamic memory allocation is performed using functions such as `malloc()`, `calloc()`, `realloc()`, and `free()`, allowing programs to manage memory during execution.
+
+C Programming is widely used in operating system development, embedded systems, compiler design, networking applications, database systems, robotics, and microcontroller programming. Popular compilers include GCC (GNU Compiler Collection), Turbo C, and Microsoft Visual C.
+
+The advantages of C include high execution speed, efficient memory management, portability, flexibility, and support for low-level programming. Challenges include manual memory management, lack of built-in object-oriented programming features, pointer-related errors, and limited runtime error checking.
+
+Summary:
+C Programming is a powerful procedural programming language used for developing system software, embedded applications, operating systems, and high-performance programs. Its efficiency and low-level hardware access make it one of the most important programming languages in computer science.
+
+Study Notes:
+Definition:
+C is a procedural programming language used for system programming and application development.
+
+Main Concepts:
+• Variables
+• Data Types
+• Operators
+• Functions
+• Arrays
+• Pointers
+
+Programming Features:
+• Control Statements
+• Loops
+• Structures
+• Unions
+• File Handling
+• Dynamic Memory Allocation
+
+Memory Functions:
+• malloc()
+• calloc()
+• realloc()
+• free()
+
+Applications:
+• Operating Systems
+• Embedded Systems
+• Compiler Development
+• Device Drivers
+• Networking Applications
+• Robotics
+
+Advantages:
+• High Performance
+• Fast Execution
+• Efficient Memory Usage
+• Portable
+• Flexible
+
+Challenges:
+• Manual Memory Management
+• Pointer Errors
+• No Built-in OOP Support
+• Limited Error Checking
+
+Conclusion:
+C Programming remains one of the most important programming languages due to its speed, efficiency, and ability to develop system-level software and embedded applications.
+
+Important Keywords:
+C Programming
+Pointer
+Function
+Array
+Structure
+Union
+Dynamic Memory Allocation
+malloc
+Compiler
+GCC
+
+Reference Websites:
+• C Programming Documentation
+• GCC Documentation
+• W3Schools C
+• GeeksforGeeks
+• Programiz
+• TutorialsPoint
+• Microsoft Learn
+• Coursera
+
+Confidence Score:
+99.4%

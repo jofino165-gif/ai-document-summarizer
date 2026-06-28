@@ -1,0 +1,30 @@
+News ID: 69
+Date: 19-05-2027
+
+Headline:
+Government Introduces Incentive Program for Small Businesses to Adopt Digital Payments
+
+News Content:
+The Ministry of Commerce has launched a new incentive program encouraging small and medium-sized businesses to adopt digital payment systems. Under the scheme, eligible businesses will receive financial support, reduced transaction fees, and free digital payment training. Officials stated that the initiative aims to improve financial inclusion, increase transaction transparency, reduce cash handling, and support the growth of digital commerce.
+
+Category:
+Business
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Digital Payments, Small Business, Financial Inclusion, Digital Commerce, Government Incentive, Cashless Transactions
+
+Prediction:
+The adoption of digital payment systems is expected to increase among small businesses, improving transaction efficiency, customer convenience, and overall business growth.
+
+Recommended Action:
+• Small businesses should register for the digital payment incentive program if eligible.
+• Adopt secure digital payment platforms to improve customer experience.
+• Train employees on safe digital payment practices and fraud prevention.
+• Customers should use secure payment methods and verify transaction details.
+• Stay informed about government support programs for digital business transformation.
+
+Confidence Score:
+98.8%

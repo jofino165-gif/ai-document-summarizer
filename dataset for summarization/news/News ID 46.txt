@@ -1,0 +1,30 @@
+News ID: 46
+Date: 03-04-2027
+
+Headline:
+Domestic Airline Ticket Prices Rise Ahead of Holiday Travel Season
+
+News Content:
+Major domestic airlines have announced an increase in ticket prices due to high passenger demand, rising aviation fuel costs, and limited seat availability during the upcoming holiday season. Travel agencies reported a surge in advance bookings as families and tourists plan vacations. Aviation experts expect fares to remain elevated until the end of the peak travel period, especially on popular domestic routes.
+
+Category:
+Travel
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Airline Tickets, Air Travel, Aviation Fuel, Holiday Season, Travel Demand, Flight Prices
+
+Prediction:
+Airfare is expected to remain high throughout the holiday season due to increased demand and higher operating costs. Popular routes may experience limited seat availability.
+
+Recommended Action:
+• Book flight tickets well in advance to secure lower fares.
+• Compare prices across different airlines and travel platforms.
+• Consider traveling on weekdays or during off-peak hours for better prices.
+• Monitor promotional offers and fare discounts.
+• Plan your travel budget to accommodate higher transportation costs.
+
+Confidence Score:
+98.7%

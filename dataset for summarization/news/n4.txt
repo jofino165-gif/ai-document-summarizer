@@ -1,0 +1,30 @@
+News ID: 4
+Date: 09-01-2027
+
+Headline:
+Stock Market Reaches Record High as Technology and Banking Shares Surge
+
+News Content:
+The national stock market closed at an all-time high after strong gains in technology and banking sectors. Investor confidence increased following positive corporate earnings and favorable economic indicators. Market analysts noted that several leading companies reported higher-than-expected quarterly profits, attracting both domestic and foreign investors. Experts cautioned that although market sentiment remains positive, short-term price corrections are still possible.
+
+Category:
+Business
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Stock Market, Technology, Banking, Investors, Economic Growth, Corporate Earnings
+
+Prediction:
+The stock market is expected to remain positive in the near term, though minor corrections may occur due to profit booking and market fluctuations.
+
+Recommended Action:
+• Review your investment portfolio regularly.
+• Consider long-term investments instead of short-term speculation.
+• Avoid investing all funds in a single sector.
+• Monitor market trends before making major investment decisions.
+• Consult a financial advisor for diversified investment planning.
+
+Confidence Score:
+97.5%

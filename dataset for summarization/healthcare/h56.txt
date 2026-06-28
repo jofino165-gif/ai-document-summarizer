@@ -1,0 +1,14 @@
+Patient Name: Nicole Adams
+Age: 37
+Gender: Female
+Report Date: 06-10-2026
+
+The patient visited the neurology department with complaints of recurrent severe headaches affecting the right side of the head, nausea, vomiting, sensitivity to bright light and loud sounds, and occasional visual disturbances before the onset of pain for the past eight months. The headaches typically lasted between 6 and 24 hours and occurred three to four times each month. The patient reported that stress, lack of sleep, and skipping meals frequently triggered the attacks.
+
+Vital signs recorded during examination showed a blood pressure of **118/76 mmHg**, heart rate of **78 bpm**, temperature of **98.4°F**, respiratory rate of **16 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **13.4 g/dL**, white blood cell count of **6,800 cells/µL**, platelet count of **286,000 cells/µL**, fasting blood glucose of **92 mg/dL**, HbA1c of **5.3%**, serum creatinine of **0.8 mg/dL**, blood urea of **16 mg/dL**, and thyroid function tests within normal reference ranges.
+
+Magnetic Resonance Imaging (MRI) of the brain showed no evidence of brain tumor, stroke, intracranial hemorrhage, or other structural abnormalities. Comprehensive neurological examination was otherwise normal between headache episodes. Based on the patient's history, the headaches fulfilled the diagnostic criteria for **Migraine with Aura**.
+
+The physician concluded that the patient has **Migraine with Aura**, a recurrent neurological disorder characterized by episodic headaches preceded by temporary visual disturbances. Structural brain disease was excluded through imaging, and laboratory investigations were within normal limits. The patient was advised to identify and avoid headache triggers, maintain regular sleep and meal schedules, remain adequately hydrated, use prescribed medications during migraine attacks, consider preventive therapy if attack frequency increases, and attend regular neurology follow-up visits to monitor symptom control and treatment response.

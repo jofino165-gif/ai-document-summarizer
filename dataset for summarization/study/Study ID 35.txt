@@ -1,0 +1,88 @@
+Study ID: 35
+
+Topic:
+C# Programming
+
+Uploaded Notes:
+C# (C Sharp) is a modern, object-oriented programming language developed by Microsoft as part of the .NET platform. It is designed for building desktop applications, web applications, mobile applications, cloud services, enterprise software, and games. C# combines the simplicity of high-level programming with the power of object-oriented principles, making it one of the most popular programming languages for software development.
+
+C# supports object-oriented programming concepts such as classes, objects, encapsulation, inheritance, polymorphism, and abstraction. It also includes advanced features like properties, delegates, events, exception handling, asynchronous programming, LINQ (Language Integrated Query), and garbage collection for automatic memory management.
+
+The .NET platform provides libraries and frameworks that simplify application development. Developers commonly use ASP.NET for web development, .NET MAUI for cross-platform applications, Windows Forms and WPF for desktop applications, and Unity for game development.
+
+The C# development process involves writing code in an Integrated Development Environment (IDE) such as Microsoft Visual Studio or Visual Studio Code. Applications are compiled into Intermediate Language (IL), which is executed by the Common Language Runtime (CLR) of the .NET framework.
+
+C# is widely used in enterprise software, banking systems, healthcare applications, educational platforms, cloud computing, web APIs, desktop applications, mobile applications, and game development using the Unity engine.
+
+The advantages of C# include strong type safety, automatic memory management, cross-platform support through .NET, powerful libraries, excellent IDE support, and high productivity. Challenges include dependency on the .NET ecosystem for certain applications, higher memory usage compared to some languages, and a learning curve for advanced features.
+
+Summary:
+C# is a powerful object-oriented programming language developed by Microsoft for building web, desktop, cloud, mobile, and game applications. It provides modern programming features, automatic memory management, and seamless integration with the .NET platform.
+
+Study Notes:
+Definition:
+C# is an object-oriented programming language developed by Microsoft for creating modern software applications.
+
+Main Concepts:
+• Classes and Objects
+• Encapsulation
+• Inheritance
+• Polymorphism
+• Abstraction
+• Exception Handling
+
+.NET Technologies:
+• .NET Framework
+• .NET
+• ASP.NET
+• .NET MAUI
+• Windows Forms
+• WPF
+
+Applications:
+• Web Applications
+• Desktop Applications
+• Mobile Applications
+• Cloud Services
+• Enterprise Software
+• Game Development (Unity)
+
+Advantages:
+• Object-Oriented Design
+• Automatic Garbage Collection
+• Strong Type Safety
+• Rich .NET Libraries
+• Cross-Platform Development
+
+Challenges:
+• Dependency on .NET Platform
+• Higher Memory Usage
+• Advanced Feature Complexity
+
+Conclusion:
+C# is a versatile programming language that enables developers to build secure, scalable, and high-performance applications across multiple platforms using the .NET ecosystem.
+
+Important Keywords:
+C#
+.NET
+ASP.NET
+CLR
+Classes
+Objects
+LINQ
+Garbage Collection
+Visual Studio
+Unity
+
+Reference Websites:
+• Microsoft Learn
+• .NET Documentation
+• ASP.NET Documentation
+• Unity Learn
+• C# Documentation
+• W3Schools C#
+• GeeksforGeeks
+• Coursera
+
+Confidence Score:
+99.5%

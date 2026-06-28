@@ -1,0 +1,14 @@
+Patient Name: Angela Brooks
+Age: 60
+Gender: Female
+Report Date: 31-08-2026
+
+The patient visited the cardiology department with complaints of severe shortness of breath during minimal physical activity, swelling of both legs, fatigue, dizziness, occasional chest discomfort, and difficulty sleeping while lying flat for the past three months. She has a medical history of long-standing hypertension, Type 2 diabetes mellitus, and obesity. The patient admitted to poor medication adherence and excessive dietary salt intake.
+
+Vital signs recorded during examination showed a blood pressure of 170/102 mmHg, heart rate of 110 bpm, temperature of 98.6°F, respiratory rate of 24 breaths per minute, and oxygen saturation of 92% on room air.
+
+Laboratory investigations revealed a hemoglobin level of 12.6 g/dL, white blood cell count of 8,200 cells/µL, platelet count of 274,000 cells/µL, Brain Natriuretic Peptide (BNP) level of 1180 pg/mL, fasting blood glucose of 228 mg/dL, HbA1c of 9.2%, serum creatinine of 1.5 mg/dL, blood urea of 34 mg/dL, total cholesterol of 248 mg/dL, LDL cholesterol of 170 mg/dL, HDL cholesterol of 38 mg/dL, and triglycerides of 232 mg/dL.
+
+Electrocardiogram (ECG) demonstrated left ventricular hypertrophy with sinus tachycardia. Echocardiography revealed a left ventricular ejection fraction (LVEF) of 32%, moderate left ventricular dilation, Grade II diastolic dysfunction, and mild mitral regurgitation. Chest X-ray showed cardiomegaly with pulmonary vascular congestion.
+
+The physician concluded that the patient has **Advanced Chronic Heart Failure with Reduced Ejection Fraction (HFrEF)** associated with poorly controlled hypertension, uncontrolled Type 2 diabetes mellitus, and dyslipidemia. Elevated BNP levels, reduced cardiac function, pulmonary congestion, and decreased oxygen saturation indicate advanced cardiac disease. Mild kidney impairment is also present, likely due to reduced cardiac output. The patient was advised to begin intensive heart failure management, strictly limit sodium intake, monitor daily body weight and blood pressure, adhere to prescribed medications, participate in supervised cardiac rehabilitation, improve diabetes control, and attend regular cardiology follow-up visits to reduce the risk of hospitalization and further cardiac deterioration.

@@ -1,0 +1,98 @@
+Study ID: 72
+
+Topic:
+Distributed Systems
+
+Uploaded Notes:
+Distributed Systems are a collection of independent computers that work together and appear to users as a single coherent system. These systems communicate over a network and coordinate their actions by passing messages to achieve a common goal.
+
+The main characteristics of distributed systems include scalability, concurrency, fault tolerance, transparency, and resource sharing. They are designed to handle large-scale applications efficiently by distributing workload across multiple machines.
+
+Key concepts in distributed systems include nodes, communication networks, distributed computing, synchronization, consistency, replication, and consensus. These concepts ensure that data and processes remain coordinated across multiple systems.
+
+Common models in distributed systems include client-server architecture, peer-to-peer systems, and microservices architecture. Each model defines how components interact and share resources.
+
+Important challenges in distributed systems include network failures, data consistency issues, latency, concurrency control, security concerns, and partial failures. Techniques such as replication, load balancing, and distributed algorithms help address these issues.
+
+Popular technologies used in distributed systems include Hadoop, Apache Spark, Kubernetes, Docker, Cassandra, Kafka, and distributed databases like MongoDB and Cassandra.
+
+Distributed systems are widely used in cloud computing, big data processing, online banking, social media platforms, search engines, and large-scale enterprise applications.
+
+The advantages of distributed systems include high scalability, reliability, resource sharing, fault tolerance, and improved performance. Challenges include complexity, security risks, synchronization problems, and network dependency.
+
+Summary:
+Distributed Systems are multiple interconnected computers working together as a single system to achieve scalability, reliability, and efficient resource sharing.
+
+Study Notes:
+Definition:
+A Distributed System is a group of independent computers that coordinate to function as a single system.
+
+Main Concepts:
+• Nodes
+• Concurrency
+• Communication
+• Replication
+• Consistency
+• Fault Tolerance
+
+Architectures:
+• Client-Server
+• Peer-to-Peer
+• Microservices
+
+Challenges:
+• Network Failures
+• Data Consistency
+• Latency
+• Security
+• Partial Failures
+
+Technologies:
+• Hadoop
+• Apache Spark
+• Kafka
+• Kubernetes
+• Docker
+• Cassandra
+
+Applications:
+• Cloud Computing
+• Big Data Systems
+• Social Media
+• Banking Systems
+• Search Engines
+
+Advantages:
+• Scalability
+• Fault Tolerance
+• High Performance
+• Resource Sharing
+• Reliability
+
+Conclusion:
+Distributed Systems enable multiple computers to work together efficiently, providing scalability, reliability, and high-performance computing for modern applications.
+
+Important Keywords:
+Distributed Systems
+Nodes
+Replication
+Consistency
+Microservices
+Kafka
+Hadoop
+Kubernetes
+Fault Tolerance
+Scalability
+
+Reference Websites:
+• MIT Distributed Systems Notes
+• Coursera Distributed Systems
+• Microsoft Learn
+• GeeksforGeeks
+• Apache Documentation
+• AWS Architecture Docs
+• IBM Cloud Learn
+• Distributed Systems Book (Tanenbaum)
+
+Confidence Score:
+99.8%

@@ -1,0 +1,14 @@
+Patient Name: Kevin Rodriguez
+Age: 56
+Gender: Male
+Report Date: 08-07-2026
+
+The patient visited the endocrinology department with complaints of excessive thirst, frequent urination, increased hunger, blurred vision, numbness in both feet, and fatigue for the past four months. He has a family history of Type 2 diabetes mellitus and admits to consuming a diet high in refined carbohydrates and sugary beverages. He performs very little physical activity and has gained approximately 8 kilograms over the past two years.
+
+Vital signs recorded during examination showed a blood pressure of 154/96 mmHg, heart rate of 90 bpm, temperature of 98.5°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 14.1 g/dL, white blood cell count of 7,600 cells/µL, platelet count of 272,000 cells/µL, fasting blood glucose of 214 mg/dL, postprandial blood glucose of 318 mg/dL, and HbA1c of 9.6%.
+
+The lipid profile showed total cholesterol of 242 mg/dL, LDL cholesterol of 166 mg/dL, HDL cholesterol of 37 mg/dL, and triglycerides of 248 mg/dL. Kidney function tests demonstrated a creatinine level of 1.3 mg/dL and blood urea of 24 mg/dL. Urine analysis showed the presence of glucose and mild proteinuria. Liver function tests revealed ALT (SGPT) of 44 U/L and AST (SGOT) of 40 U/L, indicating mild elevation.
+
+The physician concluded that the patient has poorly controlled Type 2 diabetes mellitus associated with hypertension and dyslipidemia. Persistent hyperglycemia and the presence of glucose and protein in the urine suggest early diabetic kidney involvement. Mildly elevated liver enzymes may indicate early fatty liver disease related to metabolic syndrome. The patient was advised to begin intensive diabetes management, follow a calorie-controlled diabetic diet, engage in regular physical activity, reduce body weight, monitor blood glucose and blood pressure routinely, take prescribed medications consistently, and attend regular follow-up evaluations to reduce the risk of kidney disease, cardiovascular complications, and diabetic neuropathy.

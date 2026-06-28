@@ -1,0 +1,100 @@
+Study ID: 64
+
+Topic:
+Artificial Intelligence (AI)
+
+Uploaded Notes:
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating intelligent machines capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, language understanding, and decision-making.
+
+AI can be classified into three types: Narrow AI (Weak AI), which is designed for specific tasks like voice assistants; General AI (Strong AI), which has human-like intelligence across tasks; and Super AI, which is a theoretical concept that surpasses human intelligence.
+
+The core areas of AI include Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Robotics, and Expert Systems. Machine Learning enables systems to learn from data, while Deep Learning uses neural networks for advanced pattern recognition.
+
+AI systems work through processes such as data collection, preprocessing, training, model evaluation, and deployment. Algorithms such as decision trees, neural networks, reinforcement learning, and Bayesian methods are commonly used.
+
+AI is widely used in healthcare, finance, education, transportation, manufacturing, cybersecurity, e-commerce, and entertainment. Applications include virtual assistants, recommendation systems, fraud detection, autonomous vehicles, and medical diagnosis.
+
+The advantages of AI include automation, improved accuracy, faster decision-making, reduced human error, and enhanced productivity. Challenges include ethical concerns, job displacement, bias in data, lack of transparency, and high computational costs.
+
+Summary:
+Artificial Intelligence enables machines to simulate human intelligence, allowing them to learn, reason, and solve problems across various domains using advanced algorithms and data-driven models.
+
+Study Notes:
+Definition:
+Artificial Intelligence is the simulation of human intelligence in machines.
+
+Main Concepts:
+• Machine Learning
+• Deep Learning
+• Natural Language Processing
+• Computer Vision
+• Robotics
+• Expert Systems
+
+Types of AI:
+• Narrow AI
+• General AI
+• Super AI
+
+AI Process:
+• Data Collection
+• Preprocessing
+• Training
+• Evaluation
+• Deployment
+
+Algorithms:
+• Neural Networks
+• Decision Trees
+• Reinforcement Learning
+• Bayesian Networks
+
+Applications:
+• Healthcare
+• Finance
+• Education
+• Transportation
+• E-commerce
+• Cybersecurity
+
+Advantages:
+• Automation
+• High Accuracy
+• Faster Decisions
+• Reduced Errors
+• Productivity Boost
+
+Challenges:
+• Ethics Issues
+• Bias in Data
+• High Cost
+• Job Displacement
+• Lack of Transparency
+
+Conclusion:
+Artificial Intelligence is a transformative technology that enables machines to perform intelligent tasks, improving efficiency and decision-making across industries.
+
+Important Keywords:
+Artificial Intelligence
+AI
+Machine Learning
+Deep Learning
+NLP
+Computer Vision
+Neural Networks
+Reinforcement Learning
+Expert Systems
+Automation
+
+Reference Websites:
+• IBM AI
+• Microsoft Learn AI
+• Google AI
+• OpenAI Documentation
+• Coursera
+• DeepLearning.AI
+• GeeksforGeeks
+• MIT AI Resources
+
+Confidence Score:
+99.8%

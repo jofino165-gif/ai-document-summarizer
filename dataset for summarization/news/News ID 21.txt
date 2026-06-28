@@ -1,0 +1,30 @@
+News ID: 21
+Date: 12-02-2027
+
+Headline:
+Milk Prices Increase Nationwide Due to Higher Feed and Transportation Costs
+
+News Content:
+The National Dairy Association announced an increase in milk prices following a rise in cattle feed costs, transportation expenses, and operational costs for dairy producers. Retailers stated that the revised prices will take effect immediately, while dairy companies expect production costs to remain elevated over the next few months. Economists believe the increase may also affect the prices of dairy products such as curd, butter, cheese, and milk powder.
+
+Category:
+Economy
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Milk Price, Dairy Products, Transportation Cost, Inflation, Food Prices, Agriculture
+
+Prediction:
+Milk and dairy product prices are expected to remain higher in the short term, increasing monthly household grocery expenses and contributing to food inflation.
+
+Recommended Action:
+• Plan your monthly grocery budget to account for higher dairy costs.
+• Purchase only the quantity of dairy products needed to reduce waste.
+• Compare prices among different brands and retailers before buying.
+• Consider affordable alternatives if suitable for your household.
+• Stay informed about future price revisions and government support measures.
+
+Confidence Score:
+98.3%

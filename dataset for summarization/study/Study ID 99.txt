@@ -1,0 +1,96 @@
+Study ID: 99
+
+Topic:
+Data Science
+
+Uploaded Notes:
+Data Science is an interdisciplinary field that combines statistics, mathematics, computer science, and domain knowledge to extract meaningful insights from structured and unstructured data. It focuses on analyzing data to support decision-making and solve real-world problems.
+
+Data Science involves multiple stages including data collection, data cleaning, data preprocessing, exploratory data analysis (EDA), modeling, evaluation, and visualization. Each stage helps transform raw data into actionable insights.
+
+Key components of Data Science include statistics, data analysis, machine learning, data engineering, and data visualization. These components work together to understand patterns and build predictive models.
+
+Common tools and technologies used in Data Science include Python, R, SQL, Jupyter Notebook, Pandas, NumPy, Scikit-learn, TensorFlow, Tableau, and Power BI.
+
+Data Science is widely used in industries such as healthcare, finance, marketing, e-commerce, transportation, and social media for prediction, classification, recommendation systems, and trend analysis.
+
+The advantages of Data Science include better decision-making, predictive capabilities, automation of analysis, and improved business strategies. Challenges include data quality issues, privacy concerns, high computational requirements, and complex data integration.
+
+Summary:
+Data Science is the process of extracting insights and knowledge from data using scientific methods, algorithms, and systems.
+
+Study Notes:
+Definition:
+Data Science is the study of extracting knowledge and insights from data.
+
+Main Concepts:
+• Data Collection
+• Data Cleaning
+• Data Preprocessing
+• Exploratory Data Analysis (EDA)
+• Modeling
+• Data Visualization
+
+Core Areas:
+• Statistics
+• Machine Learning
+• Data Engineering
+• Data Visualization
+
+Tools:
+• Python
+• R
+• SQL
+• Pandas
+• NumPy
+• Scikit-learn
+• TensorFlow
+• Tableau
+• Power BI
+
+Applications:
+• Healthcare Analytics
+• Financial Forecasting
+• Recommendation Systems
+• Marketing Analysis
+• Fraud Detection
+
+Advantages:
+• Better Decision Making
+• Predictive Insights
+• Automation
+• Improved Efficiency
+
+Challenges:
+• Data Quality Issues
+• Privacy Concerns
+• High Computation Needs
+• Complex Integration
+
+Conclusion:
+Data Science helps transform raw data into meaningful insights that support decision-making across industries.
+
+Important Keywords:
+Data Science
+EDA
+Machine Learning
+Statistics
+Python
+R
+Data Cleaning
+Visualization
+Predictive Modeling
+Big Data
+
+Reference Websites:
+• Coursera Data Science
+• IBM Data Science
+• Kaggle Learn
+• GeeksforGeeks
+• Microsoft Learn
+• Harvard Data Science
+• Towards Data Science
+• Scikit-learn Docs
+
+Confidence Score:
+99.9%

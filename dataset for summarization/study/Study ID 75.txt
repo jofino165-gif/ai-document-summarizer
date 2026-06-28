@@ -1,0 +1,98 @@
+Study ID: 75
+
+Topic:
+Cloud Security
+
+Uploaded Notes:
+Cloud Security refers to the set of policies, technologies, controls, and services designed to protect data, applications, and infrastructure in cloud computing environments. It ensures confidentiality, integrity, and availability of cloud resources.
+
+Cloud security is shared responsibility between cloud service providers (CSPs) and users. Providers secure the infrastructure, while users are responsible for securing data, access control, and application configurations.
+
+Key areas of cloud security include identity and access management (IAM), data encryption, network security, threat detection, compliance management, and security monitoring. IAM ensures only authorized users can access cloud resources using authentication methods like MFA.
+
+Encryption is used to protect data at rest, in transit, and in use. Network security includes firewalls, virtual private networks (VPNs), and intrusion detection/prevention systems (IDS/IPS).
+
+Common cloud security threats include data breaches, misconfigured cloud storage, insecure APIs, account hijacking, insider threats, and denial-of-service (DoS) attacks.
+
+Cloud security is widely applied in AWS, Microsoft Azure, Google Cloud Platform (GCP), and enterprise cloud systems for banking, healthcare, e-commerce, and government services.
+
+The advantages of cloud security include data protection, scalability, compliance support, real-time monitoring, and improved threat detection. Challenges include misconfiguration risks, complex environments, evolving threats, and shared responsibility misunderstandings.
+
+Summary:
+Cloud Security focuses on protecting cloud-based systems and data using encryption, access control, monitoring, and security policies under a shared responsibility model.
+
+Study Notes:
+Definition:
+Cloud Security is the practice of protecting cloud computing systems and data.
+
+Main Concepts:
+• Shared Responsibility Model
+• Identity and Access Management (IAM)
+• Encryption
+• Network Security
+• Threat Detection
+• Compliance
+
+Security Measures:
+• Multi-Factor Authentication (MFA)
+• Firewalls
+• VPN
+• IDS/IPS
+• Data Encryption
+• Security Monitoring
+
+Threats:
+• Data Breaches
+• Misconfiguration
+• Account Hijacking
+• Insecure APIs
+• Insider Threats
+
+Applications:
+• Cloud Platforms (AWS, Azure, GCP)
+• Banking Systems
+• Healthcare Systems
+• E-commerce
+• Government Services
+
+Advantages:
+• Strong Data Protection
+• Scalability
+• Compliance Support
+• Real-Time Monitoring
+• Risk Reduction
+
+Challenges:
+• Misconfigurations
+• Complex Environments
+• Evolving Cyber Threats
+• Shared Responsibility Issues
+
+Conclusion:
+Cloud Security ensures safe and reliable use of cloud computing by protecting data, applications, and infrastructure from cyber threats.
+
+Important Keywords:
+Cloud Security
+IAM
+Encryption
+MFA
+VPN
+Firewall
+Shared Responsibility
+AWS Security
+Azure Security
+GCP Security
+IDS/IPS
+
+Reference Websites:
+• AWS Security Documentation
+• Microsoft Azure Security Center
+• Google Cloud Security Docs
+• NIST Cloud Security
+• Cloud Security Alliance (CSA)
+• OWASP Cloud Security
+• Coursera
+• IBM Cloud Security
+
+Confidence Score:
+99.8%

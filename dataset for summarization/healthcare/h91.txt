@@ -1,0 +1,14 @@
+Patient Name: Angela Morgan
+Age: 52
+Gender: Female
+Report Date: 15-12-2026
+
+The patient visited the hepatology department with complaints of persistent fatigue, yellow discoloration of the eyes, itching over the entire body, dark-colored urine, pale stools, and discomfort in the right upper abdomen for the past four months. She denied alcohol consumption but reported a history of autoimmune thyroid disease. There was no history of viral hepatitis.
+
+Vital signs recorded during examination showed a blood pressure of **126/80 mmHg**, heart rate of **84 bpm**, temperature of **98.5°F**, respiratory rate of **18 breaths per minute**, and oxygen saturation of **98%**.
+
+Laboratory investigations revealed a hemoglobin level of **12.4 g/dL**, white blood cell count of **6,900 cells/µL**, platelet count of **286,000 cells/µL**, total bilirubin of **3.2 mg/dL**, alkaline phosphatase (ALP) of **486 U/L**, gamma-glutamyl transferase (GGT) of **278 U/L**, ALT (SGPT) of **82 U/L**, AST (SGOT) of **76 U/L**, serum albumin of **3.8 g/dL**, serum creatinine of **0.9 mg/dL**, and blood urea of **17 mg/dL**.
+
+Autoimmune testing demonstrated strongly positive **anti-mitochondrial antibodies (AMA)**. Abdominal ultrasound showed no evidence of biliary obstruction or gallstones. Liver biopsy revealed chronic nonsuppurative destruction of the small intrahepatic bile ducts with portal inflammation, confirming **Primary Biliary Cholangitis (PBC)**.
+
+The physician concluded that the patient has **Primary Biliary Cholangitis**, an autoimmune liver disease affecting the small intrahepatic bile ducts. Elevated cholestatic liver enzymes, positive anti-mitochondrial antibodies, liver biopsy findings, and characteristic clinical symptoms confirm the diagnosis. Kidney function remains normal. The patient was advised to begin **ursodeoxycholic acid (UDCA)** therapy, manage itching with prescribed medications if required, avoid alcohol and unnecessary hepatotoxic drugs, undergo regular liver function monitoring, maintain follow-up with the hepatology team, and receive periodic assessment for complications of chronic liver disease.

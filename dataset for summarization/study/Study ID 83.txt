@@ -1,0 +1,98 @@
+Study ID: 83
+
+Topic:
+Computer Graphics
+
+Uploaded Notes:
+Computer Graphics is a field of computer science that deals with generating, manipulating, and displaying visual images using computers. It is widely used in animation, gaming, simulation, design, and visualization systems.
+
+Computer graphics can be divided into two types: raster graphics and vector graphics. Raster graphics are made of pixels and are resolution-dependent, while vector graphics are based on mathematical equations and are scalable without losing quality.
+
+Key concepts in computer graphics include pixels, resolution, frame buffer, rendering, shading, and transformation. Rendering is the process of generating an image from a model using lighting, shading, and texture techniques.
+
+Transformations in computer graphics include translation, scaling, rotation, and reflection. These are used to manipulate objects in 2D and 3D space.
+
+Important graphics techniques include clipping, windowing, rasterization, anti-aliasing, and texture mapping. These improve image quality and realism.
+
+Computer graphics systems use hardware such as GPUs (Graphics Processing Units) to accelerate image processing and rendering.
+
+Applications of computer graphics include video games, animation movies, virtual reality, augmented reality, CAD/CAM systems, medical imaging, and simulation systems.
+
+The advantages include realistic visualization, better design representation, interactive systems, and improved user experience. Challenges include high computational requirements, memory usage, and complex rendering algorithms.
+
+Summary:
+Computer Graphics is the study of creating and manipulating visual content using computers for visualization, animation, and simulation purposes.
+
+Study Notes:
+Definition:
+Computer Graphics is the creation and manipulation of images using computers.
+
+Main Concepts:
+• Pixels
+• Resolution
+• Rendering
+• Shading
+• Frame Buffer
+• Graphics Pipeline
+
+Types:
+• Raster Graphics
+• Vector Graphics
+
+Transformations:
+• Translation
+• Scaling
+• Rotation
+• Reflection
+
+Techniques:
+• Clipping
+• Rasterization
+• Anti-aliasing
+• Texture Mapping
+
+Applications:
+• Gaming
+• Animation
+• CAD Systems
+• Virtual Reality
+• Medical Imaging
+
+Advantages:
+• Realistic Visualization
+• Better Design Tools
+• Interactive Systems
+• Improved User Experience
+
+Challenges:
+• High Computation
+• Memory Usage
+• Complex Algorithms
+
+Conclusion:
+Computer Graphics enables the creation of visual content using computational techniques, widely used in entertainment, engineering, and simulation.
+
+Important Keywords:
+Computer Graphics
+Raster
+Vector
+Rendering
+GPU
+Transformation
+Pixel
+Anti-aliasing
+Texture Mapping
+CAD
+
+Reference Websites:
+• OpenGL Documentation
+• Khronos Group
+• GeeksforGeeks
+• Coursera
+• MIT Computer Graphics
+• LearnOpenGL
+• Tutorialspoint
+• Scratchapixel
+
+Confidence Score:
+99.8%

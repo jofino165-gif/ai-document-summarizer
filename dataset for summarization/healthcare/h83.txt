@@ -1,0 +1,14 @@
+Patient Name: Sarah Wilson
+Age: 41
+Gender: Female
+Report Date: 29-11-2026
+
+The patient visited the neurology department with complaints of recurrent episodes of numbness and weakness affecting the right arm and left leg, blurred vision in the left eye, difficulty maintaining balance, fatigue, and intermittent muscle spasms over the past one year. Each episode lasted several days to weeks, with partial recovery between attacks. There was no history of stroke, head injury, or diabetes mellitus.
+
+Vital signs recorded during examination showed a blood pressure of **120/76 mmHg**, heart rate of **80 bpm**, temperature of **98.4°F**, respiratory rate of **16 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **12.9 g/dL**, white blood cell count of **6,800 cells/µL**, platelet count of **278,000 cells/µL**, serum creatinine of **0.8 mg/dL**, blood urea of **16 mg/dL**, fasting blood glucose of **92 mg/dL**, HbA1c of **5.3%**, vitamin B12 level of **510 pg/mL**, and thyroid function tests within normal reference ranges.
+
+MRI of the brain and cervical spinal cord demonstrated **multiple demyelinating plaques** in the periventricular white matter and cervical spinal cord. Cerebrospinal fluid (CSF) analysis showed **oligoclonal IgG bands**. Visual evoked potential testing revealed delayed conduction in the left optic nerve, consistent with previous optic neuritis.
+
+The physician concluded that the patient has **Relapsing-Remitting Multiple Sclerosis (RRMS)**. Recurrent neurological symptoms, MRI findings, cerebrospinal fluid abnormalities, and visual evoked potential results strongly support the diagnosis. Kidney function, thyroid function, vitamin B12 levels, and blood glucose remain within normal limits. The patient was advised to begin disease-modifying therapy as prescribed, participate in physiotherapy and balance training, avoid excessive heat exposure, attend regular neurology follow-up visits with periodic MRI monitoring, and seek immediate medical attention if new neurological symptoms or relapses occur.

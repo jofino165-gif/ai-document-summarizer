@@ -1,0 +1,19 @@
+## Legal Document 3 – Non-Disclosure Agreement (NDA)
+
+### Original Text
+
+A Non-Disclosure Agreement (NDA) is a legally binding contract that protects confidential information shared between two or more parties. It is commonly used when businesses, organizations, or individuals exchange sensitive information during employment, business negotiations, partnerships, research projects, or product development. The primary purpose of an NDA is to ensure that confidential information is not disclosed to unauthorized individuals or organizations without prior permission.
+
+An NDA typically begins by identifying the parties involved in the agreement. It clearly states who is disclosing the confidential information and who is receiving it. The agreement also defines what constitutes confidential information. This may include business strategies, financial records, customer databases, product designs, software source code, marketing plans, research findings, trade secrets, and technical documentation. Clearly defining confidential information helps avoid misunderstandings regarding what information must remain protected.
+
+The agreement explains the responsibilities of the receiving party. Individuals or organizations receiving confidential information must use it only for the purpose stated in the agreement. They are prohibited from copying, sharing, publishing, or using the information for personal or commercial gain without written permission from the owner. The receiving party must also take reasonable measures to prevent unauthorized access, including securely storing documents and limiting access to authorized personnel.
+
+Most NDAs specify the duration of confidentiality. Some agreements require confidentiality only during the business relationship, while others continue for several years after the relationship has ended. The duration depends on the nature of the information being protected and the requirements of the parties involved. Certain trade secrets may remain confidential indefinitely if permitted by law.
+
+The agreement also identifies situations where confidentiality obligations do not apply. Information that is already publicly available, independently developed without using confidential information, or legally obtained from another source is generally excluded from protection. Additionally, if disclosure is required by a court order or government authority, the receiving party may disclose the information after following the procedures outlined in the agreement.
+
+Violation of an NDA can result in serious legal consequences. If confidential information is disclosed without authorization, the affected party may seek financial compensation for damages caused by the breach. Courts may also issue injunctions to prevent further disclosure of confidential information. Depending on the circumstances, additional legal remedies may be available under applicable contract and intellectual property laws.
+
+Non-Disclosure Agreements are widely used across industries such as technology, healthcare, manufacturing, finance, education, and legal services. Employers often require employees to sign NDAs before accessing sensitive business information. Similarly, companies entering into partnerships or discussing new business opportunities frequently use NDAs to safeguard proprietary information during negotiations.
+
+Overall, a Non-Disclosure Agreement plays an important role in protecting confidential information and maintaining trust between parties. By clearly defining confidential information, outlining the responsibilities of each party, specifying the duration of protection, and explaining the legal consequences of a breach, an NDA helps organizations and individuals protect valuable information while supporting secure and professional business relationships.

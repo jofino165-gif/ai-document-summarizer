@@ -1,0 +1,14 @@
+Patient Name: Emma Roberts
+Age: 42
+Gender: Female
+Report Date: 28-10-2026
+
+The patient visited the gastroenterology department with complaints of chronic diarrhea, abdominal bloating, excessive gas, fatigue, unintentional weight loss of 6 kg over the past eight months, and occasional mouth ulcers. She reported that her symptoms worsened after consuming wheat-based foods such as bread, pasta, and biscuits. The patient has a family history of autoimmune thyroid disease.
+
+Vital signs recorded during examination showed a blood pressure of **118/74 mmHg**, heart rate of **82 bpm**, temperature of **98.4°F**, respiratory rate of **16 breaths per minute**, and oxygen saturation of **99%**.
+
+Laboratory investigations revealed a hemoglobin level of **10.6 g/dL**, white blood cell count of **6,900 cells/µL**, platelet count of **294,000 cells/µL**, serum ferritin of **10 ng/mL**, vitamin B12 of **240 pg/mL**, folate of **4.2 ng/mL**, serum albumin of **3.4 g/dL**, serum creatinine of **0.8 mg/dL**, blood urea of **16 mg/dL**, fasting blood glucose of **94 mg/dL**, and HbA1c of **5.3%**.
+
+Serological testing demonstrated strongly positive **anti-tissue transglutaminase (tTG) IgA antibodies** and positive **endomysial antibodies (EMA)**. Upper gastrointestinal endoscopy with duodenal biopsy revealed **villous atrophy**, crypt hyperplasia, and increased intraepithelial lymphocytes, confirming **Celiac Disease**.
+
+The physician concluded that the patient has **Celiac Disease**, an autoimmune disorder triggered by gluten consumption. Positive serological markers, characteristic biopsy findings, iron deficiency anemia, and chronic gastrointestinal symptoms confirm the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to follow a **strict lifelong gluten-free diet**, receive nutritional supplementation for iron and vitamin deficiencies, consult a dietitian for dietary planning, attend regular gastroenterology follow-up visits, and undergo periodic monitoring to assess nutritional status and intestinal recovery.

@@ -1,0 +1,6 @@
+Patient Name: Robert Davis
+Age: 58
+Gender: Male
+Report Date: 26-06-2026
+
+The patient visited the nephrology department with complaints of swelling in both feet, facial puffiness in the morning, decreased urine output, fatigue, nausea, and loss of appetite for the past three weeks. He has a medical

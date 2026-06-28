@@ -1,0 +1,30 @@
+News ID: 25
+Date: 20-02-2027
+
+Headline:
+Coffee Production Declines After Unseasonal Rain Damages Plantation Crops
+
+News Content:
+The National Coffee Growers Association reported a significant decline in coffee production after unseasonal rainfall damaged coffee plantations in several major growing regions. Farmers experienced reduced crop quality and lower yields, while exporters warned that supply shortages could affect both domestic and international markets. Market analysts predict that coffee prices may increase if production does not recover during the next harvest season.
+
+Category:
+Agriculture
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Coffee Production, Unseasonal Rain, Crop Damage, Agriculture, Coffee Prices, Supply Shortage
+
+Prediction:
+Coffee prices are expected to rise in the coming months due to reduced production and limited market supply. Cafés and consumers may experience higher purchasing costs until harvest conditions improve.
+
+Recommended Action:
+• Plan grocery expenses if coffee is a regular household purchase.
+• Cafés and businesses should review inventory and supplier contracts.
+• Farmers should adopt crop protection and weather-monitoring practices.
+• Consumers may compare brands or purchase during promotional offers.
+• Stay informed about agricultural and market updates affecting coffee prices.
+
+Confidence Score:
+98.6%

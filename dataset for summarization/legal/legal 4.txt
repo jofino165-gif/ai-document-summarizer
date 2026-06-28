@@ -1,0 +1,21 @@
+## Legal Document 4 – Service Agreement
+
+### Original Text
+
+A Service Agreement is a legally binding contract between a service provider and a client that defines the terms and conditions under which specific services will be delivered. This agreement establishes the responsibilities, expectations, and obligations of both parties, helping to ensure that the services are performed as agreed. Service agreements are commonly used in industries such as information technology, consulting, construction, maintenance, marketing, healthcare, and professional services.
+
+The agreement begins by identifying the parties involved, including the legal names and addresses of the service provider and the client. It also includes the effective date of the agreement and may specify the duration of the contract. Clearly identifying the parties helps establish accountability and prevents confusion regarding who is responsible for fulfilling the contractual obligations.
+
+One of the most important sections of a service agreement is the scope of services. This section describes in detail the services that the provider is expected to deliver. It may include project objectives, deliverables, timelines, quality standards, and any specific requirements requested by the client. Defining the scope of work reduces the possibility of misunderstandings and helps both parties measure the successful completion of the project.
+
+The agreement also outlines the payment terms. It specifies the total service fee, payment schedule, accepted payment methods, taxes, and penalties for delayed payments. Depending on the nature of the project, payments may be made in advance, in installments, or after successful completion of the work. Some agreements also include provisions for reimbursement of approved expenses incurred during service delivery.
+
+Confidentiality is another important component of a service agreement. During the course of providing services, the service provider may gain access to confidential business information, customer data, financial records, or technical documents. The agreement requires both parties to protect such information from unauthorized disclosure and to use it only for the purposes specified in the contract. Maintaining confidentiality helps build trust and protects sensitive information.
+
+The agreement also includes clauses related to intellectual property rights. It explains who will own the work, reports, software, designs, or other materials created during the project. In some cases, ownership is transferred to the client upon full payment, while in other situations the service provider retains ownership but grants the client a license to use the work. Clearly defining ownership prevents future disputes over intellectual property.
+
+Termination clauses specify the conditions under which either party may end the agreement before the project is completed. Reasons for termination may include breach of contract, failure to perform agreed services, non-payment, or mutual consent. The agreement usually requires written notice before termination and explains the financial obligations of both parties if the contract ends early.
+
+Dispute resolution procedures are also included to help resolve disagreements in a fair and efficient manner. The agreement may require the parties to attempt negotiation or mediation before initiating legal proceedings. If court action becomes necessary, the agreement generally specifies the governing law and the jurisdiction where legal disputes will be handled.
+
+Overall, a Service Agreement provides a clear legal framework that protects both the client and the service provider. By defining the scope of work, payment terms, confidentiality obligations, intellectual property rights, termination conditions, and dispute resolution procedures, the agreement promotes transparency, reduces legal risks, and supports successful professional relationships.

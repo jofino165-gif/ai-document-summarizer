@@ -1,0 +1,14 @@
+Patient Name: Linda Garcia
+Age: 49
+Gender: Female
+Report Date: 10-07-2026
+
+The patient visited the nephrology department with complaints of swelling in both ankles, facial puffiness on waking, decreased urine output, fatigue, nausea, and loss of appetite for the past three weeks. She has a medical history of long-standing hypertension for eight years but admits to irregular medication adherence. The patient denies any history of diabetes but reports occasional use of over-the-counter pain medications for chronic joint pain.
+
+Vital signs recorded during examination showed a blood pressure of 166/100 mmHg, heart rate of 88 bpm, temperature of 98.4°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 97%.
+
+Laboratory investigations revealed a hemoglobin level of 11.2 g/dL, white blood cell count of 7,400 cells/µL, platelet count of 258,000 cells/µL, serum creatinine of 2.4 mg/dL, blood urea nitrogen (BUN) of 48 mg/dL, and an estimated glomerular filtration rate (eGFR) of 32 mL/min/1.73 m². Urinalysis showed proteinuria (++), microscopic hematuria, and a urine albumin-to-creatinine ratio of 420 mg/g.
+
+Electrolyte analysis demonstrated sodium of 138 mmol/L, potassium of 5.6 mmol/L, and bicarbonate of 20 mmol/L. Fasting blood glucose was 96 mg/dL and HbA1c was 5.5%, both within normal limits. Liver function tests were within normal reference ranges. Renal ultrasound revealed bilaterally shrunken kidneys with increased cortical echogenicity, consistent with chronic kidney disease.
+
+The physician concluded that the patient has Chronic Kidney Disease (CKD), likely secondary to long-standing uncontrolled hypertension. Elevated creatinine, reduced eGFR, significant proteinuria, and ultrasound findings indicate impaired kidney function. Mild anemia is also present, which is commonly associated with chronic kidney disease. Blood glucose and liver function remain within normal limits. The patient was advised to maintain strict blood pressure control, follow a kidney-friendly diet with reduced sodium and potassium intake, avoid unnecessary pain medications, monitor kidney function regularly, take prescribed medications consistently, and attend routine nephrology follow-up visits to slow disease progression and reduce the risk of kidney failure.

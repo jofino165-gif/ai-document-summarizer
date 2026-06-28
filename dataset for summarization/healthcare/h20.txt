@@ -1,0 +1,16 @@
+Patient Name: Natalie Carter
+Age: 35
+Gender: Female
+Report Date: 26-07-2026
+
+The patient visited the endocrinology department with complaints of unexplained weight loss, increased appetite, excessive sweating, rapid heartbeat, hand tremors, anxiety, difficulty sleeping, and heat intolerance for the past three months. She also reported occasional palpitations and increased frequency of bowel movements. There is a family history of autoimmune thyroid disease.
+
+Vital signs recorded during examination showed a blood pressure of 138/84 mmHg, heart rate of 112 bpm, temperature of 98.7°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 99%.
+
+Laboratory investigations revealed a hemoglobin level of 13.8 g/dL, white blood cell count of 7,200 cells/µL, platelet count of 289,000 cells/µL. Thyroid function tests showed Thyroid Stimulating Hormone (TSH) of **0.02 mIU/L**, Free T4 of **2.9 ng/dL**, and Free T3 of **7.8 pg/mL**, indicating excessive thyroid hormone production. Thyroid-stimulating immunoglobulin (TSI) antibodies were positive.
+
+Fasting blood glucose was 98 mg/dL and HbA1c was 5.5%, both within normal limits. Kidney function tests demonstrated a creatinine level of 0.8 mg/dL and blood urea of 16 mg/dL. Liver function tests showed ALT (SGPT) of 32 U/L and AST (SGOT) of 30 U/L, both within normal reference ranges.
+
+Thyroid ultrasound demonstrated a diffusely enlarged thyroid gland with increased vascularity and no suspicious nodules. Electrocardiogram (ECG) revealed sinus tachycardia without evidence of ischemia or arrhythmia.
+
+The physician concluded that the patient has **Graves' Disease (Hyperthyroidism)**. Suppressed TSH levels, elevated Free T3 and Free T4 levels, positive thyroid-stimulating antibodies, and characteristic clinical symptoms strongly support the diagnosis. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to begin antithyroid medication as prescribed, undergo regular thyroid function monitoring, avoid excessive iodine intake unless medically advised, maintain adequate hydration and nutrition, attend routine endocrinology follow-up visits, and seek immediate medical attention if severe palpitations, chest pain, or worsening symptoms develop.

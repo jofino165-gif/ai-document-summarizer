@@ -1,0 +1,30 @@
+News ID: 41
+Date: 24-03-2027
+
+Headline:
+Nationwide Shortage of Construction Materials Expected to Delay Infrastructure Projects
+
+News Content:
+The Ministry of Infrastructure reported a shortage of key construction materials, including cement and structural steel, due to increased demand and supply chain disruptions. Several ongoing highway, bridge, and residential construction projects may experience delays as contractors face rising procurement costs and limited availability of materials. Industry experts warned that prolonged shortages could increase construction expenses and affect property prices.
+
+Category:
+Infrastructure
+
+Sentiment:
+Negative
+
+Detected Keywords:
+Construction Materials, Cement, Steel, Infrastructure, Supply Chain, Property Prices
+
+Prediction:
+Construction costs are expected to increase, and infrastructure projects may face delays if material shortages continue. Property development expenses could also rise in the coming months.
+
+Recommended Action:
+• Construction companies should secure material supplies in advance.
+• Homebuyers should monitor project completion timelines before making purchase decisions.
+• Contractors should optimize inventory management to reduce delays.
+• Investors should evaluate the impact of rising construction costs on real estate projects.
+• Stay informed about government measures to stabilize the supply of construction materials.
+
+Confidence Score:
+98.6%

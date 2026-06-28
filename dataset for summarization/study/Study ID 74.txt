@@ -1,0 +1,97 @@
+Study ID: 74
+
+Topic:
+API (Application Programming Interface)
+
+Uploaded Notes:
+An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other. It defines how requests and responses should be structured so that systems can exchange data and functionality efficiently.
+
+APIs act as intermediaries between client and server systems. The client sends a request, and the server processes it and returns a response, usually in formats like JSON or XML.
+
+Common types of APIs include REST APIs, SOAP APIs, GraphQL APIs, and RPC APIs. REST APIs are the most widely used due to their simplicity and scalability, using HTTP methods such as GET, POST, PUT, and DELETE.
+
+Key components of APIs include endpoints, methods, requests, responses, authentication, and status codes. Authentication methods include API keys, OAuth, and JWT tokens to ensure secure communication.
+
+APIs are widely used in web development, mobile applications, cloud computing, payment gateways, social media integration, and third-party service integration.
+
+The advantages of APIs include system integration, automation, scalability, faster development, and reuse of services. Challenges include security risks, versioning issues, rate limiting, and dependency on external services.
+
+Summary:
+An API is a communication interface that allows different software systems to interact and exchange data using defined rules and protocols.
+
+Study Notes:
+Definition:
+An API is a set of rules that allows applications to communicate with each other.
+
+Main Concepts:
+• Client-Server Communication
+• Requests and Responses
+• Endpoints
+• HTTP Methods
+• Authentication
+• Data Formats (JSON/XML)
+
+Types of APIs:
+• REST API
+• SOAP API
+• GraphQL API
+• RPC API
+
+HTTP Methods:
+• GET
+• POST
+• PUT
+• DELETE
+
+Authentication:
+• API Key
+• OAuth
+• JWT
+
+Applications:
+• Web Development
+• Mobile Apps
+• Cloud Services
+• Payment Systems
+• Social Media Integration
+
+Advantages:
+• System Integration
+• Reusability
+• Automation
+• Scalability
+• Faster Development
+
+Challenges:
+• Security Risks
+• Versioning Issues
+• Rate Limiting
+• Dependency on External APIs
+
+Conclusion:
+APIs enable seamless communication between software systems, making modern applications more connected, scalable, and efficient.
+
+Important Keywords:
+API
+REST
+SOAP
+GraphQL
+Endpoint
+HTTP Methods
+JSON
+OAuth
+JWT
+Client-Server
+
+Reference Websites:
+• MDN Web Docs API
+• Postman Documentation
+• REST API Tutorial
+• Microsoft Learn
+• AWS API Gateway Docs
+• GeeksforGeeks
+• Coursera
+• IBM API Connect
+
+Confidence Score:
+99.8%

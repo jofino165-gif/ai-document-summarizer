@@ -1,0 +1,14 @@
+Patient Name: William Parker
+Age: 59
+Gender: Male
+Report Date: 01-08-2026
+
+The patient visited the oncology department after noticing persistent fatigue, unexplained weight loss of approximately 8 kg over the past four months, loss of appetite, intermittent abdominal pain, and occasional blood in the stool. He also reported a change in bowel habits, alternating between constipation and diarrhea. The patient has a family history of colorectal cancer and admits to consuming a diet high in processed meat and low in dietary fiber.
+
+Vital signs recorded during examination showed a blood pressure of 130/82 mmHg, heart rate of 88 bpm, temperature of 98.6°F, respiratory rate of 18 breaths per minute, and oxygen saturation of 98%.
+
+Laboratory investigations revealed a hemoglobin level of 10.4 g/dL, white blood cell count of 8,100 cells/µL, platelet count of 352,000 cells/µL, carcinoembryonic antigen (CEA) level of 11.8 ng/mL, serum creatinine of 1.0 mg/dL, blood urea of 19 mg/dL, fasting blood glucose of 95 mg/dL, and HbA1c of 5.4%.
+
+Colonoscopy identified an ulcerative mass in the sigmoid colon, and biopsy confirmed moderately differentiated adenocarcinoma. Contrast-enhanced CT scan of the abdomen and pelvis demonstrated localized thickening of the sigmoid colon with involvement of nearby lymph nodes but no evidence of distant metastasis. Liver function tests were within normal reference ranges.
+
+The physician concluded that the patient has **Stage III Colorectal Cancer** involving the sigmoid colon with regional lymph node involvement. Clinical symptoms, colonoscopy findings, biopsy results, and imaging studies support the diagnosis. Mild anemia is likely related to chronic gastrointestinal blood loss. Kidney function, liver function, and blood glucose levels remain within normal limits. The patient was advised to consult a multidisciplinary oncology team for surgical management followed by appropriate chemotherapy, maintain adequate nutritional support, attend regular follow-up evaluations, and undergo periodic imaging and laboratory monitoring to assess treatment response and detect recurrence.

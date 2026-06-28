@@ -1,0 +1,30 @@
+News ID: 49
+Date: 09-04-2027
+
+Headline:
+Government Announces Free AI and Digital Literacy Program for College Students
+
+News Content:
+The Ministry of Education has launched a nationwide initiative to provide free training in Artificial Intelligence (AI), data science, programming, cloud computing, and digital literacy for college students. The program includes online courses, hands-on workshops, industry mentoring, and certification opportunities. Officials stated that the initiative aims to improve students' technical skills, increase employability, and prepare graduates for careers in emerging technologies.
+
+Category:
+Education
+
+Sentiment:
+Positive
+
+Detected Keywords:
+Artificial Intelligence, Digital Literacy, Programming, Data Science, Cloud Computing, Student Training
+
+Prediction:
+The program is expected to increase student participation in AI and digital technology courses, improve technical skills, and create better employment opportunities in the technology sector.
+
+Recommended Action:
+• Enroll in AI and digital skills courses that match your career goals.
+• Complete projects and certifications to strengthen your resume.
+• Participate in workshops and internships for practical experience.
+• Keep learning emerging technologies to remain competitive in the job market.
+• Stay updated on scholarship opportunities and future government training initiatives.
+
+Confidence Score:
+99.0%
