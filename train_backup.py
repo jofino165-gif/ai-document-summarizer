@@ -43,23 +43,16 @@ def clean_text(text):
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
+
 def clean_summary(summary):
     if not summary:
         return ""
 
-    # Remove Study ID
-    summary = re.sub(r"Study ID:\s*\d+", "", summary)
-
-    # Remove Topic label
-    summary = summary.replace("Topic:", "")
-
-    # Remove Uploaded Notes label
-    summary = summary.replace("Uploaded Notes:", "")
-
-    # Remove extra spaces
+    summary = re.sub(r"Study ID:.*?Topic:", "", summary, flags=re.DOTALL)
     summary = re.sub(r"\s+", " ", summary).strip()
 
     return summary
+
 # =========================
 # TOKENIZATION
 # =========================
@@ -102,6 +95,7 @@ tokenized_dataset = dataset.map(
 
 training_args = TrainingArguments(
     output_dir="./model",
+    overwrite_output_dir=True,
     num_train_epochs=10,
     learning_rate=5e-5,
     per_device_train_batch_size=4,

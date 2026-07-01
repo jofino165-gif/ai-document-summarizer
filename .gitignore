@@ -28,3 +28,16 @@ yarn-error.log*
 # backups / temp files
 *.save
 *.save.*
+# AI Models
+trained_model/
+model/
+detection_model/
+
+# Large datasets
+*.zip
+detection_dataset_large.json
+dataset_backup.json
+expanded_dataset.json
+
+# Flask
+instance/

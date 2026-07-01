@@ -1,0 +1,402 @@
+[
+    {
+        "text": "Patient has high cholesterol.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Lease agreement ends this week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Oil prices increased today.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Operating System scheduling algorithms are important.",
+        "label": "study_important"
+    },
+    {
+        "text": "Chest pain and breathing difficulty observed.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Operating System scheduling algorithms are important.",
+        "label": "study_important"
+    },
+    {
+        "text": "Lease agreement ends this week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Insurance policy expires tomorrow.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Chest pain and breathing difficulty observed.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Insurance policy expires tomorrow.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Electricity shortage expected.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Contract expires in 5 days.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Patient has high cholesterol.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Insurance policy expires tomorrow.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Computer Networks use TCP/IP protocol.",
+        "label": "study_important"
+    },
+    {
+        "text": "Database normalization reduces redundancy.",
+        "label": "study_important"
+    },
+    {
+        "text": "Heavy rainfall warning issued.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Patient has high blood sugar.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Heavy rainfall warning issued.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Machine Learning is an important AI topic.",
+        "label": "study_important"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Database normalization reduces redundancy.",
+        "label": "study_important"
+    },
+    {
+        "text": "Heart rate is abnormal.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Insurance policy expires tomorrow.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Patient has high cholesterol.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Lease agreement ends this week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Chest pain and breathing difficulty observed.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Insurance policy expires tomorrow.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Patient has high blood sugar.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Patient has high blood sugar.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Oil prices increased today.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Machine Learning is an important AI topic.",
+        "label": "study_important"
+    },
+    {
+        "text": "Electricity shortage expected.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Chest pain and breathing difficulty observed.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Oil prices increased today.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Cybersecurity is important for protecting computer systems.",
+        "label": "study_important"
+    },
+    {
+        "text": "Patient has high cholesterol.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Heavy rainfall warning issued.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Patient has high cholesterol.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Operating System scheduling algorithms are important.",
+        "label": "study_important"
+    },
+    {
+        "text": "Blood pressure is very high.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Lease agreement ends this week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Chest pain and breathing difficulty observed.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Heavy rainfall warning issued.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Operating System scheduling algorithms are important.",
+        "label": "study_important"
+    },
+    {
+        "text": "Driving license expires next month.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Patient has high blood sugar.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Lease agreement ends this week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Contract expires in 5 days.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Lease agreement ends this week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Heavy rainfall warning issued.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Cybersecurity is important for protecting computer systems.",
+        "label": "study_important"
+    },
+    {
+        "text": "Food supply is becoming low.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Operating System scheduling algorithms are important.",
+        "label": "study_important"
+    },
+    {
+        "text": "Passport renewal is required.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Blood pressure is very high.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Lease agreement ends this week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Patient has high cholesterol.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Contract expires in 5 days.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Oil prices increased today.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Database normalization reduces redundancy.",
+        "label": "study_important"
+    },
+    {
+        "text": "Patient has high blood sugar.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Blood pressure is very high.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Lease agreement ends this week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Cybersecurity is important for protecting computer systems.",
+        "label": "study_important"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Driving license expires next month.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Heavy rainfall warning issued.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Operating System scheduling algorithms are important.",
+        "label": "study_important"
+    },
+    {
+        "text": "Heart rate is abnormal.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Passport renewal is required.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Passport renewal is required.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Heavy rainfall warning issued.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Chest pain and breathing difficulty observed.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Chest pain and breathing difficulty observed.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Patient has high cholesterol.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Passport renewal is required.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Gas stock is decreasing rapidly.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Database normalization reduces redundancy.",
+        "label": "study_important"
+    },
+    {
+        "text": "Cybersecurity is important for protecting computer systems.",
+        "label": "study_important"
+    },
+    {
+        "text": "Machine Learning is an important AI topic.",
+        "label": "study_important"
+    },
+    {
+        "text": "Operating System scheduling algorithms are important.",
+        "label": "study_important"
+    },
+    {
+        "text": "Machine Learning is an important AI topic.",
+        "label": "study_important"
+    },
+    {
+        "text": "Cybersecurity is important for protecting computer systems.",
+        "label": "study_important"
+    },
+    {
+        "text": "Oil prices increased today.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Operating System scheduling algorithms are important.",
+        "label": "study_important"
+    },
+    {
+        "text": "Blood pressure is very high.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Food supply is becoming low.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Passport renewal is required.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Computer Networks use TCP/IP protocol.",
+        "label": "study_important"
+    },
+    {
+        "text": "Insurance policy expires tomorrow.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Computer Networks use TCP/IP protocol.",
+        "label": "study_important"
+    },
+    {
+        "text": "Database normalization reduces redundancy.",
+        "label": "study_important"
+    },
+    {
+        "text": "Contract expires in 5 days.",
+        "label": "legal_expiry"
+    }
+]

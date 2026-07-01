@@ -1,10 +1,17 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import os
 import uuid
 import datetime
+import torch
 import PyPDF2
-from google import genai
+
+from transformers import (
+    AutoTokenizer,
+    AutoModelForSeq2SeqLM,
+    AutoModelForSequenceClassification
+)
+
+import pickle
 
 # -----------------------------
 # APP SETUP
@@ -13,14 +20,26 @@ app = Flask(__name__)
 CORS(app)
 
 # -----------------------------
-# GEMINI CONFIG
+# LOAD SUMMARIZATION MODEL
 # -----------------------------
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+MODEL_PATH = "./model/checkpoint-1000"
 
-if not GEMINI_API_KEY:
-    raise Exception("GEMINI_API_KEY not found in environment variables")
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_PATH)
 
-client = genai.Client(api_key=GEMINI_API_KEY)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
+# -----------------------------
+# LOAD DETECTION MODEL
+# -----------------------------
+det_tokenizer = AutoTokenizer.from_pretrained("./detection_model")
+det_model = AutoModelForSequenceClassification.from_pretrained("./detection_model")
+
+det_model.to(device)
+
+with open("label_encoder.pkl", "rb") as f:
+    label_encoder = pickle.load(f)
 
 # -----------------------------
 # IN-MEMORY STORAGE
@@ -42,7 +61,7 @@ USERS["admin@admin.com"] = {
 # -----------------------------
 @app.route("/")
 def home():
-    return jsonify({"message": "AI Summarizer Backend Running"})
+    return jsonify({"message": "AI Summarizer + Detection Backend Running"})
 
 # -----------------------------
 # HEALTH CHECK
@@ -125,7 +144,25 @@ def login():
     })
 
 # -----------------------------
-# SUMMARIZE
+# DETECTION FUNCTION
+# -----------------------------
+def detect_category(text):
+    inputs = det_tokenizer(
+        text,
+        return_tensors="pt",
+        truncation=True,
+        padding=True,
+        max_length=128
+    ).to(device)
+
+    outputs = det_model(**inputs)
+    prediction = torch.argmax(outputs.logits, dim=1).item()
+
+    label = label_encoder.inverse_transform([prediction])[0]
+    return label
+
+# -----------------------------
+# SUMMARIZE + DETECT (MAIN FEATURE)
 # -----------------------------
 @app.route("/api/summarize", methods=["POST"])
 def summarize():
@@ -137,28 +174,47 @@ def summarize():
         if not text:
             return jsonify({"error": "Text required"}), 400
 
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=f"Summarize this text in simple bullet points:\n\n{text}"
+        # ---------------- SUMMARIZATION ----------------
+        inputs = tokenizer(
+            text,
+            return_tensors="pt",
+            truncation=True,
+            max_length=512
+        ).to(device)
+
+        summary_ids = model.generate(
+            inputs["input_ids"],
+            max_length=150,
+            min_length=30,
+            length_penalty=2.0,
+            num_beams=4
         )
 
-        summary = response.text
+        summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
+        # ---------------- DETECTION ----------------
+        prediction = detect_category(summary)
+
+        # ---------------- HISTORY ----------------
         if email:
             HISTORY.append({
                 "id": str(uuid.uuid4()),
                 "email": email,
                 "summary": summary,
+                "prediction": prediction,
                 "date": str(datetime.datetime.now())
             })
 
-        return jsonify({"summary": summary})
+        return jsonify({
+            "summary": summary,
+            "prediction": prediction
+        })
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
 # -----------------------------
-# Q&A (FIXED - THIS WAS MISSING)
+# Q&A
 # -----------------------------
 @app.route("/api/ask", methods=["POST"])
 def ask():
@@ -169,12 +225,22 @@ def ask():
         if not question:
             return jsonify({"error": "Question required"}), 400
 
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=f"Answer this question clearly and simply:\n\n{question}"
+        inputs = tokenizer(
+            question,
+            return_tensors="pt",
+            truncation=True,
+            max_length=512
+        ).to(device)
+
+        output_ids = model.generate(
+            inputs["input_ids"],
+            max_length=150,
+            num_beams=4
         )
 
-        return jsonify({"answer": response.text})
+        answer = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+
+        return jsonify({"answer": answer})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -215,5 +281,5 @@ def stats():
 # RUN SERVER
 # -----------------------------
 if __name__ == "__main__":
-    print("Backend Running on Port 5000")
+    print("🚀 AI Summarizer + Detection Backend Running on Port 5000")
     app.run(host="0.0.0.0", port=5000, debug=False)

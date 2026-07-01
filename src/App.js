@@ -689,21 +689,22 @@ const SummarizePage = ({ title, desc, addHistory }) => {
       alert("Please upload a file");
       return;
     }
-
-    const text = await file.text();
-    console.log(text);
-    alert(text.substring(0, 500));
-
-    setLoading(true);
-    setSummary("");
-    setError("");
-    const result = await summarizeText(text);
-    setSummary(result);
-    if (addHistory) {
-      addHistory({ type: title, file: file?.name || "Unknown", summary: result, date: new Date().toLocaleString() });
-    }
-    setLoading(false);
-  };
+const handleSummarize = async () => {
+  if (!fileText) {
+    setError("Please upload a file first.");
+    return;
+  }
+  setLoading(true);
+  setSummary("");
+  setError("");
+  const result = await summarizeText(fileText);
+  setSummary(result);
+  if (addHistory) {
+    addHistory({ type: title, file: file?.name || "Unknown", summary: result, date: new Date().toLocaleString() });
+  }
+  setLoading(false);
+};
+   
 
   return (
     <div style={{ padding: 32, maxWidth: 800 }}>
