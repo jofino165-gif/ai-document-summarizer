@@ -1,0 +1,50 @@
+[
+    {
+        "text": "The patient has diabetes and high blood pressure.",
+        "label": "health_risk"
+    },
+    {
+        "text": "The contract expires at the end of this month.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Heavy rain and flooding are expected tomorrow.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Artificial Intelligence and Machine Learning are important exam topics.",
+        "label": "study_important"
+    },
+    {
+        "text": "The patient suffers from heart disease and obesity.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Passport validity will expire next week.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "Cyclone warning has been issued for coastal areas.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Cybersecurity and encryption are important concepts for students.",
+        "label": "study_important"
+    },
+    {
+        "text": "Blood sugar level is dangerously high.",
+        "label": "health_risk"
+    },
+    {
+        "text": "Driving license renewal is due next month.",
+        "label": "legal_expiry"
+    },
+    {
+        "text": "An earthquake measuring 6.5 magnitude struck the city.",
+        "label": "news_alert"
+    },
+    {
+        "text": "Python programming is essential for AI development.",
+        "label": "study_important"
+    }
+]

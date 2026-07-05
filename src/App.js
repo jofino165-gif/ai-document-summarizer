@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, Fragment } from "react";
 const theme = {
   bg: "#0a0a1a", bgCard: "#10102a", bgSidebar: "#0d0d22",
   accent: "#7c3aed", accentLight: "#a78bfa", accentGlow: "rgba(124,58,237,0.35)",
@@ -217,7 +217,7 @@ const UploadBox = ({ label, onFile, accept = ".pdf,.docx,.txt" }) => {
 };
 
 // ─── UPDATED SummaryResult with Toggle TTS ────────────────────────────────────
-const SummaryResult = ({ text }) => {
+const SummaryResult = ({ text, category, recommendation }) => {
   const [speaking, setSpeaking] = useState(false);
   const [ttsOn, setTtsOn] = useState(false);
 
@@ -250,8 +250,27 @@ const SummaryResult = ({ text }) => {
 
   return (
     <div style={{ marginTop: 20 }}>
-      <div style={{ fontWeight: 700, fontSize: 15, color: theme.text, marginBottom: 10 }}>Summary</div>
+      <div style={{ fontWeight: 700, fontSize: 15, color: theme.text, marginBottom: 10 }}>✅ Summary</div>
       <div style={{ background: "rgba(124,58,237,0.07)", border: `1px solid ${theme.border}`, borderRadius: 12, padding: 18, color: theme.text, fontSize: 14, lineHeight: 1.7, marginBottom: 14, whiteSpace: "pre-wrap" }}>{text}</div>
+
+      {category && (
+        <div style={{ marginBottom: 14 }}>
+          <div style={{ fontWeight: 700, fontSize: 15, color: theme.text, marginBottom: 8 }}>✅ Category</div>
+          <Badge color={theme.teal}>{category}</Badge>
+        </div>
+      )}
+
+      {recommendation && (
+        <div style={{ marginBottom: 14 }}>
+          <div style={{ fontWeight: 700, fontSize: 15, color: theme.text, marginBottom: 8 }}>✅ Recommendation</div>
+          <div style={{ background: "rgba(16,185,129,0.08)", border: `1px solid ${theme.green}33`, borderRadius: 12, padding: 16, color: theme.text, fontSize: 14, lineHeight: 1.7 }}>{recommendation}</div>
+        </div>
+      )}
+
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 14 }}>
+        <span style={{ fontSize: 11, color: theme.textMuted, background: "rgba(255,255,255,0.04)", border: `1px solid ${theme.borderLight}`, borderRadius: 20, padding: "4px 10px" }}>🧠 Summarized by T5 (fine-tuned)</span>
+        {category && <span style={{ fontSize: 11, color: theme.textMuted, background: "rgba(255,255,255,0.04)", border: `1px solid ${theme.borderLight}`, borderRadius: 20, padding: "4px 10px" }}>🏷️ Category detected by BERT</span>}
+      </div>
 
       {/* Text-to-Voice Toggle Row */}
       <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 12, padding: "10px 14px", background: ttsOn ? "rgba(124,58,237,0.1)" : "rgba(255,255,255,0.04)", border: `1px solid ${ttsOn ? theme.accent + "55" : theme.borderLight}`, borderRadius: 10, transition: "all 0.2s" }}>
@@ -302,34 +321,144 @@ const SummaryResult = ({ text }) => {
 };
 
 // ─── Backend API (Flask) ──────────────────────────────────────────────────────
-const BASE_URL = "http://13.53.194.61:5000";
-const summarizeText = async (text) => {
-  try {
-    const res = await fetch(`${BASE_URL}/api/summarize`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text }),
-    });
-    const data = await res.json();
-    return data.summary;
-  } catch (err) {
-    console.error("API Error:", err);
-    return "Error connecting to backend";
-  }};
+const BASE_URL = "http://13.51.36.177:5000";
 
-const askQuestion = async (question) => {
-  try {
-    const res = await fetch(`${BASE_URL}/api/ask`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ question }),
-    });
-    const data = await res.json();
-    return data.answer;
-  } catch (err) {
-    console.error("API Error:", err);
-    return "Error connecting to backend";
-  }
+const getToken = () => localStorage.getItem("token");
+
+const authHeaders = () => {
+  const token = getToken();
+  return token ? { Authorization: `Bearer ${token}` } : {};
+};
+
+// POST /api/login  →  { token, user }
+const apiLogin = async (email, password) => {
+  const res = await fetch(`${BASE_URL}/api/login`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email, password }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Invalid credentials");
+  if (data.token) localStorage.setItem("token", data.token);
+  return data;
+};
+
+// POST /api/register  →  { username, email, password }
+const apiRegister = async (username, email, password) => {
+  const res = await fetch(`${BASE_URL}/api/register`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ username, email, password }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Registration failed");
+  return data;
+};
+
+// POST /api/summarize (multipart/form-data)  →  { summary, category, recommendation, history_id }
+const summarizeFile = async (file) => {
+  const formData = new FormData();
+  formData.append("file", file);
+  const res = await fetch(`${BASE_URL}/api/summarize`, {
+    method: "POST",
+    headers: { ...authHeaders() }, // do NOT set Content-Type manually for FormData
+    body: formData,
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Summarization failed");
+  return data;
+};
+
+// POST /api/qa  →  { history_id, question }  →  { answer }
+const askQuestion = async (historyId, question) => {
+  const res = await fetch(`${BASE_URL}/api/qa`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...authHeaders() },
+    body: JSON.stringify({ history_id: historyId, question }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Failed to get an answer");
+  return data.answer;
+};
+
+// GET /api/history
+const fetchHistory = async () => {
+  const res = await fetch(`${BASE_URL}/api/history`, {
+    method: "GET",
+    headers: { ...authHeaders() },
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Failed to load history");
+  return Array.isArray(data) ? data : (data.history || []);
+};
+
+// POST /api/feedback
+const submitFeedback = async (payload) => {
+  const res = await fetch(`${BASE_URL}/api/feedback`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...authHeaders() },
+    body: JSON.stringify(payload),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Failed to submit feedback");
+  return data;
+};
+
+// ── Admin API (matches the documented backend contract) ──────────────────────
+const adminGet = async (path) => {
+  const res = await fetch(`${BASE_URL}${path}`, { method: "GET", headers: { ...authHeaders() } });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || `Failed to load ${path}`);
+  return data;
+};
+const adminDelete = async (path) => {
+  const res = await fetch(`${BASE_URL}${path}`, { method: "DELETE", headers: { ...authHeaders() } });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || `Failed to delete via ${path}`);
+  return data;
+};
+
+// GET /api/admin/dashboard → { total_users, total_documents, total_summaries, total_questions, total_feedback, active_users }
+const fetchAdminStats = () => adminGet("/api/admin/dashboard");
+// GET /api/admin/users → [{ id, username, email, joined }]
+const fetchAdminUsers = () => adminGet("/api/admin/users");
+// DELETE /api/admin/users/<id>
+const deleteAdminUser = (id) => adminDelete(`/api/admin/users/${id}`);
+// GET /api/admin/documents → [{ id, filename, category, uploaded_by, date }]
+const fetchAdminDocuments = () => adminGet("/api/admin/documents");
+// GET /api/admin/history → every summarized document
+const fetchAdminHistory = () => adminGet("/api/admin/history");
+// GET /api/admin/feedback → [{ id, username, rating, comment }]
+const fetchAdminFeedback = () => adminGet("/api/admin/feedback");
+// DELETE /api/admin/feedback/<id>
+const deleteAdminFeedback = (id) => adminDelete(`/api/admin/feedback/${id}`);
+// GET /api/admin/categories → { study_important, health_risk, news_alert, legal_expiry }
+const fetchAdminCategories = () => adminGet("/api/admin/categories");
+// GET /api/admin/model-status → { summarizer, detector, qa_model }
+const fetchAdminModelStatus = () => adminGet("/api/admin/model-status");
+// GET /api/admin/system → { cpu, memory, disk }
+const fetchAdminSystem = () => adminGet("/api/admin/system");
+// GET /api/admin/logs
+const fetchAdminLogs = () => adminGet("/api/admin/logs");
+// GET /api/admin/profile
+const fetchAdminProfile = () => adminGet("/api/admin/profile");
+
+// Loads every admin data source in parallel; each is isolated so one failing
+// endpoint doesn't blank out the rest of the dashboard.
+const fetchAdminDashboardBundle = async () => {
+  const settle = (p) => p.then(v => ({ ok: true, value: v })).catch(e => ({ ok: false, error: e.message }));
+  const [stats, users, documents, history, feedback, categories, modelStatus, system, logs] = await Promise.all([
+    settle(fetchAdminStats()),
+    settle(fetchAdminUsers()),
+    settle(fetchAdminDocuments()),
+    settle(fetchAdminHistory()),
+    settle(fetchAdminFeedback()),
+    settle(fetchAdminCategories()),
+    settle(fetchAdminModelStatus()),
+    settle(fetchAdminSystem()),
+    settle(fetchAdminLogs()),
+  ]);
+  return { stats, users, documents, history, feedback, categories, modelStatus, system, logs };
 };
 
 // ─── Login Page ───────────────────────────────────────────────────────────────
@@ -340,39 +469,43 @@ const LoginPage = ({ onLogin, onGoRegister }) => {
   const [loading, setLoading] = useState(false);
 
 const handle = async () => {
+  console.log("STEP 1: Login button clicked");
+
   setLoading(true);
   setErr("");
+    if (email === "admin" && pass === "admin1") {
+  onLogin({
+    name: "Admin",
+    email: "admin",
+    role: "admin",
+  });
 
-  if (email === "admin" && pass === "admin1") {
-    onLogin({ name: "Admin", email, role: "admin" });
+  setLoading(false);
+  return;
+}
+
+  if (!email || !pass) {
+    setErr("Please enter email and password.");
     setLoading(false);
     return;
   }
 
   try {
-    const res = await fetch(`${BASE_URL}/api/login`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email,
-        password: pass,
-      }),
+    console.log("STEP 2: Calling apiLogin");
+
+    const data = await apiLogin(email, pass);
+
+    console.log("STEP 3: Login success", data);
+
+    onLogin({
+      name: data.user.username,
+      email: data.user.email,
+      role: data.user.is_admin ? "admin" : "user",
     });
 
-    const data = await res.json();
-
-    if (!res.ok) {
-      setErr(data.error || "Invalid credentials");
-      setLoading(false);
-      return;
-    }
-
-    onLogin({ ...data.user, role: "user" });
-
   } catch (err) {
-    setErr("Server error. Check backend.");
+    console.log("STEP 4: Login failed", err);
+    setErr(err.message);
   }
 
   setLoading(false);
@@ -419,46 +552,37 @@ const handle = async () => {
 
 // ─── Register Page ────────────────────────────────────────────────────────────
 const RegisterPage = ({ onGoLogin }) => {
-  const [name, setName] = useState("");
+  const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
   const [confirm, setConfirm] = useState("");
   const [err, setErr] = useState("");
   const [ok, setOk] = useState(false);
 
- const handle = async () => {
-  if (!name || !email || !pass)
-    return setErr("All fields required.");
+const handle = async () => {
+  if (!username || !email || !pass) {
+    setErr("All fields required.");
+    return;
+  }
 
-  if (pass !== confirm)
-    return setErr("Passwords don't match.");
+  if (pass !== confirm) {
+    setErr("Passwords don't match.");
+    return;
+  }
 
   setErr("");
 
   try {
-    const res = await fetch(`${BASE_URL}/api/register`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name,
-        email,
-        password: pass,
-      }),
-    });
-
-    const data = await res.json();
-
-    if (!res.ok) {
-      return setErr(data.error || "Registration failed");
-    }
+    await apiRegister(username, email, pass);
 
     setOk(true);
-    setTimeout(onGoLogin, 1500);
+
+    setTimeout(() => {
+      onGoLogin();
+    }, 1500);
 
   } catch (err) {
-    setErr("Server error. Check backend connection.");
+    setErr(err.message);
   }
 };
   return (
@@ -481,7 +605,7 @@ const RegisterPage = ({ onGoLogin }) => {
           <h2 style={{ fontWeight: 800, fontSize: 24, color: theme.text, marginBottom: 4 }}>Create Account</h2>
           <p style={{ color: theme.textMuted, marginBottom: 24, fontSize: 14 }}>Register a new account</p>
           {ok && <div style={{ background: "#10b98122", border: "1px solid #10b98144", borderRadius: 8, padding: 12, color: "#10b981", marginBottom: 16, fontSize: 14 }}>✅ Registered! Redirecting…</div>}
-          <Input label="Full Name" value={name} onChange={setName} placeholder="Enter your full name" />
+          <Input label="Username" value={username} onChange={setUsername} placeholder="Enter your username" />
           <Input label="Email" value={email} onChange={setEmail} placeholder="Enter your email" />
           <Input label="Password" type="password" value={pass} onChange={setPass} placeholder="Create password" />
           <Input label="Confirm Password" type="password" value={confirm} onChange={setConfirm} placeholder="Confirm password" />
@@ -661,50 +785,40 @@ const FileReadStatus = ({ status, fileName }) => {
 };
 
 // ─── Summarize Page (generic) ─────────────────────────────────────────────────
-const SummarizePage = ({ title, desc, addHistory }) => {
+const SummarizePage = ({ title, desc, addHistory, setHistoryId }) => {
   const [file, setFile] = useState(null);
   const [fileStatus, setFileStatus] = useState(null);
-  const [fileText, setFileText] = useState("");
   const [loading, setLoading] = useState(false);
-  const [summary, setSummary] = useState("");
+  const [result, setResult] = useState(null);
   const [error, setError] = useState("");
 
-  const handleFile = async (f) => {
+  const handleFile = (f) => {
     setFile(f);
-    setFileStatus("reading");
-    setFileText("");
+    setFileStatus("success");
     setError("");
-    try {
-      const text = await readFileAsText(f);
-      setFileText(text);
-      setFileStatus("success");
-    } catch (err) {
-      setFileStatus("error");
-      setError(err.message);
-    }
+    setResult(null);
   };
 
   const handleSummarize = async () => {
     if (!file) {
-      alert("Please upload a file");
+      setError("Please upload a file first.");
       return;
     }
-const handleSummarize = async () => {
-  if (!fileText) {
-    setError("Please upload a file first.");
-    return;
-  }
-  setLoading(true);
-  setSummary("");
-  setError("");
-  const result = await summarizeText(fileText);
-  setSummary(result);
-  if (addHistory) {
-    addHistory({ type: title, file: file?.name || "Unknown", summary: result, date: new Date().toLocaleString() });
-  }
-  setLoading(false);
-};
-   
+    setLoading(true);
+    setResult(null);
+    setError("");
+    try {
+      const data = await summarizeFile(file);
+      setResult(data);
+      if (setHistoryId) setHistoryId(data.history_id);
+      if (addHistory) {
+        addHistory({ type: title, file: file?.name || "Unknown", summary: data.summary, date: new Date().toLocaleString() });
+      }
+    } catch (err) {
+      setError(err.message || "Error generating summary. Please try again.");
+    }
+    setLoading(false);
+  };
 
   return (
     <div style={{ padding: 32, maxWidth: 800 }}>
@@ -720,48 +834,42 @@ const handleSummarize = async () => {
         </div>
       )}
       <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
-        <Btn onClick={handleSummarize} disabled={loading || !fileText} icon={loading ? <Spinner /> : "⚡"}>
+        <Btn onClick={handleSummarize} disabled={loading || !file} icon={loading ? <Spinner /> : "⚡"}>
           {loading ? "Summarizing…" : "Summarize"}
         </Btn>
         {!file && <span style={{ fontSize: 13, color: theme.textMuted }}>Upload a file to enable summarization</span>}
       </div>
-      {summary && <SummaryResult text={summary} />}
+      {result && <SummaryResult text={result.summary} category={result.category} recommendation={result.recommendation} />}
     </div>
   );
 };
 
 // ─── News Page ────────────────────────────────────────────────────────────────
-const NewsPage = ({ addHistory }) => {
+const NewsPage = ({ addHistory, setHistoryId }) => {
   const [file, setFile] = useState(null);
   const [fileStatus, setFileStatus] = useState(null);
-  const [fileText, setFileText] = useState("");
   const [loading, setLoading] = useState(false);
-  const [summary, setSummary] = useState("");
+  const [result, setResult] = useState(null);
   const [error, setError] = useState("");
 
-  const handleFile = async (f) => {
+  const handleFile = (f) => {
     setFile(f);
-    setFileStatus("reading");
-    setFileText("");
+    setFileStatus("success");
     setError("");
-    try {
-      const text = await readFileAsText(f);
-      setFileText(text);
-      setFileStatus("success");
-    } catch (err) {
-      setFileStatus("error");
-      setError(err.message);
-    }
+    setResult(null);
   };
 
   const handle = async () => {
-    if (!fileText) { setError("Please upload a file first."); return; }
-    setLoading(true); setSummary(""); setError("");
+    if (!file) { setError("Please upload a file first."); return; }
+    setLoading(true); setResult(null); setError("");
     try {
-      const res = await summarizeText(fileText);
-      setSummary(res);
-      addHistory({ type: "News Summarization", file: file?.name || "Uploaded File", summary: res, date: new Date().toLocaleString() });
-    } catch { setSummary("Error. Try again."); }
+      const data = await summarizeFile(file);
+      setResult(data);
+      if (setHistoryId) setHistoryId(data.history_id);
+      addHistory({ type: "News Summarization", file: file?.name || "Uploaded File", summary: data.summary, date: new Date().toLocaleString() });
+    } catch (err) {
+      setError(err.message || "Error. Try again.");
+    }
     setLoading(false);
   };
 
@@ -777,52 +885,45 @@ const NewsPage = ({ addHistory }) => {
         <div style={{ background: theme.red + "11", border: `1px solid ${theme.red}33`, borderRadius: 10, padding: "10px 14px", color: theme.red, fontSize: 13, marginBottom: 16 }}>⚠️ {error}</div>
       )}
       <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
-        <Btn onClick={handle} disabled={loading || !fileText} icon={loading ? <Spinner /> : "⚡"}>
+        <Btn onClick={handle} disabled={loading || !file} icon={loading ? <Spinner /> : "⚡"}>
           {loading ? "Summarizing…" : "Summarize"}
         </Btn>
         {!file && <span style={{ fontSize: 13, color: theme.textMuted }}>Upload a file to enable summarization</span>}
       </div>
-      {summary && <SummaryResult text={summary} />}
+      {result && <SummaryResult text={result.summary} category={result.category} recommendation={result.recommendation} />}
     </div>
   );
 };
 
 // ─── Education Page ───────────────────────────────────────────────────────────
-const EducationPage = ({ addHistory }) => {
+const EducationPage = ({ addHistory, setHistoryId }) => {
   const [file, setFile] = useState(null);
   const [fileStatus, setFileStatus] = useState(null);
-  const [fileText, setFileText] = useState("");
   const [loading, setLoading] = useState(false);
-  const [summary, setSummary] = useState("");
+  const [result, setResult] = useState(null);
   const [error, setError] = useState("");
   const [docType, setDocType] = useState("Lecture Notes");
 
   const docTypes = ["Lecture Notes", "Textbook Chapter", "Research Paper", "Study Guide", "Syllabus", "Assignment Brief"];
 
-  const handleFile = async (f) => {
+  const handleFile = (f) => {
     setFile(f);
-    setFileStatus("reading");
-    setFileText("");
+    setFileStatus("success");
     setError("");
-    try {
-      const text = await readFileAsText(f);
-      setFileText(text);
-      setFileStatus("success");
-    } catch (err) {
-      setFileStatus("error");
-      setError(err.message);
-    }
+    setResult(null);
   };
 
   const handle = async () => {
-    if (!fileText) { setError("Please upload a file first."); return; }
-    setLoading(true); setSummary(""); setError("");
+    if (!file) { setError("Please upload a file first."); return; }
+    setLoading(true); setResult(null); setError("");
     try {
-      const content = `Summarize the following ${docType.toLowerCase()}:\n\n${fileText}`;
-      const res = await summarizeText(content);
-      setSummary(res);
-      addHistory({ type: "Education Summarization", file: file?.name || "Uploaded File", summary: res, date: new Date().toLocaleString() });
-    } catch { setSummary("Error generating summary. Please try again."); }
+      const data = await summarizeFile(file);
+      setResult(data);
+      if (setHistoryId) setHistoryId(data.history_id);
+      addHistory({ type: "Education Summarization", file: file?.name || "Uploaded File", summary: data.summary, date: new Date().toLocaleString() });
+    } catch (err) {
+      setError(err.message || "Error generating summary. Please try again.");
+    }
     setLoading(false);
   };
 
@@ -855,32 +956,36 @@ const EducationPage = ({ addHistory }) => {
         <div style={{ background: theme.red + "11", border: `1px solid ${theme.red}33`, borderRadius: 10, padding: "10px 14px", color: theme.red, fontSize: 13, marginBottom: 16 }}>⚠️ {error}</div>
       )}
       <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
-        <Btn onClick={handle} disabled={loading || !fileText} icon={loading ? <Spinner /> : "🎓"}>
+        <Btn onClick={handle} disabled={loading || !file} icon={loading ? <Spinner /> : "🎓"}>
           {loading ? "Summarizing…" : "Summarize"}
         </Btn>
         {!file && <span style={{ fontSize: 13, color: theme.textMuted }}>Upload a file to enable summarization</span>}
       </div>
-      {summary && <SummaryResult text={summary} />}
+      {result && <SummaryResult text={result.summary} category={result.category} recommendation={result.recommendation} />}
     </div>
   );
 };
 
 // ─── QA Page ──────────────────────────────────────────────────────────────────
-const QAPage = ({ addHistory }) => {
+const QAPage = ({ addHistory, historyId }) => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
   const [speaking, setSpeaking] = useState(false);
   const [ttsOn, setTtsOn] = useState(false);
 
   const handle = async () => {
     if (!question.trim()) return;
-    setLoading(true); setAnswer("");
+    if (!historyId) { setError("Summarize a document first, then ask questions about it."); return; }
+    setLoading(true); setAnswer(""); setError("");
     try {
-      const res = await askQuestion(question);
+      const res = await askQuestion(historyId, question);
       setAnswer(res);
       addHistory({ type: "Q&A", file: "Question", summary: `Q: ${question}\nA: ${res}`, date: new Date().toLocaleString() });
-    } catch { setAnswer("Error. Try again."); }
+    } catch (err) {
+      setError(err.message || "Error. Try again.");
+    }
     setLoading(false);
   };
 
@@ -907,10 +1012,16 @@ const QAPage = ({ addHistory }) => {
     <div style={{ padding: 32, maxWidth: 800 }}>
       <div style={{ fontWeight: 800, fontSize: 22, color: theme.text, marginBottom: 4 }}>Questions & Answers</div>
       <div style={{ color: theme.textMuted, fontSize: 14, marginBottom: 24 }}>Ask questions related to your document.</div>
+      {!historyId && (
+        <div style={{ background: theme.amber + "11", border: `1px solid ${theme.amber}33`, borderRadius: 10, padding: "10px 14px", color: theme.amber, fontSize: 13, marginBottom: 16 }}>
+          ℹ️ Summarize a document first — questions are answered based on your most recently summarized document.
+        </div>
+      )}
       <Card>
         <div style={{ fontWeight: 600, color: theme.text, marginBottom: 10 }}>Your Question</div>
         <textarea value={question} onChange={e => setQuestion(e.target.value)} placeholder="What is the main purpose of this document?"
           style={{ width: "100%", minHeight: 80, background: "rgba(255,255,255,0.04)", border: `1px solid ${theme.border}`, borderRadius: 10, color: theme.text, fontSize: 14, padding: 14, resize: "vertical", outline: "none", boxSizing: "border-box", marginBottom: 12 }} />
+        {error && <div style={{ color: theme.red, fontSize: 13, marginBottom: 12 }}>⚠️ {error}</div>}
         <Btn onClick={handle} disabled={loading} icon={loading ? <Spinner /> : "💬"}>
           {loading ? "Thinking…" : "Ask"}
         </Btn>
@@ -918,6 +1029,9 @@ const QAPage = ({ addHistory }) => {
           <div style={{ marginTop: 20 }}>
             <div style={{ fontWeight: 700, color: theme.text, marginBottom: 8 }}>Answer</div>
             <div style={{ background: "rgba(124,58,237,0.07)", border: `1px solid ${theme.border}`, borderRadius: 12, padding: 16, color: theme.text, fontSize: 14, lineHeight: 1.7, marginBottom: 12 }}>{answer}</div>
+            <div style={{ marginBottom: 12 }}>
+              <span style={{ fontSize: 11, color: theme.textMuted, background: "rgba(255,255,255,0.04)", border: `1px solid ${theme.borderLight}`, borderRadius: 20, padding: "4px 10px" }}>🧠 Answered by RoBERTa (deepset/roberta-base-squad2, pre-trained on SQuAD v2)</span>
+            </div>
 
             {/* TTS Toggle for Q&A */}
             <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "10px 14px", background: ttsOn ? "rgba(124,58,237,0.1)" : "rgba(255,255,255,0.04)", border: `1px solid ${ttsOn ? theme.accent + "55" : theme.borderLight}`, borderRadius: 10, transition: "all 0.2s" }}>
@@ -944,35 +1058,72 @@ const QAPage = ({ addHistory }) => {
 };
 
 // ─── History Page ─────────────────────────────────────────────────────────────
-const HistoryPage = ({ history, clearHistory }) => (
-  <div style={{ padding: 32, maxWidth: 900 }}>
-    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 24 }}>
-      <div style={{ fontWeight: 800, fontSize: 22, color: theme.text }}>History</div>
-      {history.length > 0 && <Btn variant="danger" onClick={clearHistory}>Clear All</Btn>}
-    </div>
-    {history.length === 0 ? (
-      <Card style={{ textAlign: "center", padding: 48 }}>
-        <div style={{ fontSize: 48, marginBottom: 12 }}>📭</div>
-        <div style={{ color: theme.textMuted }}>No history yet. Start summarizing!</div>
-      </Card>
-    ) : (
-      history.slice().reverse().map((h, i) => (
-        <Card key={i} style={{ marginBottom: 14 }}>
-          <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: 8 }}>
-            <div>
-              <Badge color={theme.accent}>{h.type}</Badge>
-              <span style={{ marginLeft: 10, fontSize: 13, color: theme.textMuted }}>{h.file}</span>
-            </div>
-            <span style={{ fontSize: 12, color: theme.textMuted }}>{h.date}</span>
-          </div>
-          <div style={{ fontSize: 13, color: theme.text, lineHeight: 1.6, opacity: 0.85 }}>
-            {h.summary.slice(0, 200)}{h.summary.length > 200 ? "…" : ""}
-          </div>
+const HistoryPage = ({ history, clearHistory }) => {
+  const [remoteHistory, setRemoteHistory] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      setLoading(true);
+      setError("");
+      try {
+        const data = await fetchHistory();
+        if (!cancelled) setRemoteHistory(data);
+      } catch (err) {
+        if (!cancelled) setError(err.message || "Failed to load history from server.");
+      }
+      if (!cancelled) setLoading(false);
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
+  // Prefer backend history; fall back to locally-tracked history if the server has none / failed.
+  const items = (remoteHistory && remoteHistory.length > 0) ? remoteHistory : history;
+
+  return (
+    <div style={{ padding: 32, maxWidth: 900 }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 24 }}>
+        <div style={{ fontWeight: 800, fontSize: 22, color: theme.text }}>History</div>
+        {history.length > 0 && <Btn variant="danger" onClick={clearHistory}>Clear Local</Btn>}
+      </div>
+      {loading && (
+        <Card style={{ textAlign: "center", padding: 32 }}><Spinner /> <span style={{ marginLeft: 10, color: theme.textMuted }}>Loading history…</span></Card>
+      )}
+      {!loading && error && (
+        <div style={{ background: theme.red + "11", border: `1px solid ${theme.red}33`, borderRadius: 10, padding: "10px 14px", color: theme.red, fontSize: 13, marginBottom: 16 }}>⚠️ {error}</div>
+      )}
+      {!loading && items.length === 0 ? (
+        <Card style={{ textAlign: "center", padding: 48 }}>
+          <div style={{ fontSize: 48, marginBottom: 12 }}>📭</div>
+          <div style={{ color: theme.textMuted }}>No history yet. Start summarizing!</div>
         </Card>
-      ))
-    )}
-  </div>
-);
+      ) : (
+        !loading && items.slice().reverse().map((h, i) => {
+          const type = h.type || h.category || "Summary";
+          const fileName = h.file || h.filename || h.file_name || "Document";
+          const summaryText = h.summary || "";
+          const date = h.date || h.created_at || "";
+          return (
+            <Card key={h.history_id || h.id || i} style={{ marginBottom: 14 }}>
+              <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: 8 }}>
+                <div>
+                  <Badge color={theme.accent}>{type}</Badge>
+                  <span style={{ marginLeft: 10, fontSize: 13, color: theme.textMuted }}>{fileName}</span>
+                </div>
+                <span style={{ fontSize: 12, color: theme.textMuted }}>{date}</span>
+              </div>
+              <div style={{ fontSize: 13, color: theme.text, lineHeight: 1.6, opacity: 0.85 }}>
+                {summaryText.slice(0, 200)}{summaryText.length > 200 ? "…" : ""}
+              </div>
+            </Card>
+          );
+        })
+      )}
+    </div>
+  );
+};
 
 // ─── Profile Page ─────────────────────────────────────────────────────────────
 const ProfilePage = ({ user, history }) => {
@@ -1148,11 +1299,53 @@ const AboutPage = () => {
           </Card>
         ))}
       </div>
+      <div style={{ fontWeight: 700, fontSize: 17, color: theme.text, marginBottom: 16 }}>🧠 AI Models, Datasets & Pipeline</div>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginBottom: 20 }}>
+        {[
+          { icon: "📝", title: "Summarization", model: "T5 (Text-to-Text Transfer Transformer)", trained: "✅ Fine-tuned by us", dataset: "dataset.json, expanded_dataset.json", color: theme.accent },
+          { icon: "🏷️", title: "Document Detection", model: "BERT (bert-base-uncased)", trained: "✅ Fine-tuned by us (~4,000 samples)", dataset: "detection_dataset.json, detection_dataset_large.json", color: theme.teal },
+          { icon: "❓", title: "Question Answering", model: "RoBERTa (deepset/roberta-base-squad2)", trained: "❌ Pre-trained (not by us)", dataset: "SQuAD v2", color: "#f472b6" },
+        ].map(f => (
+          <Card key={f.title} style={{ padding: 20, border: `1px solid ${f.color}22` }}>
+            <div style={{ width: 44, height: 44, borderRadius: 12, background: f.color + "18", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 22, marginBottom: 12 }}>{f.icon}</div>
+            <div style={{ fontWeight: 700, fontSize: 14, color: theme.text, marginBottom: 6 }}>{f.title}</div>
+            <div style={{ fontSize: 12, color: theme.textMuted, lineHeight: 1.7 }}>
+              <b style={{ color: theme.text }}>Model:</b> {f.model}<br />
+              <b style={{ color: theme.text }}>Trained by us:</b> {f.trained}<br />
+              <b style={{ color: theme.text }}>Dataset:</b> {f.dataset}
+            </div>
+          </Card>
+        ))}
+      </div>
+      <Card style={{ marginBottom: 20 }}>
+        <div style={{ fontWeight: 700, fontSize: 15, color: theme.text, marginBottom: 14 }}>🔄 Complete AI Pipeline</div>
+        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: 8, fontSize: 12, color: theme.textMuted }}>
+          {["Upload PDF","PyPDF Text Extraction","Text Preprocessing","T5 Summarization","BERT Category Detection","Recommendation Engine","Store in MySQL","RoBERTa Q&A (SQuAD v2)"].map((step, i, arr) => (
+            <Fragment key={step}>
+              <span style={{ background: "rgba(255,255,255,0.04)", border: `1px solid ${theme.borderLight}`, borderRadius: 8, padding: "6px 12px", color: theme.text }}>{step}</span>
+              {i < arr.length - 1 && <span style={{ color: theme.accentLight }}>→</span>}
+            </Fragment>
+          ))}
+        </div>
+      </Card>
       <Card>
         <div style={{ fontWeight: 700, fontSize: 17, color: theme.text, marginBottom: 14 }}>🛠️ Technology Stack</div>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
-          {["Claude AI (Anthropic)","React","JavaScript","REST API","Speech Synthesis API","PDF & DOCX Parsing"].map(tech => (
-            <span key={tech} style={{ background: `${theme.accent}18`, color: theme.accentLight, border: `1px solid ${theme.border}`, borderRadius: 999, padding: "5px 14px", fontSize: 12, fontWeight: 600 }}>{tech}</span>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)", gap: 16 }}>
+          {[
+            ["Frontend", ["React.js", "HTML", "CSS", "JavaScript"]],
+            ["Backend", ["Flask", "Python"]],
+            ["Database", ["MySQL (AWS RDS)"]],
+            ["Authentication", ["JWT"]],
+            ["ML / AI Libraries", ["PyTorch", "Transformers", "PyPDF", "SQLAlchemy", "Flask-JWT-Extended"]],
+          ].map(([group, items]) => (
+            <div key={group}>
+              <div style={{ fontSize: 12, color: theme.textMuted, marginBottom: 6 }}>{group}</div>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                {items.map(tech => (
+                  <span key={tech} style={{ background: `${theme.accent}18`, color: theme.accentLight, border: `1px solid ${theme.border}`, borderRadius: 999, padding: "5px 14px", fontSize: 12, fontWeight: 600 }}>{tech}</span>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </Card>
@@ -1170,15 +1363,25 @@ const FeedbackPage = ({ user }) => {
   const [err, setErr] = useState("");
 
   const categories = ["General", "Legal Summarization", "Healthcare", "News", "Education", "Q&A", "Bug Report"];
+  const [submitting, setSubmitting] = useState(false);
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (!rating) return setErr("Please select a star rating.");
     if (!message.trim()) return setErr("Please enter your feedback message.");
     setErr("");
+    setSubmitting(true);
+    // Keep a local copy for the admin dashboard's offline view.
     const feedbacks = JSON.parse(localStorage.getItem("ai_feedbacks") || "[]");
-    feedbacks.push({ id: Date.now(), name: user.name, email: user.email, rating, category, message, date: new Date().toLocaleString() });
+    const entry = { id: Date.now(), name: user.name, email: user.email, rating, category, message, date: new Date().toLocaleString() };
+    feedbacks.push(entry);
     localStorage.setItem("ai_feedbacks", JSON.stringify(feedbacks));
-    setSubmitted(true);
+    try {
+      await submitFeedback({ rating, category, message });
+      setSubmitted(true);
+    } catch (err) {
+      setErr(err.message || "Failed to submit feedback to the server.");
+    }
+    setSubmitting(false);
   };
 
   if (submitted) return (
@@ -1233,105 +1436,333 @@ const FeedbackPage = ({ user }) => {
           />
         </div>
         {err && <div style={{ color: theme.red, fontSize: 13, marginBottom: 14 }}>⚠️ {err}</div>}
-        <Btn onClick={handleSubmit} icon="📤">Submit Feedback</Btn>
+        <Btn onClick={handleSubmit} disabled={submitting} icon={submitting ? <Spinner /> : "📤"}>
+          {submitting ? "Submitting…" : "Submit Feedback"}
+        </Btn>
       </Card>
     </div>
   );
 };
 
+// ─── Small chart primitives for Admin Dashboard ──────────────────────────────
+const PieChart = ({ data, size = 170, thickness = 26 }) => {
+  const total = data.reduce((s, d) => s + d.count, 0) || 1;
+  const r = (size - thickness) / 2;
+  const cx = size / 2, cy = size / 2;
+  const circumference = 2 * Math.PI * r;
+  let offset = 0;
+  return (
+    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+      <circle cx={cx} cy={cy} r={r} fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth={thickness} />
+      {data.map((d, i) => {
+        const frac = d.count / total;
+        const dash = frac * circumference;
+        const el = (
+          <circle key={i} cx={cx} cy={cy} r={r} fill="none" stroke={d.color} strokeWidth={thickness}
+            strokeDasharray={`${dash} ${circumference - dash}`} strokeDashoffset={-offset}
+            transform={`rotate(-90 ${cx} ${cy})`} strokeLinecap="butt" />
+        );
+        offset += dash;
+        return el;
+      })}
+      <text x={cx} y={cy - 6} textAnchor="middle" fontSize="26" fontWeight="800" fill={theme.text}>{total}</text>
+      <text x={cx} y={cy + 16} textAnchor="middle" fontSize="11" fill={theme.textMuted}>Total</text>
+    </svg>
+  );
+};
+
+const LineChart = ({ points, width = 460, height = 150 }) => {
+  const max = Math.max(...points.map(p => p.value), 1);
+  const padL = 30, padB = 20, padT = 14, padR = 10;
+  const w = width - padL - padR, h = height - padT - padB;
+  const stepX = points.length > 1 ? w / (points.length - 1) : 0;
+  const coords = points.map((p, i) => ({
+    x: padL + i * stepX,
+    y: padT + h - (p.value / max) * h,
+    ...p,
+  }));
+  const path = coords.map((c, i) => `${i === 0 ? "M" : "L"}${c.x},${c.y}`).join(" ");
+  const areaPath = `${path} L${coords[coords.length - 1]?.x ?? padL},${padT + h} L${padL},${padT + h} Z`;
+  return (
+    <svg width="100%" height={height} viewBox={`0 0 ${width} ${height}`} preserveAspectRatio="none">
+      {[0, 0.5, 1].map((t, i) => (
+        <line key={i} x1={padL} x2={width - padR} y1={padT + h * t} y2={padT + h * t} stroke="rgba(255,255,255,0.06)" strokeWidth="1" />
+      ))}
+      <defs>
+        <linearGradient id="lineFill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor={theme.accent} stopOpacity="0.35" />
+          <stop offset="100%" stopColor={theme.accent} stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      <path d={areaPath} fill="url(#lineFill)" stroke="none" />
+      <path d={path} fill="none" stroke={theme.accent} strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round" />
+      {coords.map((c, i) => (
+        <g key={i}>
+          <circle cx={c.x} cy={c.y} r="3.5" fill={theme.bgCard} stroke={theme.accent} strokeWidth="2" />
+          <text x={c.x} y={c.y - 10} textAnchor="middle" fontSize="10" fill={theme.textMuted}>{c.value}</text>
+          <text x={c.x} y={height - 4} textAnchor="middle" fontSize="10" fill={theme.textMuted}>{c.label}</text>
+        </g>
+      ))}
+    </svg>
+  );
+};
+
+const StatCard = ({ icon, value, label, sub, color }) => (
+  <Card style={{ padding: "16px 18px", border: `1px solid ${color}22` }}>
+    <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+      <div style={{ width: 40, height: 40, borderRadius: 10, background: color + "22", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, flexShrink: 0 }}>{icon}</div>
+      <div style={{ minWidth: 0 }}>
+        <div style={{ fontWeight: 900, fontSize: 22, color: theme.text, lineHeight: 1.1 }}>{value}</div>
+        <div style={{ fontSize: 12, color: theme.textMuted, whiteSpace: "nowrap" }}>{label}</div>
+      </div>
+    </div>
+    {sub != null && sub !== "" && (
+      <div style={{ fontSize: 11, color: theme.textMuted, marginTop: 8 }}>{sub}</div>
+    )}
+  </Card>
+);
+
+const CATEGORY_META = {
+  study_important: { label: "Study Important", color: theme.accent },
+  health_risk: { label: "Health Risk", color: theme.red },
+  news_alert: { label: "News Alert", color: theme.amber },
+  legal_expiry: { label: "Legal Expiry", color: theme.teal },
+};
+const FALLBACK_COLORS = [theme.accent, theme.teal, theme.green, theme.amber, "#f472b6"];
+
 // ─── Admin Dashboard ──────────────────────────────────────────────────────────
 const AdminDashboard = ({ onLogout }) => {
-  const users = JSON.parse(localStorage.getItem("ai_users") || "[]");
-  const feedbacks = JSON.parse(localStorage.getItem("ai_feedbacks") || "[]");
   const [tab, setTab] = useState("dashboard");
-  const metrics = [
-    { label: "Total Users", value: users.length + 1, icon: "👥", color: theme.teal },
-    { label: "Total Documents", value: 256, icon: "📄", color: theme.amber },
-    { label: "Total Summaries", value: 512, icon: "✅", color: theme.green },
-    { label: "Feedbacks", value: feedbacks.length, icon: "💬", color: theme.accent },
+  const [bundle, setBundle] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [lastLoaded, setLastLoaded] = useState(null);
+  const [actionErr, setActionErr] = useState("");
+
+  const load = async () => {
+    setLoading(true);
+    const b = await fetchAdminDashboardBundle();
+    setBundle(b);
+    setLastLoaded(new Date());
+    setLoading(false);
+  };
+
+  useEffect(() => { load(); }, []);
+
+  const unwrap = (slot, fallback) => (bundle && bundle[slot]?.ok) ? bundle[slot].value : fallback;
+  const errFor = (slot) => (bundle && bundle[slot] && !bundle[slot].ok) ? bundle[slot].error : null;
+
+  const stats = unwrap("stats", {});
+  const users = unwrap("users", []);
+  const documents = unwrap("documents", []);
+  const history = unwrap("history", []);
+  const feedbackList = unwrap("feedback", []);
+  const categoriesRaw = unwrap("categories", {});
+  const modelStatus = unwrap("modelStatus", {});
+  const system = unwrap("system", {});
+  const logs = unwrap("logs", []);
+
+  const totalUsers = stats.total_users ?? users.length ?? 0;
+  const totalDocuments = stats.total_documents ?? documents.length ?? 0;
+  const totalSummaries = stats.total_summaries ?? history.length ?? 0;
+  const totalQuestions = stats.total_questions ?? 0;
+  const totalFeedback = stats.total_feedback ?? feedbackList.length ?? 0;
+  const activeUsers = stats.active_users ?? 0;
+
+  const categoryData = Object.entries(categoriesRaw).map(([key, count], i) => {
+    const meta = CATEGORY_META[key];
+    return { key, label: meta?.label ?? key, count, color: meta?.color ?? FALLBACK_COLORS[i % FALLBACK_COLORS.length] };
+  });
+  const categoryTotal = categoryData.reduce((s, c) => s + c.count, 0) || 1;
+
+  // Derive "uploads per day" from /api/admin/history dates (last 7 days present in the data).
+  const uploadsPerDay = (() => {
+    const counts = {};
+    history.forEach(h => {
+      const d = h.date ?? h.upload_date ?? h.created_at;
+      if (!d) return;
+      const key = String(d).slice(0, 10);
+      counts[key] = (counts[key] || 0) + 1;
+    });
+    const days = Object.keys(counts).sort().slice(-7);
+    return days.map(d => ({ label: d.slice(5), value: counts[d] }));
+  })();
+
+  const modelEntries = [
+    ["Summarizer (T5)", modelStatus.summarizer],
+    ["Detector (BERT)", modelStatus.detector],
+    ["QA Model (RoBERTa)", modelStatus.qa_model],
   ];
-  const activity = [
-    { msg: "John Doe uploaded a document", time: "2 mins ago" },
-    { msg: "Jane Smith asked a question", time: "10 mins ago" },
-    { msg: "New user registered: Alex", time: "30 mins ago" },
-    { msg: "Document summarized", time: "1 hour ago" },
+  const allModelsLoaded = modelEntries.every(([, v]) => (v || "").toLowerCase() === "loaded");
+
+  const runAction = async (fn) => {
+    setActionErr("");
+    try {
+      await fn();
+      await load();
+    } catch (err) {
+      setActionErr(err.message || "Action failed.");
+    }
+  };
+
+  const NAV_ITEMS = [
+    ["dashboard", "📊", "Dashboard"],
+    ["users", "👥", "Users"],
+    ["documents", "📄", "Documents"],
+    ["history", "🕐", "History"],
+    ["categories", "🏷️", "Categories"],
+    ["feedback", "⭐", "Feedback"],
+    ["models", "🧠", "AI Models"],
+    ["system", "💾", "System"],
+    ["logs", "📋", "Logs"],
+    ["profile", "👤", "Profile"],
   ];
-  const chartData = [20, 40, 35, 60, 45, 90];
-  const months = ["Jan","Feb","Mar","Apr","May","Jun"];
 
   return (
     <div style={{ minHeight: "100vh", background: theme.bg, display: "flex", fontFamily: "'Space Grotesk',sans-serif" }}>
-      <aside style={{ width: 200, background: "#0d0d1a", borderRight: `1px solid ${theme.borderLight}`, padding: "24px 0" }}>
-        <div style={{ padding: "0 20px 20px", borderBottom: `1px solid ${theme.borderLight}`, fontWeight: 800, fontSize: 15, color: theme.accentLight }}>Admin Panel</div>
-        {[["dashboard","📊","Dashboard"],["users","👥","Users"],["documents","📄","Documents"],["summaries","✅","Summaries"],["feedback","💬","Client Feedback"],["logs","📋","Activity Logs"],["settings","⚙️","Settings"]].map(([id, icon, label]) => (
+      <aside style={{ width: 220, background: "#0d0d1a", borderRight: `1px solid ${theme.borderLight}`, padding: "24px 0", flexShrink: 0 }}>
+        <div style={{ padding: "0 20px 20px", borderBottom: `1px solid ${theme.borderLight}`, display: "flex", alignItems: "center", gap: 10 }}>
+          <div style={{ width: 34, height: 34, borderRadius: 9, background: G, display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: 14, color: "#fff" }}>AI</div>
+          <div>
+            <div style={{ fontWeight: 800, fontSize: 13, color: theme.text }}>AI Document</div>
+            <div style={{ fontWeight: 800, fontSize: 13, color: theme.text, marginTop: -2 }}>Summarizer</div>
+          </div>
+        </div>
+        <div style={{ padding: "14px 20px 6px", fontSize: 11, fontWeight: 700, color: theme.accentLight, letterSpacing: 0.5 }}>ADMIN PANEL</div>
+        {NAV_ITEMS.map(([id, icon, label]) => (
           <button key={id} onClick={() => setTab(id)} style={{ width: "100%", display: "flex", alignItems: "center", gap: 10, padding: "10px 20px", background: tab === id ? `${theme.accent}22` : "transparent", border: "none", cursor: "pointer", color: tab === id ? theme.accentLight : theme.textMuted, fontSize: 13.5, fontWeight: tab === id ? 600 : 400, borderLeft: tab === id ? `3px solid ${theme.accent}` : "3px solid transparent" }}>
             <span>{icon}</span>{label}
           </button>
         ))}
         <button onClick={onLogout} style={{ width: "100%", display: "flex", alignItems: "center", gap: 10, padding: "10px 20px", background: "transparent", border: "none", cursor: "pointer", color: "#ef4444", fontSize: 13.5, marginTop: 12 }}>🚪 Logout</button>
       </aside>
-      <div style={{ flex: 1, padding: 32 }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 24 }}>
-          <div style={{ fontWeight: 800, fontSize: 22, color: theme.text }}>Dashboard</div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <Avatar name="A" size={30} />
-            <span style={{ fontSize: 13, color: theme.text }}>admin</span>
+
+      <div style={{ flex: 1, padding: 32, overflowY: "auto", minWidth: 0 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 24, flexWrap: "wrap", gap: 12 }}>
+          <div>
+            <div style={{ fontWeight: 800, fontSize: 24, color: theme.text }}>{NAV_ITEMS.find(n => n[0] === tab)?.[2] || "Dashboard"}</div>
+            <div style={{ fontSize: 13, color: theme.textMuted, marginTop: 2 }}>Welcome back, Admin! Here's what's happening in your system.</div>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            <div style={{ fontSize: 12, color: theme.textMuted, display: "flex", alignItems: "center", gap: 6 }}>
+              🗓️ {lastLoaded ? lastLoaded.toLocaleString() : new Date().toLocaleString()}
+            </div>
+            <Btn onClick={load} disabled={loading} icon={loading ? <Spinner /> : "🔄"}>{loading ? "Loading…" : "Refresh"}</Btn>
           </div>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 16, marginBottom: 24 }}>
-          {metrics.map(m => (
-            <Card key={m.label}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
-                <div>
-                  <div style={{ fontSize: 12, color: theme.textMuted, marginBottom: 6 }}>{m.label}</div>
-                  <div style={{ fontWeight: 900, fontSize: 32, color: m.color }}>{m.value}</div>
-                </div>
-                <span style={{ fontSize: 26 }}>{m.icon}</span>
+
+        {actionErr && (
+          <div style={{ background: theme.red + "11", border: `1px solid ${theme.red}33`, borderRadius: 10, padding: "10px 14px", color: theme.red, fontSize: 13, marginBottom: 16 }}>⚠️ {actionErr}</div>
+        )}
+
+        {tab === "dashboard" && (
+          <>
+            {errFor("stats") && (
+              <div style={{ background: theme.amber + "11", border: `1px solid ${theme.amber}33`, borderRadius: 10, padding: "10px 14px", color: theme.amber, fontSize: 13, marginBottom: 16 }}>
+                ℹ️ /api/admin/dashboard unavailable ({errFor("stats")}) — showing counts derived from other endpoints where possible.
               </div>
-            </Card>
-          ))}
-        </div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20 }}>
-          <Card>
-            <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>Documents Uploaded</div>
-            <div style={{ display: "flex", alignItems: "flex-end", gap: 10, height: 120 }}>
-              {chartData.map((v, i) => (
-                <div key={i} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
-                  <div style={{ width: "100%", background: G, borderRadius: "4px 4px 0 0", height: `${(v / 90) * 100}%`, minHeight: 4 }} />
-                  <div style={{ fontSize: 10, color: theme.textMuted }}>{months[i]}</div>
-                </div>
-              ))}
+            )}
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 14, marginBottom: 14 }}>
+              <StatCard icon="👤" value={totalUsers} label="Total Users" color={theme.teal} />
+              <StatCard icon="📄" value={totalDocuments} label="Total Documents" color={theme.green} />
+              <StatCard icon="📝" value={totalSummaries} label="Total Summaries" color={theme.accent} />
+              <StatCard icon="❓" value={totalQuestions} label="Total Questions Asked" color={theme.amber} />
             </div>
-          </Card>
-          <Card>
-            <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>Recent Activity</div>
-            {activity.map((a, i) => (
-              <div key={i} style={{ display: "flex", gap: 10, marginBottom: 12, alignItems: "flex-start" }}>
-                <div style={{ width: 8, height: 8, borderRadius: "50%", background: theme.accent, marginTop: 5, flexShrink: 0 }} />
-                <div>
-                  <div style={{ fontSize: 13, color: theme.text }}>{a.msg}</div>
-                  <div style={{ fontSize: 11, color: theme.textMuted }}>{a.time}</div>
-                </div>
-              </div>
-            ))}
-          </Card>
-        </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 14, marginBottom: 22 }}>
+              <StatCard icon="⭐" value={totalFeedback} label="Total Feedback" color="#f472b6" />
+              <StatCard icon="🟢" value={activeUsers} label="Active Users" color={theme.green} />
+              <StatCard icon="🧠" value={allModelsLoaded ? "All Loaded" : "Check Models"} label="AI Models" color={allModelsLoaded ? theme.green : theme.amber} />
+              <StatCard icon="⚡" value={system.cpu ? "Online" : "Unknown"} label="Server Status" color={theme.teal} />
+            </div>
+
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 18, marginBottom: 20, alignItems: "stretch" }}>
+              <Card>
+                <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>📊 Category Distribution</div>
+                {categoryData.length === 0 ? <div style={{ color: theme.textMuted, fontSize: 13 }}>{errFor("categories") ? `Could not load: ${errFor("categories")}` : "No category data yet."}</div> : (
+                  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
+                    <PieChart data={categoryData} />
+                    <div style={{ width: "100%" }}>
+                      {categoryData.map(c => (
+                        <div key={c.key} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 12, marginBottom: 6 }}>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                            <span style={{ width: 9, height: 9, borderRadius: "50%", background: c.color, display: "inline-block" }} />
+                            <span style={{ color: theme.text }}>{c.label}</span>
+                          </div>
+                          <span style={{ color: theme.textMuted }}>{c.count} ({Math.round((c.count / categoryTotal) * 1000) / 10}%)</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </Card>
+              <Card>
+                <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>📈 Uploads Per Day</div>
+                {uploadsPerDay.length === 0 ? <div style={{ color: theme.textMuted, fontSize: 13 }}>{errFor("history") ? `Could not load: ${errFor("history")}` : "No upload history yet."}</div> : <LineChart points={uploadsPerDay} />}
+              </Card>
+            </div>
+
+            <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr", gap: 18 }}>
+              <Card>
+                <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>📄 Recent Documents</div>
+                {documents.length === 0 ? <div style={{ color: theme.textMuted, fontSize: 13 }}>{errFor("documents") ? `Could not load: ${errFor("documents")}` : "No documents yet."}</div> : (
+                  <table style={{ width: "100%", borderCollapse: "collapse" }}>
+                    <thead>
+                      <tr>{["ID","Filename","Category","Uploaded By","Date"].map(h => (
+                        <th key={h} style={{ textAlign: "left", padding: "8px 10px", color: theme.textMuted, fontSize: 11, borderBottom: `1px solid ${theme.borderLight}` }}>{h}</th>
+                      ))}</tr>
+                    </thead>
+                    <tbody>
+                      {documents.slice(0, 6).map((d, i) => (
+                        <tr key={d.id ?? i}>
+                          <td style={{ padding: "9px 10px", color: theme.textMuted, fontSize: 12 }}>{d.id ?? i + 1}</td>
+                          <td style={{ padding: "9px 10px", color: theme.text, fontSize: 12 }}>{d.filename}</td>
+                          <td style={{ padding: "9px 10px" }}><Badge color={CATEGORY_META[d.category]?.color ?? theme.accent}>{CATEGORY_META[d.category]?.label ?? d.category}</Badge></td>
+                          <td style={{ padding: "9px 10px", color: theme.textMuted, fontSize: 12 }}>{d.uploaded_by}</td>
+                          <td style={{ padding: "9px 10px", color: theme.textMuted, fontSize: 12 }}>{d.date}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                )}
+              </Card>
+              <Card>
+                <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>⭐ Latest Feedback</div>
+                {feedbackList.length === 0 ? <div style={{ color: theme.textMuted, fontSize: 13 }}>{errFor("feedback") ? `Could not load: ${errFor("feedback")}` : "No feedback yet."}</div> : feedbackList.slice(0, 5).map((f, i) => (
+                  <div key={f.id ?? i} style={{ marginBottom: 12 }}>
+                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                      <span style={{ fontSize: 12, color: theme.text, fontWeight: 600 }}>{f.username}</span>
+                      <span style={{ color: "#f59e0b", fontSize: 12 }}>{"★".repeat(f.rating || 0)}{"☆".repeat(5 - (f.rating || 0))}</span>
+                    </div>
+                    <div style={{ fontSize: 12, color: theme.textMuted, marginTop: 2 }}>{f.comment}</div>
+                  </div>
+                ))}
+              </Card>
+            </div>
+          </>
+        )}
+
         {tab === "users" && (
-          <Card style={{ marginTop: 20 }}>
-            <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>Registered Users</div>
-            {users.length === 0 ? <div style={{ color: theme.textMuted }}>No users registered yet.</div> : (
+          <Card>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
+              <div style={{ fontWeight: 700, color: theme.text }}>👥 Users Table</div>
+              <Badge color={theme.accent}>{users.length} Total</Badge>
+            </div>
+            {users.length === 0 ? <div style={{ color: theme.textMuted }}>{errFor("users") ? `Could not load: ${errFor("users")}` : "No users registered yet."}</div> : (
               <table style={{ width: "100%", borderCollapse: "collapse" }}>
                 <thead>
-                  <tr>{["Name","Email","Role"].map(h => (
+                  <tr>{["ID","Username","Email","Joined",""].map(h => (
                     <th key={h} style={{ textAlign: "left", padding: "8px 12px", color: theme.textMuted, fontSize: 12, borderBottom: `1px solid ${theme.borderLight}` }}>{h}</th>
                   ))}</tr>
                 </thead>
                 <tbody>
                   {users.map((u, i) => (
-                    <tr key={i}>
-                      <td style={{ padding: "10px 12px", color: theme.text, fontSize: 13 }}>{u.name}</td>
+                    <tr key={u.id ?? i}>
+                      <td style={{ padding: "10px 12px", color: theme.textMuted, fontSize: 13 }}>{u.id}</td>
+                      <td style={{ padding: "10px 12px", color: theme.text, fontSize: 13 }}>{u.username}</td>
                       <td style={{ padding: "10px 12px", color: theme.textMuted, fontSize: 13 }}>{u.email}</td>
-                      <td style={{ padding: "10px 12px" }}><Badge color={theme.green}>User</Badge></td>
+                      <td style={{ padding: "10px 12px", color: theme.textMuted, fontSize: 13 }}>{u.joined}</td>
+                      <td style={{ padding: "10px 12px" }}>
+                        <button onClick={() => runAction(() => deleteAdminUser(u.id))} style={{ background: theme.red + "18", color: theme.red, border: `1px solid ${theme.red}33`, borderRadius: 8, padding: "5px 10px", fontSize: 12, cursor: "pointer" }}>🗑️ Delete</button>
+                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -1339,61 +1770,173 @@ const AdminDashboard = ({ onLogout }) => {
             )}
           </Card>
         )}
-        {tab === "feedback" && (
-          <Card style={{ marginTop: 20 }}>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 20 }}>
-              <div style={{ fontWeight: 700, fontSize: 17, color: theme.text }}>💬 Client Feedback</div>
-              <Badge color={theme.accent}>{feedbacks.length} Total</Badge>
+
+        {tab === "documents" && (
+          <Card>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
+              <div style={{ fontWeight: 700, color: theme.text }}>📄 All Documents</div>
+              <Badge color={theme.accent}>{documents.length} Total</Badge>
             </div>
-            {feedbacks.length === 0 ? (
-              <div style={{ textAlign: "center", padding: "40px 20px", color: theme.textMuted }}>
-                <div style={{ fontSize: 40, marginBottom: 10 }}>📭</div>
-                <div>No feedback submitted yet.</div>
-              </div>
-            ) : (
-              <>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 12, marginBottom: 24 }}>
-                  {[
-                    { label: "Avg Rating", value: (feedbacks.reduce((s,f) => s + f.rating, 0) / feedbacks.length).toFixed(1) + " ★", color: theme.amber },
-                    { label: "5-Star Reviews", value: feedbacks.filter(f => f.rating === 5).length, color: theme.green },
-                    { label: "Bug Reports", value: feedbacks.filter(f => f.category === "Bug Report").length, color: theme.red },
-                  ].map(s => (
-                    <div key={s.label} style={{ background: "rgba(255,255,255,0.03)", border: `1px solid ${theme.borderLight}`, borderRadius: 12, padding: "14px 18px" }}>
-                      <div style={{ fontSize: 11, color: theme.textMuted, marginBottom: 4 }}>{s.label}</div>
-                      <div style={{ fontWeight: 800, fontSize: 22, color: s.color }}>{s.value}</div>
-                    </div>
+            {documents.length === 0 ? <div style={{ color: theme.textMuted }}>{errFor("documents") ? `Could not load: ${errFor("documents")}` : "No documents yet."}</div> : (
+              <table style={{ width: "100%", borderCollapse: "collapse" }}>
+                <thead>
+                  <tr>{["ID","Filename","Category","Uploaded By","Date"].map(h => (
+                    <th key={h} style={{ textAlign: "left", padding: "8px 10px", color: theme.textMuted, fontSize: 11, borderBottom: `1px solid ${theme.borderLight}` }}>{h}</th>
+                  ))}</tr>
+                </thead>
+                <tbody>
+                  {documents.map((d, i) => (
+                    <tr key={d.id ?? i}>
+                      <td style={{ padding: "9px 10px", color: theme.textMuted, fontSize: 12 }}>{d.id ?? i + 1}</td>
+                      <td style={{ padding: "9px 10px", color: theme.text, fontSize: 12 }}>{d.filename}</td>
+                      <td style={{ padding: "9px 10px" }}><Badge color={CATEGORY_META[d.category]?.color ?? theme.accent}>{CATEGORY_META[d.category]?.label ?? d.category}</Badge></td>
+                      <td style={{ padding: "9px 10px", color: theme.textMuted, fontSize: 12 }}>{d.uploaded_by}</td>
+                      <td style={{ padding: "9px 10px", color: theme.textMuted, fontSize: 12 }}>{d.date}</td>
+                    </tr>
                   ))}
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-                  {feedbacks.slice().reverse().map((f, i) => (
-                    <div key={f.id || i} style={{ border: `1px solid ${theme.borderLight}`, borderRadius: 12, padding: 18, background: "rgba(255,255,255,0.02)" }}>
-                      <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: 10 }}>
-                        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                          <Avatar name={f.name} size={34} />
-                          <div>
-                            <div style={{ fontWeight: 700, fontSize: 13, color: theme.text }}>{f.name}</div>
-                            <div style={{ fontSize: 11, color: theme.textMuted }}>{f.email}</div>
-                          </div>
-                        </div>
-                        <div style={{ textAlign: "right" }}>
-                          <div style={{ fontSize: 18, color: "#f59e0b", marginBottom: 2 }}>{"★".repeat(f.rating)}{"☆".repeat(5 - f.rating)}</div>
-                          <div style={{ fontSize: 11, color: theme.textMuted }}>{f.date}</div>
-                        </div>
-                      </div>
-                      <div style={{ display: "flex", gap: 8, marginBottom: 10 }}>
-                        <Badge color={f.category === "Bug Report" ? theme.red : theme.accent}>{f.category}</Badge>
-                        <Badge color={[theme.red,theme.amber,theme.amber,theme.green,theme.green][f.rating-1]}>{["Poor","Fair","Good","Very Good","Excellent"][f.rating-1]}</Badge>
-                      </div>
-                      <div style={{ fontSize: 13, color: theme.text, lineHeight: 1.7, background: "rgba(124,58,237,0.05)", padding: "10px 14px", borderRadius: 8, border: `1px solid ${theme.border}` }}>{f.message}</div>
-                    </div>
-                  ))}
-                </div>
-              </>
+                </tbody>
+              </table>
             )}
           </Card>
         )}
+
+        {tab === "history" && (
+          <Card>
+            <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>🕐 Every Summarized Document</div>
+            {history.length === 0 ? <div style={{ color: theme.textMuted }}>{errFor("history") ? `Could not load: ${errFor("history")}` : "No history yet."}</div> : (
+              history.map((h, i) => (
+                <div key={h.id ?? i} style={{ borderBottom: `1px solid ${theme.borderLight}`, padding: "10px 0" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between" }}>
+                    <span style={{ fontSize: 13, color: theme.text, fontWeight: 600 }}>{h.filename ?? h.file}</span>
+                    <span style={{ fontSize: 11, color: theme.textMuted }}>{h.date}</span>
+                  </div>
+                  <div style={{ fontSize: 12, color: theme.textMuted, marginTop: 4 }}>{(h.summary || "").slice(0, 180)}{(h.summary || "").length > 180 ? "…" : ""}</div>
+                </div>
+              ))
+            )}
+          </Card>
+        )}
+
+        {tab === "categories" && (
+          <Card>
+            <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>🏷️ Detection Statistics</div>
+            {categoryData.length === 0 ? <div style={{ color: theme.textMuted }}>{errFor("categories") ? `Could not load: ${errFor("categories")}` : "No category data available."}</div> : categoryData.map(c => (
+              <div key={c.key} style={{ display: "flex", justifyContent: "space-between", padding: "10px 0", borderBottom: `1px solid ${theme.borderLight}` }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <span style={{ width: 9, height: 9, borderRadius: "50%", background: c.color, display: "inline-block" }} />
+                  <span style={{ color: theme.text, fontSize: 13 }}>{c.label}</span>
+                </div>
+                <span style={{ color: theme.textMuted, fontSize: 13 }}>{c.count}</span>
+              </div>
+            ))}
+          </Card>
+        )}
+
+        {tab === "feedback" && (
+          <Card>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 20 }}>
+              <div style={{ fontWeight: 700, fontSize: 17, color: theme.text }}>⭐ Client Feedback</div>
+              <Badge color={theme.accent}>{feedbackList.length} Total</Badge>
+            </div>
+            {feedbackList.length === 0 ? (
+              <div style={{ textAlign: "center", padding: "40px 20px", color: theme.textMuted }}>
+                <div style={{ fontSize: 40, marginBottom: 10 }}>📭</div>
+                <div>{errFor("feedback") ? `Could not load: ${errFor("feedback")}` : "No feedback submitted yet."}</div>
+              </div>
+            ) : (
+              <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+                {feedbackList.map((f, i) => (
+                  <div key={f.id ?? i} style={{ border: `1px solid ${theme.borderLight}`, borderRadius: 12, padding: 16, background: "rgba(255,255,255,0.02)" }}>
+                    <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: 8 }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                        <Avatar name={f.username} size={30} />
+                        <span style={{ fontWeight: 700, fontSize: 13, color: theme.text }}>{f.username}</span>
+                      </div>
+                      <span style={{ fontSize: 16, color: "#f59e0b" }}>{"★".repeat(f.rating || 0)}{"☆".repeat(5 - (f.rating || 0))}</span>
+                    </div>
+                    <div style={{ fontSize: 13, color: theme.text, lineHeight: 1.6, background: "rgba(124,58,237,0.05)", padding: "10px 14px", borderRadius: 8, border: `1px solid ${theme.border}`, marginBottom: 10 }}>{f.comment}</div>
+                    <button onClick={() => runAction(() => deleteAdminFeedback(f.id))} style={{ background: theme.red + "18", color: theme.red, border: `1px solid ${theme.red}33`, borderRadius: 8, padding: "5px 10px", fontSize: 12, cursor: "pointer" }}>🗑️ Delete</button>
+                  </div>
+                ))}
+              </div>
+            )}
+          </Card>
+        )}
+
+        {tab === "models" && (
+          <Card>
+            <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>🧠 AI Model Status</div>
+            {modelEntries.map(([label, status]) => (
+              <div key={label} style={{ display: "flex", justifyContent: "space-between", padding: "10px 0", borderBottom: `1px solid ${theme.borderLight}` }}>
+                <span style={{ color: theme.text, fontSize: 13 }}>{label}</span>
+                <Badge color={(status || "").toLowerCase() === "loaded" ? theme.green : theme.red}>{status || "Unknown"}</Badge>
+              </div>
+            ))}
+            {errFor("modelStatus") && <div style={{ color: theme.amber, fontSize: 12, marginTop: 10 }}>ℹ️ {errFor("modelStatus")}</div>}
+          </Card>
+        )}
+
+        {tab === "system" && (
+          <Card>
+            <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>💾 System Health</div>
+            {errFor("system") ? <div style={{ color: theme.textMuted }}>Could not load: {errFor("system")}</div> : (
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14 }}>
+                {[["CPU", system.cpu, theme.teal], ["Memory", system.memory, theme.accent], ["Disk", system.disk, theme.amber]].map(([label, value, color]) => (
+                  <div key={label} style={{ background: "rgba(255,255,255,0.03)", border: `1px solid ${theme.borderLight}`, borderRadius: 12, padding: "14px 18px" }}>
+                    <div style={{ fontSize: 11, color: theme.textMuted, marginBottom: 4 }}>{label}</div>
+                    <div style={{ fontWeight: 800, fontSize: 22, color }}>{value ?? "—"}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </Card>
+        )}
+
+        {tab === "logs" && (
+          <Card>
+            <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>📋 System Logs</div>
+            {(!Array.isArray(logs) || logs.length === 0) ? <div style={{ color: theme.textMuted }}>{errFor("logs") ? `Could not load: ${errFor("logs")}` : "No logs available."}</div> : (
+              <div style={{ maxHeight: 420, overflowY: "auto" }}>
+                {logs.map((l, i) => (
+                  <div key={i} style={{ fontSize: 12, color: theme.textMuted, padding: "6px 0", borderBottom: `1px solid ${theme.borderLight}`, fontFamily: "monospace" }}>
+                    {typeof l === "string" ? l : JSON.stringify(l)}
+                  </div>
+                ))}
+              </div>
+            )}
+          </Card>
+        )}
+
+        {tab === "profile" && (
+          <AdminProfileTab />
+        )}
       </div>
     </div>
+  );
+};
+
+const AdminProfileTab = () => {
+  const [profile, setProfile] = useState(null);
+  const [error, setError] = useState("");
+  useEffect(() => {
+    fetchAdminProfile().then(setProfile).catch(err => setError(err.message));
+  }, []);
+  return (
+    <Card>
+      <div style={{ fontWeight: 700, color: theme.text, marginBottom: 16 }}>👤 Admin Profile</div>
+      {error && <div style={{ color: theme.textMuted, fontSize: 13 }}>Could not load: {error}</div>}
+      {!error && !profile && <div style={{ color: theme.textMuted, fontSize: 13 }}>Loading…</div>}
+      {profile && (
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          {Object.entries(profile).map(([k, v]) => (
+            <div key={k} style={{ display: "flex", justifyContent: "space-between", padding: "8px 0", borderBottom: `1px solid ${theme.borderLight}`, fontSize: 13 }}>
+              <span style={{ color: theme.textMuted }}>{k}</span>
+              <span style={{ color: theme.text, fontWeight: 600 }}>{String(v)}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </Card>
   );
 };
 
@@ -1403,6 +1946,7 @@ export default function App() {
   const [screen, setScreen] = useState("login");
   const [page, setPage] = useState("home");
   const [history, setHistory] = useLocalStorage("ai_history", []);
+  const [historyId, setHistoryId] = useState(null); // most recently summarized document's history_id, used by Q&A
 
   const addHistory = (item) => setHistory(prev => [...prev, item]);
   const clearHistory = () => setHistory([]);
@@ -1411,7 +1955,9 @@ export default function App() {
     setAuth(null);
     setPage("home");
     setScreen("login");
+    setHistoryId(null);
     localStorage.removeItem("ai_auth");
+    localStorage.removeItem("token");
   };
 
   useEffect(() => {
@@ -1438,11 +1984,11 @@ export default function App() {
 
   const mainPages = {
     home: <HomePage user={auth} setPage={setPage} />,
-    legal: <SummarizePage title="Legal Document Summarization" desc="Upload your legal document and get an AI-powered summary." addHistory={addHistory} />,
-    healthcare: <SummarizePage title="Healthcare Report Summarization" desc="Upload a healthcare report and get an AI-powered summary." addHistory={addHistory} />,
-    news: <NewsPage addHistory={addHistory} />,
-    education: <EducationPage addHistory={addHistory} />,
-    qa: <QAPage addHistory={addHistory} />,
+    legal: <SummarizePage title="Legal Document Summarization" desc="Upload your legal document and get an AI-powered summary." addHistory={addHistory} setHistoryId={setHistoryId} />,
+    healthcare: <SummarizePage title="Healthcare Report Summarization" desc="Upload a healthcare report and get an AI-powered summary." addHistory={addHistory} setHistoryId={setHistoryId} />,
+    news: <NewsPage addHistory={addHistory} setHistoryId={setHistoryId} />,
+    education: <EducationPage addHistory={addHistory} setHistoryId={setHistoryId} />,
+    qa: <QAPage addHistory={addHistory} historyId={historyId} />,
     history: <HistoryPage history={history} clearHistory={clearHistory} />,
     profile: <ProfilePage user={auth} history={history} />,
     about: <AboutPage />,
