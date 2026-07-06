@@ -321,7 +321,7 @@ const SummaryResult = ({ text, category, recommendation }) => {
 };
 
 // ─── Backend API (Flask) ──────────────────────────────────────────────────────
-const BASE_URL = "http://13.51.36.177:5000";
+const BASE_URL = "http://13.63.69.85:5000";
 
 const getToken = () => localStorage.getItem("token");
 
@@ -467,22 +467,11 @@ const LoginPage = ({ onLogin, onGoRegister }) => {
   const [pass, setPass] = useState("");
   const [err, setErr] = useState("");
   const [loading, setLoading] = useState(false);
-
 const handle = async () => {
   console.log("STEP 1: Login button clicked");
 
   setLoading(true);
   setErr("");
-    if (email === "admin" && pass === "admin1") {
-  onLogin({
-    name: "Admin",
-    email: "admin",
-    role: "admin",
-  });
-
-  setLoading(false);
-  return;
-}
 
   if (!email || !pass) {
     setErr("Please enter email and password.");
@@ -498,9 +487,9 @@ const handle = async () => {
     console.log("STEP 3: Login success", data);
 
     onLogin({
-      name: data.user.username,
+      name: data.user.name,
       email: data.user.email,
-      role: data.user.is_admin ? "admin" : "user",
+      role: data.user.role === "admin" ? "admin" : "user",
     });
 
   } catch (err) {
