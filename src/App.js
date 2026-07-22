@@ -217,7 +217,7 @@ const UploadBox = ({ label, onFile, accept = ".pdf,.docx,.txt" }) => {
 };
 
 // ─── UPDATED SummaryResult with Toggle TTS ────────────────────────────────────
-const SummaryResult = ({ text, category, recommendation }) => {
+const SummaryResult = ({ text, category, recommendation, prediction }) => {
   const [speaking, setSpeaking] = useState(false);
   const [ttsOn, setTtsOn] = useState(false);
 
@@ -321,7 +321,7 @@ const SummaryResult = ({ text, category, recommendation }) => {
 };
 
 // ─── Backend API (Flask) ──────────────────────────────────────────────────────
-const BASE_URL = "http://13.49.229.43:5000";
+const BASE_URL = "http://13.63.139.185:5000";
 
 const getToken = () => localStorage.getItem("token");
 
@@ -879,8 +879,15 @@ const NewsPage = ({ addHistory, setHistoryId }) => {
         </Btn>
         {!file && <span style={{ fontSize: 13, color: theme.textMuted }}>Upload a file to enable summarization</span>}
       </div>
-      {result && <SummaryResult text={result.summary} category={result.category} recommendation={result.recommendation} />}
-    </div>
+{result && (
+  <SummaryResult
+    text={result.summary}
+    category={result.category}
+    recommendation={result.recommendation}
+    prediction={result.prediction}
+  />
+)}
+   </div>
   );
 };
 

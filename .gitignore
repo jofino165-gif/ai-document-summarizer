@@ -41,3 +41,11 @@ expanded_dataset.json
 
 # Flask
 instance/
+venv/
+venv_backup/
+node_modules/
+__pycache__/
+*.pyc
+app.db
+app_backup.db
+*_backup.*

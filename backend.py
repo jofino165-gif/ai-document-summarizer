@@ -177,6 +177,7 @@ def summarize():
     summary = ai_pipeline.summarize_text(text)
     category = ai_pipeline.classify_category(text)
     recommendation = ai_pipeline.get_recommendation(category)
+    prediction = ai_pipeline.predict_document(category, text)
 
     entry = History(
         user_id=user.id,
@@ -192,15 +193,14 @@ def summarize():
     log_event(f"{user.email} summarized '{file.filename}' -> {category}")
 
     return jsonify(
-        {
-            "summary": summary,
-            "category": category,
-            "recommendation": recommendation,
-            "history_id": entry.id,
-        }
-    )
-
-
+    {
+        "summary": summary,
+        "category": category,
+        "recommendation": recommendation,
+        "prediction": prediction,
+        "history_id": entry.id,
+    }
+)
 @app.route("/api/qa", methods=["POST"])
 @jwt_required()
 def qa():

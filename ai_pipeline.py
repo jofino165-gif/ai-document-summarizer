@@ -24,7 +24,10 @@ MODEL_STATUS = {
 SUMMARIZER_MODEL_PATH = os.environ.get("SUMMARIZER_MODEL_PATH", "trained_model")
 CLASSIFIER_MODEL_PATH = os.environ.get("CLASSIFIER_MODEL_PATH", "model/detection_model")
 QA_MODEL_NAME = os.environ.get("QA_MODEL_NAME", "deepset/roberta-base-squad2")
-FALLBACK_SUMMARIZER_MODEL = os.environ.get("FALLBACK_SUMMARIZER_MODEL", "t5-small")
+FALLBACK_SUMMARIZER_MODEL = os.environ.get(
+    "FALLBACK_SUMMARIZER_MODEL",
+    "facebook/bart-large-cnn"
+)
 
 CATEGORY_KEYS = ["study_important", "health_risk", "news_alert", "legal_expiry"]
 
@@ -93,13 +96,13 @@ def _extract_image_text(raw_bytes):
         return text.strip()
     except Exception:
         return ""
-
-
 # =============================================================================
 # Summarization
 # =============================================================================
+
 def _load_summarizer():
     global _summarizer_pipeline
+
     if _summarizer_pipeline is not None:
         return _summarizer_pipeline
 
@@ -107,45 +110,135 @@ def _load_summarizer():
         from transformers import pipeline
 
         if os.path.isdir(SUMMARIZER_MODEL_PATH):
-            _summarizer_pipeline = pipeline("summarization", model=SUMMARIZER_MODEL_PATH)
+            _summarizer_pipeline = pipeline(
+                "summarization",
+                model=SUMMARIZER_MODEL_PATH
+            )
             MODEL_STATUS["summarizer"] = f"Loaded ({SUMMARIZER_MODEL_PATH})"
+
         else:
-            _summarizer_pipeline = pipeline("summarization", model=FALLBACK_SUMMARIZER_MODEL)
-            MODEL_STATUS["summarizer"] = f"Loaded ({FALLBACK_SUMMARIZER_MODEL} fallback)"
-    except Exception as exc:  # noqa: BLE001
-        _summarizer_pipeline = False  # sentinel: tried and failed
+            _summarizer_pipeline = pipeline(
+                "summarization",
+                model=FALLBACK_SUMMARIZER_MODEL
+            )
+            MODEL_STATUS["summarizer"] = (
+                f"Loaded ({FALLBACK_SUMMARIZER_MODEL} fallback)"
+            )
+
+    except Exception as exc:
+        _summarizer_pipeline = False
         MODEL_STATUS["summarizer"] = f"Fallback (heuristic) - {exc}"
 
     return _summarizer_pipeline
 
 
-def summarize_text(text, max_length=150, min_length=30):
+
+def summarize_text(text, max_length=120, min_length=40):
+
     text = (text or "").strip()
+
     if not text:
         return ""
 
+
     summarizer = _load_summarizer()
+
+
     if summarizer:
+
         try:
-            # T5-family models have small context windows; truncate defensively.
-            chunk = text[:4000]
-            result = summarizer(
-                chunk, max_length=max_length, min_length=min_length, do_sample=False
+
+            # Split large documents into smaller chunks
+            sentences = re.split(
+                r"(?<=[.!?])\s+",
+                text
             )
-            return result[0]["summary_text"].strip()
-        except Exception:
-            pass  # fall through to heuristic
-
-    return _heuristic_summary(text, sentence_count=3)
 
 
-def _heuristic_summary(text, sentence_count=3):
-    """Naive fallback: first N sentences. Used if transformers is unavailable."""
-    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
-    sentences = [s for s in sentences if s]
-    return " ".join(sentences[:sentence_count]) if sentences else text[:300]
+            chunks = []
+            current_chunk = ""
 
 
+            for sentence in sentences:
+
+                if len(current_chunk) + len(sentence) < 3500:
+
+                    current_chunk += " " + sentence
+
+                else:
+
+                    if current_chunk:
+                        chunks.append(current_chunk)
+
+                    current_chunk = sentence
+
+
+            if current_chunk:
+                chunks.append(current_chunk)
+
+
+
+            summaries = []
+
+
+            # Generate summary for each chunk
+            for chunk in chunks:
+
+                result = summarizer(
+                    chunk,
+                    max_length=max_length,
+                    min_length=min_length,
+                    do_sample=False,
+                    num_beams=4,
+                    length_penalty=2.0
+                )
+
+
+                summaries.append(
+                    result[0]["summary_text"].strip()
+                )
+
+
+
+            # Combine all chunk summaries
+            final_summary = " ".join(summaries)
+
+
+            return final_summary.strip()
+
+
+
+        except Exception as e:
+
+            print("Summarizer error:", e)
+
+
+
+    # If model fails use simple extraction
+    return _heuristic_summary(
+        text,
+        sentence_count=5
+    )
+
+
+
+def _heuristic_summary(text, sentence_count=5):
+
+    sentences = re.split(
+        r"(?<=[.!?])\s+",
+        text.strip()
+    )
+
+    sentences = [
+        s for s in sentences if s
+    ]
+
+
+    return (
+        " ".join(sentences[:sentence_count])
+        if sentences
+        else text[:300]
+    )
 # =============================================================================
 # Category classification
 # =============================================================================
@@ -227,12 +320,22 @@ def _keyword_classify(text):
 # Recommendation (rule-based, keyed off category)
 # =============================================================================
 _RECOMMENDATIONS = {
-    "study_important": "This looks like study material — consider adding it to your revision notes and reviewing it before exams.",
-    "health_risk": "This document references health-related information. Please consult a medical professional before acting on it.",
-    "news_alert": "This looks like a news item. Cross-check with another source before treating it as fully verified.",
-    "legal_expiry": "This document may contain binding terms or deadlines. Review key dates and consider legal advice if unsure.",
-}
 
+    "study_important":
+    "Important study document detected. Focus on key definitions, formulas, and important topics for revision.",
+
+
+    "health_risk":
+    "Health information detected. Review symptoms, test results, and detected diseases carefully. Consult a healthcare professional for proper diagnosis.",
+
+
+    "news_alert":
+    "News content detected. Verify information from trusted sources before making decisions.",
+
+
+    "legal_expiry":
+    "Legal document detected. Check important dates, expiry periods, clauses, and obligations carefully."
+}
 
 def get_recommendation(category):
     return _RECOMMENDATIONS.get(category, "Review this document at your convenience.")
@@ -280,6 +383,7 @@ def answer_question(context, question):
 
 
 def _heuristic_answer(context, question):
+    
     """Naive fallback: return the sentence with the most word overlap."""
     question_words = {w.lower() for w in re.findall(r"\w+", question) if len(w) > 3}
     sentences = re.split(r"(?<=[.!?])\s+", context)
@@ -289,4 +393,130 @@ def _heuristic_answer(context, question):
         score = len(question_words & words)
         if score > best_score:
             best_sentence, best_score = sentence, score
+
+            
     return best_sentence.strip() or "I couldn't find a confident answer in this document."
+
+def predict_document(category, text):
+    text = text.lower()
+
+    # Legal
+    if category == "legal_expiry":
+
+        if "expired" in text or "expiry date passed" in text:
+            return "Status: Document Expired"
+
+        elif "valid until" in text or "expires on" in text:
+            return "Status: Document Active"
+
+        else:
+            return "Status: Expiry Not Found"
+
+    # Health
+    elif category == "health_risk":
+
+        diseases = {
+            "diabetes": [
+                "diabetes",
+                "glucose",
+                "blood sugar",
+                "high sugar",
+                "type 2"
+            ],
+
+            "hypertension": [
+                "hypertension",
+                "high blood pressure",
+                "bp",
+                "blood pressure"
+            ],
+
+            "covid": [
+                "covid",
+                "coronavirus",
+                "sars-cov-2"
+            ],
+
+            "dengue": [
+                "dengue",
+                "platelet",
+                "mosquito"
+            ],
+
+            "malaria": [
+                "malaria",
+                "parasite",
+                "fever chills"
+            ],
+
+            "asthma": [
+                "asthma",
+                "breathing problem",
+                "wheezing"
+            ],
+
+            "cancer": [
+                "cancer",
+                "tumor",
+                "oncology"
+            ]
+        }
+
+
+        detected = []
+
+        for disease, keywords in diseases.items():
+
+            for word in keywords:
+
+                if word in text:
+                    detected.append(disease)
+                    break
+
+
+        if detected:
+            return "Detected Disease: " + ", ".join(
+                [d.title() for d in detected]
+            )
+
+        return "No disease detected"
+
+    # Study
+    elif category == "study_important":
+
+        keywords = [
+            "definition",
+            "formula",
+            "algorithm",
+            "advantage",
+            "disadvantage",
+            "classification",
+            "types"
+        ]
+
+        found = []
+
+        for word in keywords:
+            if word in text:
+                found.append(word.title())
+
+        if found:
+            return "Important Topics: " + ", ".join(found)
+
+        return "No important topics found"
+
+    # News
+    elif category == "news_alert":
+
+        if "petrol" in text or "fuel" in text:
+            return "Petrol demand is increasing. Save fuel and expect price changes."
+
+        if "rain" in text:
+            return "Heavy rain expected. Stay alert."
+
+        if "stock" in text:
+            return "Stock market news detected."
+
+        return "General News"
+
+    return "Prediction unavailable"
