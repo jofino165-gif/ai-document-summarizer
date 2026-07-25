@@ -176,8 +176,8 @@ def summarize():
 
     summary = ai_pipeline.summarize_text(text)
     category = ai_pipeline.classify_category(text)
-    recommendation = ai_pipeline.get_recommendation(category)
     prediction = ai_pipeline.predict_document(category, text)
+    recommendation = ai_pipeline.get_recommendation(category, text, prediction)
 
     entry = History(
         user_id=user.id,

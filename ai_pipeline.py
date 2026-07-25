@@ -324,22 +324,118 @@ _RECOMMENDATIONS = {
     "study_important":
     "Important study document detected. Focus on key definitions, formulas, and important topics for revision.",
 
-
     "health_risk":
     "Health information detected. Review symptoms, test results, and detected diseases carefully. Consult a healthcare professional for proper diagnosis.",
 
-
     "news_alert":
     "News content detected. Verify information from trusted sources before making decisions.",
-
 
     "legal_expiry":
     "Legal document detected. Check important dates, expiry periods, clauses, and obligations carefully."
 }
 
-def get_recommendation(category):
-    return _RECOMMENDATIONS.get(category, "Review this document at your convenience.")
 
+def get_recommendation(category, text="", prediction=""):
+
+    text = text.lower()
+
+    # ---------------- HEALTH ----------------
+    if category == "health_risk":
+
+        if "Diabetes" in prediction:
+            return "Detected Diabetes. Reduce sugar intake, exercise regularly, and consult a diabetologist."
+
+        elif "Hypertension" in prediction:
+            return "Detected Hypertension. Reduce salt intake, monitor blood pressure regularly, and consult a physician."
+
+        elif "Covid" in prediction:
+            return "Detected COVID-19. Isolate if necessary, stay hydrated, and follow your doctor's advice."
+
+        elif "Dengue" in prediction:
+            return "Detected Dengue. Drink plenty of fluids, monitor platelet count, and consult a doctor immediately."
+
+        elif "Malaria" in prediction:
+            return "Detected Malaria. Complete the prescribed medication and seek medical care."
+
+        elif "Asthma" in prediction:
+            return "Detected Asthma. Avoid dust and smoke, carry your inhaler, and consult your doctor."
+
+        elif "Cancer" in prediction:
+            return "Detected Cancer. Consult an oncologist immediately for further diagnosis and treatment."
+
+        else:
+            return _RECOMMENDATIONS["health_risk"]
+
+    # ---------------- NEWS ----------------
+    elif category == "news_alert":
+
+        if "petrol" in text or "fuel" in text:
+            return "Petrol prices may increase. Save fuel and plan your travel wisely."
+
+        elif "gas" in text:
+            return "Gas shortage detected. Use gas carefully and avoid unnecessary wastage."
+
+        elif "water" in text:
+            return "Water shortage reported. Conserve water whenever possible."
+
+        elif "rain" in text:
+            return "Heavy rain expected. Carry an umbrella and avoid flooded areas."
+
+        elif "electricity" in text or "power" in text:
+            return "Power shortage reported. Save electricity whenever possible."
+
+        elif "stock" in text:
+            return "Stock market news detected. Invest carefully after proper research."
+
+        else:
+            return _RECOMMENDATIONS["news_alert"]
+
+    # ---------------- LEGAL ----------------
+    elif category == "legal_expiry":
+
+        if "expired" in text:
+            return "This legal document has already expired. Renew it immediately."
+
+        elif "expires on" in text or "valid until" in text:
+            return "This legal document is active. Renew it before the expiry date."
+
+        elif "agreement" in text:
+            return "Review all agreement clauses carefully before signing."
+
+        elif "license" in text:
+            return "Renew the license before it expires to avoid legal issues."
+
+        else:
+            return _RECOMMENDATIONS["legal_expiry"]
+
+    # ---------------- STUDY ----------------
+    elif category == "study_important":
+
+        important = []
+
+        keywords = [
+            "definition",
+            "formula",
+            "algorithm",
+            "classification",
+            "types",
+            "advantages",
+            "disadvantages",
+            "architecture",
+            "protocol",
+            "example"
+        ]
+
+        for word in keywords:
+            if word in text:
+                important.append(word.title())
+
+        if important:
+            return "Important Topics to Study: " + ", ".join(important)
+
+        return _RECOMMENDATIONS["study_important"]
+
+    return "Review this document at your convenience."
 
 # =============================================================================
 # Question answering
