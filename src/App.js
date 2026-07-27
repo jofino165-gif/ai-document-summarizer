@@ -321,7 +321,7 @@ const SummaryResult = ({ text, category, recommendation, prediction }) => {
 };
 
 // ─── Backend API (Flask) ──────────────────────────────────────────────────────
-const BASE_URL = "http://16.170.40.233:5000";
+const BASE_URL = "http://13.63.35.133:5000";
 
 const getToken = () => localStorage.getItem("token");
 

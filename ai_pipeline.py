@@ -86,15 +86,24 @@ def _extract_docx_text(raw_bytes):
 
 
 def _extract_image_text(raw_bytes):
-    """OCR via pytesseract if available, otherwise a clear placeholder."""
-    try:
-        import pytesseract
-        from PIL import Image
+    import pytesseract
+    from PIL import Image
 
+    try:
         image = Image.open(io.BytesIO(raw_bytes))
+
+        # Convert image to improve OCR accuracy
+        image = image.convert("L")
+
         text = pytesseract.image_to_string(image)
+
+        print("OCR OUTPUT:")
+        print(text)
+
         return text.strip()
-    except Exception:
+
+    except Exception as e:
+        print("OCR ERROR:", e)
         return ""
 # =============================================================================
 # Summarization
