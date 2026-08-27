@@ -48,11 +48,9 @@ app = Flask(__name__)
 CORS(app)
 
 DB_URL = os.environ.get("DATABASE_URL")
-if not DB_URL:
-    # Default: local SQLite file. Swap to MySQL/RDS by setting DATABASE_URL, e.g.
-    # mysql+pymysql://user:password@host:3306/dbname
-    DB_URL = "sqlite:///" + os.path.join(os.path.dirname(__file__), "app.db")
 
+if not DB_URL:
+    raise RuntimeError("DATABASE_URL is not set. MySQL database is required.")
 app.config["SQLALCHEMY_DATABASE_URI"] = DB_URL
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["JWT_SECRET_KEY"] = os.environ.get("JWT_SECRET_KEY", "dev-secret-change-me")
@@ -187,8 +185,15 @@ def summarize():
         category=category,
         recommendation=recommendation,
     )
+
     db.session.add(entry)
-    db.session.commit()
+
+    try:
+        db.session.commit()
+    except Exception as e:
+        db.session.rollback()
+        logger.exception("MYSQL SAVE ERROR in /api/summarize")
+        return error_response(f"Database error: {str(e)}", 500)
 
     log_event(f"{user.email} summarized '{file.filename}' -> {category}")
 
