@@ -148,10 +148,7 @@ const Btn = ({ children, onClick, variant = "primary", disabled, style: s = {}, 
 
 const NAV = [
   { id: "home", label: "Home", icon: "🏠" },
-  { id: "legal", label: "Legal Summarization", icon: "📄" },
-  { id: "healthcare", label: "Healthcare Summarization", icon: "🏥" },
-  { id: "news", label: "News Summarization", icon: "📰" },
-  { id: "education", label: "Education Summarization", icon: "🎓" },
+  { id: "summarization", label: "Summarization", icon: "📄" },
   { id: "qa", label: "Q&A", icon: "❓" },
   { id: "history", label: "History", icon: "🕐" },
   { id: "profile", label: "Profile", icon: "👤" },
@@ -321,7 +318,7 @@ const SummaryResult = ({ text, category, recommendation, prediction }) => {
 };
 
 // ─── Backend API (Flask) ──────────────────────────────────────────────────────
-const BASE_URL = "http://13.48.196.42:5000";
+const BASE_URL = "http://13.63.62.240:5000";
 
 const getToken = () => localStorage.getItem("token");
 
@@ -651,10 +648,10 @@ const RobotSVG = () => (
 
 const HomePage = ({ user, setPage }) => {
   const features = [
-    { id: "legal", icon: "📄", label: "Legal Documents Summarization", color: theme.accent },
-    { id: "healthcare", icon: "🏥", label: "Healthcare Report Summarization", color: theme.teal },
-    { id: "news", icon: "📰", label: "News Summarization", color: theme.amber },
-    { id: "education", icon: "🎓", label: "Education Summarization", color: theme.green },
+    { id: "summarization", icon: "📄", label: "Legal Documents Summarization", color: theme.accent },
+    { id: "summarization", icon: "🏥", label: "Healthcare Report Summarization", color: theme.teal },
+    { id: "summarization", icon: "📰", label: "News Summarization", color: theme.amber },
+    { id: "summarization", icon: "🎓", label: "Education Summarization", color: theme.green },
     { id: "qa", icon: "❓", label: "Questions & Answers", color: "#f472b6" },
   ];
 
@@ -690,7 +687,7 @@ const HomePage = ({ user, setPage }) => {
           <h1 style={{ fontSize: 30, fontWeight: 900, color: "#fff", marginBottom: 8, lineHeight: 1.25 }}>Welcome back, <span style={{ background: G, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>{user.name}</span>! 👋</h1>
           <p style={{ color: theme.textMuted, fontSize: 14, lineHeight: 1.8, maxWidth: 440, marginBottom: 22 }}>Upload any document — legal, medical, educational, or news — and get a clear, accurate AI-powered summary in seconds. No more information overload.</p>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-            <Btn onClick={() => setPage("legal")} icon="🚀">Get Started</Btn>
+            <Btn onClick={() => setPage("summarization")} icon="🚀">Get Started</Btn>
             <Btn variant="outline" onClick={() => setPage("about")} icon="ℹ️">Learn More</Btn>
           </div>
         </div>
@@ -711,8 +708,8 @@ const HomePage = ({ user, setPage }) => {
 
       <div style={{ fontWeight: 700, fontSize: 18, color: theme.text, marginBottom: 16 }}>✨ Our Features</div>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(5,1fr)", gap: 14, marginBottom: 36 }}>
-        {features.map(f => (
-          <Card key={f.id} style={{ textAlign: "center", cursor: "pointer", padding: "22px 12px", transition: "all 0.2s", border: `1px solid ${f.color}22` }}
+        {features.map((f, i) => (
+          <Card key={f.label + i} style={{ textAlign: "center", cursor: "pointer", padding: "22px 12px", transition: "all 0.2s", border: `1px solid ${f.color}22` }}
             onClick={() => setPage(f.id)}
             onMouseEnter={e => { e.currentTarget.style.borderColor = f.color + "66"; e.currentTarget.style.transform = "translateY(-3px)"; }}
             onMouseLeave={e => { e.currentTarget.style.borderColor = f.color + "22"; e.currentTarget.style.transform = "translateY(0)"; }}>
@@ -773,19 +770,42 @@ const FileReadStatus = ({ status, fileName }) => {
   );
 };
 
-// ─── Summarize Page (generic) ─────────────────────────────────────────────────
-const SummarizePage = ({ title, desc, addHistory, setHistoryId }) => {
+// ─── Summarization Page (combines Legal / Healthcare / News / Education) ─────
+const SUMMARIZATION_CATEGORIES = [
+  { id: "legal", label: "Legal", icon: "📄", desc: "Upload your legal document and get an AI-powered summary." },
+  { id: "healthcare", label: "Healthcare", icon: "🏥", desc: "Upload a healthcare report and get an AI-powered summary." },
+  { id: "news", label: "News", icon: "📰", desc: "Upload a news document or image to summarize." },
+  { id: "education", label: "Education", icon: "🎓", desc: "Summarize lecture notes, textbooks, research papers, and more." },
+];
+
+const EDUCATION_DOC_TYPES = ["Lecture Notes", "Textbook Chapter", "Research Paper", "Study Guide", "Syllabus", "Assignment Brief"];
+
+const SummarizationPage = ({ addHistory, setHistoryId }) => {
+  const [category, setCategory] = useState("legal");
   const [file, setFile] = useState(null);
   const [fileStatus, setFileStatus] = useState(null);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
+  const [docType, setDocType] = useState("Lecture Notes");
+
+  const current = SUMMARIZATION_CATEGORIES.find(c => c.id === category);
+  const supportsImages = category === "news" || category === "education";
+  const accept = supportsImages ? ".pdf,.docx,.txt,.jpg,.jpeg,.png,.gif,.webp" : ".pdf,.docx,.txt";
 
   const handleFile = (f) => {
     setFile(f);
     setFileStatus("success");
     setError("");
     setResult(null);
+  };
+
+  const handleCategoryChange = (id) => {
+    setCategory(id);
+    setFile(null);
+    setFileStatus(null);
+    setResult(null);
+    setError("");
   };
 
   const handleSummarize = async () => {
@@ -801,7 +821,7 @@ const SummarizePage = ({ title, desc, addHistory, setHistoryId }) => {
       setResult(data);
       if (setHistoryId) setHistoryId(data.history_id);
       if (addHistory) {
-        addHistory({ type: title, file: file?.name || "Unknown", summary: data.summary, date: new Date().toLocaleString() });
+        addHistory({ type: `${current.label} Summarization`, file: file?.name || "Unknown", summary: data.summary, date: new Date().toLocaleString() });
       }
     } catch (err) {
       setError(err.message || "Error generating summary. Please try again.");
@@ -811,153 +831,47 @@ const SummarizePage = ({ title, desc, addHistory, setHistoryId }) => {
 
   return (
     <div style={{ padding: 32, maxWidth: 800 }}>
-      <div style={{ fontWeight: 800, fontSize: 22, color: theme.text, marginBottom: 4 }}>{title}</div>
-      <div style={{ color: theme.textMuted, fontSize: 14, marginBottom: 24 }}>{desc}</div>
+      <div style={{ fontWeight: 800, fontSize: 22, color: theme.text, marginBottom: 4 }}>Summarization</div>
+      <div style={{ color: theme.textMuted, fontSize: 14, marginBottom: 20 }}>{current.desc}</div>
+
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 24 }}>
+        {SUMMARIZATION_CATEGORIES.map(c => (
+          <button key={c.id} onClick={() => handleCategoryChange(c.id)} style={{ display: "flex", alignItems: "center", gap: 6, padding: "8px 16px", borderRadius: 10, fontSize: 13, fontWeight: 600, cursor: "pointer", border: category === c.id ? `1px solid ${theme.accent}` : `1px solid ${theme.borderLight}`, background: category === c.id ? `${theme.accent}22` : "rgba(255,255,255,0.03)", color: category === c.id ? theme.accentLight : theme.textMuted, transition: "all 0.15s" }}>
+            <span>{c.icon}</span>{c.label}
+          </button>
+        ))}
+      </div>
+
       <Card style={{ marginBottom: 20 }}>
-        <UploadBox label={`Upload ${title.split(" ")[0]} Document`} onFile={handleFile} />
+        {category === "education" && (
+          <>
+            <div style={{ fontWeight: 600, color: theme.text, marginBottom: 12, fontSize: 14 }}>Document Type</div>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 20 }}>
+              {EDUCATION_DOC_TYPES.map(t => (
+                <button key={t} onClick={() => setDocType(t)} style={{ padding: "7px 14px", borderRadius: 8, fontSize: 13, fontWeight: 500, cursor: "pointer", border: docType === t ? `1px solid ${theme.accent}` : `1px solid ${theme.borderLight}`, background: docType === t ? `${theme.accent}22` : "rgba(255,255,255,0.03)", color: docType === t ? theme.accentLight : theme.textMuted, transition: "all 0.15s" }}>{t}</button>
+              ))}
+            </div>
+          </>
+        )}
+        <div style={{ fontWeight: 600, color: theme.text, marginBottom: 8, fontSize: 14 }}>Upload a File</div>
+        <UploadBox label={category === "education" ? `Upload ${docType}` : `Upload ${current.label} Document`} onFile={handleFile} accept={accept} />
         <FileReadStatus status={fileStatus} fileName={file?.name} />
       </Card>
+
       {error && (
         <div style={{ background: theme.red + "11", border: `1px solid ${theme.red}33`, borderRadius: 10, padding: "10px 14px", color: theme.red, fontSize: 13, marginBottom: 16 }}>
           ⚠️ {error}
         </div>
       )}
+
       <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
         <Btn onClick={handleSummarize} disabled={loading || !file} icon={loading ? <Spinner /> : "⚡"}>
           {loading ? "Summarizing…" : "Summarize"}
         </Btn>
         {!file && <span style={{ fontSize: 13, color: theme.textMuted }}>Upload a file to enable summarization</span>}
       </div>
-      {result && <SummaryResult text={result.summary} category={result.category} recommendation={result.recommendation} />}
-    </div>
-  );
-};
 
-// ─── News Page ────────────────────────────────────────────────────────────────
-const NewsPage = ({ addHistory, setHistoryId }) => {
-  const [file, setFile] = useState(null);
-  const [fileStatus, setFileStatus] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState(null);
-  const [error, setError] = useState("");
-
-  const handleFile = (f) => {
-    setFile(f);
-    setFileStatus("success");
-    setError("");
-    setResult(null);
-  };
-
-  const handle = async () => {
-    if (!file) { setError("Please upload a file first."); return; }
-    setLoading(true); setResult(null); setError("");
-    try {
-      const data = await summarizeFile(file);
-      setResult(data);
-      if (setHistoryId) setHistoryId(data.history_id);
-      addHistory({ type: "News Summarization", file: file?.name || "Uploaded File", summary: data.summary, date: new Date().toLocaleString() });
-    } catch (err) {
-      setError(err.message || "Error. Try again.");
-    }
-    setLoading(false);
-  };
-
-  return (
-    <div style={{ padding: 32, maxWidth: 800 }}>
-      <div style={{ fontWeight: 800, fontSize: 22, color: theme.text, marginBottom: 4 }}>News Summarization</div>
-      <div style={{ color: theme.textMuted, fontSize: 14, marginBottom: 24 }}>Upload a news document or image to summarize.</div>
-      <Card style={{ marginBottom: 16 }}>
-        <UploadBox label="Upload a news file" onFile={handleFile} accept=".pdf,.docx,.txt,.jpg,.jpeg,.png,.gif,.webp" />
-        <FileReadStatus status={fileStatus} fileName={file?.name} />
-      </Card>
-      {error && (
-        <div style={{ background: theme.red + "11", border: `1px solid ${theme.red}33`, borderRadius: 10, padding: "10px 14px", color: theme.red, fontSize: 13, marginBottom: 16 }}>⚠️ {error}</div>
-      )}
-      <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
-        <Btn onClick={handle} disabled={loading || !file} icon={loading ? <Spinner /> : "⚡"}>
-          {loading ? "Summarizing…" : "Summarize"}
-        </Btn>
-        {!file && <span style={{ fontSize: 13, color: theme.textMuted }}>Upload a file to enable summarization</span>}
-      </div>
-{result && (
-  <SummaryResult
-    text={result.summary}
-    category={result.category}
-    recommendation={result.recommendation}
-    prediction={result.prediction}
-  />
-)}
-   </div>
-  );
-};
-
-// ─── Education Page ───────────────────────────────────────────────────────────
-const EducationPage = ({ addHistory, setHistoryId }) => {
-  const [file, setFile] = useState(null);
-  const [fileStatus, setFileStatus] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState(null);
-  const [error, setError] = useState("");
-  const [docType, setDocType] = useState("Lecture Notes");
-
-  const docTypes = ["Lecture Notes", "Textbook Chapter", "Research Paper", "Study Guide", "Syllabus", "Assignment Brief"];
-
-  const handleFile = (f) => {
-    setFile(f);
-    setFileStatus("success");
-    setError("");
-    setResult(null);
-  };
-
-  const handle = async () => {
-    if (!file) { setError("Please upload a file first."); return; }
-    setLoading(true); setResult(null); setError("");
-    try {
-      const data = await summarizeFile(file);
-      setResult(data);
-      if (setHistoryId) setHistoryId(data.history_id);
-      addHistory({ type: "Education Summarization", file: file?.name || "Uploaded File", summary: data.summary, date: new Date().toLocaleString() });
-    } catch (err) {
-      setError(err.message || "Error generating summary. Please try again.");
-    }
-    setLoading(false);
-  };
-
-  return (
-    <div style={{ padding: 32, maxWidth: 800 }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 6 }}>
-        <div style={{ width: 44, height: 44, borderRadius: 12, background: G, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 22, flexShrink: 0 }}>🎓</div>
-        <div>
-          <div style={{ fontWeight: 800, fontSize: 22, color: theme.text }}>Education Summarization</div>
-          <div style={{ color: theme.textMuted, fontSize: 14 }}>Summarize lecture notes, textbooks, research papers, and more.</div>
-        </div>
-      </div>
-      <div style={{ display: "flex", gap: 8, flexWrap: "wrap", margin: "16px 0 24px" }}>
-        {["Lecture Notes","Textbooks","Research Papers","Study Guides"].map(tag => (
-          <span key={tag} style={{ background: "rgba(124,58,237,0.12)", color: theme.accentLight, border: `1px solid rgba(124,58,237,0.3)`, borderRadius: 999, padding: "3px 12px", fontSize: 12, fontWeight: 500 }}>{tag}</span>
-        ))}
-      </div>
-      <Card style={{ marginBottom: 16 }}>
-        <div style={{ fontWeight: 600, color: theme.text, marginBottom: 12, fontSize: 14 }}>Document Type</div>
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 20 }}>
-          {docTypes.map(t => (
-            <button key={t} onClick={() => setDocType(t)} style={{ padding: "7px 14px", borderRadius: 8, fontSize: 13, fontWeight: 500, cursor: "pointer", border: docType === t ? `1px solid ${theme.accent}` : `1px solid ${theme.borderLight}`, background: docType === t ? `${theme.accent}22` : "rgba(255,255,255,0.03)", color: docType === t ? theme.accentLight : theme.textMuted, transition: "all 0.15s" }}>{t}</button>
-          ))}
-        </div>
-        <div style={{ fontWeight: 600, color: theme.text, marginBottom: 8, fontSize: 14 }}>Upload a File</div>
-        <UploadBox label={`Upload ${docType}`} onFile={handleFile} accept=".pdf,.docx,.txt,.jpg,.jpeg,.png,.gif,.webp" />
-        <FileReadStatus status={fileStatus} fileName={file?.name} />
-      </Card>
-      {error && (
-        <div style={{ background: theme.red + "11", border: `1px solid ${theme.red}33`, borderRadius: 10, padding: "10px 14px", color: theme.red, fontSize: 13, marginBottom: 16 }}>⚠️ {error}</div>
-      )}
-      <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
-        <Btn onClick={handle} disabled={loading || !file} icon={loading ? <Spinner /> : "🎓"}>
-          {loading ? "Summarizing…" : "Summarize"}
-        </Btn>
-        {!file && <span style={{ fontSize: 13, color: theme.textMuted }}>Upload a file to enable summarization</span>}
-      </div>
-      {result && <SummaryResult text={result.summary} category={result.category} recommendation={result.recommendation} />}
+      {result && <SummaryResult text={result.summary} category={result.category} recommendation={result.recommendation} prediction={result.prediction} />}
     </div>
   );
 };
@@ -1980,10 +1894,7 @@ export default function App() {
 
   const mainPages = {
     home: <HomePage user={auth} setPage={setPage} />,
-    legal: <SummarizePage title="Legal Document Summarization" desc="Upload your legal document and get an AI-powered summary." addHistory={addHistory} setHistoryId={setHistoryId} />,
-    healthcare: <SummarizePage title="Healthcare Report Summarization" desc="Upload a healthcare report and get an AI-powered summary." addHistory={addHistory} setHistoryId={setHistoryId} />,
-    news: <NewsPage addHistory={addHistory} setHistoryId={setHistoryId} />,
-    education: <EducationPage addHistory={addHistory} setHistoryId={setHistoryId} />,
+    summarization: <SummarizationPage addHistory={addHistory} setHistoryId={setHistoryId} />,
     qa: <QAPage addHistory={addHistory} historyId={historyId} />,
     history: <HistoryPage history={history} clearHistory={clearHistory} />,
     profile: <ProfilePage user={auth} history={history} />,
