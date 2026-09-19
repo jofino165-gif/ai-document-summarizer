@@ -142,8 +142,7 @@ def _load_summarizer():
 
 
 
-def summarize_text(text, max_length=120, min_length=40):
-
+def summarize_text(text, max_length=220, min_length=80):
     text = (text or "").strip()
 
     if not text:
@@ -199,19 +198,27 @@ def summarize_text(text, max_length=120, min_length=40):
                     min_length=min_length,
                     do_sample=False,
                     num_beams=4,
-                    length_penalty=2.0
+                    length_penalty=1.0,
+                    early_stopping=True
                 )
 
+                generated_summary = result[0]["summary_text"].strip()
 
-                summaries.append(
-                    result[0]["summary_text"].strip()
-                )
+                # Remove incomplete ending
+                if generated_summary and not generated_summary.endswith((".", "!", "?")):
+                    last_end = max(
+                        generated_summary.rfind("."),
+                        generated_summary.rfind("!"),
+                        generated_summary.rfind("?")
+                    )
 
+                    if last_end != -1:
+                        generated_summary = generated_summary[:last_end + 1]
 
+                summaries.append(generated_summary)
 
             # Combine all chunk summaries
             final_summary = " ".join(summaries)
-
 
             return final_summary.strip()
 
@@ -449,46 +456,119 @@ def get_recommendation(category, text="", prediction=""):
 # =============================================================================
 # Question answering
 # =============================================================================
+_qa_pipeline = None
+
 def _load_qa():
     global _qa_pipeline
+
     if _qa_pipeline is not None:
         return _qa_pipeline
 
     try:
-        from transformers import pipeline
+        _qa_pipeline = pipeline(
+            "question-answering",
+            model=QA_MODEL_NAME
+        )
 
-        _qa_pipeline = pipeline("question-answering", model=QA_MODEL_NAME)
         MODEL_STATUS["qa_model"] = f"Loaded ({QA_MODEL_NAME})"
-    except Exception as exc:  # noqa: BLE001
+
+    except Exception as exc:
+        print(f"Q&A model loading failed: {exc}")
         _qa_pipeline = False
         MODEL_STATUS["qa_model"] = f"Fallback (unavailable) - {exc}"
 
     return _qa_pipeline
-
-
 def answer_question(context, question):
     context = (context or "").strip()
     question = (question or "").strip()
+
     if not context:
         return "No document context is available to answer this question."
+
     if not question:
         return "Please provide a question."
 
     qa = _load_qa()
+
     if qa:
         try:
-            result = qa(question=question, context=context[:4000])
-            answer = (result.get("answer") or "").strip()
-            if answer:
-                return answer
-        except Exception:
-            pass  # fall through to heuristic
+            # Split document into smaller chunks
+            chunk_size = 3000
+            overlap = 300
+
+            chunks = []
+            start = 0
+
+            while start < len(context):
+                end = start + chunk_size
+                chunks.append(context[start:end])
+
+                if end >= len(context):
+                    break
+
+                start = end - overlap
+
+            candidates = []
+
+            # Ask RoBERTa about every chunk
+            for chunk in chunks:
+                result = qa(
+                    question=question,
+                    context=chunk
+                )
+
+                answer = (result.get("answer") or "").strip()
+                score = float(result.get("score", 0))
+
+                if answer:
+                    candidates.append({
+                        "answer": answer,
+                        "score": score
+                    })
+
+            if candidates:
+                # Question words
+                question_words = {
+                    word.lower()
+                    for word in re.findall(r"\w+", question)
+                    if len(word) > 2
+                }
+
+                best_answer = ""
+                best_final_score = 0
+
+                for item in candidates:
+                    answer = item["answer"]
+
+                    answer_words = {
+                        word.lower()
+                        for word in re.findall(r"\w+", answer)
+                    }
+
+                    keyword_match = len(
+                        question_words & answer_words
+                    )
+
+                    # Combine RoBERTa confidence + question relevance
+                    final_score = (
+                        item["score"] +
+                        (keyword_match * 0.10)
+                    )
+
+                    if final_score > best_final_score:
+                        best_final_score = final_score
+                        best_answer = answer
+
+                if best_answer:
+                    return best_answer
+
+        except Exception as exc:
+            print(f"Q&A error: {exc}")
 
     return _heuristic_answer(context, question)
 
 
 def _heuristic_answer(context, question):
-    
     """Naive fallback: return the sentence with the most word overlap."""
     question_words = {w.lower() for w in re.findall(r"\w+", question) if len(w) > 3}
     sentences = re.split(r"(?<=[.!?])\s+", context)

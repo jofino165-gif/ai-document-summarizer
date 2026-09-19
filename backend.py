@@ -41,6 +41,7 @@ from flask_jwt_extended import (
 )
 
 import ai_pipeline
+from transformers import pipeline
 from models import Feedback, History, Question, User, db
 
 # ─── App & config ────────────────────────────────────────────────────────────
@@ -185,7 +186,6 @@ def summarize():
         category=category,
         recommendation=recommendation,
     )
-
     db.session.add(entry)
 
     try:
